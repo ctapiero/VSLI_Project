@@ -1,0 +1,596 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/simulation/modelsim
+vALU
+Z1 !s110 1667945732
+!i10b 1
+!s100 h1;iR3:nZg@D=?S=Fgz5I0
+IoA5ha=zU8haZkfSc5dPUj1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1667928488
+8C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/ALU.v
+FC:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/ALU.v
+L0 5
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z5 !s108 1667945732.000000
+!s107 C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/ALU.v|
+!s90 -reportprogress|300|-work|work|C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/ALU.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+n@a@l@u
+vclkdivided
+!s110 1667940830
+!i10b 1
+!s100 ]b4MUNSUPAL??m28En;]>2
+Ib7:^f<zDB]CJ0bfViiE=B3
+R2
+R0
+w1667939091
+Z8 8C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/clkdivided.v
+Z9 FC:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/clkdivided.v
+Z10 L0 39
+R4
+r1
+!s85 0
+31
+!s108 1667940830.000000
+Z11 !s107 C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/clkdivided.v|
+Z12 !s90 -reportprogress|300|-work|work|C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/clkdivided.v|
+!i113 1
+R6
+R7
+vclkdivided1
+R1
+!i10b 1
+!s100 Ha9Ic3BGQ6XfE47Qgif>=1
+I57E8ZWilE5[IalN8nf0^G1
+R2
+R0
+w1667945514
+R8
+R9
+L0 2
+R4
+r1
+!s85 0
+31
+R5
+R11
+R12
+!i113 1
+R6
+R7
+vDatapath_Memory
+R1
+!i10b 1
+!s100 ^Hfz=_4kf2a3nlo=X4Od[1
+I8N]_0Sc4c6ZG9H7d>]nNO3
+R2
+R0
+Z13 w1666754940
+8C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/Datapath_Memory.v
+FC:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/Datapath_Memory.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/Datapath_Memory.v|
+!s90 -reportprogress|300|-work|work|C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/Datapath_Memory.v|
+!i113 1
+R6
+R7
+n@datapath_@memory
+vdatapathDraft
+R1
+!i10b 1
+!s100 2@=mEF72PlUVUbTU9aQ;O1
+I_KoBHJoLS0Ez7?0iA;:CL2
+R2
+R0
+R3
+8C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/datapathDraft.v
+FC:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/datapathDraft.v
+L0 5
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/datapathDraft.v|
+!s90 -reportprogress|300|-work|work|C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/datapathDraft.v|
+!i113 1
+R6
+R7
+ndatapath@draft
+vEXRAM
+R1
+!i10b 1
+!s100 >=EncdCdMBi_?5Q;bhFO51
+IQKddMi8RTMP<X=>5[`J_?1
+R2
+R0
+R13
+8C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/EXRAM.v
+FC:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/EXRAM.v
+R10
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/EXRAM.v|
+!s90 -reportprogress|300|-work|work|C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/EXRAM.v|
+!i113 1
+R6
+R7
+n@e@x@r@a@m
+vflopenr
+R1
+!i10b 1
+!s100 zK`7F:NlOF<ZV0IQ0@PYb2
+IWZINLTAzlzoL:A9n1M3IO0
+R2
+R0
+R3
+8C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/flopenr.v
+FC:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/flopenr.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/flopenr.v|
+!s90 -reportprogress|300|-work|work|C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/flopenr.v|
+!i113 1
+R6
+R7
+vflopr
+R1
+!i10b 1
+!s100 Ha]lo]i^Xoc01OKGb[EPY2
+IdlhNH[D6UVSo<o7DG77UD0
+R2
+R0
+R13
+8C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/flopr.v
+FC:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/flopr.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/flopr.v|
+!s90 -reportprogress|300|-work|work|C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/flopr.v|
+!i113 1
+R6
+R7
+vfp_ALU
+R1
+!i10b 1
+!s100 [CVBIPY^QZOQJf;4bUNd20
+IFR4o:Vci1VJ9BhAO7Wd[<0
+R2
+R0
+R13
+8C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_fpALU.v
+FC:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_fpALU.v
+L0 3
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_fpALU.v|
+!s90 -reportprogress|300|-work|work|C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_fpALU.v|
+!i113 1
+R6
+R7
+nfp_@a@l@u
+vfpALU
+R1
+!i10b 1
+!s100 ABELJB7>^MfANjZgnL3NT2
+I:d5IZPTifa4@[;U6fgX]S2
+R2
+R0
+w1665708305
+8C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/fpALU.v
+FC:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/fpALU.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/fpALU.v|
+!s90 -reportprogress|300|-work|work|C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/fpALU.v|
+!i113 1
+R6
+R7
+nfp@a@l@u
+vhexTo7Seg_3710
+R1
+!i10b 1
+!s100 Wgn^kd5X61bjgo46DkPWT1
+Ij9V0HTV=iX7n]N1VD1<?W1
+R2
+R0
+R3
+8C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/hexTo7Seg_3710.v
+FC:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/hexTo7Seg_3710.v
+L0 5
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/hexTo7Seg_3710.v|
+!s90 -reportprogress|300|-work|work|C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/hexTo7Seg_3710.v|
+!i113 1
+R6
+R7
+nhex@to7@seg_3710
+vmemoryFSM
+R1
+!i10b 1
+!s100 cSXgR`1U0c6a5ZDM@@LE00
+IDza1VGRLV862i4B67_]PE3
+R2
+R0
+w1667945561
+8C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/memoryFSM.v
+FC:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/memoryFSM.v
+L0 4
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/memoryFSM.v|
+!s90 -reportprogress|300|-work|work|C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/memoryFSM.v|
+!i113 1
+R6
+R7
+nmemory@f@s@m
+vmux2
+R1
+!i10b 1
+!s100 m?4bX9@J0KcnC[BSkEYDf1
+IhZMjZ]9D2P_RmZ=iOG5In2
+R2
+R0
+Z14 w1665954646
+8C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/mux2.v
+FC:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/mux2.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/mux2.v|
+!s90 -reportprogress|300|-work|work|C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/mux2.v|
+!i113 1
+R6
+R7
+vmux4
+R1
+!i10b 1
+!s100 N7T=5RKUX3_bVMUHB1?;f3
+I8cU>1?MU=QQ50zLVN:_h=0
+R2
+R0
+R14
+8C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/mux4.v
+FC:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/mux4.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/mux4.v|
+!s90 -reportprogress|300|-work|work|C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/mux4.v|
+!i113 1
+R6
+R7
+vpcALU
+Z15 !s110 1667945733
+!i10b 1
+!s100 eP2ilN0Fae:BRfRW4Cm951
+IC26SDQReRzCVXVK55OhWi3
+R2
+R0
+R3
+8C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/pcALU.v
+FC:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/pcALU.v
+L0 5
+R4
+r1
+!s85 0
+31
+Z16 !s108 1667945733.000000
+!s107 C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/pcALU.v|
+!s90 -reportprogress|300|-work|work|C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/pcALU.v|
+!i113 1
+R6
+R7
+npc@a@l@u
+vRegisterFile
+R15
+!i10b 1
+!s100 92MfFoVGnQhFon5IA3P]X0
+IFjZjMc>ekcTNe2IGL?gBa3
+R2
+R0
+w1667930621
+8C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/RegisterFile.v
+FC:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/RegisterFile.v
+L0 13
+R4
+r1
+!s85 0
+31
+R16
+!s107 C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/RegisterFile.v|
+!s90 -reportprogress|300|-work|work|C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/RegisterFile.v|
+!i113 1
+R6
+R7
+n@register@file
+vRF_ALU
+R15
+!i10b 1
+!s100 OHZnH7^8_oAFmDiQmZ;nP2
+I0loRfS@oaF76kS^ojUOk<2
+R2
+R0
+R3
+8C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/RF_ALU.v
+FC:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/RF_ALU.v
+L0 5
+R4
+r1
+!s85 0
+31
+R16
+!s107 C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/RF_ALU.v|
+!s90 -reportprogress|300|-work|work|C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/RF_ALU.v|
+!i113 1
+R6
+R7
+n@r@f_@a@l@u
+vshifter
+R15
+!i10b 1
+!s100 >cB3KoSNA33W57kTFJk4h3
+I5_?i3<MI`SmnaNMa>d=F90
+R2
+R0
+R13
+8C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/shifter.v
+FC:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/shifter.v
+L0 10
+R4
+r1
+!s85 0
+31
+R16
+!s107 C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/shifter.v|
+!s90 -reportprogress|300|-work|work|C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/shifter.v|
+!i113 1
+R6
+R7
+vtb_ALU
+R15
+!i10b 1
+!s100 8MnbLNQ@K7PQ8dBc9]49e1
+I]ea49emo2Zk3N;9oo6haU1
+R2
+R0
+R3
+8C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_ALU.v
+FC:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_ALU.v
+L0 1
+R4
+r1
+!s85 0
+31
+R16
+!s107 C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_ALU.v|
+!s90 -reportprogress|300|-work|work|C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_ALU.v|
+!i113 1
+R6
+R7
+ntb_@a@l@u
+vtb_cpALU
+R15
+!i10b 1
+!s100 ;85=W0CM>0JN24L8Vd5;E3
+IB:J6F4KXI2b4VOoL_;GRZ2
+R2
+R0
+R3
+8C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_cpALU.v
+FC:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_cpALU.v
+L0 1
+R4
+r1
+!s85 0
+31
+R16
+!s107 C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_cpALU.v|
+!s90 -reportprogress|300|-work|work|C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_cpALU.v|
+!i113 1
+R6
+R7
+ntb_cp@a@l@u
+vtb_datapathDraft
+R15
+!i10b 1
+!s100 ^ITVW<C^`5YYkn?hh^3k31
+I9:IH3o@ibzHi9<G5]M;`O0
+R2
+R0
+R3
+8C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_datapathDraft.v
+FC:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_datapathDraft.v
+L0 4
+R4
+r1
+!s85 0
+31
+R16
+!s107 C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_datapathDraft.v|
+!s90 -reportprogress|300|-work|work|C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_datapathDraft.v|
+!i113 1
+R6
+R7
+ntb_datapath@draft
+vtb_EXRAM
+R15
+!i10b 1
+!s100 ;f]T`^f037I0@Ob5_NIa=2
+I@gF`z2CU]F9gZ8BEhoHgN2
+R2
+R0
+w1667932595
+8C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_EXRAM.v
+FC:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_EXRAM.v
+L0 2
+R4
+r1
+!s85 0
+31
+R16
+!s107 C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_EXRAM.v|
+!s90 -reportprogress|300|-work|work|C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_EXRAM.v|
+!i113 1
+R6
+R7
+ntb_@e@x@r@a@m
+vtb_memoryFSM
+R15
+!i10b 1
+!s100 282<Az>keOn=L`Bij<RmH1
+I@>fM=z]0@H<^;6bA6`eVV2
+R2
+R0
+w1667937264
+8C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_memoryFSM.v
+FC:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_memoryFSM.v
+L0 5
+R4
+r1
+!s85 0
+31
+R16
+!s107 C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_memoryFSM.v|
+!s90 -reportprogress|300|-work|work|C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_memoryFSM.v|
+!i113 1
+R6
+R7
+ntb_memory@f@s@m
+vtb_ProcessorStatusReg
+R15
+!i10b 1
+!s100 CUa]`FfPg<;;00GRD<Ac;0
+IABF=V2RG2:oj3?J4an>ji3
+R2
+R0
+R13
+8C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_ProcessorStatusReg.v
+FC:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_ProcessorStatusReg.v
+L0 3
+R4
+r1
+!s85 0
+31
+R16
+!s107 C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_ProcessorStatusReg.v|
+!s90 -reportprogress|300|-work|work|C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_ProcessorStatusReg.v|
+!i113 1
+R6
+R7
+ntb_@processor@status@reg
+vtb_RegisterFile
+R15
+!i10b 1
+!s100 7?b4o08KTX6m=EPB6EC<01
+IiTNiN`9Jf4EDje[U^XBEG2
+R2
+R0
+R13
+8C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_RegisterFile.v
+FC:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_RegisterFile.v
+L0 2
+R4
+r1
+!s85 0
+31
+R16
+!s107 C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_RegisterFile.v|
+!s90 -reportprogress|300|-work|work|C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_RegisterFile.v|
+!i113 1
+R6
+R7
+ntb_@register@file
+vtb_RF_ALU
+R15
+!i10b 1
+!s100 j3Z9KRkzUJPR:lYN7a;zo2
+I@VK[_YTh`cgj`g>28AbF@0
+R2
+R0
+R3
+8C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_RF_ALU.v
+FC:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_RF_ALU.v
+L0 4
+R4
+r1
+!s85 0
+31
+R16
+!s107 C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_RF_ALU.v|
+!s90 -reportprogress|300|-work|work|C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_RF_ALU.v|
+!i113 1
+R6
+R7
+ntb_@r@f_@a@l@u
+vtb_shifter
+R15
+!i10b 1
+!s100 ^PbDHH[9oZgV^`LgH__`;2
+IQ<R0DOecV9hzh]iGSf>H`2
+R2
+R0
+R3
+8C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_shifter.v
+FC:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_shifter.v
+L0 1
+R4
+r1
+!s85 0
+31
+R16
+!s107 C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_shifter.v|
+!s90 -reportprogress|300|-work|work|C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_shifter.v|
+!i113 1
+R6
+R7

@@ -1,0 +1,441 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "Rlink[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Rlink[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Rlink[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Rlink[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Rlink[4]",
+					"strict" : false
+				},
+				{
+					"name" : "Rlink[5]",
+					"strict" : false
+				},
+				{
+					"name" : "Rlink[6]",
+					"strict" : false
+				},
+				{
+					"name" : "Rlink[7]",
+					"strict" : false
+				},
+				{
+					"name" : "Rlink[8]",
+					"strict" : false
+				},
+				{
+					"name" : "Rlink[9]",
+					"strict" : false
+				},
+				{
+					"name" : "Rlink[10]",
+					"strict" : false
+				},
+				{
+					"name" : "Rlink[11]",
+					"strict" : false
+				},
+				{
+					"name" : "Rlink[12]",
+					"strict" : false
+				},
+				{
+					"name" : "Rlink[13]",
+					"strict" : false
+				},
+				{
+					"name" : "Rlink[14]",
+					"strict" : false
+				},
+				{
+					"name" : "Rlink[15]",
+					"strict" : false
+				},
+				{
+					"name" : "result[0]",
+					"strict" : false
+				},
+				{
+					"name" : "result[1]",
+					"strict" : false
+				},
+				{
+					"name" : "result[2]",
+					"strict" : false
+				},
+				{
+					"name" : "result[3]",
+					"strict" : false
+				},
+				{
+					"name" : "result[4]",
+					"strict" : false
+				},
+				{
+					"name" : "result[5]",
+					"strict" : false
+				},
+				{
+					"name" : "result[6]",
+					"strict" : false
+				},
+				{
+					"name" : "result[7]",
+					"strict" : false
+				},
+				{
+					"name" : "result[8]",
+					"strict" : false
+				},
+				{
+					"name" : "result[9]",
+					"strict" : false
+				},
+				{
+					"name" : "result[10]",
+					"strict" : false
+				},
+				{
+					"name" : "result[11]",
+					"strict" : false
+				},
+				{
+					"name" : "result[12]",
+					"strict" : false
+				},
+				{
+					"name" : "result[13]",
+					"strict" : false
+				},
+				{
+					"name" : "result[14]",
+					"strict" : false
+				},
+				{
+					"name" : "result[15]",
+					"strict" : false
+				},
+				{
+					"name" : "pcreg[0]",
+					"strict" : false
+				},
+				{
+					"name" : "pcreg[1]",
+					"strict" : false
+				},
+				{
+					"name" : "pcreg[2]",
+					"strict" : false
+				},
+				{
+					"name" : "pcreg[3]",
+					"strict" : false
+				},
+				{
+					"name" : "pcreg[4]",
+					"strict" : false
+				},
+				{
+					"name" : "pcreg[5]",
+					"strict" : false
+				},
+				{
+					"name" : "pcreg[6]",
+					"strict" : false
+				},
+				{
+					"name" : "pcreg[7]",
+					"strict" : false
+				},
+				{
+					"name" : "pcreg[8]",
+					"strict" : false
+				},
+				{
+					"name" : "pcreg[9]",
+					"strict" : false
+				},
+				{
+					"name" : "pcreg[10]",
+					"strict" : false
+				},
+				{
+					"name" : "pcreg[11]",
+					"strict" : false
+				},
+				{
+					"name" : "pcreg[12]",
+					"strict" : false
+				},
+				{
+					"name" : "pcreg[13]",
+					"strict" : false
+				},
+				{
+					"name" : "pcreg[14]",
+					"strict" : false
+				},
+				{
+					"name" : "pcreg[15]",
+					"strict" : false
+				},
+				{
+					"name" : "PSR[0]",
+					"strict" : false
+				},
+				{
+					"name" : "PSR[1]",
+					"strict" : false
+				},
+				{
+					"name" : "PSR[2]",
+					"strict" : false
+				},
+				{
+					"name" : "PSR[3]",
+					"strict" : false
+				},
+				{
+					"name" : "PSR[4]",
+					"strict" : false
+				},
+				{
+					"name" : "RTarget[0]",
+					"strict" : false
+				},
+				{
+					"name" : "alusrca",
+					"strict" : false
+				},
+				{
+					"name" : "regAddress1[0]",
+					"strict" : false
+				},
+				{
+					"name" : "regAddress1[1]",
+					"strict" : false
+				},
+				{
+					"name" : "regAddress1[2]",
+					"strict" : false
+				},
+				{
+					"name" : "regAddress1[3]",
+					"strict" : false
+				},
+				{
+					"name" : "reset",
+					"strict" : false
+				},
+				{
+					"name" : "shiftOrALU",
+					"strict" : false
+				},
+				{
+					"name" : "shiftDirection[5]",
+					"strict" : false
+				},
+				{
+					"name" : "shiftDirection[11]",
+					"strict" : false
+				},
+				{
+					"name" : "shiftDirection[12]",
+					"strict" : false
+				},
+				{
+					"name" : "shiftDirection[13]",
+					"strict" : false
+				},
+				{
+					"name" : "shiftDirection[14]",
+					"strict" : false
+				},
+				{
+					"name" : "shiftDirection[15]",
+					"strict" : false
+				},
+				{
+					"name" : "shiftDirection[0]",
+					"strict" : false
+				},
+				{
+					"name" : "shiftDirection[1]",
+					"strict" : false
+				},
+				{
+					"name" : "shiftDirection[2]",
+					"strict" : false
+				},
+				{
+					"name" : "shiftDirection[3]",
+					"strict" : false
+				},
+				{
+					"name" : "shiftDirection[4]",
+					"strict" : false
+				},
+				{
+					"name" : "shiftDirection[6]",
+					"strict" : false
+				},
+				{
+					"name" : "shiftDirection[7]",
+					"strict" : false
+				},
+				{
+					"name" : "shiftDirection[8]",
+					"strict" : false
+				},
+				{
+					"name" : "shiftDirection[9]",
+					"strict" : false
+				},
+				{
+					"name" : "shiftDirection[10]",
+					"strict" : false
+				},
+				{
+					"name" : "ALUselect",
+					"strict" : false
+				},
+				{
+					"name" : "jumpEN",
+					"strict" : false
+				},
+				{
+					"name" : "alusrcb",
+					"strict" : false
+				},
+				{
+					"name" : "immediate[0]",
+					"strict" : false
+				},
+				{
+					"name" : "regAddress2[2]",
+					"strict" : false
+				},
+				{
+					"name" : "regAddress2[3]",
+					"strict" : false
+				},
+				{
+					"name" : "regAddress2[0]",
+					"strict" : false
+				},
+				{
+					"name" : "regAddress2[1]",
+					"strict" : false
+				},
+				{
+					"name" : "jalEN",
+					"strict" : false
+				},
+				{
+					"name" : "aluControl[3]",
+					"strict" : false
+				},
+				{
+					"name" : "aluControl[2]",
+					"strict" : false
+				},
+				{
+					"name" : "aluControl[1]",
+					"strict" : false
+				},
+				{
+					"name" : "aluControl[0]",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "immediate[1]",
+					"strict" : false
+				},
+				{
+					"name" : "immediate[2]",
+					"strict" : false
+				},
+				{
+					"name" : "immediate[3]",
+					"strict" : false
+				},
+				{
+					"name" : "immediate[4]",
+					"strict" : false
+				},
+				{
+					"name" : "immediate[5]",
+					"strict" : false
+				},
+				{
+					"name" : "immediate[6]",
+					"strict" : false
+				},
+				{
+					"name" : "immediate[7]",
+					"strict" : false
+				},
+				{
+					"name" : "immediate[8]",
+					"strict" : false
+				},
+				{
+					"name" : "immediate[9]",
+					"strict" : false
+				},
+				{
+					"name" : "immediate[10]",
+					"strict" : false
+				},
+				{
+					"name" : "immediate[11]",
+					"strict" : false
+				},
+				{
+					"name" : "immediate[12]",
+					"strict" : false
+				},
+				{
+					"name" : "immediate[13]",
+					"strict" : false
+				},
+				{
+					"name" : "immediate[14]",
+					"strict" : false
+				},
+				{
+					"name" : "immediate[15]",
+					"strict" : false
+				},
+				{
+					"name" : "shiftType",
+					"strict" : false
+				},
+				{
+					"name" : "regWrite",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

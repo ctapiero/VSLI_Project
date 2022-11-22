@@ -1,0 +1,3242 @@
+# Reading C:/intelFPGA_lite/18.1/modelsim_ase/tcl/vsim/pref.tcl
+# do Datapath_Memory_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2 {C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/shifter.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:51:14 on Nov 08,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2" C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/shifter.v 
+# -- Compiling module shifter
+# 
+# Top level modules:
+# 	shifter
+# End time: 11:51:14 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2 {C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/pcALU.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:51:14 on Nov 08,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2" C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/pcALU.v 
+# -- Compiling module pcALU
+# 
+# Top level modules:
+# 	pcALU
+# End time: 11:51:14 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2 {C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/mux4.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:51:14 on Nov 08,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2" C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/mux4.v 
+# -- Compiling module mux4
+# 
+# Top level modules:
+# 	mux4
+# End time: 11:51:15 on Nov 08,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2 {C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/mux2.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:51:15 on Nov 08,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2" C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/mux2.v 
+# -- Compiling module mux2
+# 
+# Top level modules:
+# 	mux2
+# End time: 11:51:15 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2 {C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/memoryFSM.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:51:15 on Nov 08,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2" C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/memoryFSM.v 
+# -- Compiling module memoryFSM
+# 
+# Top level modules:
+# 	memoryFSM
+# End time: 11:51:15 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2 {C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/hexTo7Seg_3710.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:51:15 on Nov 08,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2" C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/hexTo7Seg_3710.v 
+# -- Compiling module hexTo7Seg_3710
+# 
+# Top level modules:
+# 	hexTo7Seg_3710
+# End time: 11:51:15 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2 {C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/flopenr.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:51:15 on Nov 08,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2" C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/flopenr.v 
+# -- Compiling module flopenr
+# 
+# Top level modules:
+# 	flopenr
+# End time: 11:51:15 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2 {C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/EXRAM.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:51:15 on Nov 08,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2" C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/EXRAM.v 
+# -- Compiling module EXRAM
+# 
+# Top level modules:
+# 	EXRAM
+# End time: 11:51:15 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2 {C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/datapathDraft.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:51:15 on Nov 08,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2" C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/datapathDraft.v 
+# -- Compiling module datapathDraft
+# 
+# Top level modules:
+# 	datapathDraft
+# End time: 11:51:15 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2 {C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/ALU.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:51:15 on Nov 08,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2" C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/ALU.v 
+# -- Compiling module ALU
+# 
+# Top level modules:
+# 	ALU
+# End time: 11:51:15 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2 {C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/RegisterFile.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:51:15 on Nov 08,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2" C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/RegisterFile.v 
+# -- Compiling module RegisterFile
+# 
+# Top level modules:
+# 	RegisterFile
+# End time: 11:51:15 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/ALU.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:52:09 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/ALU.v 
+# -- Compiling module ALU
+# 
+# Top level modules:
+# 	ALU
+# End time: 11:52:09 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/Datapath_Memory.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:52:09 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/Datapath_Memory.v 
+# -- Compiling module Datapath_Memory
+# 
+# Top level modules:
+# 	Datapath_Memory
+# End time: 11:52:09 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/datapathDraft.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:52:09 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/datapathDraft.v 
+# -- Compiling module datapathDraft
+# 
+# Top level modules:
+# 	datapathDraft
+# End time: 11:52:09 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/EXRAM.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:52:09 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/EXRAM.v 
+# -- Compiling module EXRAM
+# 
+# Top level modules:
+# 	EXRAM
+# End time: 11:52:09 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/EXRAM_bb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:52:09 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/EXRAM_bb.v 
+# End time: 11:52:09 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/flopenr.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:52:09 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/flopenr.v 
+# -- Compiling module flopenr
+# 
+# Top level modules:
+# 	flopenr
+# End time: 11:52:09 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/flopr.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:52:09 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/flopr.v 
+# -- Compiling module flopr
+# 
+# Top level modules:
+# 	flopr
+# End time: 11:52:10 on Nov 08,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/fpALU.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:52:10 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/fpALU.v 
+# -- Compiling module fpALU
+# 
+# Top level modules:
+# 	fpALU
+# End time: 11:52:10 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/hexTo7Seg_3710.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:52:10 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/hexTo7Seg_3710.v 
+# -- Compiling module hexTo7Seg_3710
+# 
+# Top level modules:
+# 	hexTo7Seg_3710
+# End time: 11:52:10 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/memoryController.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:52:10 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/memoryController.v 
+# End time: 11:52:10 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/memoryFSM.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:52:10 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/memoryFSM.v 
+# -- Compiling module memoryFSM
+# 
+# Top level modules:
+# 	memoryFSM
+# End time: 11:52:10 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/mux2.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:52:10 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/mux2.v 
+# -- Compiling module mux2
+# 
+# Top level modules:
+# 	mux2
+# End time: 11:52:10 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/mux4.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:52:10 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/mux4.v 
+# -- Compiling module mux4
+# 
+# Top level modules:
+# 	mux4
+# End time: 11:52:10 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/pcALU.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:52:10 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/pcALU.v 
+# -- Compiling module pcALU
+# 
+# Top level modules:
+# 	pcALU
+# End time: 11:52:10 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/ProcessorStatusReg.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:52:10 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/ProcessorStatusReg.v 
+# End time: 11:52:10 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/RegisterFile.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:52:10 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/RegisterFile.v 
+# -- Compiling module RegisterFile
+# 
+# Top level modules:
+# 	RegisterFile
+# End time: 11:52:10 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/RF_ALU.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:52:10 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/RF_ALU.v 
+# -- Compiling module RF_ALU
+# 
+# Top level modules:
+# 	RF_ALU
+# End time: 11:52:10 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/shifter.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:52:10 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/shifter.v 
+# -- Compiling module shifter
+# 
+# Top level modules:
+# 	shifter
+# End time: 11:52:11 on Nov 08,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_ALU.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:52:11 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_ALU.v 
+# -- Compiling module tb_ALU
+# 
+# Top level modules:
+# 	tb_ALU
+# End time: 11:52:11 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_cpALU.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:52:11 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_cpALU.v 
+# -- Compiling module tb_cpALU
+# 
+# Top level modules:
+# 	tb_cpALU
+# End time: 11:52:11 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_datapathDraft.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:52:11 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_datapathDraft.v 
+# -- Compiling module tb_datapathDraft
+# 
+# Top level modules:
+# 	tb_datapathDraft
+# End time: 11:52:11 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_EXRAM.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:52:11 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_EXRAM.v 
+# -- Compiling module tb_EXRAM
+# 
+# Top level modules:
+# 	tb_EXRAM
+# End time: 11:52:11 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_fpALU.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:52:11 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_fpALU.v 
+# -- Compiling module fp_ALU
+# 
+# Top level modules:
+# 	fp_ALU
+# End time: 11:52:11 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_memoryFSM.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:52:11 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_memoryFSM.v 
+# -- Compiling module tb_memoryFSM
+# 
+# Top level modules:
+# 	tb_memoryFSM
+# End time: 11:52:11 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_ProcessorStatusReg.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:52:11 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_ProcessorStatusReg.v 
+# -- Compiling module tb_ProcessorStatusReg
+# 
+# Top level modules:
+# 	tb_ProcessorStatusReg
+# End time: 11:52:11 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_RegisterFile.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:52:11 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_RegisterFile.v 
+# -- Compiling module tb_RegisterFile
+# 
+# Top level modules:
+# 	tb_RegisterFile
+# End time: 11:52:11 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_RF_ALU.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:52:11 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_RF_ALU.v 
+# -- Compiling module tb_RF_ALU
+# 
+# Top level modules:
+# 	tb_RF_ALU
+# End time: 11:52:11 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_shifter.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:52:11 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_shifter.v 
+# -- Compiling module tb_shifter
+# 
+# Top level modules:
+# 	tb_shifter
+# End time: 11:52:11 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -gui -l msim_transcript work.tb_memoryFSM -L altera_mf_ver
+# vsim -gui -l msim_transcript work.tb_memoryFSM -L altera_mf_ver 
+# Start time: 11:53:03 on Nov 08,2022
+# Loading work.tb_memoryFSM
+# Loading work.memoryFSM
+# Loading work.EXRAM
+# Loading altera_mf_ver.altsyncram
+# Loading work.datapathDraft
+# Loading work.flopenr
+# Loading work.mux2
+# Loading work.mux4
+# Loading work.pcALU
+# Loading work.shifter
+# Loading work.RegisterFile
+# Loading work.ALU
+# Loading work.hexTo7Seg_3710
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+add wave -position insertpoint sim:/tb_memoryFSM/*
+run
+# Loading register file
+# done with RF load
+add wave -position insertpoint sim:/tb_memoryFSM/UUT/*
+restart
+run
+# Loading register file
+# done with RF load
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/ALU.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:10:53 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/ALU.v 
+# -- Compiling module ALU
+# 
+# Top level modules:
+# 	ALU
+# End time: 12:10:53 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/Datapath_Memory.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:10:53 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/Datapath_Memory.v 
+# -- Compiling module Datapath_Memory
+# 
+# Top level modules:
+# 	Datapath_Memory
+# End time: 12:10:53 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/datapathDraft.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:10:53 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/datapathDraft.v 
+# -- Compiling module datapathDraft
+# 
+# Top level modules:
+# 	datapathDraft
+# End time: 12:10:53 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/EXRAM.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:10:53 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/EXRAM.v 
+# -- Compiling module EXRAM
+# 
+# Top level modules:
+# 	EXRAM
+# End time: 12:10:53 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/flopenr.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:10:53 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/flopenr.v 
+# -- Compiling module flopenr
+# 
+# Top level modules:
+# 	flopenr
+# End time: 12:10:53 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/flopr.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:10:53 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/flopr.v 
+# -- Compiling module flopr
+# 
+# Top level modules:
+# 	flopr
+# End time: 12:10:53 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_fpALU.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:10:53 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_fpALU.v 
+# -- Compiling module fp_ALU
+# 
+# Top level modules:
+# 	fp_ALU
+# End time: 12:10:53 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/fpALU.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:10:53 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/fpALU.v 
+# -- Compiling module fpALU
+# 
+# Top level modules:
+# 	fpALU
+# End time: 12:10:53 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/hexTo7Seg_3710.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:10:53 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/hexTo7Seg_3710.v 
+# -- Compiling module hexTo7Seg_3710
+# 
+# Top level modules:
+# 	hexTo7Seg_3710
+# End time: 12:10:53 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/memoryFSM.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:10:53 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/memoryFSM.v 
+# -- Compiling module memoryFSM
+# 
+# Top level modules:
+# 	memoryFSM
+# End time: 12:10:53 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/mux2.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:10:53 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/mux2.v 
+# -- Compiling module mux2
+# 
+# Top level modules:
+# 	mux2
+# End time: 12:10:53 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/mux4.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:10:53 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/mux4.v 
+# -- Compiling module mux4
+# 
+# Top level modules:
+# 	mux4
+# End time: 12:10:53 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/pcALU.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:10:53 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/pcALU.v 
+# -- Compiling module pcALU
+# 
+# Top level modules:
+# 	pcALU
+# End time: 12:10:53 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/RegisterFile.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:10:53 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/RegisterFile.v 
+# -- Compiling module RegisterFile
+# 
+# Top level modules:
+# 	RegisterFile
+# End time: 12:10:53 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/RF_ALU.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:10:53 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/RF_ALU.v 
+# -- Compiling module RF_ALU
+# 
+# Top level modules:
+# 	RF_ALU
+# End time: 12:10:54 on Nov 08,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/shifter.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:10:54 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/shifter.v 
+# -- Compiling module shifter
+# 
+# Top level modules:
+# 	shifter
+# End time: 12:10:54 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_ALU.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:10:54 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_ALU.v 
+# -- Compiling module tb_ALU
+# 
+# Top level modules:
+# 	tb_ALU
+# End time: 12:10:54 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_cpALU.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:10:54 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_cpALU.v 
+# -- Compiling module tb_cpALU
+# 
+# Top level modules:
+# 	tb_cpALU
+# End time: 12:10:54 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_datapathDraft.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:10:54 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_datapathDraft.v 
+# -- Compiling module tb_datapathDraft
+# 
+# Top level modules:
+# 	tb_datapathDraft
+# End time: 12:10:54 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_EXRAM.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:10:54 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_EXRAM.v 
+# -- Compiling module tb_EXRAM
+# 
+# Top level modules:
+# 	tb_EXRAM
+# End time: 12:10:54 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_memoryFSM.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:10:54 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_memoryFSM.v 
+# -- Compiling module tb_memoryFSM
+# 
+# Top level modules:
+# 	tb_memoryFSM
+# End time: 12:10:54 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_ProcessorStatusReg.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:10:54 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_ProcessorStatusReg.v 
+# -- Compiling module tb_ProcessorStatusReg
+# 
+# Top level modules:
+# 	tb_ProcessorStatusReg
+# End time: 12:10:54 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_RegisterFile.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:10:54 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_RegisterFile.v 
+# -- Compiling module tb_RegisterFile
+# 
+# Top level modules:
+# 	tb_RegisterFile
+# End time: 12:10:54 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_RF_ALU.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:10:54 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_RF_ALU.v 
+# -- Compiling module tb_RF_ALU
+# 
+# Top level modules:
+# 	tb_RF_ALU
+# End time: 12:10:54 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_shifter.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:10:54 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_shifter.v 
+# -- Compiling module tb_shifter
+# 
+# Top level modules:
+# 	tb_shifter
+# End time: 12:10:54 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.tb_memoryFSM
+# End time: 12:10:57 on Nov 08,2022, Elapsed time: 0:17:54
+# Errors: 0, Warnings: 0
+# vsim work.tb_memoryFSM 
+# Start time: 12:10:57 on Nov 08,2022
+# Loading work.tb_memoryFSM
+# Loading work.memoryFSM
+# Loading work.EXRAM
+# ** Error: (vsim-3033) C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/EXRAM.v(74): Instantiation of 'altsyncram' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_memoryFSM/UUT/RAM File: C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/EXRAM.v
+#         Searched libraries:
+#             C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/simulation/modelsim/rtl_work
+# Loading work.datapathDraft
+# Loading work.flopenr
+# Loading work.mux2
+# Loading work.mux4
+# Loading work.pcALU
+# Loading work.shifter
+# Loading work.RegisterFile
+# Loading work.ALU
+# Loading work.hexTo7Seg_3710
+# Error loading design
+# End time: 12:10:57 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vsim work.tb_memoryFSM
+# vsim work.tb_memoryFSM 
+# Start time: 12:11:02 on Nov 08,2022
+# Loading work.tb_memoryFSM
+# Loading work.memoryFSM
+# Loading work.EXRAM
+# ** Error: (vsim-3033) C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/EXRAM.v(74): Instantiation of 'altsyncram' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_memoryFSM/UUT/RAM File: C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/EXRAM.v
+#         Searched libraries:
+#             C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/simulation/modelsim/rtl_work
+# Loading work.datapathDraft
+# Loading work.flopenr
+# Loading work.mux2
+# Loading work.mux4
+# Loading work.pcALU
+# Loading work.shifter
+# Loading work.RegisterFile
+# Loading work.ALU
+# Loading work.hexTo7Seg_3710
+# Error loading design
+# End time: 12:11:02 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vsim work.tb_memoryFSM
+# vsim work.tb_memoryFSM 
+# Start time: 12:11:11 on Nov 08,2022
+# Loading work.tb_memoryFSM
+# Loading work.memoryFSM
+# Loading work.EXRAM
+# ** Error: (vsim-3033) C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/EXRAM.v(74): Instantiation of 'altsyncram' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_memoryFSM/UUT/RAM File: C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/EXRAM.v
+#         Searched libraries:
+#             C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/simulation/modelsim/rtl_work
+# Loading work.datapathDraft
+# Loading work.flopenr
+# Loading work.mux2
+# Loading work.mux4
+# Loading work.pcALU
+# Loading work.shifter
+# Loading work.RegisterFile
+# Loading work.ALU
+# Loading work.hexTo7Seg_3710
+# Error loading design
+# End time: 12:11:11 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/ALU.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:12:04 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/ALU.v 
+# -- Compiling module ALU
+# 
+# Top level modules:
+# 	ALU
+# End time: 12:12:04 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/Datapath_Memory.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:12:04 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/Datapath_Memory.v 
+# -- Compiling module Datapath_Memory
+# 
+# Top level modules:
+# 	Datapath_Memory
+# End time: 12:12:04 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/datapathDraft.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:12:04 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/datapathDraft.v 
+# -- Compiling module datapathDraft
+# 
+# Top level modules:
+# 	datapathDraft
+# End time: 12:12:04 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/EXRAM.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:12:04 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/EXRAM.v 
+# -- Compiling module EXRAM
+# 
+# Top level modules:
+# 	EXRAM
+# End time: 12:12:04 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/flopenr.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:12:04 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/flopenr.v 
+# -- Compiling module flopenr
+# 
+# Top level modules:
+# 	flopenr
+# End time: 12:12:04 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/flopr.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:12:04 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/flopr.v 
+# -- Compiling module flopr
+# 
+# Top level modules:
+# 	flopr
+# End time: 12:12:04 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_fpALU.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:12:04 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_fpALU.v 
+# -- Compiling module fp_ALU
+# 
+# Top level modules:
+# 	fp_ALU
+# End time: 12:12:04 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/fpALU.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:12:04 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/fpALU.v 
+# -- Compiling module fpALU
+# 
+# Top level modules:
+# 	fpALU
+# End time: 12:12:04 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/hexTo7Seg_3710.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:12:04 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/hexTo7Seg_3710.v 
+# -- Compiling module hexTo7Seg_3710
+# 
+# Top level modules:
+# 	hexTo7Seg_3710
+# End time: 12:12:04 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/memoryFSM.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:12:04 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/memoryFSM.v 
+# -- Compiling module memoryFSM
+# 
+# Top level modules:
+# 	memoryFSM
+# End time: 12:12:04 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/mux2.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:12:04 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/mux2.v 
+# -- Compiling module mux2
+# 
+# Top level modules:
+# 	mux2
+# End time: 12:12:04 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/mux4.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:12:04 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/mux4.v 
+# -- Compiling module mux4
+# 
+# Top level modules:
+# 	mux4
+# End time: 12:12:04 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/pcALU.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:12:04 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/pcALU.v 
+# -- Compiling module pcALU
+# 
+# Top level modules:
+# 	pcALU
+# End time: 12:12:04 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/RegisterFile.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:12:04 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/RegisterFile.v 
+# -- Compiling module RegisterFile
+# 
+# Top level modules:
+# 	RegisterFile
+# End time: 12:12:04 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/RF_ALU.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:12:04 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/RF_ALU.v 
+# -- Compiling module RF_ALU
+# 
+# Top level modules:
+# 	RF_ALU
+# End time: 12:12:05 on Nov 08,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/shifter.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:12:05 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/shifter.v 
+# -- Compiling module shifter
+# 
+# Top level modules:
+# 	shifter
+# End time: 12:12:05 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_ALU.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:12:05 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_ALU.v 
+# -- Compiling module tb_ALU
+# 
+# Top level modules:
+# 	tb_ALU
+# End time: 12:12:05 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_cpALU.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:12:05 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_cpALU.v 
+# -- Compiling module tb_cpALU
+# 
+# Top level modules:
+# 	tb_cpALU
+# End time: 12:12:05 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_datapathDraft.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:12:05 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_datapathDraft.v 
+# -- Compiling module tb_datapathDraft
+# 
+# Top level modules:
+# 	tb_datapathDraft
+# End time: 12:12:05 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_EXRAM.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:12:05 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_EXRAM.v 
+# -- Compiling module tb_EXRAM
+# 
+# Top level modules:
+# 	tb_EXRAM
+# End time: 12:12:05 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_memoryFSM.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:12:05 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_memoryFSM.v 
+# -- Compiling module tb_memoryFSM
+# 
+# Top level modules:
+# 	tb_memoryFSM
+# End time: 12:12:05 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_ProcessorStatusReg.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:12:05 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_ProcessorStatusReg.v 
+# -- Compiling module tb_ProcessorStatusReg
+# 
+# Top level modules:
+# 	tb_ProcessorStatusReg
+# End time: 12:12:05 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_RegisterFile.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:12:05 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_RegisterFile.v 
+# -- Compiling module tb_RegisterFile
+# 
+# Top level modules:
+# 	tb_RegisterFile
+# End time: 12:12:05 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_RF_ALU.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:12:05 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_RF_ALU.v 
+# -- Compiling module tb_RF_ALU
+# 
+# Top level modules:
+# 	tb_RF_ALU
+# End time: 12:12:05 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_shifter.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:12:05 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_shifter.v 
+# -- Compiling module tb_shifter
+# 
+# Top level modules:
+# 	tb_shifter
+# End time: 12:12:05 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.tb_memoryFSM -L altera_mf_ver
+# vsim work.tb_memoryFSM -L altera_mf_ver 
+# Start time: 12:12:52 on Nov 08,2022
+# Loading work.tb_memoryFSM
+# Loading work.memoryFSM
+# Loading work.EXRAM
+# Loading altera_mf_ver.altsyncram
+# Loading work.datapathDraft
+# Loading work.flopenr
+# Loading work.mux2
+# Loading work.mux4
+# Loading work.pcALU
+# Loading work.shifter
+# Loading work.RegisterFile
+# Loading work.ALU
+# Loading work.hexTo7Seg_3710
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+add wave -position insertpoint sim:/tb_memoryFSM/UUT/*
+add wave -position insertpoint sim:/tb_memoryFSM/*
+run
+# Loading register file
+# done with RF load
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_memoryFSM.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:16:14 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_memoryFSM.v 
+# -- Compiling module tb_memoryFSM
+# 
+# Top level modules:
+# 	tb_memoryFSM
+# End time: 12:16:14 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart
+# Loading work.tb_memoryFSM
+run
+# Loading register file
+# done with RF load
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_memoryFSM.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:25:41 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_memoryFSM.v 
+# -- Compiling module tb_memoryFSM
+# 
+# Top level modules:
+# 	tb_memoryFSM
+# End time: 12:25:41 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/ALU.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:25:48 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/ALU.v 
+# -- Compiling module ALU
+# 
+# Top level modules:
+# 	ALU
+# End time: 12:25:48 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/Datapath_Memory.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:25:48 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/Datapath_Memory.v 
+# -- Compiling module Datapath_Memory
+# 
+# Top level modules:
+# 	Datapath_Memory
+# End time: 12:25:48 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/datapathDraft.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:25:48 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/datapathDraft.v 
+# -- Compiling module datapathDraft
+# 
+# Top level modules:
+# 	datapathDraft
+# End time: 12:25:48 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/EXRAM.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:25:49 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/EXRAM.v 
+# -- Compiling module EXRAM
+# 
+# Top level modules:
+# 	EXRAM
+# End time: 12:25:49 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/flopenr.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:25:49 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/flopenr.v 
+# -- Compiling module flopenr
+# 
+# Top level modules:
+# 	flopenr
+# End time: 12:25:49 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/flopr.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:25:49 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/flopr.v 
+# -- Compiling module flopr
+# 
+# Top level modules:
+# 	flopr
+# End time: 12:25:49 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_fpALU.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:25:49 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_fpALU.v 
+# -- Compiling module fp_ALU
+# 
+# Top level modules:
+# 	fp_ALU
+# End time: 12:25:49 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/fpALU.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:25:49 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/fpALU.v 
+# -- Compiling module fpALU
+# 
+# Top level modules:
+# 	fpALU
+# End time: 12:25:49 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/hexTo7Seg_3710.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:25:49 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/hexTo7Seg_3710.v 
+# -- Compiling module hexTo7Seg_3710
+# 
+# Top level modules:
+# 	hexTo7Seg_3710
+# End time: 12:25:49 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/memoryFSM.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:25:49 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/memoryFSM.v 
+# -- Compiling module memoryFSM
+# 
+# Top level modules:
+# 	memoryFSM
+# End time: 12:25:49 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/mux2.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:25:49 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/mux2.v 
+# -- Compiling module mux2
+# 
+# Top level modules:
+# 	mux2
+# End time: 12:25:49 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/mux4.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:25:49 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/mux4.v 
+# -- Compiling module mux4
+# 
+# Top level modules:
+# 	mux4
+# End time: 12:25:49 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/pcALU.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:25:49 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/pcALU.v 
+# -- Compiling module pcALU
+# 
+# Top level modules:
+# 	pcALU
+# End time: 12:25:49 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/RegisterFile.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:25:49 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/RegisterFile.v 
+# -- Compiling module RegisterFile
+# 
+# Top level modules:
+# 	RegisterFile
+# End time: 12:25:49 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/RF_ALU.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:25:49 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/RF_ALU.v 
+# -- Compiling module RF_ALU
+# 
+# Top level modules:
+# 	RF_ALU
+# End time: 12:25:49 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/shifter.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:25:49 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/shifter.v 
+# -- Compiling module shifter
+# 
+# Top level modules:
+# 	shifter
+# End time: 12:25:49 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_ALU.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:25:49 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_ALU.v 
+# -- Compiling module tb_ALU
+# 
+# Top level modules:
+# 	tb_ALU
+# End time: 12:25:49 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_cpALU.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:25:49 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_cpALU.v 
+# -- Compiling module tb_cpALU
+# 
+# Top level modules:
+# 	tb_cpALU
+# End time: 12:25:49 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_datapathDraft.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:25:49 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_datapathDraft.v 
+# -- Compiling module tb_datapathDraft
+# 
+# Top level modules:
+# 	tb_datapathDraft
+# End time: 12:25:49 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_EXRAM.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:25:49 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_EXRAM.v 
+# -- Compiling module tb_EXRAM
+# 
+# Top level modules:
+# 	tb_EXRAM
+# End time: 12:25:49 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_memoryFSM.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:25:49 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_memoryFSM.v 
+# -- Compiling module tb_memoryFSM
+# 
+# Top level modules:
+# 	tb_memoryFSM
+# End time: 12:25:49 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_ProcessorStatusReg.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:25:49 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_ProcessorStatusReg.v 
+# -- Compiling module tb_ProcessorStatusReg
+# 
+# Top level modules:
+# 	tb_ProcessorStatusReg
+# End time: 12:25:49 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_RegisterFile.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:25:50 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_RegisterFile.v 
+# -- Compiling module tb_RegisterFile
+# 
+# Top level modules:
+# 	tb_RegisterFile
+# End time: 12:25:50 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_RF_ALU.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:25:50 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_RF_ALU.v 
+# -- Compiling module tb_RF_ALU
+# 
+# Top level modules:
+# 	tb_RF_ALU
+# End time: 12:25:50 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_shifter.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:25:50 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_shifter.v 
+# -- Compiling module tb_shifter
+# 
+# Top level modules:
+# 	tb_shifter
+# End time: 12:25:50 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -L altera_mf_ver work.tb_memoryFSM
+# End time: 12:26:14 on Nov 08,2022, Elapsed time: 0:13:22
+# Errors: 0, Warnings: 0
+# vsim -L altera_mf_ver work.tb_memoryFSM 
+# Start time: 12:26:14 on Nov 08,2022
+# Loading work.tb_memoryFSM
+# Loading work.memoryFSM
+# Loading work.EXRAM
+# Loading altera_mf_ver.altsyncram
+# Loading work.datapathDraft
+# Loading work.flopenr
+# Loading work.mux2
+# Loading work.mux4
+# Loading work.pcALU
+# Loading work.shifter
+# Loading work.RegisterFile
+# Loading work.ALU
+# Loading work.hexTo7Seg_3710
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+add wave -position insertpoint sim:/tb_memoryFSM/*
+restart
+run
+# Loading register file
+# done with RF load
+add wave -position insertpoint sim:/tb_memoryFSM/UUT/*
+restart
+run
+# Loading register file
+# done with RF load
+vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/ALU.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:29:23 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/ALU.v 
+# -- Compiling module ALU
+# 
+# Top level modules:
+# 	ALU
+# End time: 12:29:23 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/Datapath_Memory.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:29:23 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/Datapath_Memory.v 
+# -- Compiling module Datapath_Memory
+# 
+# Top level modules:
+# 	Datapath_Memory
+# End time: 12:29:23 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/datapathDraft.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:29:23 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/datapathDraft.v 
+# -- Compiling module datapathDraft
+# 
+# Top level modules:
+# 	datapathDraft
+# End time: 12:29:23 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/EXRAM.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:29:23 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/EXRAM.v 
+# -- Compiling module EXRAM
+# 
+# Top level modules:
+# 	EXRAM
+# End time: 12:29:23 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/EXRAM_bb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:29:23 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/EXRAM_bb.v 
+# End time: 12:29:23 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/flopenr.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:29:23 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/flopenr.v 
+# -- Compiling module flopenr
+# 
+# Top level modules:
+# 	flopenr
+# End time: 12:29:23 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/flopr.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:29:23 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/flopr.v 
+# -- Compiling module flopr
+# 
+# Top level modules:
+# 	flopr
+# End time: 12:29:23 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/fpALU.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:29:23 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/fpALU.v 
+# -- Compiling module fpALU
+# 
+# Top level modules:
+# 	fpALU
+# End time: 12:29:23 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/hexTo7Seg_3710.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:29:23 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/hexTo7Seg_3710.v 
+# -- Compiling module hexTo7Seg_3710
+# 
+# Top level modules:
+# 	hexTo7Seg_3710
+# End time: 12:29:23 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/memoryController.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:29:23 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/memoryController.v 
+# End time: 12:29:23 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/memoryFSM.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:29:23 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/memoryFSM.v 
+# -- Compiling module memoryFSM
+# 
+# Top level modules:
+# 	memoryFSM
+# End time: 12:29:23 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/mux2.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:29:23 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/mux2.v 
+# -- Compiling module mux2
+# 
+# Top level modules:
+# 	mux2
+# End time: 12:29:23 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/mux4.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:29:24 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/mux4.v 
+# -- Compiling module mux4
+# 
+# Top level modules:
+# 	mux4
+# End time: 12:29:24 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/pcALU.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:29:24 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/pcALU.v 
+# -- Compiling module pcALU
+# 
+# Top level modules:
+# 	pcALU
+# End time: 12:29:24 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/ProcessorStatusReg.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:29:24 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/ProcessorStatusReg.v 
+# End time: 12:29:24 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/RegisterFile.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:29:24 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/RegisterFile.v 
+# -- Compiling module RegisterFile
+# 
+# Top level modules:
+# 	RegisterFile
+# End time: 12:29:24 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/RF_ALU.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:29:24 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/RF_ALU.v 
+# -- Compiling module RF_ALU
+# 
+# Top level modules:
+# 	RF_ALU
+# End time: 12:29:24 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/shifter.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:29:24 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/shifter.v 
+# -- Compiling module shifter
+# 
+# Top level modules:
+# 	shifter
+# End time: 12:29:24 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_ALU.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:29:24 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_ALU.v 
+# -- Compiling module tb_ALU
+# 
+# Top level modules:
+# 	tb_ALU
+# End time: 12:29:24 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_cpALU.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:29:24 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_cpALU.v 
+# -- Compiling module tb_cpALU
+# 
+# Top level modules:
+# 	tb_cpALU
+# End time: 12:29:24 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_datapathDraft.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:29:24 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_datapathDraft.v 
+# -- Compiling module tb_datapathDraft
+# 
+# Top level modules:
+# 	tb_datapathDraft
+# End time: 12:29:24 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_EXRAM.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:29:24 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_EXRAM.v 
+# -- Compiling module tb_EXRAM
+# 
+# Top level modules:
+# 	tb_EXRAM
+# End time: 12:29:24 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_fpALU.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:29:24 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_fpALU.v 
+# -- Compiling module fp_ALU
+# 
+# Top level modules:
+# 	fp_ALU
+# End time: 12:29:24 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_memoryFSM.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:29:24 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_memoryFSM.v 
+# -- Compiling module tb_memoryFSM
+# 
+# Top level modules:
+# 	tb_memoryFSM
+# End time: 12:29:24 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_ProcessorStatusReg.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:29:24 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_ProcessorStatusReg.v 
+# -- Compiling module tb_ProcessorStatusReg
+# 
+# Top level modules:
+# 	tb_ProcessorStatusReg
+# End time: 12:29:24 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_RegisterFile.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:29:24 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_RegisterFile.v 
+# -- Compiling module tb_RegisterFile
+# 
+# Top level modules:
+# 	tb_RegisterFile
+# End time: 12:29:24 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_RF_ALU.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:29:24 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_RF_ALU.v 
+# -- Compiling module tb_RF_ALU
+# 
+# Top level modules:
+# 	tb_RF_ALU
+# End time: 12:29:24 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_shifter.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:29:24 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_shifter.v 
+# -- Compiling module tb_shifter
+# 
+# Top level modules:
+# 	tb_shifter
+# End time: 12:29:24 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -L altera_mf_ver work.tb_memoryFSM
+# End time: 12:29:47 on Nov 08,2022, Elapsed time: 0:03:33
+# Errors: 0, Warnings: 0
+# vsim -L altera_mf_ver work.tb_memoryFSM 
+# Start time: 12:29:48 on Nov 08,2022
+# Loading work.tb_memoryFSM
+# Loading work.memoryFSM
+# Loading work.EXRAM
+# Loading altera_mf_ver.altsyncram
+# Loading work.datapathDraft
+# Loading work.flopenr
+# Loading work.mux2
+# Loading work.mux4
+# Loading work.pcALU
+# Loading work.shifter
+# Loading work.RegisterFile
+# Loading work.ALU
+# Loading work.hexTo7Seg_3710
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+add wave -position insertpoint sim:/tb_memoryFSM/*
+add wave -position insertpoint sim:/tb_memoryFSM/UUT/*
+run
+# Loading register file
+# done with RF load
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_memoryFSM.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:34:04 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_memoryFSM.v 
+# -- Compiling module tb_memoryFSM
+# 
+# Top level modules:
+# 	tb_memoryFSM
+# End time: 12:34:04 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart
+# Loading work.tb_memoryFSM
+run
+# Loading register file
+# done with RF load
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_memoryFSM.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:35:18 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_memoryFSM.v 
+# -- Compiling module tb_memoryFSM
+# 
+# Top level modules:
+# 	tb_memoryFSM
+# End time: 12:35:18 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart
+# Loading work.tb_memoryFSM
+run
+# Loading register file
+# done with RF load
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_memoryFSM.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:36:06 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_memoryFSM.v 
+# -- Compiling module tb_memoryFSM
+# 
+# Top level modules:
+# 	tb_memoryFSM
+# End time: 12:36:06 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart
+# Loading work.tb_memoryFSM
+# Warning in wave window restart: (vish-4014) No objects found matching '/tb_memoryFSM/clk'. 
+run
+# Loading register file
+# done with RF load
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_memoryFSM.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:36:33 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_memoryFSM.v 
+# -- Compiling module tb_memoryFSM
+# 
+# Top level modules:
+# 	tb_memoryFSM
+# End time: 12:36:33 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart
+# Loading work.tb_memoryFSM
+run
+# Loading register file
+# done with RF load
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/ALU.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:37:06 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/ALU.v 
+# -- Compiling module ALU
+# 
+# Top level modules:
+# 	ALU
+# End time: 12:37:06 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/Datapath_Memory.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:37:06 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/Datapath_Memory.v 
+# -- Compiling module Datapath_Memory
+# 
+# Top level modules:
+# 	Datapath_Memory
+# End time: 12:37:06 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/datapathDraft.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:37:06 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/datapathDraft.v 
+# -- Compiling module datapathDraft
+# 
+# Top level modules:
+# 	datapathDraft
+# End time: 12:37:06 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/EXRAM.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:37:06 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/EXRAM.v 
+# -- Compiling module EXRAM
+# 
+# Top level modules:
+# 	EXRAM
+# End time: 12:37:06 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/flopenr.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:37:06 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/flopenr.v 
+# -- Compiling module flopenr
+# 
+# Top level modules:
+# 	flopenr
+# End time: 12:37:06 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/flopr.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:37:07 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/flopr.v 
+# -- Compiling module flopr
+# 
+# Top level modules:
+# 	flopr
+# End time: 12:37:07 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_fpALU.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:37:07 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_fpALU.v 
+# -- Compiling module fp_ALU
+# 
+# Top level modules:
+# 	fp_ALU
+# End time: 12:37:07 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/fpALU.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:37:07 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/fpALU.v 
+# -- Compiling module fpALU
+# 
+# Top level modules:
+# 	fpALU
+# End time: 12:37:07 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/hexTo7Seg_3710.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:37:07 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/hexTo7Seg_3710.v 
+# -- Compiling module hexTo7Seg_3710
+# 
+# Top level modules:
+# 	hexTo7Seg_3710
+# End time: 12:37:07 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/memoryFSM.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:37:07 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/memoryFSM.v 
+# -- Compiling module memoryFSM
+# 
+# Top level modules:
+# 	memoryFSM
+# End time: 12:37:07 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/mux2.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:37:07 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/mux2.v 
+# -- Compiling module mux2
+# 
+# Top level modules:
+# 	mux2
+# End time: 12:37:07 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/mux4.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:37:07 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/mux4.v 
+# -- Compiling module mux4
+# 
+# Top level modules:
+# 	mux4
+# End time: 12:37:07 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/pcALU.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:37:07 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/pcALU.v 
+# -- Compiling module pcALU
+# 
+# Top level modules:
+# 	pcALU
+# End time: 12:37:07 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/RegisterFile.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:37:07 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/RegisterFile.v 
+# -- Compiling module RegisterFile
+# 
+# Top level modules:
+# 	RegisterFile
+# End time: 12:37:07 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/RF_ALU.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:37:07 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/RF_ALU.v 
+# -- Compiling module RF_ALU
+# 
+# Top level modules:
+# 	RF_ALU
+# End time: 12:37:07 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/shifter.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:37:07 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/shifter.v 
+# -- Compiling module shifter
+# 
+# Top level modules:
+# 	shifter
+# End time: 12:37:07 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_ALU.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:37:07 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_ALU.v 
+# -- Compiling module tb_ALU
+# 
+# Top level modules:
+# 	tb_ALU
+# End time: 12:37:07 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_cpALU.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:37:07 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_cpALU.v 
+# -- Compiling module tb_cpALU
+# 
+# Top level modules:
+# 	tb_cpALU
+# End time: 12:37:07 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_datapathDraft.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:37:07 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_datapathDraft.v 
+# -- Compiling module tb_datapathDraft
+# 
+# Top level modules:
+# 	tb_datapathDraft
+# End time: 12:37:07 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_EXRAM.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:37:07 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_EXRAM.v 
+# -- Compiling module tb_EXRAM
+# 
+# Top level modules:
+# 	tb_EXRAM
+# End time: 12:37:07 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_memoryFSM.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:37:07 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_memoryFSM.v 
+# -- Compiling module tb_memoryFSM
+# 
+# Top level modules:
+# 	tb_memoryFSM
+# End time: 12:37:07 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_ProcessorStatusReg.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:37:07 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_ProcessorStatusReg.v 
+# -- Compiling module tb_ProcessorStatusReg
+# 
+# Top level modules:
+# 	tb_ProcessorStatusReg
+# End time: 12:37:07 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_RegisterFile.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:37:07 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_RegisterFile.v 
+# -- Compiling module tb_RegisterFile
+# 
+# Top level modules:
+# 	tb_RegisterFile
+# End time: 12:37:08 on Nov 08,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_RF_ALU.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:37:08 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_RF_ALU.v 
+# -- Compiling module tb_RF_ALU
+# 
+# Top level modules:
+# 	tb_RF_ALU
+# End time: 12:37:08 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_shifter.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:37:08 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_shifter.v 
+# -- Compiling module tb_shifter
+# 
+# Top level modules:
+# 	tb_shifter
+# End time: 12:37:08 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -L altera_mf_ver work.tb_memoryFSM
+# End time: 12:37:25 on Nov 08,2022, Elapsed time: 0:07:37
+# Errors: 1, Warnings: 0
+# vsim -L altera_mf_ver work.tb_memoryFSM 
+# Start time: 12:37:25 on Nov 08,2022
+# Loading work.tb_memoryFSM
+# Loading work.memoryFSM
+# Loading work.EXRAM
+# Loading altera_mf_ver.altsyncram
+# Loading work.datapathDraft
+# Loading work.flopenr
+# Loading work.mux2
+# Loading work.mux4
+# Loading work.pcALU
+# Loading work.shifter
+# Loading work.RegisterFile
+# Loading work.ALU
+# Loading work.hexTo7Seg_3710
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+add wave -position insertpoint sim:/tb_memoryFSM/*
+run
+# Loading register file
+# done with RF load
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/ALU.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:47:19 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/ALU.v 
+# -- Compiling module ALU
+# 
+# Top level modules:
+# 	ALU
+# End time: 12:47:19 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/Datapath_Memory.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:47:19 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/Datapath_Memory.v 
+# -- Compiling module Datapath_Memory
+# 
+# Top level modules:
+# 	Datapath_Memory
+# End time: 12:47:19 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/datapathDraft.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:47:19 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/datapathDraft.v 
+# -- Compiling module datapathDraft
+# 
+# Top level modules:
+# 	datapathDraft
+# End time: 12:47:19 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/EXRAM.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:47:19 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/EXRAM.v 
+# -- Compiling module EXRAM
+# 
+# Top level modules:
+# 	EXRAM
+# End time: 12:47:19 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/flopenr.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:47:19 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/flopenr.v 
+# -- Compiling module flopenr
+# 
+# Top level modules:
+# 	flopenr
+# End time: 12:47:19 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/flopr.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:47:19 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/flopr.v 
+# -- Compiling module flopr
+# 
+# Top level modules:
+# 	flopr
+# End time: 12:47:19 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_fpALU.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:47:19 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_fpALU.v 
+# -- Compiling module fp_ALU
+# 
+# Top level modules:
+# 	fp_ALU
+# End time: 12:47:19 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/fpALU.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:47:19 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/fpALU.v 
+# -- Compiling module fpALU
+# 
+# Top level modules:
+# 	fpALU
+# End time: 12:47:19 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/hexTo7Seg_3710.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:47:19 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/hexTo7Seg_3710.v 
+# -- Compiling module hexTo7Seg_3710
+# 
+# Top level modules:
+# 	hexTo7Seg_3710
+# End time: 12:47:19 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/memoryFSM.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:47:19 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/memoryFSM.v 
+# -- Compiling module memoryFSM
+# 
+# Top level modules:
+# 	memoryFSM
+# End time: 12:47:19 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/mux2.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:47:19 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/mux2.v 
+# -- Compiling module mux2
+# 
+# Top level modules:
+# 	mux2
+# End time: 12:47:19 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/mux4.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:47:19 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/mux4.v 
+# -- Compiling module mux4
+# 
+# Top level modules:
+# 	mux4
+# End time: 12:47:19 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/pcALU.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:47:19 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/pcALU.v 
+# -- Compiling module pcALU
+# 
+# Top level modules:
+# 	pcALU
+# End time: 12:47:19 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/RegisterFile.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:47:20 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/RegisterFile.v 
+# -- Compiling module RegisterFile
+# 
+# Top level modules:
+# 	RegisterFile
+# End time: 12:47:20 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/RF_ALU.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:47:20 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/RF_ALU.v 
+# -- Compiling module RF_ALU
+# 
+# Top level modules:
+# 	RF_ALU
+# End time: 12:47:20 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/shifter.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:47:20 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/shifter.v 
+# -- Compiling module shifter
+# 
+# Top level modules:
+# 	shifter
+# End time: 12:47:20 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_ALU.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:47:20 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_ALU.v 
+# -- Compiling module tb_ALU
+# 
+# Top level modules:
+# 	tb_ALU
+# End time: 12:47:20 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_cpALU.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:47:20 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_cpALU.v 
+# -- Compiling module tb_cpALU
+# 
+# Top level modules:
+# 	tb_cpALU
+# End time: 12:47:20 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_datapathDraft.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:47:20 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_datapathDraft.v 
+# -- Compiling module tb_datapathDraft
+# 
+# Top level modules:
+# 	tb_datapathDraft
+# End time: 12:47:20 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_EXRAM.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:47:20 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_EXRAM.v 
+# -- Compiling module tb_EXRAM
+# 
+# Top level modules:
+# 	tb_EXRAM
+# End time: 12:47:20 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_memoryFSM.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:47:20 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_memoryFSM.v 
+# -- Compiling module tb_memoryFSM
+# 
+# Top level modules:
+# 	tb_memoryFSM
+# End time: 12:47:20 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_ProcessorStatusReg.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:47:20 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_ProcessorStatusReg.v 
+# -- Compiling module tb_ProcessorStatusReg
+# 
+# Top level modules:
+# 	tb_ProcessorStatusReg
+# End time: 12:47:20 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_RegisterFile.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:47:20 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_RegisterFile.v 
+# -- Compiling module tb_RegisterFile
+# 
+# Top level modules:
+# 	tb_RegisterFile
+# End time: 12:47:20 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_RF_ALU.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:47:20 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_RF_ALU.v 
+# -- Compiling module tb_RF_ALU
+# 
+# Top level modules:
+# 	tb_RF_ALU
+# End time: 12:47:20 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_shifter.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:47:20 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_shifter.v 
+# -- Compiling module tb_shifter
+# 
+# Top level modules:
+# 	tb_shifter
+# End time: 12:47:20 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -L altera_mf_ver work.tb_memoryFSM
+# End time: 12:48:41 on Nov 08,2022, Elapsed time: 0:11:16
+# Errors: 0, Warnings: 0
+# vsim -L altera_mf_ver work.tb_memoryFSM 
+# Start time: 12:48:41 on Nov 08,2022
+# Loading work.tb_memoryFSM
+# Loading work.memoryFSM
+# Loading work.EXRAM
+# Loading altera_mf_ver.altsyncram
+# Loading work.datapathDraft
+# Loading work.flopenr
+# Loading work.mux2
+# Loading work.mux4
+# Loading work.pcALU
+# Loading work.shifter
+# Loading work.RegisterFile
+# Loading work.ALU
+# Loading work.hexTo7Seg_3710
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+run
+# Loading register file
+# done with RF load
+add wave -position insertpoint sim:/tb_memoryFSM/*
+run
+restart
+run
+# Loading register file
+# done with RF load
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_memoryFSM.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:50:13 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_memoryFSM.v 
+# -- Compiling module tb_memoryFSM
+# 
+# Top level modules:
+# 	tb_memoryFSM
+# End time: 12:50:13 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart
+# Loading work.tb_memoryFSM
+run
+# Loading register file
+# done with RF load
+vsim -L altera_mf_ver work.tb_EXRAM
+# End time: 12:51:25 on Nov 08,2022, Elapsed time: 0:02:44
+# Errors: 0, Warnings: 0
+# vsim -L altera_mf_ver work.tb_EXRAM 
+# Start time: 12:51:25 on Nov 08,2022
+# Loading work.tb_EXRAM
+# Loading work.EXRAM
+# Loading altera_mf_ver.altsyncram
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+add wave -position insertpoint sim:/tb_EXRAM/*
+run
+# the value stored at 0004 is :  ffff
+vsim work.tb_memoryFSM
+# End time: 12:52:00 on Nov 08,2022, Elapsed time: 0:00:35
+# Errors: 0, Warnings: 0
+# vsim work.tb_memoryFSM 
+# Start time: 12:52:00 on Nov 08,2022
+# Loading work.tb_memoryFSM
+# Loading work.memoryFSM
+# Loading work.EXRAM
+# ** Error: (vsim-3033) C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/EXRAM.v(74): Instantiation of 'altsyncram' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_memoryFSM/UUT/RAM File: C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/EXRAM.v
+#         Searched libraries:
+#             C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/simulation/modelsim/rtl_work
+# Loading work.datapathDraft
+# Loading work.flopenr
+# Loading work.mux2
+# Loading work.mux4
+# Loading work.pcALU
+# Loading work.shifter
+# Loading work.RegisterFile
+# Loading work.ALU
+# Loading work.hexTo7Seg_3710
+# Error loading design
+# End time: 12:52:00 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vsim work.tb_memoryFSM
+# vsim work.tb_memoryFSM 
+# Start time: 12:52:10 on Nov 08,2022
+# Loading work.tb_memoryFSM
+# Loading work.memoryFSM
+# Loading work.EXRAM
+# ** Error: (vsim-3033) C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/EXRAM.v(74): Instantiation of 'altsyncram' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_memoryFSM/UUT/RAM File: C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/EXRAM.v
+#         Searched libraries:
+#             C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/simulation/modelsim/rtl_work
+# Loading work.datapathDraft
+# Loading work.flopenr
+# Loading work.mux2
+# Loading work.mux4
+# Loading work.pcALU
+# Loading work.shifter
+# Loading work.RegisterFile
+# Loading work.ALU
+# Loading work.hexTo7Seg_3710
+# Error loading design
+# End time: 12:52:10 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vsim work.tb_memoryFSM -L altera_mf_ver
+# vsim work.tb_memoryFSM -L altera_mf_ver 
+# Start time: 12:52:28 on Nov 08,2022
+# Loading work.tb_memoryFSM
+# Loading work.memoryFSM
+# Loading work.EXRAM
+# Loading altera_mf_ver.altsyncram
+# Loading work.datapathDraft
+# Loading work.flopenr
+# Loading work.mux2
+# Loading work.mux4
+# Loading work.pcALU
+# Loading work.shifter
+# Loading work.RegisterFile
+# Loading work.ALU
+# Loading work.hexTo7Seg_3710
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+add wave -position insertpoint sim:/tb_memoryFSM/*
+run
+# Loading register file
+# done with RF load
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_memoryFSM.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:54:31 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_memoryFSM.v 
+# -- Compiling module tb_memoryFSM
+# 
+# Top level modules:
+# 	tb_memoryFSM
+# End time: 12:54:31 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart
+# Loading work.tb_memoryFSM
+run
+# Loading register file
+# done with RF load
+add wave -position insertpoint sim:/tb_memoryFSM/UUT/*
+restart
+run
+# Loading register file
+# done with RF load
+vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/ALU.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:40:43 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/ALU.v 
+# -- Compiling module ALU
+# 
+# Top level modules:
+# 	ALU
+# End time: 13:40:43 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/clkdivided.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:40:44 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/clkdivided.v 
+# -- Compiling module clkdivided
+# 
+# Top level modules:
+# 	clkdivided
+# End time: 13:40:44 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/Datapath_Memory.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:40:44 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/Datapath_Memory.v 
+# -- Compiling module Datapath_Memory
+# 
+# Top level modules:
+# 	Datapath_Memory
+# End time: 13:40:44 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/datapathDraft.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:40:44 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/datapathDraft.v 
+# -- Compiling module datapathDraft
+# 
+# Top level modules:
+# 	datapathDraft
+# End time: 13:40:44 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/EXRAM.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:40:44 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/EXRAM.v 
+# -- Compiling module EXRAM
+# 
+# Top level modules:
+# 	EXRAM
+# End time: 13:40:44 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/EXRAM_bb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:40:44 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/EXRAM_bb.v 
+# End time: 13:40:44 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/flopenr.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:40:44 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/flopenr.v 
+# -- Compiling module flopenr
+# 
+# Top level modules:
+# 	flopenr
+# End time: 13:40:44 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/flopr.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:40:44 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/flopr.v 
+# -- Compiling module flopr
+# 
+# Top level modules:
+# 	flopr
+# End time: 13:40:44 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/fpALU.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:40:44 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/fpALU.v 
+# -- Compiling module fpALU
+# 
+# Top level modules:
+# 	fpALU
+# End time: 13:40:44 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/hexTo7Seg_3710.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:40:44 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/hexTo7Seg_3710.v 
+# -- Compiling module hexTo7Seg_3710
+# 
+# Top level modules:
+# 	hexTo7Seg_3710
+# End time: 13:40:44 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/memoryController.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:40:44 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/memoryController.v 
+# End time: 13:40:44 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/memoryFSM.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:40:44 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/memoryFSM.v 
+# -- Compiling module memoryFSM
+# 
+# Top level modules:
+# 	memoryFSM
+# End time: 13:40:44 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/mux2.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:40:44 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/mux2.v 
+# -- Compiling module mux2
+# 
+# Top level modules:
+# 	mux2
+# End time: 13:40:44 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/mux4.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:40:44 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/mux4.v 
+# -- Compiling module mux4
+# 
+# Top level modules:
+# 	mux4
+# End time: 13:40:44 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/pcALU.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:40:44 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/pcALU.v 
+# -- Compiling module pcALU
+# 
+# Top level modules:
+# 	pcALU
+# End time: 13:40:44 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/ProcessorStatusReg.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:40:44 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/ProcessorStatusReg.v 
+# End time: 13:40:44 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/RegisterFile.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:40:44 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/RegisterFile.v 
+# -- Compiling module RegisterFile
+# 
+# Top level modules:
+# 	RegisterFile
+# End time: 13:40:44 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/RF_ALU.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:40:44 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/RF_ALU.v 
+# -- Compiling module RF_ALU
+# 
+# Top level modules:
+# 	RF_ALU
+# End time: 13:40:44 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/shifter.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:40:44 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/shifter.v 
+# -- Compiling module shifter
+# 
+# Top level modules:
+# 	shifter
+# End time: 13:40:44 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_ALU.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:40:44 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_ALU.v 
+# -- Compiling module tb_ALU
+# 
+# Top level modules:
+# 	tb_ALU
+# End time: 13:40:44 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_cpALU.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:40:44 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_cpALU.v 
+# -- Compiling module tb_cpALU
+# 
+# Top level modules:
+# 	tb_cpALU
+# End time: 13:40:44 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_datapathDraft.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:40:44 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_datapathDraft.v 
+# -- Compiling module tb_datapathDraft
+# 
+# Top level modules:
+# 	tb_datapathDraft
+# End time: 13:40:44 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_EXRAM.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:40:44 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_EXRAM.v 
+# -- Compiling module tb_EXRAM
+# 
+# Top level modules:
+# 	tb_EXRAM
+# End time: 13:40:45 on Nov 08,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_fpALU.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:40:45 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_fpALU.v 
+# -- Compiling module fp_ALU
+# 
+# Top level modules:
+# 	fp_ALU
+# End time: 13:40:45 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_memoryFSM.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:40:45 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_memoryFSM.v 
+# -- Compiling module tb_memoryFSM
+# 
+# Top level modules:
+# 	tb_memoryFSM
+# End time: 13:40:45 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_ProcessorStatusReg.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:40:45 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_ProcessorStatusReg.v 
+# -- Compiling module tb_ProcessorStatusReg
+# 
+# Top level modules:
+# 	tb_ProcessorStatusReg
+# End time: 13:40:45 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_RegisterFile.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:40:45 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_RegisterFile.v 
+# -- Compiling module tb_RegisterFile
+# 
+# Top level modules:
+# 	tb_RegisterFile
+# End time: 13:40:45 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_RF_ALU.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:40:45 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_RF_ALU.v 
+# -- Compiling module tb_RF_ALU
+# 
+# Top level modules:
+# 	tb_RF_ALU
+# End time: 13:40:45 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_shifter.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:40:45 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_shifter.v 
+# -- Compiling module tb_shifter
+# 
+# Top level modules:
+# 	tb_shifter
+# End time: 13:40:45 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -L altera_mf_ver work.tb_memoryFSM
+# End time: 13:40:57 on Nov 08,2022, Elapsed time: 0:48:29
+# Errors: 0, Warnings: 0
+# vsim -L altera_mf_ver work.tb_memoryFSM 
+# Start time: 13:40:57 on Nov 08,2022
+# Loading work.tb_memoryFSM
+# Loading work.memoryFSM
+# Loading work.clkdivided
+# ** Error: (vsim-3033) C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/clkdivided.v(49): Instantiation of 'lpm_counter' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_memoryFSM/UUT/clkdiv File: C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/clkdivided.v
+#         Searched libraries:
+#             C:/intelFPGA_lite/18.1/modelsim_ase/altera/verilog/altera_mf
+#             C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/simulation/modelsim/rtl_work
+# Loading work.EXRAM
+# Loading altera_mf_ver.altsyncram
+# Loading work.datapathDraft
+# Loading work.flopenr
+# Loading work.mux2
+# Loading work.mux4
+# Loading work.pcALU
+# Loading work.shifter
+# Loading work.RegisterFile
+# Loading work.ALU
+# Loading work.hexTo7Seg_3710
+# Error loading design
+# End time: 13:40:58 on Nov 08,2022, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+vsim -L altera_mf_ver -L lpm_ver work.tb_memoryFSM
+# vsim -L altera_mf_ver -L lpm_ver work.tb_memoryFSM 
+# Start time: 13:41:40 on Nov 08,2022
+# Loading work.tb_memoryFSM
+# Loading work.memoryFSM
+# Loading work.clkdivided
+# Loading lpm_ver.lpm_counter
+# Loading work.EXRAM
+# Loading altera_mf_ver.altsyncram
+# Loading work.datapathDraft
+# Loading work.flopenr
+# Loading work.mux2
+# Loading work.mux4
+# Loading work.pcALU
+# Loading work.shifter
+# Loading work.RegisterFile
+# Loading work.ALU
+# Loading work.hexTo7Seg_3710
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# ** Warning: (vsim-3015) C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/memoryFSM.v(53): [PCDPC] - Port size (26) does not match connection size (1) for port 'q'. The port definition is at: C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/clkdivided.v(41).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_memoryFSM/UUT/clkdiv File: C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/clkdivided.v
+add wave -position insertpoint sim:/tb_memoryFSM/*
+add wave -position insertpoint sim:/tb_memoryFSM/UUT/*
+run
+# Loading register file
+# done with RF load
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_memoryFSM.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:53:22 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_memoryFSM.v 
+# -- Compiling module tb_memoryFSM
+# 
+# Top level modules:
+# 	tb_memoryFSM
+# End time: 13:53:22 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/ALU.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:53:50 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/ALU.v 
+# -- Compiling module ALU
+# 
+# Top level modules:
+# 	ALU
+# End time: 13:53:50 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/clkdivided.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:53:50 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/clkdivided.v 
+# -- Compiling module clkdivided
+# 
+# Top level modules:
+# 	clkdivided
+# End time: 13:53:50 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/Datapath_Memory.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:53:50 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/Datapath_Memory.v 
+# -- Compiling module Datapath_Memory
+# 
+# Top level modules:
+# 	Datapath_Memory
+# End time: 13:53:50 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/datapathDraft.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:53:50 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/datapathDraft.v 
+# -- Compiling module datapathDraft
+# 
+# Top level modules:
+# 	datapathDraft
+# End time: 13:53:50 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/EXRAM.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:53:50 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/EXRAM.v 
+# -- Compiling module EXRAM
+# 
+# Top level modules:
+# 	EXRAM
+# End time: 13:53:50 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/flopenr.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:53:50 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/flopenr.v 
+# -- Compiling module flopenr
+# 
+# Top level modules:
+# 	flopenr
+# End time: 13:53:50 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/flopr.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:53:50 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/flopr.v 
+# -- Compiling module flopr
+# 
+# Top level modules:
+# 	flopr
+# End time: 13:53:50 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_fpALU.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:53:50 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_fpALU.v 
+# -- Compiling module fp_ALU
+# 
+# Top level modules:
+# 	fp_ALU
+# End time: 13:53:50 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/fpALU.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:53:50 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/fpALU.v 
+# -- Compiling module fpALU
+# 
+# Top level modules:
+# 	fpALU
+# End time: 13:53:50 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/hexTo7Seg_3710.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:53:50 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/hexTo7Seg_3710.v 
+# -- Compiling module hexTo7Seg_3710
+# 
+# Top level modules:
+# 	hexTo7Seg_3710
+# End time: 13:53:50 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/memoryFSM.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:53:50 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/memoryFSM.v 
+# -- Compiling module memoryFSM
+# 
+# Top level modules:
+# 	memoryFSM
+# End time: 13:53:50 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/mux2.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:53:50 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/mux2.v 
+# -- Compiling module mux2
+# 
+# Top level modules:
+# 	mux2
+# End time: 13:53:50 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/mux4.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:53:50 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/mux4.v 
+# -- Compiling module mux4
+# 
+# Top level modules:
+# 	mux4
+# End time: 13:53:50 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/pcALU.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:53:50 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/pcALU.v 
+# -- Compiling module pcALU
+# 
+# Top level modules:
+# 	pcALU
+# End time: 13:53:50 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/RegisterFile.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:53:50 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/RegisterFile.v 
+# -- Compiling module RegisterFile
+# 
+# Top level modules:
+# 	RegisterFile
+# End time: 13:53:51 on Nov 08,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/RF_ALU.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:53:51 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/RF_ALU.v 
+# -- Compiling module RF_ALU
+# 
+# Top level modules:
+# 	RF_ALU
+# End time: 13:53:51 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/shifter.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:53:51 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/shifter.v 
+# -- Compiling module shifter
+# 
+# Top level modules:
+# 	shifter
+# End time: 13:53:51 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_ALU.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:53:51 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_ALU.v 
+# -- Compiling module tb_ALU
+# 
+# Top level modules:
+# 	tb_ALU
+# End time: 13:53:51 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_cpALU.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:53:51 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_cpALU.v 
+# -- Compiling module tb_cpALU
+# 
+# Top level modules:
+# 	tb_cpALU
+# End time: 13:53:51 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_datapathDraft.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:53:51 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_datapathDraft.v 
+# -- Compiling module tb_datapathDraft
+# 
+# Top level modules:
+# 	tb_datapathDraft
+# End time: 13:53:51 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_EXRAM.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:53:51 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_EXRAM.v 
+# -- Compiling module tb_EXRAM
+# 
+# Top level modules:
+# 	tb_EXRAM
+# End time: 13:53:51 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_memoryFSM.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:53:51 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_memoryFSM.v 
+# -- Compiling module tb_memoryFSM
+# 
+# Top level modules:
+# 	tb_memoryFSM
+# End time: 13:53:51 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_ProcessorStatusReg.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:53:51 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_ProcessorStatusReg.v 
+# -- Compiling module tb_ProcessorStatusReg
+# 
+# Top level modules:
+# 	tb_ProcessorStatusReg
+# End time: 13:53:51 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_RegisterFile.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:53:51 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_RegisterFile.v 
+# -- Compiling module tb_RegisterFile
+# 
+# Top level modules:
+# 	tb_RegisterFile
+# End time: 13:53:51 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_RF_ALU.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:53:51 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_RF_ALU.v 
+# -- Compiling module tb_RF_ALU
+# 
+# Top level modules:
+# 	tb_RF_ALU
+# End time: 13:53:51 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_shifter.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:53:51 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_shifter.v 
+# -- Compiling module tb_shifter
+# 
+# Top level modules:
+# 	tb_shifter
+# End time: 13:53:51 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -L altera_mf_ver -L lpm_ver work.tb_memoryFSM
+# End time: 13:54:07 on Nov 08,2022, Elapsed time: 0:12:27
+# Errors: 0, Warnings: 1
+# vsim -L altera_mf_ver -L lpm_ver work.tb_memoryFSM 
+# Start time: 13:54:07 on Nov 08,2022
+# Loading work.tb_memoryFSM
+# Loading work.memoryFSM
+# Loading work.clkdivided
+# Loading lpm_ver.lpm_counter
+# Loading work.EXRAM
+# Loading altera_mf_ver.altsyncram
+# Loading work.datapathDraft
+# Loading work.flopenr
+# Loading work.mux2
+# Loading work.mux4
+# Loading work.pcALU
+# Loading work.shifter
+# Loading work.RegisterFile
+# Loading work.ALU
+# Loading work.hexTo7Seg_3710
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# ** Warning: (vsim-3015) C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/memoryFSM.v(53): [PCDPC] - Port size (26) does not match connection size (1) for port 'q'. The port definition is at: C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/clkdivided.v(41).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_memoryFSM/UUT/clkdiv File: C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/clkdivided.v
+add wave -position insertpoint sim:/tb_memoryFSM/*
+add wave -position insertpoint sim:/tb_memoryFSM/UUT/*
+run
+# Loading register file
+# done with RF load
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/ALU.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:15:32 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/ALU.v 
+# -- Compiling module ALU
+# 
+# Top level modules:
+# 	ALU
+# End time: 15:15:32 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/clkdivided.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:15:32 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/clkdivided.v 
+# -- Compiling module clkdivided1
+# 
+# Top level modules:
+# 	clkdivided1
+# End time: 15:15:32 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/Datapath_Memory.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:15:32 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/Datapath_Memory.v 
+# -- Compiling module Datapath_Memory
+# 
+# Top level modules:
+# 	Datapath_Memory
+# End time: 15:15:32 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/datapathDraft.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:15:32 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/datapathDraft.v 
+# -- Compiling module datapathDraft
+# 
+# Top level modules:
+# 	datapathDraft
+# End time: 15:15:32 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/EXRAM.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:15:32 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/EXRAM.v 
+# -- Compiling module EXRAM
+# 
+# Top level modules:
+# 	EXRAM
+# End time: 15:15:32 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/flopenr.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:15:32 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/flopenr.v 
+# -- Compiling module flopenr
+# 
+# Top level modules:
+# 	flopenr
+# End time: 15:15:32 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/flopr.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:15:32 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/flopr.v 
+# -- Compiling module flopr
+# 
+# Top level modules:
+# 	flopr
+# End time: 15:15:32 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_fpALU.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:15:32 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_fpALU.v 
+# -- Compiling module fp_ALU
+# 
+# Top level modules:
+# 	fp_ALU
+# End time: 15:15:32 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/fpALU.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:15:32 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/fpALU.v 
+# -- Compiling module fpALU
+# 
+# Top level modules:
+# 	fpALU
+# End time: 15:15:32 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/hexTo7Seg_3710.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:15:32 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/hexTo7Seg_3710.v 
+# -- Compiling module hexTo7Seg_3710
+# 
+# Top level modules:
+# 	hexTo7Seg_3710
+# End time: 15:15:32 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/memoryFSM.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:15:32 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/memoryFSM.v 
+# -- Compiling module memoryFSM
+# 
+# Top level modules:
+# 	memoryFSM
+# End time: 15:15:32 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/mux2.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:15:32 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/mux2.v 
+# -- Compiling module mux2
+# 
+# Top level modules:
+# 	mux2
+# End time: 15:15:32 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/mux4.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:15:32 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/mux4.v 
+# -- Compiling module mux4
+# 
+# Top level modules:
+# 	mux4
+# End time: 15:15:32 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/pcALU.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:15:33 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/pcALU.v 
+# -- Compiling module pcALU
+# 
+# Top level modules:
+# 	pcALU
+# End time: 15:15:33 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/RegisterFile.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:15:33 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/RegisterFile.v 
+# -- Compiling module RegisterFile
+# 
+# Top level modules:
+# 	RegisterFile
+# End time: 15:15:33 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/RF_ALU.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:15:33 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/RF_ALU.v 
+# -- Compiling module RF_ALU
+# 
+# Top level modules:
+# 	RF_ALU
+# End time: 15:15:33 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/shifter.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:15:33 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/shifter.v 
+# -- Compiling module shifter
+# 
+# Top level modules:
+# 	shifter
+# End time: 15:15:33 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_ALU.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:15:33 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_ALU.v 
+# -- Compiling module tb_ALU
+# 
+# Top level modules:
+# 	tb_ALU
+# End time: 15:15:33 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_cpALU.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:15:33 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_cpALU.v 
+# -- Compiling module tb_cpALU
+# 
+# Top level modules:
+# 	tb_cpALU
+# End time: 15:15:33 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_datapathDraft.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:15:33 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_datapathDraft.v 
+# -- Compiling module tb_datapathDraft
+# 
+# Top level modules:
+# 	tb_datapathDraft
+# End time: 15:15:33 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_EXRAM.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:15:33 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_EXRAM.v 
+# -- Compiling module tb_EXRAM
+# 
+# Top level modules:
+# 	tb_EXRAM
+# End time: 15:15:33 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_memoryFSM.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:15:33 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_memoryFSM.v 
+# -- Compiling module tb_memoryFSM
+# 
+# Top level modules:
+# 	tb_memoryFSM
+# End time: 15:15:33 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_ProcessorStatusReg.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:15:33 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_ProcessorStatusReg.v 
+# -- Compiling module tb_ProcessorStatusReg
+# 
+# Top level modules:
+# 	tb_ProcessorStatusReg
+# End time: 15:15:33 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_RegisterFile.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:15:33 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_RegisterFile.v 
+# -- Compiling module tb_RegisterFile
+# 
+# Top level modules:
+# 	tb_RegisterFile
+# End time: 15:15:33 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_RF_ALU.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:15:33 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_RF_ALU.v 
+# -- Compiling module tb_RF_ALU
+# 
+# Top level modules:
+# 	tb_RF_ALU
+# End time: 15:15:33 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_shifter.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:15:33 on Nov 08,2022
+# vlog -reportprogress 300 -work work C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/tb_shifter.v 
+# -- Compiling module tb_shifter
+# 
+# Top level modules:
+# 	tb_shifter
+# End time: 15:15:33 on Nov 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Load canceled
+run
+# End time: 18:18:37 on Nov 08,2022, Elapsed time: 4:24:30
+# Errors: 1, Warnings: 1

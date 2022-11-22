@@ -1,0 +1,22 @@
+
+State Machine - |memoryFSM|currentState
+Name currentState.STORE2 currentState.STORE1 currentState.SUM3 currentState.SUM2 currentState.SUM1 currentState.LOAD4 currentState.LOAD3 currentState.RbBits currentState.LOAD2 currentState.LOAD1 currentState.RaBITS currentState.RAM_Instr4_2 currentState.RAM_Instr4_1 currentState.RAM_Instr3_2 currentState.RAM_Instr3_1 currentState.RAM_Instr2_2 currentState.RAM_Instr2_1 currentState.RAM_Instr1_2 currentState.RAM_Instr1_1 
+currentState.RAM_Instr1_1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+currentState.RAM_Instr1_2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+currentState.RAM_Instr2_1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+currentState.RAM_Instr2_2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+currentState.RAM_Instr3_1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
+currentState.RAM_Instr3_2 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+currentState.RAM_Instr4_1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 
+currentState.RAM_Instr4_2 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+currentState.RaBITS 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+currentState.LOAD1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+currentState.LOAD2 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+currentState.RbBits 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 
+currentState.LOAD3 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 
+currentState.LOAD4 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 
+currentState.SUM1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+currentState.SUM2 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+currentState.SUM3 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+currentState.STORE1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+currentState.STORE2 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 

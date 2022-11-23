@@ -1,21 +1,25 @@
 
 State Machine - |mem_cpu|arrozYlecheCPU:cpu|controlFSM:ctrlFSM|state
-Name state.LBWR2 state.FETCH2 state.JCONDEX state.JALWR state.JALEX state.MEMADR state.BCONDEX state.RTYPEWR state.RTYPEEX state.SBWR state.LBWR state.LBRD state.SHIFTWR state.SHIFTEX state.ITYPEWR state.ITYPEEX state.DECODE state.FETCH 
-state.FETCH 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-state.DECODE 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
-state.ITYPEEX 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
-state.ITYPEWR 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
-state.SHIFTEX 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
-state.SHIFTWR 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
-state.LBRD 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 
-state.LBWR 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
-state.SBWR 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
-state.RTYPEEX 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
-state.RTYPEWR 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
-state.BCONDEX 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 
-state.MEMADR 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 
-state.JALEX 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 
-state.JALWR 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
-state.JCONDEX 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
-state.FETCH2 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
-state.LBWR2 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+Name state.LBWR3 state.BCONDEX2 state.SBWR2 state.JCONDEX2 state.LBWR2 state.FETCH2 state.JCONDEX state.JALWR state.JALEX state.MEMADR state.BCONDEX state.RTYPEWR state.RTYPEEX state.SBWR state.LBWR state.LBRD state.SHIFTWR state.SHIFTEX state.ITYPEWR state.ITYPEEX state.DECODE state.FETCH 
+state.FETCH 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+state.DECODE 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+state.ITYPEEX 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+state.ITYPEWR 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+state.SHIFTEX 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
+state.SHIFTWR 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+state.LBRD 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 
+state.LBWR 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+state.SBWR 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+state.RTYPEEX 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+state.RTYPEWR 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+state.BCONDEX 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 
+state.MEMADR 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 
+state.JALEX 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 
+state.JALWR 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+state.JCONDEX 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+state.FETCH2 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+state.LBWR2 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+state.JCONDEX2 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+state.SBWR2 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+state.BCONDEX2 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+state.LBWR3 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 

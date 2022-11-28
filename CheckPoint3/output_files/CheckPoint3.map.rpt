@@ -1,5 +1,5 @@
 Analysis & Synthesis report for CheckPoint3
-Tue Nov 22 21:10:11 2022
+Sun Nov 27 21:00:40 2022
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -16,44 +16,50 @@ Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
   8. Analysis & Synthesis RAM Summary
   9. Analysis & Synthesis IP Cores Summary
  10. State Machine - |mem_cpu|arrozYlecheCPU:cpu|controlFSM:ctrlFSM|state
- 11. User-Specified and Inferred Latches
- 12. Registers Removed During Synthesis
- 13. Removed Registers Triggering Further Register Optimizations
- 14. General Register Statistics
- 15. Inverted Register Statistics
- 16. Multiplexer Restructuring Statistics (Restructuring Performed)
- 17. Source assignments for EXRAM:mem|altsyncram:altsyncram_component|altsyncram_2is2:auto_generated
- 18. Source assignments for sld_signaltap:auto_signaltap_0
- 19. Parameter Settings for User Entity Instance: EXRAM:mem|altsyncram:altsyncram_component
- 20. Parameter Settings for User Entity Instance: arrozYlecheCPU:cpu
- 21. Parameter Settings for User Entity Instance: arrozYlecheCPU:cpu|datapathDraft:datapath
- 22. Parameter Settings for User Entity Instance: arrozYlecheCPU:cpu|datapathDraft:datapath|flopenr:pcregUnit
- 23. Parameter Settings for User Entity Instance: arrozYlecheCPU:cpu|datapathDraft:datapath|flopenr:PSRreg
- 24. Parameter Settings for User Entity Instance: arrozYlecheCPU:cpu|datapathDraft:datapath|flopenr:instrReg
- 25. Parameter Settings for User Entity Instance: arrozYlecheCPU:cpu|datapathDraft:datapath|flopenr:resultReg
- 26. Parameter Settings for User Entity Instance: arrozYlecheCPU:cpu|datapathDraft:datapath|flopenr:immediateReg
- 27. Parameter Settings for User Entity Instance: arrozYlecheCPU:cpu|datapathDraft:datapath|mux2:updateReg
- 28. Parameter Settings for User Entity Instance: arrozYlecheCPU:cpu|datapathDraft:datapath|mux2:extend
- 29. Parameter Settings for User Entity Instance: arrozYlecheCPU:cpu|datapathDraft:datapath|mux2:rDestMux
- 30. Parameter Settings for User Entity Instance: arrozYlecheCPU:cpu|datapathDraft:datapath|mux2:src1Mux
- 31. Parameter Settings for User Entity Instance: arrozYlecheCPU:cpu|datapathDraft:datapath|mux2:src2mux
- 32. Parameter Settings for User Entity Instance: arrozYlecheCPU:cpu|datapathDraft:datapath|mux4:outputMUX
- 33. Parameter Settings for User Entity Instance: arrozYlecheCPU:cpu|datapathDraft:datapath|mux2:memAddress
- 34. Parameter Settings for User Entity Instance: arrozYlecheCPU:cpu|datapathDraft:datapath|mux2:dataToStore
- 35. Parameter Settings for User Entity Instance: arrozYlecheCPU:cpu|datapathDraft:datapath|pcALU:pc_ALU
- 36. Parameter Settings for User Entity Instance: arrozYlecheCPU:cpu|datapathDraft:datapath|shifter:shifterUnit
- 37. Parameter Settings for User Entity Instance: arrozYlecheCPU:cpu|datapathDraft:datapath|RegisterFile:regFile
- 38. Parameter Settings for User Entity Instance: arrozYlecheCPU:cpu|datapathDraft:datapath|ALU:alu_unit
- 39. Parameter Settings for Inferred Entity Instance: sld_signaltap:auto_signaltap_0
- 40. altsyncram Parameter Settings by Entity Instance
- 41. Port Connectivity Checks: "arrozYlecheCPU:cpu|datapathDraft:datapath|mux2:rDestMux"
- 42. Port Connectivity Checks: "arrozYlecheCPU:cpu|datapathDraft:datapath|mux2:extend"
- 43. Port Connectivity Checks: "EXRAM:mem"
- 44. Signal Tap Logic Analyzer Settings
- 45. Post-Synthesis Netlist Statistics for Top Partition
- 46. Elapsed Time Per Partition
- 47. Connections to In-System Debugging Instance "auto_signaltap_0"
- 48. Analysis & Synthesis Messages
+ 11. Registers Removed During Synthesis
+ 12. General Register Statistics
+ 13. Inverted Register Statistics
+ 14. Multiplexer Restructuring Statistics (Restructuring Performed)
+ 15. Source assignments for EXRAM:mem|altsyncram:altsyncram_component|altsyncram_2is2:auto_generated
+ 16. Source assignments for sld_signaltap:auto_signaltap_0
+ 17. Parameter Settings for User Entity Instance: EXRAM:mem|altsyncram:altsyncram_component
+ 18. Parameter Settings for User Entity Instance: arrozYlecheCPU:cpu
+ 19. Parameter Settings for User Entity Instance: arrozYlecheCPU:cpu|datapathDraft:datapath
+ 20. Parameter Settings for User Entity Instance: arrozYlecheCPU:cpu|datapathDraft:datapath|flopenr:pcregUnit
+ 21. Parameter Settings for User Entity Instance: arrozYlecheCPU:cpu|datapathDraft:datapath|flopenr:PSRreg
+ 22. Parameter Settings for User Entity Instance: arrozYlecheCPU:cpu|datapathDraft:datapath|flopenr:instrReg
+ 23. Parameter Settings for User Entity Instance: arrozYlecheCPU:cpu|datapathDraft:datapath|flopenr:resultReg
+ 24. Parameter Settings for User Entity Instance: arrozYlecheCPU:cpu|datapathDraft:datapath|flopenr:immediateReg
+ 25. Parameter Settings for User Entity Instance: arrozYlecheCPU:cpu|datapathDraft:datapath|mux2:updateReg
+ 26. Parameter Settings for User Entity Instance: arrozYlecheCPU:cpu|datapathDraft:datapath|mux2:extend
+ 27. Parameter Settings for User Entity Instance: arrozYlecheCPU:cpu|datapathDraft:datapath|mux2:rDestMux
+ 28. Parameter Settings for User Entity Instance: arrozYlecheCPU:cpu|datapathDraft:datapath|mux2:src1Mux
+ 29. Parameter Settings for User Entity Instance: arrozYlecheCPU:cpu|datapathDraft:datapath|mux2:src2mux
+ 30. Parameter Settings for User Entity Instance: arrozYlecheCPU:cpu|datapathDraft:datapath|mux4:outputMUX
+ 31. Parameter Settings for User Entity Instance: arrozYlecheCPU:cpu|datapathDraft:datapath|mux2:memAddress
+ 32. Parameter Settings for User Entity Instance: arrozYlecheCPU:cpu|datapathDraft:datapath|mux2:dataToStore
+ 33. Parameter Settings for User Entity Instance: arrozYlecheCPU:cpu|datapathDraft:datapath|pcALU:pc_ALU
+ 34. Parameter Settings for User Entity Instance: arrozYlecheCPU:cpu|datapathDraft:datapath|shifter:shifterUnit
+ 35. Parameter Settings for User Entity Instance: arrozYlecheCPU:cpu|datapathDraft:datapath|RegisterFile:regFile
+ 36. Parameter Settings for User Entity Instance: arrozYlecheCPU:cpu|datapathDraft:datapath|ALU:alu_unit
+ 37. Parameter Settings for User Entity Instance: flopenr:segf1
+ 38. Parameter Settings for User Entity Instance: flopenr:segf2
+ 39. Parameter Settings for User Entity Instance: flopenr:segf3
+ 40. Parameter Settings for User Entity Instance: flopenr:segf4
+ 41. Parameter Settings for Inferred Entity Instance: sld_signaltap:auto_signaltap_0
+ 42. altsyncram Parameter Settings by Entity Instance
+ 43. Port Connectivity Checks: "hexTo7Seg_3710:segUnit4"
+ 44. Port Connectivity Checks: "hexTo7Seg_3710:segUnit3"
+ 45. Port Connectivity Checks: "hexTo7Seg_3710:segUnit2"
+ 46. Port Connectivity Checks: "hexTo7Seg_3710:segUnit1"
+ 47. Port Connectivity Checks: "arrozYlecheCPU:cpu|datapathDraft:datapath|mux2:rDestMux"
+ 48. Port Connectivity Checks: "arrozYlecheCPU:cpu|datapathDraft:datapath|mux2:extend"
+ 49. Port Connectivity Checks: "EXRAM:mem"
+ 50. Signal Tap Logic Analyzer Settings
+ 51. Post-Synthesis Netlist Statistics for Top Partition
+ 52. Elapsed Time Per Partition
+ 53. Connections to In-System Debugging Instance "auto_signaltap_0"
+ 54. Analysis & Synthesis Messages
 
 
 
@@ -79,14 +85,14 @@ refer to the applicable agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                  ;
 +---------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Tue Nov 22 21:10:11 2022       ;
+; Analysis & Synthesis Status     ; Successful - Sun Nov 27 21:00:40 2022       ;
 ; Quartus Prime Version           ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                   ; CheckPoint3                                 ;
 ; Top-level Entity Name           ; mem_cpu                                     ;
 ; Family                          ; Cyclone V                                   ;
 ; Logic utilization (in ALMs)     ; N/A                                         ;
 ; Total registers                 ; 1161                                        ;
-; Total pins                      ; 136                                         ;
+; Total pins                      ; 2                                           ;
 ; Total virtual pins              ; 0                                           ;
 ; Total block memory bits         ; 1,053,824                                   ;
 ; Total DSP Blocks                ; 0                                           ;
@@ -201,12 +207,7 @@ refer to the applicable agreement for further details.
 ;     Processor 1            ; 100.0%      ;
 ;     Processor 2            ;   0.0%      ;
 ;     Processor 3            ;   0.0%      ;
-;     Processor 4            ;   0.0%      ;
-;     Processor 5            ;   0.0%      ;
-;     Processor 6            ;   0.0%      ;
-;     Processor 7            ;   0.0%      ;
-;     Processor 8            ;   0.0%      ;
-;     Processors 9-14        ;   0.0%      ;
+;     Processors 4-14        ;   0.0%      ;
 +----------------------------+-------------+
 
 
@@ -215,6 +216,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------------------------------------------------------------------+-----------------+----------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------+-------------+
 ; File Name with User-Entered Path                                                                ; Used in Netlist ; File Type                                    ; File Name with Absolute Path                                                                                                                             ; Library     ;
 +-------------------------------------------------------------------------------------------------+-----------------+----------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------+-------------+
+; RAM.mif                                                                                         ; yes             ; User Memory Initialization File              ; C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint3/RAM.mif                                                            ;             ;
 ; hexTo7Seg_3710.v                                                                                ; yes             ; User Verilog HDL File                        ; C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint3/hexTo7Seg_3710.v                                                   ;             ;
 ; EXRAM.v                                                                                         ; yes             ; User Wizard-Generated File                   ; C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint3/EXRAM.v                                                            ;             ;
 ; mem_cpu.v                                                                                       ; yes             ; User Verilog HDL File                        ; C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint3/mem_cpu.v                                                          ;             ;
@@ -227,9 +229,8 @@ refer to the applicable agreement for further details.
 ; ../CheckPoint1/mux4.v                                                                           ; yes             ; User Verilog HDL File                        ; C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint1/mux4.v                                                             ;             ;
 ; ../CheckPoint1/mux2.v                                                                           ; yes             ; User Verilog HDL File                        ; C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint1/mux2.v                                                             ;             ;
 ; ../CheckPoint1/ALU.v                                                                            ; yes             ; User Verilog HDL File                        ; C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint1/ALU.v                                                              ;             ;
-; RAM.mif                                                                                         ; yes             ; User Memory Initialization File              ; C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint3/RAM.mif                                                            ;             ;
 ; ../CheckPoint2/datapathDraft.v                                                                  ; yes             ; User Verilog HDL File                        ; C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/datapathDraft.v                                                    ;             ;
-; /users/18019/documents/uofu/fall2022/cs3710/16bitcpu/sixteenbitcomputer/checkpoint1/initreg.dat ; yes             ; Auto-Found Unspecified File                  ; /users/18019/documents/uofu/fall2022/cs3710/16bitcpu/sixteenbitcomputer/checkpoint1/initreg.dat                                                          ;             ;
+; InitReg.dat                                                                                     ; yes             ; User Unspecified File                        ; C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint3/InitReg.dat                                                        ;             ;
 ; altsyncram.tdf                                                                                  ; yes             ; Megafunction                                 ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/altsyncram.tdf                                                                                    ;             ;
 ; stratix_ram_block.inc                                                                           ; yes             ; Megafunction                                 ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/stratix_ram_block.inc                                                                             ;             ;
 ; lpm_mux.inc                                                                                     ; yes             ; Megafunction                                 ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/lpm_mux.inc                                                                                       ;             ;
@@ -291,6 +292,7 @@ refer to the applicable agreement for further details.
 ; db/ip/slda5f1d93f/submodules/alt_sld_fab_alt_sld_fab_sldfabric.vhd                              ; yes             ; Encrypted Auto-Found VHDL File               ; C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint3/db/ip/slda5f1d93f/submodules/alt_sld_fab_alt_sld_fab_sldfabric.vhd ; alt_sld_fab ;
 ; db/ip/slda5f1d93f/submodules/alt_sld_fab_alt_sld_fab_splitter.sv                                ; yes             ; Encrypted Auto-Found SystemVerilog HDL File  ; C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint3/db/ip/slda5f1d93f/submodules/alt_sld_fab_alt_sld_fab_splitter.sv   ; alt_sld_fab ;
 ; sld_jtag_hub.vhd                                                                                ; yes             ; Encrypted Megafunction                       ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/sld_jtag_hub.vhd                                                                                  ;             ;
+; /users/18019/documents/uofu/fall2022/cs3710/16bitcpu/sixteenbitcomputer/checkpoint1/initreg.dat ; yes             ; Auto-Found Unspecified File                  ; /users/18019/documents/uofu/fall2022/cs3710/16bitcpu/sixteenbitcomputer/checkpoint1/initreg.dat                                                          ;             ;
 +-------------------------------------------------------------------------------------------------+-----------------+----------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------+-------------+
 
 
@@ -299,18 +301,18 @@ refer to the applicable agreement for further details.
 +---------------------------------------------+-----------+
 ; Resource                                    ; Usage     ;
 +---------------------------------------------+-----------+
-; Estimate of Logic utilization (ALMs needed) ; 919       ;
+; Estimate of Logic utilization (ALMs needed) ; 896       ;
 ;                                             ;           ;
-; Combinational ALUT usage for logic          ; 1188      ;
-;     -- 7 input functions                    ; 1         ;
-;     -- 6 input functions                    ; 448       ;
-;     -- 5 input functions                    ; 188       ;
-;     -- 4 input functions                    ; 235       ;
-;     -- <=3 input functions                  ; 316       ;
+; Combinational ALUT usage for logic          ; 1105      ;
+;     -- 7 input functions                    ; 3         ;
+;     -- 6 input functions                    ; 479       ;
+;     -- 5 input functions                    ; 152       ;
+;     -- 4 input functions                    ; 195       ;
+;     -- <=3 input functions                  ; 276       ;
 ;                                             ;           ;
 ; Dedicated logic registers                   ; 1161      ;
 ;                                             ;           ;
-; I/O pins                                    ; 136       ;
+; I/O pins                                    ; 2         ;
 ; Total MLAB memory bits                      ; 0         ;
 ; Total block memory bits                     ; 1053824   ;
 ;                                             ;           ;
@@ -318,8 +320,8 @@ refer to the applicable agreement for further details.
 ;                                             ;           ;
 ; Maximum fan-out node                        ; clk~input ;
 ; Maximum fan-out                             ; 922       ;
-; Total fan-out                               ; 12545     ;
-; Average fan-out                             ; 4.48      ;
+; Total fan-out                               ; 12006     ;
+; Average fan-out                             ; 4.90      ;
 +---------------------------------------------+-----------+
 
 
@@ -328,34 +330,30 @@ refer to the applicable agreement for further details.
 +-----------------------------------------------------------------------------------------------------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------+--------------+
 ; Compilation Hierarchy Node                                                                                                              ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                                                                                                                                                                                                                                                                                 ; Entity Name                                             ; Library Name ;
 +-----------------------------------------------------------------------------------------------------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------+--------------+
-; |mem_cpu                                                                                                                                ; 1188 (42)           ; 1161 (0)                  ; 1053824           ; 0          ; 136  ; 0            ; |mem_cpu                                                                                                                                                                                                                                                                                                                                            ; mem_cpu                                                 ; work         ;
-;    |EXRAM:mem|                                                                                                                          ; 57 (0)              ; 6 (0)                     ; 1048576           ; 0          ; 0    ; 0            ; |mem_cpu|EXRAM:mem                                                                                                                                                                                                                                                                                                                                  ; EXRAM                                                   ; work         ;
-;       |altsyncram:altsyncram_component|                                                                                                 ; 57 (0)              ; 6 (0)                     ; 1048576           ; 0          ; 0    ; 0            ; |mem_cpu|EXRAM:mem|altsyncram:altsyncram_component                                                                                                                                                                                                                                                                                                  ; altsyncram                                              ; work         ;
-;          |altsyncram_2is2:auto_generated|                                                                                               ; 57 (0)              ; 6 (6)                     ; 1048576           ; 0          ; 0    ; 0            ; |mem_cpu|EXRAM:mem|altsyncram:altsyncram_component|altsyncram_2is2:auto_generated                                                                                                                                                                                                                                                                   ; altsyncram_2is2                                         ; work         ;
-;             |decode_dla:decode2|                                                                                                        ; 9 (9)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mem_cpu|EXRAM:mem|altsyncram:altsyncram_component|altsyncram_2is2:auto_generated|decode_dla:decode2                                                                                                                                                                                                                                                ; decode_dla                                              ; work         ;
+; |mem_cpu                                                                                                                                ; 1105 (10)           ; 1161 (0)                  ; 1053824           ; 0          ; 2    ; 0            ; |mem_cpu                                                                                                                                                                                                                                                                                                                                            ; mem_cpu                                                 ; work         ;
+;    |EXRAM:mem|                                                                                                                          ; 60 (0)              ; 6 (0)                     ; 1048576           ; 0          ; 0    ; 0            ; |mem_cpu|EXRAM:mem                                                                                                                                                                                                                                                                                                                                  ; EXRAM                                                   ; work         ;
+;       |altsyncram:altsyncram_component|                                                                                                 ; 60 (0)              ; 6 (0)                     ; 1048576           ; 0          ; 0    ; 0            ; |mem_cpu|EXRAM:mem|altsyncram:altsyncram_component                                                                                                                                                                                                                                                                                                  ; altsyncram                                              ; work         ;
+;          |altsyncram_2is2:auto_generated|                                                                                               ; 60 (0)              ; 6 (6)                     ; 1048576           ; 0          ; 0    ; 0            ; |mem_cpu|EXRAM:mem|altsyncram:altsyncram_component|altsyncram_2is2:auto_generated                                                                                                                                                                                                                                                                   ; altsyncram_2is2                                         ; work         ;
+;             |decode_dla:decode2|                                                                                                        ; 12 (12)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mem_cpu|EXRAM:mem|altsyncram:altsyncram_component|altsyncram_2is2:auto_generated|decode_dla:decode2                                                                                                                                                                                                                                                ; decode_dla                                              ; work         ;
 ;             |mux_chb:mux4|                                                                                                              ; 48 (48)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mem_cpu|EXRAM:mem|altsyncram:altsyncram_component|altsyncram_2is2:auto_generated|mux_chb:mux4                                                                                                                                                                                                                                                      ; mux_chb                                                 ; work         ;
-;    |arrozYlecheCPU:cpu|                                                                                                                 ; 757 (0)             ; 340 (0)                   ; 0                 ; 0          ; 0    ; 0            ; |mem_cpu|arrozYlecheCPU:cpu                                                                                                                                                                                                                                                                                                                         ; arrozYlecheCPU                                          ; work         ;
+;    |arrozYlecheCPU:cpu|                                                                                                                 ; 735 (0)             ; 340 (0)                   ; 0                 ; 0          ; 0    ; 0            ; |mem_cpu|arrozYlecheCPU:cpu                                                                                                                                                                                                                                                                                                                         ; arrozYlecheCPU                                          ; work         ;
 ;       |controlFSM:ctrlFSM|                                                                                                              ; 54 (54)             ; 22 (22)                   ; 0                 ; 0          ; 0    ; 0            ; |mem_cpu|arrozYlecheCPU:cpu|controlFSM:ctrlFSM                                                                                                                                                                                                                                                                                                      ; controlFSM                                              ; work         ;
-;       |datapathDraft:datapath|                                                                                                          ; 703 (0)             ; 318 (0)                   ; 0                 ; 0          ; 0    ; 0            ; |mem_cpu|arrozYlecheCPU:cpu|datapathDraft:datapath                                                                                                                                                                                                                                                                                                  ; datapathDraft                                           ; work         ;
-;          |ALU:alu_unit|                                                                                                                 ; 78 (78)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mem_cpu|arrozYlecheCPU:cpu|datapathDraft:datapath|ALU:alu_unit                                                                                                                                                                                                                                                                                     ; ALU                                                     ; work         ;
-;          |RegisterFile:regFile|                                                                                                         ; 252 (252)           ; 256 (256)                 ; 0                 ; 0          ; 0    ; 0            ; |mem_cpu|arrozYlecheCPU:cpu|datapathDraft:datapath|RegisterFile:regFile                                                                                                                                                                                                                                                                             ; RegisterFile                                            ; work         ;
+;       |datapathDraft:datapath|                                                                                                          ; 681 (0)             ; 318 (0)                   ; 0                 ; 0          ; 0    ; 0            ; |mem_cpu|arrozYlecheCPU:cpu|datapathDraft:datapath                                                                                                                                                                                                                                                                                                  ; datapathDraft                                           ; work         ;
+;          |ALU:alu_unit|                                                                                                                 ; 80 (80)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mem_cpu|arrozYlecheCPU:cpu|datapathDraft:datapath|ALU:alu_unit                                                                                                                                                                                                                                                                                     ; ALU                                                     ; work         ;
+;          |RegisterFile:regFile|                                                                                                         ; 220 (220)           ; 256 (256)                 ; 0                 ; 0          ; 0    ; 0            ; |mem_cpu|arrozYlecheCPU:cpu|datapathDraft:datapath|RegisterFile:regFile                                                                                                                                                                                                                                                                             ; RegisterFile                                            ; work         ;
 ;          |flopenr:PSRreg|                                                                                                               ; 1 (1)               ; 5 (5)                     ; 0                 ; 0          ; 0    ; 0            ; |mem_cpu|arrozYlecheCPU:cpu|datapathDraft:datapath|flopenr:PSRreg                                                                                                                                                                                                                                                                                   ; flopenr                                                 ; work         ;
 ;          |flopenr:immediateReg|                                                                                                         ; 2 (2)               ; 9 (9)                     ; 0                 ; 0          ; 0    ; 0            ; |mem_cpu|arrozYlecheCPU:cpu|datapathDraft:datapath|flopenr:immediateReg                                                                                                                                                                                                                                                                             ; flopenr                                                 ; work         ;
 ;          |flopenr:instrReg|                                                                                                             ; 1 (1)               ; 16 (16)                   ; 0                 ; 0          ; 0    ; 0            ; |mem_cpu|arrozYlecheCPU:cpu|datapathDraft:datapath|flopenr:instrReg                                                                                                                                                                                                                                                                                 ; flopenr                                                 ; work         ;
 ;          |flopenr:pcregUnit|                                                                                                            ; 1 (1)               ; 16 (16)                   ; 0                 ; 0          ; 0    ; 0            ; |mem_cpu|arrozYlecheCPU:cpu|datapathDraft:datapath|flopenr:pcregUnit                                                                                                                                                                                                                                                                                ; flopenr                                                 ; work         ;
-;          |flopenr:resultReg|                                                                                                            ; 172 (172)           ; 16 (16)                   ; 0                 ; 0          ; 0    ; 0            ; |mem_cpu|arrozYlecheCPU:cpu|datapathDraft:datapath|flopenr:resultReg                                                                                                                                                                                                                                                                                ; flopenr                                                 ; work         ;
+;          |flopenr:resultReg|                                                                                                            ; 173 (173)           ; 16 (16)                   ; 0                 ; 0          ; 0    ; 0            ; |mem_cpu|arrozYlecheCPU:cpu|datapathDraft:datapath|flopenr:resultReg                                                                                                                                                                                                                                                                                ; flopenr                                                 ; work         ;
 ;          |mux2:dataToStore|                                                                                                             ; 16 (16)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mem_cpu|arrozYlecheCPU:cpu|datapathDraft:datapath|mux2:dataToStore                                                                                                                                                                                                                                                                                 ; mux2                                                    ; work         ;
 ;          |mux2:memAddress|                                                                                                              ; 16 (16)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mem_cpu|arrozYlecheCPU:cpu|datapathDraft:datapath|mux2:memAddress                                                                                                                                                                                                                                                                                  ; mux2                                                    ; work         ;
 ;          |mux2:rDestMux|                                                                                                                ; 4 (4)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mem_cpu|arrozYlecheCPU:cpu|datapathDraft:datapath|mux2:rDestMux                                                                                                                                                                                                                                                                                    ; mux2                                                    ; work         ;
 ;          |mux2:src1Mux|                                                                                                                 ; 16 (16)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mem_cpu|arrozYlecheCPU:cpu|datapathDraft:datapath|mux2:src1Mux                                                                                                                                                                                                                                                                                     ; mux2                                                    ; work         ;
 ;          |mux2:src2mux|                                                                                                                 ; 16 (16)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mem_cpu|arrozYlecheCPU:cpu|datapathDraft:datapath|mux2:src2mux                                                                                                                                                                                                                                                                                     ; mux2                                                    ; work         ;
 ;          |mux2:updateReg|                                                                                                               ; 16 (16)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mem_cpu|arrozYlecheCPU:cpu|datapathDraft:datapath|mux2:updateReg                                                                                                                                                                                                                                                                                   ; mux2                                                    ; work         ;
-;          |pcALU:pc_ALU|                                                                                                                 ; 64 (64)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mem_cpu|arrozYlecheCPU:cpu|datapathDraft:datapath|pcALU:pc_ALU                                                                                                                                                                                                                                                                                     ; pcALU                                                   ; work         ;
+;          |pcALU:pc_ALU|                                                                                                                 ; 71 (71)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mem_cpu|arrozYlecheCPU:cpu|datapathDraft:datapath|pcALU:pc_ALU                                                                                                                                                                                                                                                                                     ; pcALU                                                   ; work         ;
 ;          |shifter:shifterUnit|                                                                                                          ; 48 (48)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mem_cpu|arrozYlecheCPU:cpu|datapathDraft:datapath|shifter:shifterUnit                                                                                                                                                                                                                                                                              ; shifter                                                 ; work         ;
-;    |hexTo7Seg_3710:segUnit1|                                                                                                            ; 8 (8)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mem_cpu|hexTo7Seg_3710:segUnit1                                                                                                                                                                                                                                                                                                                    ; hexTo7Seg_3710                                          ; work         ;
-;    |hexTo7Seg_3710:segUnit2|                                                                                                            ; 8 (8)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mem_cpu|hexTo7Seg_3710:segUnit2                                                                                                                                                                                                                                                                                                                    ; hexTo7Seg_3710                                          ; work         ;
-;    |hexTo7Seg_3710:segUnit3|                                                                                                            ; 8 (8)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mem_cpu|hexTo7Seg_3710:segUnit3                                                                                                                                                                                                                                                                                                                    ; hexTo7Seg_3710                                          ; work         ;
-;    |hexTo7Seg_3710:segUnit4|                                                                                                            ; 8 (8)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mem_cpu|hexTo7Seg_3710:segUnit4                                                                                                                                                                                                                                                                                                                    ; hexTo7Seg_3710                                          ; work         ;
 ;    |sld_hub:auto_hub|                                                                                                                   ; 96 (1)              ; 91 (0)                    ; 0                 ; 0          ; 0    ; 0            ; |mem_cpu|sld_hub:auto_hub                                                                                                                                                                                                                                                                                                                           ; sld_hub                                                 ; altera_sld   ;
 ;       |alt_sld_fab_with_jtag_input:\instrumentation_fabric_with_node_gen:fabric_gen_new_way:with_jtag_input_gen:instrumentation_fabric| ; 95 (0)              ; 91 (0)                    ; 0                 ; 0          ; 0    ; 0            ; |mem_cpu|sld_hub:auto_hub|alt_sld_fab_with_jtag_input:\instrumentation_fabric_with_node_gen:fabric_gen_new_way:with_jtag_input_gen:instrumentation_fabric                                                                                                                                                                                           ; alt_sld_fab_with_jtag_input                             ; altera_sld   ;
 ;          |alt_sld_fab:instrumentation_fabric|                                                                                           ; 95 (0)              ; 91 (0)                    ; 0                 ; 0          ; 0    ; 0            ; |mem_cpu|sld_hub:auto_hub|alt_sld_fab_with_jtag_input:\instrumentation_fabric_with_node_gen:fabric_gen_new_way:with_jtag_input_gen:instrumentation_fabric|alt_sld_fab:instrumentation_fabric                                                                                                                                                        ; alt_sld_fab                                             ; alt_sld_fab  ;
@@ -455,61 +453,19 @@ Encoding Type:  One-Hot
 +----------------+-------------+----------------+-------------+----------------+-------------+--------------+---------------+-------------+-------------+--------------+---------------+---------------+---------------+------------+------------+------------+---------------+---------------+---------------+---------------+--------------+-------------+
 
 
-+---------------------------------------------------------------------------------------------------------------------------------+
-; User-Specified and Inferred Latches                                                                                             ;
-+-----------------------------------------------------+--------------------------------------------------+------------------------+
-; Latch Name                                          ; Latch Enable Signal                              ; Free of Timing Hazards ;
-+-----------------------------------------------------+--------------------------------------------------+------------------------+
-; segCode0[0]                                         ; arrozYlecheCPU:cpu|controlFSM:ctrlFSM|state.SBWR ; yes                    ;
-; segCode0[1]                                         ; arrozYlecheCPU:cpu|controlFSM:ctrlFSM|state.SBWR ; yes                    ;
-; segCode0[2]                                         ; arrozYlecheCPU:cpu|controlFSM:ctrlFSM|state.SBWR ; yes                    ;
-; segCode0[3]                                         ; arrozYlecheCPU:cpu|controlFSM:ctrlFSM|state.SBWR ; yes                    ;
-; segCode1[0]                                         ; arrozYlecheCPU:cpu|controlFSM:ctrlFSM|state.SBWR ; yes                    ;
-; segCode1[1]                                         ; arrozYlecheCPU:cpu|controlFSM:ctrlFSM|state.SBWR ; yes                    ;
-; segCode1[2]                                         ; arrozYlecheCPU:cpu|controlFSM:ctrlFSM|state.SBWR ; yes                    ;
-; segCode1[3]                                         ; arrozYlecheCPU:cpu|controlFSM:ctrlFSM|state.SBWR ; yes                    ;
-; segCode2[0]                                         ; arrozYlecheCPU:cpu|controlFSM:ctrlFSM|state.SBWR ; yes                    ;
-; segCode2[1]                                         ; arrozYlecheCPU:cpu|controlFSM:ctrlFSM|state.SBWR ; yes                    ;
-; segCode2[2]                                         ; arrozYlecheCPU:cpu|controlFSM:ctrlFSM|state.SBWR ; yes                    ;
-; segCode2[3]                                         ; arrozYlecheCPU:cpu|controlFSM:ctrlFSM|state.SBWR ; yes                    ;
-; segCode3[0]                                         ; arrozYlecheCPU:cpu|controlFSM:ctrlFSM|state.SBWR ; yes                    ;
-; segCode3[1]                                         ; arrozYlecheCPU:cpu|controlFSM:ctrlFSM|state.SBWR ; yes                    ;
-; segCode3[2]                                         ; arrozYlecheCPU:cpu|controlFSM:ctrlFSM|state.SBWR ; yes                    ;
-; segCode3[3]                                         ; arrozYlecheCPU:cpu|controlFSM:ctrlFSM|state.SBWR ; yes                    ;
-; Number of user-specified and inferred latches = 16  ;                                                  ;                        ;
-+-----------------------------------------------------+--------------------------------------------------+------------------------+
-Note: All latches listed above may not be present at the end of synthesis due to various synthesis optimizations.
-
-
-+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Registers Removed During Synthesis                                                                                                                                                  ;
-+--------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------+
-; Register name                                                                                    ; Reason for Removal                                                               ;
-+--------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------+
-; EXRAM:mem|altsyncram:altsyncram_component|altsyncram_2is2:auto_generated|address_reg_b[0..2]     ; Stuck at GND due to stuck port data_in                                           ;
-; EXRAM:mem|altsyncram:altsyncram_component|altsyncram_2is2:auto_generated|out_address_reg_b[0..2] ; Stuck at GND due to stuck port data_in                                           ;
-; arrozYlecheCPU:cpu|datapathDraft:datapath|flopenr:immediateReg|q[8,9,11..15]                     ; Merged with arrozYlecheCPU:cpu|datapathDraft:datapath|flopenr:immediateReg|q[10] ;
-; arrozYlecheCPU:cpu|controlFSM:ctrlFSM|state~2                                                    ; Lost fanout                                                                      ;
-; arrozYlecheCPU:cpu|controlFSM:ctrlFSM|state~3                                                    ; Lost fanout                                                                      ;
-; arrozYlecheCPU:cpu|controlFSM:ctrlFSM|state~4                                                    ; Lost fanout                                                                      ;
-; arrozYlecheCPU:cpu|controlFSM:ctrlFSM|state~5                                                    ; Lost fanout                                                                      ;
-; arrozYlecheCPU:cpu|controlFSM:ctrlFSM|state~6                                                    ; Lost fanout                                                                      ;
-; Total Number of Removed Registers = 18                                                           ;                                                                                  ;
-+--------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------+
-
-
-+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Removed Registers Triggering Further Register Optimizations                                                                                                                                                           ;
-+-------------------------------------------------------------------------------------------+---------------------------+-----------------------------------------------------------------------------------------------+
-; Register name                                                                             ; Reason for Removal        ; Registers Removed due to This Register                                                        ;
-+-------------------------------------------------------------------------------------------+---------------------------+-----------------------------------------------------------------------------------------------+
-; EXRAM:mem|altsyncram:altsyncram_component|altsyncram_2is2:auto_generated|address_reg_b[2] ; Stuck at GND              ; EXRAM:mem|altsyncram:altsyncram_component|altsyncram_2is2:auto_generated|out_address_reg_b[2] ;
-;                                                                                           ; due to stuck port data_in ;                                                                                               ;
-; EXRAM:mem|altsyncram:altsyncram_component|altsyncram_2is2:auto_generated|address_reg_b[1] ; Stuck at GND              ; EXRAM:mem|altsyncram:altsyncram_component|altsyncram_2is2:auto_generated|out_address_reg_b[1] ;
-;                                                                                           ; due to stuck port data_in ;                                                                                               ;
-; EXRAM:mem|altsyncram:altsyncram_component|altsyncram_2is2:auto_generated|address_reg_b[0] ; Stuck at GND              ; EXRAM:mem|altsyncram:altsyncram_component|altsyncram_2is2:auto_generated|out_address_reg_b[0] ;
-;                                                                                           ; due to stuck port data_in ;                                                                                               ;
-+-------------------------------------------------------------------------------------------+---------------------------+-----------------------------------------------------------------------------------------------+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Registers Removed During Synthesis                                                                                                                              ;
++------------------------------------------------------------------------------+----------------------------------------------------------------------------------+
+; Register name                                                                ; Reason for Removal                                                               ;
++------------------------------------------------------------------------------+----------------------------------------------------------------------------------+
+; arrozYlecheCPU:cpu|datapathDraft:datapath|flopenr:immediateReg|q[8,9,11..15] ; Merged with arrozYlecheCPU:cpu|datapathDraft:datapath|flopenr:immediateReg|q[10] ;
+; arrozYlecheCPU:cpu|controlFSM:ctrlFSM|state~2                                ; Lost fanout                                                                      ;
+; arrozYlecheCPU:cpu|controlFSM:ctrlFSM|state~3                                ; Lost fanout                                                                      ;
+; arrozYlecheCPU:cpu|controlFSM:ctrlFSM|state~4                                ; Lost fanout                                                                      ;
+; arrozYlecheCPU:cpu|controlFSM:ctrlFSM|state~5                                ; Lost fanout                                                                      ;
+; arrozYlecheCPU:cpu|controlFSM:ctrlFSM|state~6                                ; Lost fanout                                                                      ;
+; Total Number of Removed Registers = 12                                       ;                                                                                  ;
++------------------------------------------------------------------------------+----------------------------------------------------------------------------------+
 
 
 +------------------------------------------------------+
@@ -518,11 +474,11 @@ Note: All latches listed above may not be present at the end of synthesis due to
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
 ; Total registers                              ; 1161  ;
-; Number of registers using Synchronous Clear  ; 341   ;
+; Number of registers using Synchronous Clear  ; 369   ;
 ; Number of registers using Synchronous Load   ; 150   ;
 ; Number of registers using Asynchronous Clear ; 285   ;
 ; Number of registers using Asynchronous Load  ; 0     ;
-; Number of registers using Clock Enable       ; 684   ;
+; Number of registers using Clock Enable       ; 687   ;
 ; Number of registers using Preset             ; 0     ;
 +----------------------------------------------+-------+
 
@@ -532,38 +488,19 @@ Note: All latches listed above may not be present at the end of synthesis due to
 +---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------+
 ; Inverted Register                                                                                                                                                                                                                                                                                                               ; Fan out ;
 +---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------+
-; arrozYlecheCPU:cpu|datapathDraft:datapath|RegisterFile:regFile|RAM[9][0]                                                                                                                                                                                                                                                        ; 2       ;
-; arrozYlecheCPU:cpu|datapathDraft:datapath|RegisterFile:regFile|RAM[11][0]                                                                                                                                                                                                                                                       ; 2       ;
-; arrozYlecheCPU:cpu|datapathDraft:datapath|RegisterFile:regFile|RAM[13][0]                                                                                                                                                                                                                                                       ; 2       ;
-; arrozYlecheCPU:cpu|datapathDraft:datapath|RegisterFile:regFile|RAM[15][0]                                                                                                                                                                                                                                                       ; 2       ;
-; arrozYlecheCPU:cpu|datapathDraft:datapath|RegisterFile:regFile|RAM[5][0]                                                                                                                                                                                                                                                        ; 2       ;
-; arrozYlecheCPU:cpu|datapathDraft:datapath|RegisterFile:regFile|RAM[7][0]                                                                                                                                                                                                                                                        ; 2       ;
-; arrozYlecheCPU:cpu|datapathDraft:datapath|RegisterFile:regFile|RAM[1][0]                                                                                                                                                                                                                                                        ; 3       ;
-; arrozYlecheCPU:cpu|datapathDraft:datapath|RegisterFile:regFile|RAM[3][0]                                                                                                                                                                                                                                                        ; 2       ;
-; arrozYlecheCPU:cpu|datapathDraft:datapath|RegisterFile:regFile|RAM[10][1]                                                                                                                                                                                                                                                       ; 2       ;
-; arrozYlecheCPU:cpu|datapathDraft:datapath|RegisterFile:regFile|RAM[11][1]                                                                                                                                                                                                                                                       ; 2       ;
+; arrozYlecheCPU:cpu|datapathDraft:datapath|RegisterFile:regFile|RAM[14][7]                                                                                                                                                                                                                                                       ; 2       ;
+; arrozYlecheCPU:cpu|datapathDraft:datapath|RegisterFile:regFile|RAM[14][11]                                                                                                                                                                                                                                                      ; 2       ;
 ; arrozYlecheCPU:cpu|datapathDraft:datapath|RegisterFile:regFile|RAM[14][1]                                                                                                                                                                                                                                                       ; 2       ;
-; arrozYlecheCPU:cpu|datapathDraft:datapath|RegisterFile:regFile|RAM[15][1]                                                                                                                                                                                                                                                       ; 2       ;
-; arrozYlecheCPU:cpu|datapathDraft:datapath|RegisterFile:regFile|RAM[6][1]                                                                                                                                                                                                                                                        ; 2       ;
-; arrozYlecheCPU:cpu|datapathDraft:datapath|RegisterFile:regFile|RAM[7][1]                                                                                                                                                                                                                                                        ; 2       ;
-; arrozYlecheCPU:cpu|datapathDraft:datapath|RegisterFile:regFile|RAM[2][1]                                                                                                                                                                                                                                                        ; 3       ;
-; arrozYlecheCPU:cpu|datapathDraft:datapath|RegisterFile:regFile|RAM[3][1]                                                                                                                                                                                                                                                        ; 2       ;
-; arrozYlecheCPU:cpu|datapathDraft:datapath|RegisterFile:regFile|RAM[12][2]                                                                                                                                                                                                                                                       ; 2       ;
-; arrozYlecheCPU:cpu|datapathDraft:datapath|RegisterFile:regFile|RAM[13][2]                                                                                                                                                                                                                                                       ; 2       ;
+; arrozYlecheCPU:cpu|datapathDraft:datapath|RegisterFile:regFile|RAM[14][4]                                                                                                                                                                                                                                                       ; 3       ;
+; arrozYlecheCPU:cpu|datapathDraft:datapath|RegisterFile:regFile|RAM[14][6]                                                                                                                                                                                                                                                       ; 2       ;
+; arrozYlecheCPU:cpu|datapathDraft:datapath|RegisterFile:regFile|RAM[14][5]                                                                                                                                                                                                                                                       ; 2       ;
+; arrozYlecheCPU:cpu|datapathDraft:datapath|RegisterFile:regFile|RAM[14][8]                                                                                                                                                                                                                                                       ; 2       ;
 ; arrozYlecheCPU:cpu|datapathDraft:datapath|RegisterFile:regFile|RAM[14][2]                                                                                                                                                                                                                                                       ; 2       ;
-; arrozYlecheCPU:cpu|datapathDraft:datapath|RegisterFile:regFile|RAM[15][2]                                                                                                                                                                                                                                                       ; 2       ;
-; arrozYlecheCPU:cpu|datapathDraft:datapath|RegisterFile:regFile|RAM[4][2]                                                                                                                                                                                                                                                        ; 2       ;
-; arrozYlecheCPU:cpu|datapathDraft:datapath|RegisterFile:regFile|RAM[5][2]                                                                                                                                                                                                                                                        ; 2       ;
-; arrozYlecheCPU:cpu|datapathDraft:datapath|RegisterFile:regFile|RAM[6][2]                                                                                                                                                                                                                                                        ; 2       ;
-; arrozYlecheCPU:cpu|datapathDraft:datapath|RegisterFile:regFile|RAM[7][2]                                                                                                                                                                                                                                                        ; 2       ;
-; arrozYlecheCPU:cpu|datapathDraft:datapath|RegisterFile:regFile|RAM[8][3]                                                                                                                                                                                                                                                        ; 3       ;
-; arrozYlecheCPU:cpu|datapathDraft:datapath|RegisterFile:regFile|RAM[9][3]                                                                                                                                                                                                                                                        ; 2       ;
-; arrozYlecheCPU:cpu|datapathDraft:datapath|RegisterFile:regFile|RAM[10][3]                                                                                                                                                                                                                                                       ; 2       ;
-; arrozYlecheCPU:cpu|datapathDraft:datapath|RegisterFile:regFile|RAM[11][3]                                                                                                                                                                                                                                                       ; 2       ;
-; arrozYlecheCPU:cpu|datapathDraft:datapath|RegisterFile:regFile|RAM[12][3]                                                                                                                                                                                                                                                       ; 2       ;
-; arrozYlecheCPU:cpu|datapathDraft:datapath|RegisterFile:regFile|RAM[13][3]                                                                                                                                                                                                                                                       ; 2       ;
 ; arrozYlecheCPU:cpu|datapathDraft:datapath|RegisterFile:regFile|RAM[14][3]                                                                                                                                                                                                                                                       ; 2       ;
-; arrozYlecheCPU:cpu|datapathDraft:datapath|RegisterFile:regFile|RAM[15][3]                                                                                                                                                                                                                                                       ; 2       ;
+; arrozYlecheCPU:cpu|datapathDraft:datapath|RegisterFile:regFile|RAM[14][13]                                                                                                                                                                                                                                                      ; 2       ;
+; arrozYlecheCPU:cpu|datapathDraft:datapath|RegisterFile:regFile|RAM[14][10]                                                                                                                                                                                                                                                      ; 2       ;
+; arrozYlecheCPU:cpu|datapathDraft:datapath|RegisterFile:regFile|RAM[14][9]                                                                                                                                                                                                                                                       ; 2       ;
+; arrozYlecheCPU:cpu|datapathDraft:datapath|RegisterFile:regFile|RAM[14][14]                                                                                                                                                                                                                                                      ; 2       ;
 ; sld_hub:auto_hub|alt_sld_fab_with_jtag_input:\instrumentation_fabric_with_node_gen:fabric_gen_new_way:with_jtag_input_gen:instrumentation_fabric|alt_sld_fab:instrumentation_fabric|alt_sld_fab_alt_sld_fab:alt_sld_fab|alt_sld_fab_alt_sld_fab_sldfabric:sldfabric|sld_jtag_hub:\jtag_hub_gen:real_sld_jtag_hub|jtag_ir_reg[1] ; 3       ;
 ; sld_hub:auto_hub|alt_sld_fab_with_jtag_input:\instrumentation_fabric_with_node_gen:fabric_gen_new_way:with_jtag_input_gen:instrumentation_fabric|alt_sld_fab:instrumentation_fabric|alt_sld_fab_alt_sld_fab:alt_sld_fab|alt_sld_fab_alt_sld_fab_sldfabric:sldfabric|sld_jtag_hub:\jtag_hub_gen:real_sld_jtag_hub|jtag_ir_reg[2] ; 3       ;
 ; sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|sld_buffer_manager:sld_buffer_manager_inst|modified_post_count[6]                                                                                                                                                   ; 1       ;
@@ -574,7 +511,7 @@ Note: All latches listed above may not be present at the end of synthesis due to
 ; sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|sld_buffer_manager:sld_buffer_manager_inst|modified_post_count[3]                                                                                                                                                   ; 1       ;
 ; sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|sld_buffer_manager:sld_buffer_manager_inst|modified_post_count[4]                                                                                                                                                   ; 1       ;
 ; sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|sld_buffer_manager:sld_buffer_manager_inst|modified_post_count[5]                                                                                                                                                   ; 1       ;
-; Total number of inverted registers = 42                                                                                                                                                                                                                                                                                         ;         ;
+; Total number of inverted registers = 23                                                                                                                                                                                                                                                                                         ;         ;
 +---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------+
 
 
@@ -585,52 +522,41 @@ Note: All latches listed above may not be present at the end of synthesis due to
 +--------------------+-----------+---------------+----------------------+------------------------+------------+---------------------------------------------------------------------------------------------------------------------+
 ; 3:1                ; 8 bits    ; 16 LEs        ; 0 LEs                ; 16 LEs                 ; Yes        ; |mem_cpu|arrozYlecheCPU:cpu|datapathDraft:datapath|flopenr:immediateReg|q[3]                                        ;
 ; 3:1                ; 16 bits   ; 32 LEs        ; 0 LEs                ; 32 LEs                 ; Yes        ; |mem_cpu|arrozYlecheCPU:cpu|datapathDraft:datapath|flopenr:instrReg|q[6]                                            ;
-; 3:1                ; 12 bits   ; 24 LEs        ; 0 LEs                ; 24 LEs                 ; Yes        ; |mem_cpu|arrozYlecheCPU:cpu|datapathDraft:datapath|RegisterFile:regFile|RAM[15][13]                                 ;
+; 3:1                ; 16 bits   ; 32 LEs        ; 0 LEs                ; 32 LEs                 ; Yes        ; |mem_cpu|arrozYlecheCPU:cpu|datapathDraft:datapath|RegisterFile:regFile|RAM[15][15]                                 ;
 ; 3:1                ; 3 bits    ; 6 LEs         ; 3 LEs                ; 3 LEs                  ; Yes        ; |mem_cpu|arrozYlecheCPU:cpu|datapathDraft:datapath|RegisterFile:regFile|RAM[14][0]                                  ;
-; 3:1                ; 10 bits   ; 20 LEs        ; 10 LEs               ; 10 LEs                 ; Yes        ; |mem_cpu|arrozYlecheCPU:cpu|datapathDraft:datapath|RegisterFile:regFile|RAM[14][11]                                 ;
-; 3:1                ; 13 bits   ; 26 LEs        ; 0 LEs                ; 26 LEs                 ; Yes        ; |mem_cpu|arrozYlecheCPU:cpu|datapathDraft:datapath|RegisterFile:regFile|RAM[13][15]                                 ;
-; 3:1                ; 14 bits   ; 28 LEs        ; 0 LEs                ; 28 LEs                 ; Yes        ; |mem_cpu|arrozYlecheCPU:cpu|datapathDraft:datapath|RegisterFile:regFile|RAM[12][9]                                  ;
-; 3:1                ; 13 bits   ; 26 LEs        ; 0 LEs                ; 26 LEs                 ; Yes        ; |mem_cpu|arrozYlecheCPU:cpu|datapathDraft:datapath|RegisterFile:regFile|RAM[11][8]                                  ;
-; 3:1                ; 14 bits   ; 28 LEs        ; 0 LEs                ; 28 LEs                 ; Yes        ; |mem_cpu|arrozYlecheCPU:cpu|datapathDraft:datapath|RegisterFile:regFile|RAM[10][4]                                  ;
-; 3:1                ; 14 bits   ; 28 LEs        ; 0 LEs                ; 28 LEs                 ; Yes        ; |mem_cpu|arrozYlecheCPU:cpu|datapathDraft:datapath|RegisterFile:regFile|RAM[9][7]                                   ;
-; 3:1                ; 15 bits   ; 30 LEs        ; 0 LEs                ; 30 LEs                 ; Yes        ; |mem_cpu|arrozYlecheCPU:cpu|datapathDraft:datapath|RegisterFile:regFile|RAM[8][8]                                   ;
-; 3:1                ; 13 bits   ; 26 LEs        ; 0 LEs                ; 26 LEs                 ; Yes        ; |mem_cpu|arrozYlecheCPU:cpu|datapathDraft:datapath|RegisterFile:regFile|RAM[7][3]                                   ;
-; 3:1                ; 14 bits   ; 28 LEs        ; 0 LEs                ; 28 LEs                 ; Yes        ; |mem_cpu|arrozYlecheCPU:cpu|datapathDraft:datapath|RegisterFile:regFile|RAM[6][5]                                   ;
-; 3:1                ; 14 bits   ; 28 LEs        ; 0 LEs                ; 28 LEs                 ; Yes        ; |mem_cpu|arrozYlecheCPU:cpu|datapathDraft:datapath|RegisterFile:regFile|RAM[5][3]                                   ;
-; 3:1                ; 14 bits   ; 28 LEs        ; 0 LEs                ; 28 LEs                 ; Yes        ; |mem_cpu|arrozYlecheCPU:cpu|datapathDraft:datapath|RegisterFile:regFile|RAM[3][3]                                   ;
-; 3:1                ; 15 bits   ; 30 LEs        ; 0 LEs                ; 30 LEs                 ; Yes        ; |mem_cpu|arrozYlecheCPU:cpu|datapathDraft:datapath|RegisterFile:regFile|RAM[2][11]                                  ;
-; 3:1                ; 15 bits   ; 30 LEs        ; 0 LEs                ; 30 LEs                 ; Yes        ; |mem_cpu|arrozYlecheCPU:cpu|datapathDraft:datapath|RegisterFile:regFile|RAM[1][1]                                   ;
-; 3:1                ; 16 bits   ; 32 LEs        ; 0 LEs                ; 32 LEs                 ; Yes        ; |mem_cpu|arrozYlecheCPU:cpu|datapathDraft:datapath|RegisterFile:regFile|RAM[0][3]                                   ;
-; 3:1                ; 16 bits   ; 32 LEs        ; 0 LEs                ; 32 LEs                 ; Yes        ; |mem_cpu|arrozYlecheCPU:cpu|datapathDraft:datapath|flopenr:pcregUnit|q[6]                                           ;
-; 45:1               ; 4 bits    ; 120 LEs       ; 64 LEs               ; 56 LEs                 ; Yes        ; |mem_cpu|arrozYlecheCPU:cpu|datapathDraft:datapath|flopenr:resultReg|q[5]                                           ;
-; 45:1               ; 4 bits    ; 120 LEs       ; 64 LEs               ; 56 LEs                 ; Yes        ; |mem_cpu|arrozYlecheCPU:cpu|datapathDraft:datapath|flopenr:resultReg|q[10]                                          ;
-; 47:1               ; 4 bits    ; 124 LEs       ; 60 LEs               ; 64 LEs                 ; Yes        ; |mem_cpu|arrozYlecheCPU:cpu|datapathDraft:datapath|flopenr:resultReg|q[14]                                          ;
-; 47:1               ; 4 bits    ; 124 LEs       ; 60 LEs               ; 64 LEs                 ; Yes        ; |mem_cpu|arrozYlecheCPU:cpu|datapathDraft:datapath|flopenr:resultReg|q[2]                                           ;
-; 3:1                ; 4 bits    ; 8 LEs         ; 4 LEs                ; 4 LEs                  ; Yes        ; |mem_cpu|arrozYlecheCPU:cpu|datapathDraft:datapath|RegisterFile:regFile|RAM[15][2]                                  ;
-; 3:1                ; 3 bits    ; 6 LEs         ; 3 LEs                ; 3 LEs                  ; Yes        ; |mem_cpu|arrozYlecheCPU:cpu|datapathDraft:datapath|RegisterFile:regFile|RAM[14][3]                                  ;
-; 3:1                ; 3 bits    ; 6 LEs         ; 3 LEs                ; 3 LEs                  ; Yes        ; |mem_cpu|arrozYlecheCPU:cpu|datapathDraft:datapath|RegisterFile:regFile|RAM[13][2]                                  ;
-; 3:1                ; 2 bits    ; 4 LEs         ; 2 LEs                ; 2 LEs                  ; Yes        ; |mem_cpu|arrozYlecheCPU:cpu|datapathDraft:datapath|RegisterFile:regFile|RAM[12][3]                                  ;
-; 3:1                ; 3 bits    ; 6 LEs         ; 3 LEs                ; 3 LEs                  ; Yes        ; |mem_cpu|arrozYlecheCPU:cpu|datapathDraft:datapath|RegisterFile:regFile|RAM[11][1]                                  ;
-; 3:1                ; 2 bits    ; 4 LEs         ; 2 LEs                ; 2 LEs                  ; Yes        ; |mem_cpu|arrozYlecheCPU:cpu|datapathDraft:datapath|RegisterFile:regFile|RAM[10][1]                                  ;
-; 3:1                ; 2 bits    ; 4 LEs         ; 2 LEs                ; 2 LEs                  ; Yes        ; |mem_cpu|arrozYlecheCPU:cpu|datapathDraft:datapath|RegisterFile:regFile|RAM[9][3]                                   ;
-; 3:1                ; 3 bits    ; 6 LEs         ; 3 LEs                ; 3 LEs                  ; Yes        ; |mem_cpu|arrozYlecheCPU:cpu|datapathDraft:datapath|RegisterFile:regFile|RAM[7][1]                                   ;
-; 3:1                ; 2 bits    ; 4 LEs         ; 2 LEs                ; 2 LEs                  ; Yes        ; |mem_cpu|arrozYlecheCPU:cpu|datapathDraft:datapath|RegisterFile:regFile|RAM[6][2]                                   ;
-; 3:1                ; 2 bits    ; 4 LEs         ; 2 LEs                ; 2 LEs                  ; Yes        ; |mem_cpu|arrozYlecheCPU:cpu|datapathDraft:datapath|RegisterFile:regFile|RAM[5][0]                                   ;
-; 3:1                ; 2 bits    ; 4 LEs         ; 2 LEs                ; 2 LEs                  ; Yes        ; |mem_cpu|arrozYlecheCPU:cpu|datapathDraft:datapath|RegisterFile:regFile|RAM[3][1]                                   ;
+; 3:1                ; 16 bits   ; 32 LEs        ; 0 LEs                ; 32 LEs                 ; Yes        ; |mem_cpu|arrozYlecheCPU:cpu|datapathDraft:datapath|RegisterFile:regFile|RAM[13][14]                                 ;
+; 3:1                ; 16 bits   ; 32 LEs        ; 0 LEs                ; 32 LEs                 ; Yes        ; |mem_cpu|arrozYlecheCPU:cpu|datapathDraft:datapath|RegisterFile:regFile|RAM[12][0]                                  ;
+; 3:1                ; 16 bits   ; 32 LEs        ; 0 LEs                ; 32 LEs                 ; Yes        ; |mem_cpu|arrozYlecheCPU:cpu|datapathDraft:datapath|RegisterFile:regFile|RAM[11][7]                                  ;
+; 3:1                ; 16 bits   ; 32 LEs        ; 0 LEs                ; 32 LEs                 ; Yes        ; |mem_cpu|arrozYlecheCPU:cpu|datapathDraft:datapath|RegisterFile:regFile|RAM[10][7]                                  ;
+; 3:1                ; 16 bits   ; 32 LEs        ; 0 LEs                ; 32 LEs                 ; Yes        ; |mem_cpu|arrozYlecheCPU:cpu|datapathDraft:datapath|RegisterFile:regFile|RAM[9][7]                                   ;
+; 3:1                ; 16 bits   ; 32 LEs        ; 0 LEs                ; 32 LEs                 ; Yes        ; |mem_cpu|arrozYlecheCPU:cpu|datapathDraft:datapath|RegisterFile:regFile|RAM[8][1]                                   ;
+; 3:1                ; 16 bits   ; 32 LEs        ; 0 LEs                ; 32 LEs                 ; Yes        ; |mem_cpu|arrozYlecheCPU:cpu|datapathDraft:datapath|RegisterFile:regFile|RAM[7][6]                                   ;
+; 3:1                ; 16 bits   ; 32 LEs        ; 0 LEs                ; 32 LEs                 ; Yes        ; |mem_cpu|arrozYlecheCPU:cpu|datapathDraft:datapath|RegisterFile:regFile|RAM[6][6]                                   ;
+; 3:1                ; 16 bits   ; 32 LEs        ; 0 LEs                ; 32 LEs                 ; Yes        ; |mem_cpu|arrozYlecheCPU:cpu|datapathDraft:datapath|RegisterFile:regFile|RAM[5][14]                                  ;
+; 3:1                ; 16 bits   ; 32 LEs        ; 0 LEs                ; 32 LEs                 ; Yes        ; |mem_cpu|arrozYlecheCPU:cpu|datapathDraft:datapath|RegisterFile:regFile|RAM[3][11]                                  ;
+; 3:1                ; 16 bits   ; 32 LEs        ; 0 LEs                ; 32 LEs                 ; Yes        ; |mem_cpu|arrozYlecheCPU:cpu|datapathDraft:datapath|RegisterFile:regFile|RAM[2][14]                                  ;
+; 3:1                ; 16 bits   ; 32 LEs        ; 0 LEs                ; 32 LEs                 ; Yes        ; |mem_cpu|arrozYlecheCPU:cpu|datapathDraft:datapath|RegisterFile:regFile|RAM[1][14]                                  ;
+; 3:1                ; 16 bits   ; 32 LEs        ; 0 LEs                ; 32 LEs                 ; Yes        ; |mem_cpu|arrozYlecheCPU:cpu|datapathDraft:datapath|RegisterFile:regFile|RAM[0][2]                                   ;
+; 3:1                ; 16 bits   ; 32 LEs        ; 0 LEs                ; 32 LEs                 ; Yes        ; |mem_cpu|arrozYlecheCPU:cpu|datapathDraft:datapath|flopenr:pcregUnit|q[8]                                           ;
+; 45:1               ; 4 bits    ; 120 LEs       ; 64 LEs               ; 56 LEs                 ; Yes        ; |mem_cpu|arrozYlecheCPU:cpu|datapathDraft:datapath|flopenr:resultReg|q[4]                                           ;
+; 45:1               ; 4 bits    ; 120 LEs       ; 64 LEs               ; 56 LEs                 ; Yes        ; |mem_cpu|arrozYlecheCPU:cpu|datapathDraft:datapath|flopenr:resultReg|q[11]                                          ;
+; 47:1               ; 4 bits    ; 124 LEs       ; 60 LEs               ; 64 LEs                 ; Yes        ; |mem_cpu|arrozYlecheCPU:cpu|datapathDraft:datapath|flopenr:resultReg|q[15]                                          ;
+; 47:1               ; 4 bits    ; 124 LEs       ; 60 LEs               ; 64 LEs                 ; Yes        ; |mem_cpu|arrozYlecheCPU:cpu|datapathDraft:datapath|flopenr:resultReg|q[0]                                           ;
+; 3:1                ; 13 bits   ; 26 LEs        ; 13 LEs               ; 13 LEs                 ; Yes        ; |mem_cpu|arrozYlecheCPU:cpu|datapathDraft:datapath|RegisterFile:regFile|RAM[14][4]                                  ;
 ; 3:1                ; 5 bits    ; 10 LEs        ; 10 LEs               ; 0 LEs                  ; No         ; |mem_cpu|arrozYlecheCPU:cpu|controlFSM:ctrlFSM|state                                                                ;
 ; 3:1                ; 4 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; No         ; |mem_cpu|arrozYlecheCPU:cpu|controlFSM:ctrlFSM|state                                                                ;
-; 4:1                ; 2 bits    ; 4 LEs         ; 4 LEs                ; 0 LEs                  ; No         ; |mem_cpu|arrozYlecheCPU:cpu|datapathDraft:datapath|shifter:shifterUnit|ShiftLeft0                                   ;
 ; 4:1                ; 2 bits    ; 4 LEs         ; 4 LEs                ; 0 LEs                  ; No         ; |mem_cpu|arrozYlecheCPU:cpu|datapathDraft:datapath|shifter:shifterUnit|ShiftRight0                                  ;
+; 4:1                ; 2 bits    ; 4 LEs         ; 4 LEs                ; 0 LEs                  ; No         ; |mem_cpu|arrozYlecheCPU:cpu|datapathDraft:datapath|shifter:shifterUnit|ShiftLeft0                                   ;
 ; 4:1                ; 18 bits   ; 36 LEs        ; 36 LEs               ; 0 LEs                  ; No         ; |mem_cpu|arrozYlecheCPU:cpu|datapathDraft:datapath|shifter:shifterUnit|ShiftLeft0                                   ;
+; 4:1                ; 2 bits    ; 4 LEs         ; 4 LEs                ; 0 LEs                  ; No         ; |mem_cpu|arrozYlecheCPU:cpu|datapathDraft:datapath|shifter:shifterUnit|ShiftRight1                                  ;
 ; 4:1                ; 2 bits    ; 4 LEs         ; 4 LEs                ; 0 LEs                  ; No         ; |mem_cpu|arrozYlecheCPU:cpu|datapathDraft:datapath|shifter:shifterUnit|ShiftLeft1                                   ;
-; 4:1                ; 2 bits    ; 4 LEs         ; 4 LEs                ; 0 LEs                  ; No         ; |mem_cpu|arrozYlecheCPU:cpu|datapathDraft:datapath|shifter:shifterUnit|ShiftLeft1                                   ;
-; 4:1                ; 18 bits   ; 36 LEs        ; 36 LEs               ; 0 LEs                  ; No         ; |mem_cpu|arrozYlecheCPU:cpu|datapathDraft:datapath|shifter:shifterUnit|ShiftRight1                                  ;
-; 3:1                ; 16 bits   ; 32 LEs        ; 32 LEs               ; 0 LEs                  ; No         ; |mem_cpu|arrozYlecheCPU:cpu|datapathDraft:datapath|pcALU:pc_ALU|pcOut[4]                                            ;
-; 3:1                ; 4 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; No         ; |mem_cpu|arrozYlecheCPU:cpu|controlFSM:ctrlFSM|shifterControl[3]                                                    ;
+; 4:1                ; 18 bits   ; 36 LEs        ; 36 LEs               ; 0 LEs                  ; No         ; |mem_cpu|arrozYlecheCPU:cpu|datapathDraft:datapath|shifter:shifterUnit|ShiftLeft1                                   ;
+; 3:1                ; 4 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; No         ; |mem_cpu|arrozYlecheCPU:cpu|controlFSM:ctrlFSM|shifterControl[0]                                                    ;
 ; 3:1                ; 2 bits    ; 4 LEs         ; 4 LEs                ; 0 LEs                  ; No         ; |mem_cpu|arrozYlecheCPU:cpu|controlFSM:ctrlFSM|Selector8                                                            ;
-; 17:1               ; 16 bits   ; 176 LEs       ; 176 LEs              ; 0 LEs                  ; No         ; |mem_cpu|arrozYlecheCPU:cpu|datapathDraft:datapath|RegisterFile:regFile|rd2[0]                                      ;
-; 17:1               ; 16 bits   ; 176 LEs       ; 176 LEs              ; 0 LEs                  ; No         ; |mem_cpu|arrozYlecheCPU:cpu|datapathDraft:datapath|RegisterFile:regFile|rd1[13]                                     ;
-; 8:1                ; 16 bits   ; 80 LEs        ; 80 LEs               ; 0 LEs                  ; No         ; |mem_cpu|EXRAM:mem|altsyncram:altsyncram_component|altsyncram_2is2:auto_generated|mux_chb:mux4|l3_w4_n0_mux_dataout ;
+; 4:1                ; 16 bits   ; 32 LEs        ; 32 LEs               ; 0 LEs                  ; No         ; |mem_cpu|arrozYlecheCPU:cpu|datapathDraft:datapath|pcALU:pc_ALU|pcOut[3]                                            ;
+; 17:1               ; 16 bits   ; 176 LEs       ; 176 LEs              ; 0 LEs                  ; No         ; |mem_cpu|arrozYlecheCPU:cpu|datapathDraft:datapath|RegisterFile:regFile|rd2[1]                                      ;
+; 8:1                ; 16 bits   ; 80 LEs        ; 80 LEs               ; 0 LEs                  ; No         ; |mem_cpu|EXRAM:mem|altsyncram:altsyncram_component|altsyncram_2is2:auto_generated|mux_chb:mux4|l3_w3_n0_mux_dataout ;
+; 17:1               ; 16 bits   ; 176 LEs       ; 176 LEs              ; 0 LEs                  ; No         ; |mem_cpu|arrozYlecheCPU:cpu|datapathDraft:datapath|RegisterFile:regFile|rd1[10]                                     ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+---------------------------------------------------------------------------------------------------------------------+
 
 
@@ -880,11 +806,12 @@ Note: In order to hide this table in the UI and the text report file, please set
 
 +-----------------------------------------------------------------------------------------------------+
 ; Parameter Settings for User Entity Instance: arrozYlecheCPU:cpu|datapathDraft:datapath|pcALU:pc_ALU ;
-+----------------+-------+----------------------------------------------------------------------------+
-; Parameter Name ; Value ; Type                                                                       ;
-+----------------+-------+----------------------------------------------------------------------------+
-; WIDTH          ; 16    ; Signed Integer                                                             ;
-+----------------+-------+----------------------------------------------------------------------------+
++-------------------+------------------+--------------------------------------------------------------+
+; Parameter Name    ; Value            ; Type                                                         ;
++-------------------+------------------+--------------------------------------------------------------+
+; WIDTH             ; 16               ; Signed Integer                                               ;
+; INTERRUPT_CONTROL ; 0101111111111111 ; Unsigned Binary                                              ;
++-------------------+------------------+--------------------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
@@ -920,6 +847,50 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+----------------------------------------------------------------------------+
 ; WIDTH          ; 16    ; Signed Integer                                                             ;
 +----------------+-------+----------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: flopenr:segf1 ;
++----------------+------------------+------------------------+
+; Parameter Name ; Value            ; Type                   ;
++----------------+------------------+------------------------+
+; WIDTH          ; 4                ; Signed Integer         ;
+; DEFAULT        ; 0000000000000000 ; Unsigned Binary        ;
++----------------+------------------+------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: flopenr:segf2 ;
++----------------+------------------+------------------------+
+; Parameter Name ; Value            ; Type                   ;
++----------------+------------------+------------------------+
+; WIDTH          ; 4                ; Signed Integer         ;
+; DEFAULT        ; 0000000000000000 ; Unsigned Binary        ;
++----------------+------------------+------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: flopenr:segf3 ;
++----------------+------------------+------------------------+
+; Parameter Name ; Value            ; Type                   ;
++----------------+------------------+------------------------+
+; WIDTH          ; 4                ; Signed Integer         ;
+; DEFAULT        ; 0000000000000000 ; Unsigned Binary        ;
++----------------+------------------+------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: flopenr:segf4 ;
++----------------+------------------+------------------------+
+; Parameter Name ; Value            ; Type                   ;
++----------------+------------------+------------------------+
+; WIDTH          ; 4                ; Signed Integer         ;
+; DEFAULT        ; 0000000000000000 ; Unsigned Binary        ;
++----------------+------------------+------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
@@ -1009,6 +980,46 @@ Note: In order to hide this table in the UI and the text report file, please set
 +-------------------------------------------+-------------------------------------------+
 
 
++-------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "hexTo7Seg_3710:segUnit4"                                                                                             ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                                                              ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------------------+
+; z    ; Output ; Warning  ; Output or bidir port (7 bits) is wider than the port expression (1 bits) it drives; bit(s) "z[6..1]" have no fanouts ;
+; z    ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed.                                  ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "hexTo7Seg_3710:segUnit3"                                                                                             ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                                                              ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------------------+
+; z    ; Output ; Warning  ; Output or bidir port (7 bits) is wider than the port expression (1 bits) it drives; bit(s) "z[6..1]" have no fanouts ;
+; z    ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed.                                  ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "hexTo7Seg_3710:segUnit2"                                                                                             ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                                                              ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------------------+
+; z    ; Output ; Warning  ; Output or bidir port (7 bits) is wider than the port expression (1 bits) it drives; bit(s) "z[6..1]" have no fanouts ;
+; z    ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed.                                  ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "hexTo7Seg_3710:segUnit1"                                                                                             ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                                                              ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------------------+
+; z    ; Output ; Warning  ; Output or bidir port (7 bits) is wider than the port expression (1 bits) it drives; bit(s) "z[6..1]" have no fanouts ;
+; z    ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed.                                  ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------------------+
+
+
 +-------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 ; Port Connectivity Checks: "arrozYlecheCPU:cpu|datapathDraft:datapath|mux2:rDestMux"                                                                                     ;
 +------+--------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
@@ -1030,13 +1041,15 @@ Note: In order to hide this table in the UI and the text report file, please set
 +-----------+-------+----------+----------------------------------------------------+
 
 
-+---------------------------------------------+
-; Port Connectivity Checks: "EXRAM:mem"       ;
-+-----------+-------+----------+--------------+
-; Port      ; Type  ; Severity ; Details      ;
-+-----------+-------+----------+--------------+
-; address_b ; Input ; Info     ; Stuck at GND ;
-+-----------+-------+----------+--------------+
++---------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "EXRAM:mem"                                                                               ;
++-----------+--------+----------+-------------------------------------------------------------------------------------+
+; Port      ; Type   ; Severity ; Details                                                                             ;
++-----------+--------+----------+-------------------------------------------------------------------------------------+
+; address_b ; Input  ; Info     ; Stuck at GND                                                                        ;
+; data_b    ; Input  ; Info     ; Stuck at GND                                                                        ;
+; q_b       ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++-----------+--------+----------+-------------------------------------------------------------------------------------+
 
 
 +-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -1054,32 +1067,32 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; Type                  ; Count                       ;
 +-----------------------+-----------------------------+
 ; arriav_ff             ; 346                         ;
-;     ENA               ; 73                          ;
-;     ENA SCLR          ; 241                         ;
+;     ENA               ; 48                          ;
+;     ENA SCLR          ; 269                         ;
 ;     SCLR              ; 1                           ;
-;     plain             ; 31                          ;
-; arriav_lcell_comb     ; 888                         ;
-;     arith             ; 47                          ;
+;     plain             ; 28                          ;
+; arriav_lcell_comb     ; 804                         ;
+;     arith             ; 48                          ;
+;         0 data inputs ; 1                           ;
 ;         4 data inputs ; 31                          ;
 ;         5 data inputs ; 16                          ;
-;     extend            ; 1                           ;
-;         7 data inputs ; 1                           ;
-;     normal            ; 824                         ;
+;     extend            ; 3                           ;
+;         7 data inputs ; 3                           ;
+;     normal            ; 737                         ;
 ;         0 data inputs ; 1                           ;
-;         1 data inputs ; 12                          ;
-;         2 data inputs ; 74                          ;
-;         3 data inputs ; 71                          ;
-;         4 data inputs ; 149                         ;
-;         5 data inputs ; 122                         ;
-;         6 data inputs ; 395                         ;
+;         2 data inputs ; 48                          ;
+;         3 data inputs ; 67                          ;
+;         4 data inputs ; 109                         ;
+;         5 data inputs ; 86                          ;
+;         6 data inputs ; 426                         ;
 ;     shared            ; 16                          ;
 ;         2 data inputs ; 8                           ;
 ;         4 data inputs ; 8                           ;
-; boundary_port         ; 138                         ;
+; boundary_port         ; 3                           ;
 ; stratixv_ram_block    ; 128                         ;
 ;                       ;                             ;
 ; Max LUT depth         ; 10.00                       ;
-; Average LUT depth     ; 6.74                        ;
+; Average LUT depth     ; 7.01                        ;
 +-----------------------+-----------------------------+
 
 
@@ -1092,127 +1105,127 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------------+
 
 
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Connections to In-System Debugging Instance "auto_signaltap_0"                                                                                                     ;
-+----------------------+---------------+-----------+--------------------------------+-------------------+--------------------------------------------------+---------+
-; Name                 ; Type          ; Status    ; Partition Name                 ; Netlist Type Used ; Actual Connection                                ; Details ;
-+----------------------+---------------+-----------+--------------------------------+-------------------+--------------------------------------------------+---------+
-; clk                  ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; clk                                              ; N/A     ;
-; reset                ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; reset                                            ; N/A     ;
-; reset                ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; reset                                            ; N/A     ;
-; seg0[0]              ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; hexTo7Seg_3710:segUnit1|WideOr6~0                ; N/A     ;
-; seg0[0]              ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; hexTo7Seg_3710:segUnit1|WideOr6~0                ; N/A     ;
-; seg0[1]              ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; hexTo7Seg_3710:segUnit1|WideOr5~0                ; N/A     ;
-; seg0[1]              ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; hexTo7Seg_3710:segUnit1|WideOr5~0                ; N/A     ;
-; seg0[2]              ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; hexTo7Seg_3710:segUnit1|WideOr4~0                ; N/A     ;
-; seg0[2]              ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; hexTo7Seg_3710:segUnit1|WideOr4~0                ; N/A     ;
-; seg0[3]              ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; hexTo7Seg_3710:segUnit1|WideOr3~0                ; N/A     ;
-; seg0[3]              ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; hexTo7Seg_3710:segUnit1|WideOr3~0                ; N/A     ;
-; seg0[4]              ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; hexTo7Seg_3710:segUnit1|WideOr2~0                ; N/A     ;
-; seg0[4]              ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; hexTo7Seg_3710:segUnit1|WideOr2~0                ; N/A     ;
-; seg0[5]              ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; hexTo7Seg_3710:segUnit1|WideOr1~0                ; N/A     ;
-; seg0[5]              ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; hexTo7Seg_3710:segUnit1|WideOr1~0                ; N/A     ;
-; seg0[6]              ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; hexTo7Seg_3710:segUnit1|WideOr0~0_wirecell       ; N/A     ;
-; seg0[6]              ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; hexTo7Seg_3710:segUnit1|WideOr0~0_wirecell       ; N/A     ;
-; seg1[0]              ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; hexTo7Seg_3710:segUnit2|WideOr6~0                ; N/A     ;
-; seg1[0]              ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; hexTo7Seg_3710:segUnit2|WideOr6~0                ; N/A     ;
-; seg1[1]              ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; hexTo7Seg_3710:segUnit2|WideOr5~0                ; N/A     ;
-; seg1[1]              ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; hexTo7Seg_3710:segUnit2|WideOr5~0                ; N/A     ;
-; seg1[2]              ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; hexTo7Seg_3710:segUnit2|WideOr4~0                ; N/A     ;
-; seg1[2]              ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; hexTo7Seg_3710:segUnit2|WideOr4~0                ; N/A     ;
-; seg1[3]              ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; hexTo7Seg_3710:segUnit2|WideOr3~0                ; N/A     ;
-; seg1[3]              ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; hexTo7Seg_3710:segUnit2|WideOr3~0                ; N/A     ;
-; seg1[4]              ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; hexTo7Seg_3710:segUnit2|WideOr2~0                ; N/A     ;
-; seg1[4]              ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; hexTo7Seg_3710:segUnit2|WideOr2~0                ; N/A     ;
-; seg1[5]              ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; hexTo7Seg_3710:segUnit2|WideOr1~0                ; N/A     ;
-; seg1[5]              ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; hexTo7Seg_3710:segUnit2|WideOr1~0                ; N/A     ;
-; seg1[6]              ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; hexTo7Seg_3710:segUnit2|WideOr0~0_wirecell       ; N/A     ;
-; seg1[6]              ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; hexTo7Seg_3710:segUnit2|WideOr0~0_wirecell       ; N/A     ;
-; seg2[0]              ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; hexTo7Seg_3710:segUnit3|WideOr6~0                ; N/A     ;
-; seg2[0]              ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; hexTo7Seg_3710:segUnit3|WideOr6~0                ; N/A     ;
-; seg2[1]              ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; hexTo7Seg_3710:segUnit3|WideOr5~0                ; N/A     ;
-; seg2[1]              ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; hexTo7Seg_3710:segUnit3|WideOr5~0                ; N/A     ;
-; seg2[2]              ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; hexTo7Seg_3710:segUnit3|WideOr4~0                ; N/A     ;
-; seg2[2]              ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; hexTo7Seg_3710:segUnit3|WideOr4~0                ; N/A     ;
-; seg2[3]              ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; hexTo7Seg_3710:segUnit3|WideOr3~0                ; N/A     ;
-; seg2[3]              ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; hexTo7Seg_3710:segUnit3|WideOr3~0                ; N/A     ;
-; seg2[4]              ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; hexTo7Seg_3710:segUnit3|WideOr2~0                ; N/A     ;
-; seg2[4]              ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; hexTo7Seg_3710:segUnit3|WideOr2~0                ; N/A     ;
-; seg2[5]              ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; hexTo7Seg_3710:segUnit3|WideOr1~0                ; N/A     ;
-; seg2[5]              ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; hexTo7Seg_3710:segUnit3|WideOr1~0                ; N/A     ;
-; seg2[6]              ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; hexTo7Seg_3710:segUnit3|WideOr0~0_wirecell       ; N/A     ;
-; seg2[6]              ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; hexTo7Seg_3710:segUnit3|WideOr0~0_wirecell       ; N/A     ;
-; seg3[0]              ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; hexTo7Seg_3710:segUnit4|WideOr6~0                ; N/A     ;
-; seg3[0]              ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; hexTo7Seg_3710:segUnit4|WideOr6~0                ; N/A     ;
-; seg3[1]              ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; hexTo7Seg_3710:segUnit4|WideOr5~0                ; N/A     ;
-; seg3[1]              ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; hexTo7Seg_3710:segUnit4|WideOr5~0                ; N/A     ;
-; seg3[2]              ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; hexTo7Seg_3710:segUnit4|WideOr4~0                ; N/A     ;
-; seg3[2]              ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; hexTo7Seg_3710:segUnit4|WideOr4~0                ; N/A     ;
-; seg3[3]              ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; hexTo7Seg_3710:segUnit4|WideOr3~0                ; N/A     ;
-; seg3[3]              ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; hexTo7Seg_3710:segUnit4|WideOr3~0                ; N/A     ;
-; seg3[4]              ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; hexTo7Seg_3710:segUnit4|WideOr2~0                ; N/A     ;
-; seg3[4]              ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; hexTo7Seg_3710:segUnit4|WideOr2~0                ; N/A     ;
-; seg3[5]              ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; hexTo7Seg_3710:segUnit4|WideOr1~0                ; N/A     ;
-; seg3[5]              ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; hexTo7Seg_3710:segUnit4|WideOr1~0                ; N/A     ;
-; seg3[6]              ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; hexTo7Seg_3710:segUnit4|WideOr0~0_wirecell       ; N/A     ;
-; seg3[6]              ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; hexTo7Seg_3710:segUnit4|WideOr0~0_wirecell       ; N/A     ;
-; switches[0]          ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; switches[0]                                      ; N/A     ;
-; switches[0]          ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; switches[0]                                      ; N/A     ;
-; switches[1]          ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; switches[1]                                      ; N/A     ;
-; switches[1]          ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; switches[1]                                      ; N/A     ;
-; switches[2]          ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; switches[2]                                      ; N/A     ;
-; switches[2]          ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; switches[2]                                      ; N/A     ;
-; switches[3]          ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; switches[3]                                      ; N/A     ;
-; switches[3]          ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; switches[3]                                      ; N/A     ;
-; switches[4]          ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; switches[4]                                      ; N/A     ;
-; switches[4]          ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; switches[4]                                      ; N/A     ;
-; switches[5]          ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; switches[5]                                      ; N/A     ;
-; switches[5]          ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; switches[5]                                      ; N/A     ;
-; switches[6]          ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; switches[6]                                      ; N/A     ;
-; switches[6]          ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; switches[6]                                      ; N/A     ;
-; switches[7]          ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; switches[7]                                      ; N/A     ;
-; switches[7]          ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; switches[7]                                      ; N/A     ;
-; wren_a               ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; arrozYlecheCPU:cpu|controlFSM:ctrlFSM|state.SBWR ; N/A     ;
-; wren_a               ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; arrozYlecheCPU:cpu|controlFSM:ctrlFSM|state.SBWR ; N/A     ;
-; wren_b               ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; ~GND                                             ; N/A     ;
-; wren_b               ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; ~GND                                             ; N/A     ;
-; writeEN_A            ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; writeEN_A~5                                      ; N/A     ;
-; writeEN_A            ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; writeEN_A~5                                      ; N/A     ;
-; writeEN_B            ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; GND                                              ; N/A     ;
-; writeEN_B            ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; GND                                              ; N/A     ;
-; auto_signaltap_0|gnd ; post-fitting  ; connected ; sld_signaltap:auto_signaltap_0 ; post-synthesis    ; sld_signaltap:auto_signaltap_0|~GND              ; N/A     ;
-; auto_signaltap_0|gnd ; post-fitting  ; connected ; sld_signaltap:auto_signaltap_0 ; post-synthesis    ; sld_signaltap:auto_signaltap_0|~GND              ; N/A     ;
-; auto_signaltap_0|gnd ; post-fitting  ; connected ; sld_signaltap:auto_signaltap_0 ; post-synthesis    ; sld_signaltap:auto_signaltap_0|~GND              ; N/A     ;
-; auto_signaltap_0|gnd ; post-fitting  ; connected ; sld_signaltap:auto_signaltap_0 ; post-synthesis    ; sld_signaltap:auto_signaltap_0|~GND              ; N/A     ;
-; auto_signaltap_0|gnd ; post-fitting  ; connected ; sld_signaltap:auto_signaltap_0 ; post-synthesis    ; sld_signaltap:auto_signaltap_0|~GND              ; N/A     ;
-; auto_signaltap_0|gnd ; post-fitting  ; connected ; sld_signaltap:auto_signaltap_0 ; post-synthesis    ; sld_signaltap:auto_signaltap_0|~GND              ; N/A     ;
-; auto_signaltap_0|gnd ; post-fitting  ; connected ; sld_signaltap:auto_signaltap_0 ; post-synthesis    ; sld_signaltap:auto_signaltap_0|~GND              ; N/A     ;
-; auto_signaltap_0|gnd ; post-fitting  ; connected ; sld_signaltap:auto_signaltap_0 ; post-synthesis    ; sld_signaltap:auto_signaltap_0|~GND              ; N/A     ;
-; auto_signaltap_0|gnd ; post-fitting  ; connected ; sld_signaltap:auto_signaltap_0 ; post-synthesis    ; sld_signaltap:auto_signaltap_0|~GND              ; N/A     ;
-; auto_signaltap_0|gnd ; post-fitting  ; connected ; sld_signaltap:auto_signaltap_0 ; post-synthesis    ; sld_signaltap:auto_signaltap_0|~GND              ; N/A     ;
-; auto_signaltap_0|gnd ; post-fitting  ; connected ; sld_signaltap:auto_signaltap_0 ; post-synthesis    ; sld_signaltap:auto_signaltap_0|~GND              ; N/A     ;
-; auto_signaltap_0|gnd ; post-fitting  ; connected ; sld_signaltap:auto_signaltap_0 ; post-synthesis    ; sld_signaltap:auto_signaltap_0|~GND              ; N/A     ;
-; auto_signaltap_0|gnd ; post-fitting  ; connected ; sld_signaltap:auto_signaltap_0 ; post-synthesis    ; sld_signaltap:auto_signaltap_0|~GND              ; N/A     ;
-; auto_signaltap_0|gnd ; post-fitting  ; connected ; sld_signaltap:auto_signaltap_0 ; post-synthesis    ; sld_signaltap:auto_signaltap_0|~GND              ; N/A     ;
-; auto_signaltap_0|gnd ; post-fitting  ; connected ; sld_signaltap:auto_signaltap_0 ; post-synthesis    ; sld_signaltap:auto_signaltap_0|~GND              ; N/A     ;
-; auto_signaltap_0|gnd ; post-fitting  ; connected ; sld_signaltap:auto_signaltap_0 ; post-synthesis    ; sld_signaltap:auto_signaltap_0|~GND              ; N/A     ;
-; auto_signaltap_0|gnd ; post-fitting  ; connected ; sld_signaltap:auto_signaltap_0 ; post-synthesis    ; sld_signaltap:auto_signaltap_0|~GND              ; N/A     ;
-; auto_signaltap_0|gnd ; post-fitting  ; connected ; sld_signaltap:auto_signaltap_0 ; post-synthesis    ; sld_signaltap:auto_signaltap_0|~GND              ; N/A     ;
-; auto_signaltap_0|gnd ; post-fitting  ; connected ; sld_signaltap:auto_signaltap_0 ; post-synthesis    ; sld_signaltap:auto_signaltap_0|~GND              ; N/A     ;
-; auto_signaltap_0|vcc ; post-fitting  ; connected ; sld_signaltap:auto_signaltap_0 ; post-synthesis    ; sld_signaltap:auto_signaltap_0|~VCC              ; N/A     ;
-; auto_signaltap_0|vcc ; post-fitting  ; connected ; sld_signaltap:auto_signaltap_0 ; post-synthesis    ; sld_signaltap:auto_signaltap_0|~VCC              ; N/A     ;
-; auto_signaltap_0|vcc ; post-fitting  ; connected ; sld_signaltap:auto_signaltap_0 ; post-synthesis    ; sld_signaltap:auto_signaltap_0|~VCC              ; N/A     ;
-; auto_signaltap_0|vcc ; post-fitting  ; connected ; sld_signaltap:auto_signaltap_0 ; post-synthesis    ; sld_signaltap:auto_signaltap_0|~VCC              ; N/A     ;
-; auto_signaltap_0|vcc ; post-fitting  ; connected ; sld_signaltap:auto_signaltap_0 ; post-synthesis    ; sld_signaltap:auto_signaltap_0|~VCC              ; N/A     ;
-; auto_signaltap_0|vcc ; post-fitting  ; connected ; sld_signaltap:auto_signaltap_0 ; post-synthesis    ; sld_signaltap:auto_signaltap_0|~VCC              ; N/A     ;
-; auto_signaltap_0|vcc ; post-fitting  ; connected ; sld_signaltap:auto_signaltap_0 ; post-synthesis    ; sld_signaltap:auto_signaltap_0|~VCC              ; N/A     ;
-; auto_signaltap_0|vcc ; post-fitting  ; connected ; sld_signaltap:auto_signaltap_0 ; post-synthesis    ; sld_signaltap:auto_signaltap_0|~VCC              ; N/A     ;
-; auto_signaltap_0|vcc ; post-fitting  ; connected ; sld_signaltap:auto_signaltap_0 ; post-synthesis    ; sld_signaltap:auto_signaltap_0|~VCC              ; N/A     ;
-; auto_signaltap_0|vcc ; post-fitting  ; connected ; sld_signaltap:auto_signaltap_0 ; post-synthesis    ; sld_signaltap:auto_signaltap_0|~VCC              ; N/A     ;
-; auto_signaltap_0|vcc ; post-fitting  ; connected ; sld_signaltap:auto_signaltap_0 ; post-synthesis    ; sld_signaltap:auto_signaltap_0|~VCC              ; N/A     ;
-; auto_signaltap_0|vcc ; post-fitting  ; connected ; sld_signaltap:auto_signaltap_0 ; post-synthesis    ; sld_signaltap:auto_signaltap_0|~VCC              ; N/A     ;
-; auto_signaltap_0|vcc ; post-fitting  ; connected ; sld_signaltap:auto_signaltap_0 ; post-synthesis    ; sld_signaltap:auto_signaltap_0|~VCC              ; N/A     ;
-+----------------------+---------------+-----------+--------------------------------+-------------------+--------------------------------------------------+---------+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Connections to In-System Debugging Instance "auto_signaltap_0"                                                                                                                                                                                                                                               ;
++----------------------+---------------+-----------+--------------------------------+-------------------+-------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Name                 ; Type          ; Status    ; Partition Name                 ; Netlist Type Used ; Actual Connection                   ; Details                                                                                                                                                        ;
++----------------------+---------------+-----------+--------------------------------+-------------------+-------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; clk                  ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; clk                                 ; N/A                                                                                                                                                            ;
+; reset                ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; reset                               ; N/A                                                                                                                                                            ;
+; reset                ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; reset                               ; N/A                                                                                                                                                            ;
+; seg0[0]              ; pre-synthesis ; missing   ; Top                            ; post-synthesis    ; GND                                 ; The name does not exist in your design or refers to an invalid hierarchy or bus element.  You may have modified your design after creating the debug instance. ;
+; seg0[0]              ; pre-synthesis ; missing   ; Top                            ; post-synthesis    ; GND                                 ; The name does not exist in your design or refers to an invalid hierarchy or bus element.  You may have modified your design after creating the debug instance. ;
+; seg0[1]              ; pre-synthesis ; missing   ; Top                            ; post-synthesis    ; GND                                 ; The name does not exist in your design or refers to an invalid hierarchy or bus element.  You may have modified your design after creating the debug instance. ;
+; seg0[1]              ; pre-synthesis ; missing   ; Top                            ; post-synthesis    ; GND                                 ; The name does not exist in your design or refers to an invalid hierarchy or bus element.  You may have modified your design after creating the debug instance. ;
+; seg0[2]              ; pre-synthesis ; missing   ; Top                            ; post-synthesis    ; GND                                 ; The name does not exist in your design or refers to an invalid hierarchy or bus element.  You may have modified your design after creating the debug instance. ;
+; seg0[2]              ; pre-synthesis ; missing   ; Top                            ; post-synthesis    ; GND                                 ; The name does not exist in your design or refers to an invalid hierarchy or bus element.  You may have modified your design after creating the debug instance. ;
+; seg0[3]              ; pre-synthesis ; missing   ; Top                            ; post-synthesis    ; GND                                 ; The name does not exist in your design or refers to an invalid hierarchy or bus element.  You may have modified your design after creating the debug instance. ;
+; seg0[3]              ; pre-synthesis ; missing   ; Top                            ; post-synthesis    ; GND                                 ; The name does not exist in your design or refers to an invalid hierarchy or bus element.  You may have modified your design after creating the debug instance. ;
+; seg0[4]              ; pre-synthesis ; missing   ; Top                            ; post-synthesis    ; GND                                 ; The name does not exist in your design or refers to an invalid hierarchy or bus element.  You may have modified your design after creating the debug instance. ;
+; seg0[4]              ; pre-synthesis ; missing   ; Top                            ; post-synthesis    ; GND                                 ; The name does not exist in your design or refers to an invalid hierarchy or bus element.  You may have modified your design after creating the debug instance. ;
+; seg0[5]              ; pre-synthesis ; missing   ; Top                            ; post-synthesis    ; GND                                 ; The name does not exist in your design or refers to an invalid hierarchy or bus element.  You may have modified your design after creating the debug instance. ;
+; seg0[5]              ; pre-synthesis ; missing   ; Top                            ; post-synthesis    ; GND                                 ; The name does not exist in your design or refers to an invalid hierarchy or bus element.  You may have modified your design after creating the debug instance. ;
+; seg0[6]              ; pre-synthesis ; missing   ; Top                            ; post-synthesis    ; GND                                 ; The name does not exist in your design or refers to an invalid hierarchy or bus element.  You may have modified your design after creating the debug instance. ;
+; seg0[6]              ; pre-synthesis ; missing   ; Top                            ; post-synthesis    ; GND                                 ; The name does not exist in your design or refers to an invalid hierarchy or bus element.  You may have modified your design after creating the debug instance. ;
+; seg1[0]              ; pre-synthesis ; missing   ; Top                            ; post-synthesis    ; GND                                 ; The name does not exist in your design or refers to an invalid hierarchy or bus element.  You may have modified your design after creating the debug instance. ;
+; seg1[0]              ; pre-synthesis ; missing   ; Top                            ; post-synthesis    ; GND                                 ; The name does not exist in your design or refers to an invalid hierarchy or bus element.  You may have modified your design after creating the debug instance. ;
+; seg1[1]              ; pre-synthesis ; missing   ; Top                            ; post-synthesis    ; GND                                 ; The name does not exist in your design or refers to an invalid hierarchy or bus element.  You may have modified your design after creating the debug instance. ;
+; seg1[1]              ; pre-synthesis ; missing   ; Top                            ; post-synthesis    ; GND                                 ; The name does not exist in your design or refers to an invalid hierarchy or bus element.  You may have modified your design after creating the debug instance. ;
+; seg1[2]              ; pre-synthesis ; missing   ; Top                            ; post-synthesis    ; GND                                 ; The name does not exist in your design or refers to an invalid hierarchy or bus element.  You may have modified your design after creating the debug instance. ;
+; seg1[2]              ; pre-synthesis ; missing   ; Top                            ; post-synthesis    ; GND                                 ; The name does not exist in your design or refers to an invalid hierarchy or bus element.  You may have modified your design after creating the debug instance. ;
+; seg1[3]              ; pre-synthesis ; missing   ; Top                            ; post-synthesis    ; GND                                 ; The name does not exist in your design or refers to an invalid hierarchy or bus element.  You may have modified your design after creating the debug instance. ;
+; seg1[3]              ; pre-synthesis ; missing   ; Top                            ; post-synthesis    ; GND                                 ; The name does not exist in your design or refers to an invalid hierarchy or bus element.  You may have modified your design after creating the debug instance. ;
+; seg1[4]              ; pre-synthesis ; missing   ; Top                            ; post-synthesis    ; GND                                 ; The name does not exist in your design or refers to an invalid hierarchy or bus element.  You may have modified your design after creating the debug instance. ;
+; seg1[4]              ; pre-synthesis ; missing   ; Top                            ; post-synthesis    ; GND                                 ; The name does not exist in your design or refers to an invalid hierarchy or bus element.  You may have modified your design after creating the debug instance. ;
+; seg1[5]              ; pre-synthesis ; missing   ; Top                            ; post-synthesis    ; GND                                 ; The name does not exist in your design or refers to an invalid hierarchy or bus element.  You may have modified your design after creating the debug instance. ;
+; seg1[5]              ; pre-synthesis ; missing   ; Top                            ; post-synthesis    ; GND                                 ; The name does not exist in your design or refers to an invalid hierarchy or bus element.  You may have modified your design after creating the debug instance. ;
+; seg1[6]              ; pre-synthesis ; missing   ; Top                            ; post-synthesis    ; GND                                 ; The name does not exist in your design or refers to an invalid hierarchy or bus element.  You may have modified your design after creating the debug instance. ;
+; seg1[6]              ; pre-synthesis ; missing   ; Top                            ; post-synthesis    ; GND                                 ; The name does not exist in your design or refers to an invalid hierarchy or bus element.  You may have modified your design after creating the debug instance. ;
+; seg2[0]              ; pre-synthesis ; missing   ; Top                            ; post-synthesis    ; GND                                 ; The name does not exist in your design or refers to an invalid hierarchy or bus element.  You may have modified your design after creating the debug instance. ;
+; seg2[0]              ; pre-synthesis ; missing   ; Top                            ; post-synthesis    ; GND                                 ; The name does not exist in your design or refers to an invalid hierarchy or bus element.  You may have modified your design after creating the debug instance. ;
+; seg2[1]              ; pre-synthesis ; missing   ; Top                            ; post-synthesis    ; GND                                 ; The name does not exist in your design or refers to an invalid hierarchy or bus element.  You may have modified your design after creating the debug instance. ;
+; seg2[1]              ; pre-synthesis ; missing   ; Top                            ; post-synthesis    ; GND                                 ; The name does not exist in your design or refers to an invalid hierarchy or bus element.  You may have modified your design after creating the debug instance. ;
+; seg2[2]              ; pre-synthesis ; missing   ; Top                            ; post-synthesis    ; GND                                 ; The name does not exist in your design or refers to an invalid hierarchy or bus element.  You may have modified your design after creating the debug instance. ;
+; seg2[2]              ; pre-synthesis ; missing   ; Top                            ; post-synthesis    ; GND                                 ; The name does not exist in your design or refers to an invalid hierarchy or bus element.  You may have modified your design after creating the debug instance. ;
+; seg2[3]              ; pre-synthesis ; missing   ; Top                            ; post-synthesis    ; GND                                 ; The name does not exist in your design or refers to an invalid hierarchy or bus element.  You may have modified your design after creating the debug instance. ;
+; seg2[3]              ; pre-synthesis ; missing   ; Top                            ; post-synthesis    ; GND                                 ; The name does not exist in your design or refers to an invalid hierarchy or bus element.  You may have modified your design after creating the debug instance. ;
+; seg2[4]              ; pre-synthesis ; missing   ; Top                            ; post-synthesis    ; GND                                 ; The name does not exist in your design or refers to an invalid hierarchy or bus element.  You may have modified your design after creating the debug instance. ;
+; seg2[4]              ; pre-synthesis ; missing   ; Top                            ; post-synthesis    ; GND                                 ; The name does not exist in your design or refers to an invalid hierarchy or bus element.  You may have modified your design after creating the debug instance. ;
+; seg2[5]              ; pre-synthesis ; missing   ; Top                            ; post-synthesis    ; GND                                 ; The name does not exist in your design or refers to an invalid hierarchy or bus element.  You may have modified your design after creating the debug instance. ;
+; seg2[5]              ; pre-synthesis ; missing   ; Top                            ; post-synthesis    ; GND                                 ; The name does not exist in your design or refers to an invalid hierarchy or bus element.  You may have modified your design after creating the debug instance. ;
+; seg2[6]              ; pre-synthesis ; missing   ; Top                            ; post-synthesis    ; GND                                 ; The name does not exist in your design or refers to an invalid hierarchy or bus element.  You may have modified your design after creating the debug instance. ;
+; seg2[6]              ; pre-synthesis ; missing   ; Top                            ; post-synthesis    ; GND                                 ; The name does not exist in your design or refers to an invalid hierarchy or bus element.  You may have modified your design after creating the debug instance. ;
+; seg3[0]              ; pre-synthesis ; missing   ; Top                            ; post-synthesis    ; GND                                 ; The name does not exist in your design or refers to an invalid hierarchy or bus element.  You may have modified your design after creating the debug instance. ;
+; seg3[0]              ; pre-synthesis ; missing   ; Top                            ; post-synthesis    ; GND                                 ; The name does not exist in your design or refers to an invalid hierarchy or bus element.  You may have modified your design after creating the debug instance. ;
+; seg3[1]              ; pre-synthesis ; missing   ; Top                            ; post-synthesis    ; GND                                 ; The name does not exist in your design or refers to an invalid hierarchy or bus element.  You may have modified your design after creating the debug instance. ;
+; seg3[1]              ; pre-synthesis ; missing   ; Top                            ; post-synthesis    ; GND                                 ; The name does not exist in your design or refers to an invalid hierarchy or bus element.  You may have modified your design after creating the debug instance. ;
+; seg3[2]              ; pre-synthesis ; missing   ; Top                            ; post-synthesis    ; GND                                 ; The name does not exist in your design or refers to an invalid hierarchy or bus element.  You may have modified your design after creating the debug instance. ;
+; seg3[2]              ; pre-synthesis ; missing   ; Top                            ; post-synthesis    ; GND                                 ; The name does not exist in your design or refers to an invalid hierarchy or bus element.  You may have modified your design after creating the debug instance. ;
+; seg3[3]              ; pre-synthesis ; missing   ; Top                            ; post-synthesis    ; GND                                 ; The name does not exist in your design or refers to an invalid hierarchy or bus element.  You may have modified your design after creating the debug instance. ;
+; seg3[3]              ; pre-synthesis ; missing   ; Top                            ; post-synthesis    ; GND                                 ; The name does not exist in your design or refers to an invalid hierarchy or bus element.  You may have modified your design after creating the debug instance. ;
+; seg3[4]              ; pre-synthesis ; missing   ; Top                            ; post-synthesis    ; GND                                 ; The name does not exist in your design or refers to an invalid hierarchy or bus element.  You may have modified your design after creating the debug instance. ;
+; seg3[4]              ; pre-synthesis ; missing   ; Top                            ; post-synthesis    ; GND                                 ; The name does not exist in your design or refers to an invalid hierarchy or bus element.  You may have modified your design after creating the debug instance. ;
+; seg3[5]              ; pre-synthesis ; missing   ; Top                            ; post-synthesis    ; GND                                 ; The name does not exist in your design or refers to an invalid hierarchy or bus element.  You may have modified your design after creating the debug instance. ;
+; seg3[5]              ; pre-synthesis ; missing   ; Top                            ; post-synthesis    ; GND                                 ; The name does not exist in your design or refers to an invalid hierarchy or bus element.  You may have modified your design after creating the debug instance. ;
+; seg3[6]              ; pre-synthesis ; missing   ; Top                            ; post-synthesis    ; GND                                 ; The name does not exist in your design or refers to an invalid hierarchy or bus element.  You may have modified your design after creating the debug instance. ;
+; seg3[6]              ; pre-synthesis ; missing   ; Top                            ; post-synthesis    ; GND                                 ; The name does not exist in your design or refers to an invalid hierarchy or bus element.  You may have modified your design after creating the debug instance. ;
+; switches[0]          ; pre-synthesis ; missing   ; Top                            ; post-synthesis    ; GND                                 ; The name does not exist in your design or refers to an invalid hierarchy or bus element.  You may have modified your design after creating the debug instance. ;
+; switches[0]          ; pre-synthesis ; missing   ; Top                            ; post-synthesis    ; GND                                 ; The name does not exist in your design or refers to an invalid hierarchy or bus element.  You may have modified your design after creating the debug instance. ;
+; switches[1]          ; pre-synthesis ; missing   ; Top                            ; post-synthesis    ; GND                                 ; The name does not exist in your design or refers to an invalid hierarchy or bus element.  You may have modified your design after creating the debug instance. ;
+; switches[1]          ; pre-synthesis ; missing   ; Top                            ; post-synthesis    ; GND                                 ; The name does not exist in your design or refers to an invalid hierarchy or bus element.  You may have modified your design after creating the debug instance. ;
+; switches[2]          ; pre-synthesis ; missing   ; Top                            ; post-synthesis    ; GND                                 ; The name does not exist in your design or refers to an invalid hierarchy or bus element.  You may have modified your design after creating the debug instance. ;
+; switches[2]          ; pre-synthesis ; missing   ; Top                            ; post-synthesis    ; GND                                 ; The name does not exist in your design or refers to an invalid hierarchy or bus element.  You may have modified your design after creating the debug instance. ;
+; switches[3]          ; pre-synthesis ; missing   ; Top                            ; post-synthesis    ; GND                                 ; The name does not exist in your design or refers to an invalid hierarchy or bus element.  You may have modified your design after creating the debug instance. ;
+; switches[3]          ; pre-synthesis ; missing   ; Top                            ; post-synthesis    ; GND                                 ; The name does not exist in your design or refers to an invalid hierarchy or bus element.  You may have modified your design after creating the debug instance. ;
+; switches[4]          ; pre-synthesis ; missing   ; Top                            ; post-synthesis    ; GND                                 ; The name does not exist in your design or refers to an invalid hierarchy or bus element.  You may have modified your design after creating the debug instance. ;
+; switches[4]          ; pre-synthesis ; missing   ; Top                            ; post-synthesis    ; GND                                 ; The name does not exist in your design or refers to an invalid hierarchy or bus element.  You may have modified your design after creating the debug instance. ;
+; switches[5]          ; pre-synthesis ; missing   ; Top                            ; post-synthesis    ; GND                                 ; The name does not exist in your design or refers to an invalid hierarchy or bus element.  You may have modified your design after creating the debug instance. ;
+; switches[5]          ; pre-synthesis ; missing   ; Top                            ; post-synthesis    ; GND                                 ; The name does not exist in your design or refers to an invalid hierarchy or bus element.  You may have modified your design after creating the debug instance. ;
+; switches[6]          ; pre-synthesis ; missing   ; Top                            ; post-synthesis    ; GND                                 ; The name does not exist in your design or refers to an invalid hierarchy or bus element.  You may have modified your design after creating the debug instance. ;
+; switches[6]          ; pre-synthesis ; missing   ; Top                            ; post-synthesis    ; GND                                 ; The name does not exist in your design or refers to an invalid hierarchy or bus element.  You may have modified your design after creating the debug instance. ;
+; switches[7]          ; pre-synthesis ; missing   ; Top                            ; post-synthesis    ; GND                                 ; The name does not exist in your design or refers to an invalid hierarchy or bus element.  You may have modified your design after creating the debug instance. ;
+; switches[7]          ; pre-synthesis ; missing   ; Top                            ; post-synthesis    ; GND                                 ; The name does not exist in your design or refers to an invalid hierarchy or bus element.  You may have modified your design after creating the debug instance. ;
+; wren_a               ; pre-synthesis ; missing   ; Top                            ; post-synthesis    ; GND                                 ; The name does not exist in your design or refers to an invalid hierarchy or bus element.  You may have modified your design after creating the debug instance. ;
+; wren_a               ; pre-synthesis ; missing   ; Top                            ; post-synthesis    ; GND                                 ; The name does not exist in your design or refers to an invalid hierarchy or bus element.  You may have modified your design after creating the debug instance. ;
+; wren_b               ; pre-synthesis ; missing   ; Top                            ; post-synthesis    ; GND                                 ; The name does not exist in your design or refers to an invalid hierarchy or bus element.  You may have modified your design after creating the debug instance. ;
+; wren_b               ; pre-synthesis ; missing   ; Top                            ; post-synthesis    ; GND                                 ; The name does not exist in your design or refers to an invalid hierarchy or bus element.  You may have modified your design after creating the debug instance. ;
+; writeEN_A            ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; writeEN_A~7                         ; N/A                                                                                                                                                            ;
+; writeEN_A            ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; writeEN_A~7                         ; N/A                                                                                                                                                            ;
+; writeEN_B            ; pre-synthesis ; missing   ; Top                            ; post-synthesis    ; GND                                 ; The name does not exist in your design or refers to an invalid hierarchy or bus element.  You may have modified your design after creating the debug instance. ;
+; writeEN_B            ; pre-synthesis ; missing   ; Top                            ; post-synthesis    ; GND                                 ; The name does not exist in your design or refers to an invalid hierarchy or bus element.  You may have modified your design after creating the debug instance. ;
+; auto_signaltap_0|gnd ; post-fitting  ; connected ; sld_signaltap:auto_signaltap_0 ; post-synthesis    ; sld_signaltap:auto_signaltap_0|~GND ; N/A                                                                                                                                                            ;
+; auto_signaltap_0|gnd ; post-fitting  ; connected ; sld_signaltap:auto_signaltap_0 ; post-synthesis    ; sld_signaltap:auto_signaltap_0|~GND ; N/A                                                                                                                                                            ;
+; auto_signaltap_0|gnd ; post-fitting  ; connected ; sld_signaltap:auto_signaltap_0 ; post-synthesis    ; sld_signaltap:auto_signaltap_0|~GND ; N/A                                                                                                                                                            ;
+; auto_signaltap_0|gnd ; post-fitting  ; connected ; sld_signaltap:auto_signaltap_0 ; post-synthesis    ; sld_signaltap:auto_signaltap_0|~GND ; N/A                                                                                                                                                            ;
+; auto_signaltap_0|gnd ; post-fitting  ; connected ; sld_signaltap:auto_signaltap_0 ; post-synthesis    ; sld_signaltap:auto_signaltap_0|~GND ; N/A                                                                                                                                                            ;
+; auto_signaltap_0|gnd ; post-fitting  ; connected ; sld_signaltap:auto_signaltap_0 ; post-synthesis    ; sld_signaltap:auto_signaltap_0|~GND ; N/A                                                                                                                                                            ;
+; auto_signaltap_0|gnd ; post-fitting  ; connected ; sld_signaltap:auto_signaltap_0 ; post-synthesis    ; sld_signaltap:auto_signaltap_0|~GND ; N/A                                                                                                                                                            ;
+; auto_signaltap_0|gnd ; post-fitting  ; connected ; sld_signaltap:auto_signaltap_0 ; post-synthesis    ; sld_signaltap:auto_signaltap_0|~GND ; N/A                                                                                                                                                            ;
+; auto_signaltap_0|gnd ; post-fitting  ; connected ; sld_signaltap:auto_signaltap_0 ; post-synthesis    ; sld_signaltap:auto_signaltap_0|~GND ; N/A                                                                                                                                                            ;
+; auto_signaltap_0|gnd ; post-fitting  ; connected ; sld_signaltap:auto_signaltap_0 ; post-synthesis    ; sld_signaltap:auto_signaltap_0|~GND ; N/A                                                                                                                                                            ;
+; auto_signaltap_0|gnd ; post-fitting  ; connected ; sld_signaltap:auto_signaltap_0 ; post-synthesis    ; sld_signaltap:auto_signaltap_0|~GND ; N/A                                                                                                                                                            ;
+; auto_signaltap_0|gnd ; post-fitting  ; connected ; sld_signaltap:auto_signaltap_0 ; post-synthesis    ; sld_signaltap:auto_signaltap_0|~GND ; N/A                                                                                                                                                            ;
+; auto_signaltap_0|gnd ; post-fitting  ; connected ; sld_signaltap:auto_signaltap_0 ; post-synthesis    ; sld_signaltap:auto_signaltap_0|~GND ; N/A                                                                                                                                                            ;
+; auto_signaltap_0|gnd ; post-fitting  ; connected ; sld_signaltap:auto_signaltap_0 ; post-synthesis    ; sld_signaltap:auto_signaltap_0|~GND ; N/A                                                                                                                                                            ;
+; auto_signaltap_0|gnd ; post-fitting  ; connected ; sld_signaltap:auto_signaltap_0 ; post-synthesis    ; sld_signaltap:auto_signaltap_0|~GND ; N/A                                                                                                                                                            ;
+; auto_signaltap_0|gnd ; post-fitting  ; connected ; sld_signaltap:auto_signaltap_0 ; post-synthesis    ; sld_signaltap:auto_signaltap_0|~GND ; N/A                                                                                                                                                            ;
+; auto_signaltap_0|gnd ; post-fitting  ; connected ; sld_signaltap:auto_signaltap_0 ; post-synthesis    ; sld_signaltap:auto_signaltap_0|~GND ; N/A                                                                                                                                                            ;
+; auto_signaltap_0|gnd ; post-fitting  ; connected ; sld_signaltap:auto_signaltap_0 ; post-synthesis    ; sld_signaltap:auto_signaltap_0|~GND ; N/A                                                                                                                                                            ;
+; auto_signaltap_0|gnd ; post-fitting  ; connected ; sld_signaltap:auto_signaltap_0 ; post-synthesis    ; sld_signaltap:auto_signaltap_0|~GND ; N/A                                                                                                                                                            ;
+; auto_signaltap_0|vcc ; post-fitting  ; connected ; sld_signaltap:auto_signaltap_0 ; post-synthesis    ; sld_signaltap:auto_signaltap_0|~VCC ; N/A                                                                                                                                                            ;
+; auto_signaltap_0|vcc ; post-fitting  ; connected ; sld_signaltap:auto_signaltap_0 ; post-synthesis    ; sld_signaltap:auto_signaltap_0|~VCC ; N/A                                                                                                                                                            ;
+; auto_signaltap_0|vcc ; post-fitting  ; connected ; sld_signaltap:auto_signaltap_0 ; post-synthesis    ; sld_signaltap:auto_signaltap_0|~VCC ; N/A                                                                                                                                                            ;
+; auto_signaltap_0|vcc ; post-fitting  ; connected ; sld_signaltap:auto_signaltap_0 ; post-synthesis    ; sld_signaltap:auto_signaltap_0|~VCC ; N/A                                                                                                                                                            ;
+; auto_signaltap_0|vcc ; post-fitting  ; connected ; sld_signaltap:auto_signaltap_0 ; post-synthesis    ; sld_signaltap:auto_signaltap_0|~VCC ; N/A                                                                                                                                                            ;
+; auto_signaltap_0|vcc ; post-fitting  ; connected ; sld_signaltap:auto_signaltap_0 ; post-synthesis    ; sld_signaltap:auto_signaltap_0|~VCC ; N/A                                                                                                                                                            ;
+; auto_signaltap_0|vcc ; post-fitting  ; connected ; sld_signaltap:auto_signaltap_0 ; post-synthesis    ; sld_signaltap:auto_signaltap_0|~VCC ; N/A                                                                                                                                                            ;
+; auto_signaltap_0|vcc ; post-fitting  ; connected ; sld_signaltap:auto_signaltap_0 ; post-synthesis    ; sld_signaltap:auto_signaltap_0|~VCC ; N/A                                                                                                                                                            ;
+; auto_signaltap_0|vcc ; post-fitting  ; connected ; sld_signaltap:auto_signaltap_0 ; post-synthesis    ; sld_signaltap:auto_signaltap_0|~VCC ; N/A                                                                                                                                                            ;
+; auto_signaltap_0|vcc ; post-fitting  ; connected ; sld_signaltap:auto_signaltap_0 ; post-synthesis    ; sld_signaltap:auto_signaltap_0|~VCC ; N/A                                                                                                                                                            ;
+; auto_signaltap_0|vcc ; post-fitting  ; connected ; sld_signaltap:auto_signaltap_0 ; post-synthesis    ; sld_signaltap:auto_signaltap_0|~VCC ; N/A                                                                                                                                                            ;
+; auto_signaltap_0|vcc ; post-fitting  ; connected ; sld_signaltap:auto_signaltap_0 ; post-synthesis    ; sld_signaltap:auto_signaltap_0|~VCC ; N/A                                                                                                                                                            ;
+; auto_signaltap_0|vcc ; post-fitting  ; connected ; sld_signaltap:auto_signaltap_0 ; post-synthesis    ; sld_signaltap:auto_signaltap_0|~VCC ; N/A                                                                                                                                                            ;
++----------------------+---------------+-----------+--------------------------------+-------------------+-------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
 +-------------------------------+
@@ -1221,7 +1234,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Tue Nov 22 21:09:51 2022
+    Info: Processing started: Sun Nov 27 21:00:18 2022
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off CheckPoint3 -c CheckPoint3
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 14 of the 14 processors detected
@@ -1262,26 +1275,13 @@ Info (12021): Found 1 design units, including 1 entities, in source file /users/
     Info (12023): Found entity 1: datapathDraft File: C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/datapathDraft.v Line: 5
 Info (12021): Found 1 design units, including 1 entities, in source file /users/18019/documents/uofu/fall2022/cs3710/16bitcpu/sixteenbitcomputer/checkpoint2/datapath_memory.v
     Info (12023): Found entity 1: Datapath_Memory File: C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/Datapath_Memory.v Line: 1
+Warning (10236): Verilog HDL Implicit Net warning at mem_cpu.v(49): created implicit net for "seg0" File: C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint3/mem_cpu.v Line: 49
+Warning (10236): Verilog HDL Implicit Net warning at mem_cpu.v(53): created implicit net for "seg1" File: C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint3/mem_cpu.v Line: 53
+Warning (10236): Verilog HDL Implicit Net warning at mem_cpu.v(57): created implicit net for "seg2" File: C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint3/mem_cpu.v Line: 57
+Warning (10236): Verilog HDL Implicit Net warning at mem_cpu.v(61): created implicit net for "seg3" File: C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint3/mem_cpu.v Line: 61
 Info (12127): Elaborating entity "mem_cpu" for the top level hierarchy
-Warning (10036): Verilog HDL or VHDL warning at mem_cpu.v(14): object "memOut_B" assigned a value but never read File: C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint3/mem_cpu.v Line: 14
-Warning (10036): Verilog HDL or VHDL warning at mem_cpu.v(15): object "segValue" assigned a value but never read File: C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint3/mem_cpu.v Line: 15
-Info (10041): Inferred latch for "segCode0[0]" at mem_cpu.v(123) File: C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint3/mem_cpu.v Line: 123
-Info (10041): Inferred latch for "segCode0[1]" at mem_cpu.v(123) File: C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint3/mem_cpu.v Line: 123
-Info (10041): Inferred latch for "segCode0[2]" at mem_cpu.v(123) File: C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint3/mem_cpu.v Line: 123
-Info (10041): Inferred latch for "segCode0[3]" at mem_cpu.v(123) File: C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint3/mem_cpu.v Line: 123
-Info (10041): Inferred latch for "segCode1[0]" at mem_cpu.v(122) File: C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint3/mem_cpu.v Line: 122
-Info (10041): Inferred latch for "segCode1[1]" at mem_cpu.v(122) File: C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint3/mem_cpu.v Line: 122
-Info (10041): Inferred latch for "segCode1[2]" at mem_cpu.v(122) File: C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint3/mem_cpu.v Line: 122
-Info (10041): Inferred latch for "segCode1[3]" at mem_cpu.v(122) File: C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint3/mem_cpu.v Line: 122
-Info (10041): Inferred latch for "segCode2[0]" at mem_cpu.v(121) File: C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint3/mem_cpu.v Line: 121
-Info (10041): Inferred latch for "segCode2[1]" at mem_cpu.v(121) File: C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint3/mem_cpu.v Line: 121
-Info (10041): Inferred latch for "segCode2[2]" at mem_cpu.v(121) File: C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint3/mem_cpu.v Line: 121
-Info (10041): Inferred latch for "segCode2[3]" at mem_cpu.v(121) File: C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint3/mem_cpu.v Line: 121
-Info (10041): Inferred latch for "segCode3[0]" at mem_cpu.v(120) File: C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint3/mem_cpu.v Line: 120
-Info (10041): Inferred latch for "segCode3[1]" at mem_cpu.v(120) File: C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint3/mem_cpu.v Line: 120
-Info (10041): Inferred latch for "segCode3[2]" at mem_cpu.v(120) File: C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint3/mem_cpu.v Line: 120
-Info (10041): Inferred latch for "segCode3[3]" at mem_cpu.v(120) File: C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint3/mem_cpu.v Line: 120
-Info (12128): Elaborating entity "EXRAM" for hierarchy "EXRAM:mem" File: C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint3/mem_cpu.v Line: 38
+Warning (10036): Verilog HDL or VHDL warning at mem_cpu.v(9): object "memOut_B" assigned a value but never read File: C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint3/mem_cpu.v Line: 9
+Info (12128): Elaborating entity "EXRAM" for hierarchy "EXRAM:mem" File: C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint3/mem_cpu.v Line: 33
 Info (12128): Elaborating entity "altsyncram" for hierarchy "EXRAM:mem|altsyncram:altsyncram_component" File: C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint3/EXRAM.v Line: 97
 Info (12130): Elaborated megafunction instantiation "EXRAM:mem|altsyncram:altsyncram_component" File: C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint3/EXRAM.v Line: 97
 Info (12133): Instantiated megafunction "EXRAM:mem|altsyncram:altsyncram_component" with the following parameter: File: C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint3/EXRAM.v Line: 97
@@ -1323,7 +1323,7 @@ Info (12128): Elaborating entity "decode_dla" for hierarchy "EXRAM:mem|altsyncra
 Info (12021): Found 1 design units, including 1 entities, in source file db/mux_chb.tdf
     Info (12023): Found entity 1: mux_chb File: C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint3/db/mux_chb.tdf Line: 22
 Info (12128): Elaborating entity "mux_chb" for hierarchy "EXRAM:mem|altsyncram:altsyncram_component|altsyncram_2is2:auto_generated|mux_chb:mux4" File: C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint3/db/altsyncram_2is2.tdf Line: 50
-Info (12128): Elaborating entity "arrozYlecheCPU" for hierarchy "arrozYlecheCPU:cpu" File: C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint3/mem_cpu.v Line: 49
+Info (12128): Elaborating entity "arrozYlecheCPU" for hierarchy "arrozYlecheCPU:cpu" File: C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint3/mem_cpu.v Line: 44
 Info (12128): Elaborating entity "controlFSM" for hierarchy "arrozYlecheCPU:cpu|controlFSM:ctrlFSM" File: C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint3/arrozYlecheCPU.v Line: 30
 Info (12128): Elaborating entity "datapathDraft" for hierarchy "arrozYlecheCPU:cpu|datapathDraft:datapath" File: C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint3/arrozYlecheCPU.v Line: 63
 Info (12128): Elaborating entity "flopenr" for hierarchy "arrozYlecheCPU:cpu|datapathDraft:datapath|flopenr:pcregUnit" File: C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/datapathDraft.v Line: 52
@@ -1332,7 +1332,7 @@ Info (12128): Elaborating entity "mux2" for hierarchy "arrozYlecheCPU:cpu|datapa
 Info (12128): Elaborating entity "mux4" for hierarchy "arrozYlecheCPU:cpu|datapathDraft:datapath|mux4:outputMUX" File: C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/datapathDraft.v Line: 75
 Info (12128): Elaborating entity "pcALU" for hierarchy "arrozYlecheCPU:cpu|datapathDraft:datapath|pcALU:pc_ALU" File: C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/datapathDraft.v Line: 84
 Warning (10230): Verilog HDL assignment warning at pcALU.v(38): truncated value with size 32 to match size of target (16) File: C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint1/pcALU.v Line: 38
-Warning (10230): Verilog HDL assignment warning at pcALU.v(39): truncated value with size 32 to match size of target (16) File: C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint1/pcALU.v Line: 39
+Warning (10230): Verilog HDL assignment warning at pcALU.v(40): truncated value with size 32 to match size of target (16) File: C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint1/pcALU.v Line: 40
 Info (12128): Elaborating entity "shifter" for hierarchy "arrozYlecheCPU:cpu|datapathDraft:datapath|shifter:shifterUnit" File: C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/datapathDraft.v Line: 87
 Info (12128): Elaborating entity "RegisterFile" for hierarchy "arrozYlecheCPU:cpu|datapathDraft:datapath|RegisterFile:regFile" File: C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/datapathDraft.v Line: 88
 Info (10648): Verilog HDL Display System Task info at RegisterFile.v(26): Loading register file File: C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint1/RegisterFile.v Line: 26
@@ -1340,7 +1340,9 @@ Info (10648): Verilog HDL Display System Task info at RegisterFile.v(32): done w
 Warning (10230): Verilog HDL assignment warning at RegisterFile.v(62): truncated value with size 32 to match size of target (16) File: C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint1/RegisterFile.v Line: 62
 Warning (10230): Verilog HDL assignment warning at RegisterFile.v(63): truncated value with size 32 to match size of target (16) File: C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint1/RegisterFile.v Line: 63
 Info (12128): Elaborating entity "ALU" for hierarchy "arrozYlecheCPU:cpu|datapathDraft:datapath|ALU:alu_unit" File: C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/datapathDraft.v Line: 89
-Info (12128): Elaborating entity "hexTo7Seg_3710" for hierarchy "hexTo7Seg_3710:segUnit1" File: C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint3/mem_cpu.v Line: 54
+Info (12128): Elaborating entity "hexTo7Seg_3710" for hierarchy "hexTo7Seg_3710:segUnit1" File: C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint3/mem_cpu.v Line: 49
+Info (12128): Elaborating entity "flopenr" for hierarchy "flopenr:segf1" File: C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint3/mem_cpu.v Line: 68
+Warning (10230): Verilog HDL assignment warning at flopenr.v(7): truncated value with size 16 to match size of target (4) File: C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint1/flopenr.v Line: 7
 Info (12021): Found 1 design units, including 1 entities, in source file db/sld_ela_trigger_flow_sel_qv31.tdf
     Info (12023): Found entity 1: sld_ela_trigger_flow_sel_qv31 File: C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint3/db/sld_ela_trigger_flow_sel_qv31.tdf Line: 24
 Info (12021): Found 1 design units, including 1 entities, in source file db/sld_reserved_checkpoint3_auto_signaltap_0_flow_mgr_c90c.v
@@ -1367,7 +1369,7 @@ Info (12021): Found 1 design units, including 1 entities, in source file db/cmpr
     Info (12023): Found entity 1: cmpr_99c File: C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint3/db/cmpr_99c.tdf Line: 22
 Info (12033): Analysis and Synthesis generated Signal Tap or debug node instance "auto_signaltap_0"
 Info (11170): Starting IP generation for the debug fabric: alt_sld_fab.
-Info (11172): 2022.11.22.21:10:03 Progress: Loading slda5f1d93f/alt_sld_fab_wrapper_hw.tcl
+Info (11172): 2022.11.27.21:00:30 Progress: Loading slda5f1d93f/alt_sld_fab_wrapper_hw.tcl
 Info (11172): Alt_sld_fab.alt_sld_fab: SLD fabric agents which did not specify prefer_host were connected to JTAG
 Info (11172): Alt_sld_fab: Generating alt_sld_fab "alt_sld_fab" for QUARTUS_SYNTH
 Info (11172): Alt_sld_fab: "alt_sld_fab" instantiated alt_sld_fab "alt_sld_fab"
@@ -1390,39 +1392,21 @@ Info (12021): Found 2 design units, including 1 entities, in source file db/ip/s
     Info (12023): Found entity 1: alt_sld_fab_alt_sld_fab_sldfabric File: C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint3/db/ip/slda5f1d93f/submodules/alt_sld_fab_alt_sld_fab_sldfabric.vhd Line: 11
 Info (12021): Found 1 design units, including 1 entities, in source file db/ip/slda5f1d93f/submodules/alt_sld_fab_alt_sld_fab_splitter.sv
     Info (12023): Found entity 1: alt_sld_fab_alt_sld_fab_splitter File: C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint3/db/ip/slda5f1d93f/submodules/alt_sld_fab_alt_sld_fab_splitter.sv Line: 3
-Warning (12241): 1 hierarchies have connectivity warnings - see the Connectivity Checks report folder
-Warning (13024): Output pins are stuck at VCC or GND
-    Warning (13410): Pin "wren_b" is stuck at GND File: C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint3/mem_cpu.v Line: 5
-    Warning (13410): Pin "address_b[0]" is stuck at GND File: C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint3/mem_cpu.v Line: 6
-    Warning (13410): Pin "address_b[1]" is stuck at GND File: C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint3/mem_cpu.v Line: 6
-    Warning (13410): Pin "address_b[2]" is stuck at GND File: C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint3/mem_cpu.v Line: 6
-    Warning (13410): Pin "address_b[3]" is stuck at GND File: C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint3/mem_cpu.v Line: 6
-    Warning (13410): Pin "address_b[4]" is stuck at GND File: C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint3/mem_cpu.v Line: 6
-    Warning (13410): Pin "address_b[5]" is stuck at GND File: C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint3/mem_cpu.v Line: 6
-    Warning (13410): Pin "address_b[6]" is stuck at GND File: C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint3/mem_cpu.v Line: 6
-    Warning (13410): Pin "address_b[7]" is stuck at GND File: C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint3/mem_cpu.v Line: 6
-    Warning (13410): Pin "address_b[8]" is stuck at GND File: C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint3/mem_cpu.v Line: 6
-    Warning (13410): Pin "address_b[9]" is stuck at GND File: C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint3/mem_cpu.v Line: 6
-    Warning (13410): Pin "address_b[10]" is stuck at GND File: C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint3/mem_cpu.v Line: 6
-    Warning (13410): Pin "address_b[11]" is stuck at GND File: C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint3/mem_cpu.v Line: 6
-    Warning (13410): Pin "address_b[12]" is stuck at GND File: C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint3/mem_cpu.v Line: 6
-    Warning (13410): Pin "address_b[13]" is stuck at GND File: C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint3/mem_cpu.v Line: 6
-    Warning (13410): Pin "address_b[14]" is stuck at GND File: C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint3/mem_cpu.v Line: 6
-    Warning (13410): Pin "address_b[15]" is stuck at GND File: C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint3/mem_cpu.v Line: 6
+Warning (12241): 5 hierarchies have connectivity warnings - see the Connectivity Checks report folder
 Info (286031): Timing-Driven Synthesis is running on partition "Top"
 Info (17049): 5 registers lost all their fanouts during netlist optimizations.
-Info (35024): Successfully connected in-system debug instance "auto_signaltap_0" to all 115 required data inputs, trigger inputs, acquisition clocks, and dynamic pins
+Critical Warning (35025): Partially connected in-system debug instance "auto_signaltap_0" to 37 of its 115 required data inputs, trigger inputs, acquisition clocks, and dynamic pins.  There were 0 illegal, 0 inaccessible, and 78 missing sources or connections.
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 9 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 2412 device resources after synthesis - the final resource count might be different
-    Info (21058): Implemented 29 input pins
-    Info (21059): Implemented 111 output pins
-    Info (21061): Implemented 2102 logic cells
+Info (21057): Implemented 2208 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 5 input pins
+    Info (21059): Implemented 1 output pins
+    Info (21061): Implemented 2032 logic cells
     Info (21064): Implemented 169 RAM segments
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 26 warnings
-    Info: Peak virtual memory: 4987 megabytes
-    Info: Processing ended: Tue Nov 22 21:10:11 2022
-    Info: Elapsed time: 00:00:20
-    Info: Total CPU time (on all processors): 00:00:35
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 13 warnings
+    Info: Peak virtual memory: 4962 megabytes
+    Info: Processing ended: Sun Nov 27 21:00:40 2022
+    Info: Elapsed time: 00:00:22
+    Info: Total CPU time (on all processors): 00:00:36
 
 

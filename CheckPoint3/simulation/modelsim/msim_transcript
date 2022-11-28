@@ -12,149 +12,149 @@
 # 
 # vlog -vlog01compat -work work +incdir+C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint3 {C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint3/hexTo7Seg_3710.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 21:10:25 on Nov 22,2022
+# Start time: 21:01:01 on Nov 27,2022
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint3" C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint3/hexTo7Seg_3710.v 
 # -- Compiling module hexTo7Seg_3710
 # 
 # Top level modules:
 # 	hexTo7Seg_3710
-# End time: 21:10:25 on Nov 22,2022, Elapsed time: 0:00:00
+# End time: 21:01:01 on Nov 27,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint3 {C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint3/EXRAM.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 21:10:25 on Nov 22,2022
+# Start time: 21:01:01 on Nov 27,2022
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint3" C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint3/EXRAM.v 
 # -- Compiling module EXRAM
 # 
 # Top level modules:
 # 	EXRAM
-# End time: 21:10:25 on Nov 22,2022, Elapsed time: 0:00:00
+# End time: 21:01:01 on Nov 27,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint3 {C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint3/mem_cpu.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 21:10:25 on Nov 22,2022
+# Start time: 21:01:01 on Nov 27,2022
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint3" C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint3/mem_cpu.v 
 # -- Compiling module mem_cpu
 # 
 # Top level modules:
 # 	mem_cpu
-# End time: 21:10:25 on Nov 22,2022, Elapsed time: 0:00:00
+# End time: 21:01:01 on Nov 27,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint3 {C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint3/arrozYlecheCPU.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 21:10:25 on Nov 22,2022
+# Start time: 21:01:01 on Nov 27,2022
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint3" C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint3/arrozYlecheCPU.v 
 # -- Compiling module arrozYlecheCPU
 # 
 # Top level modules:
 # 	arrozYlecheCPU
-# End time: 21:10:26 on Nov 22,2022, Elapsed time: 0:00:01
+# End time: 21:01:01 on Nov 27,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint3 {C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint3/controlFSM.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 21:10:26 on Nov 22,2022
+# Start time: 21:01:01 on Nov 27,2022
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint3" C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint3/controlFSM.v 
 # -- Compiling module controlFSM
 # 
 # Top level modules:
 # 	controlFSM
-# End time: 21:10:26 on Nov 22,2022, Elapsed time: 0:00:00
+# End time: 21:01:01 on Nov 27,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint1 {C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint1/shifter.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 21:10:26 on Nov 22,2022
+# Start time: 21:01:01 on Nov 27,2022
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint1" C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint1/shifter.v 
 # -- Compiling module shifter
 # 
 # Top level modules:
 # 	shifter
-# End time: 21:10:26 on Nov 22,2022, Elapsed time: 0:00:00
+# End time: 21:01:01 on Nov 27,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint1 {C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint1/flopenr.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 21:10:26 on Nov 22,2022
+# Start time: 21:01:02 on Nov 27,2022
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint1" C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint1/flopenr.v 
 # -- Compiling module flopenr
 # 
 # Top level modules:
 # 	flopenr
-# End time: 21:10:26 on Nov 22,2022, Elapsed time: 0:00:00
+# End time: 21:01:02 on Nov 27,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint1 {C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint1/pcALU.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 21:10:26 on Nov 22,2022
+# Start time: 21:01:02 on Nov 27,2022
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint1" C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint1/pcALU.v 
 # -- Compiling module pcALU
 # 
 # Top level modules:
 # 	pcALU
-# End time: 21:10:26 on Nov 22,2022, Elapsed time: 0:00:00
+# End time: 21:01:02 on Nov 27,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint1 {C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint1/mux4.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 21:10:26 on Nov 22,2022
+# Start time: 21:01:02 on Nov 27,2022
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint1" C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint1/mux4.v 
 # -- Compiling module mux4
 # 
 # Top level modules:
 # 	mux4
-# End time: 21:10:26 on Nov 22,2022, Elapsed time: 0:00:00
+# End time: 21:01:02 on Nov 27,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint1 {C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint1/mux2.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 21:10:26 on Nov 22,2022
+# Start time: 21:01:02 on Nov 27,2022
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint1" C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint1/mux2.v 
 # -- Compiling module mux2
 # 
 # Top level modules:
 # 	mux2
-# End time: 21:10:26 on Nov 22,2022, Elapsed time: 0:00:00
+# End time: 21:01:02 on Nov 27,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint1 {C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint1/ALU.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 21:10:26 on Nov 22,2022
+# Start time: 21:01:02 on Nov 27,2022
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint1" C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint1/ALU.v 
 # -- Compiling module ALU
 # 
 # Top level modules:
 # 	ALU
-# End time: 21:10:26 on Nov 22,2022, Elapsed time: 0:00:00
+# End time: 21:01:02 on Nov 27,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2 {C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/datapathDraft.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 21:10:26 on Nov 22,2022
+# Start time: 21:01:02 on Nov 27,2022
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2" C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/datapathDraft.v 
 # -- Compiling module datapathDraft
 # 
 # Top level modules:
 # 	datapathDraft
-# End time: 21:10:26 on Nov 22,2022, Elapsed time: 0:00:00
+# End time: 21:01:02 on Nov 27,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint1 {C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint1/RegisterFile.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 21:10:26 on Nov 22,2022
+# Start time: 21:01:02 on Nov 27,2022
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint1" C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint1/RegisterFile.v 
 # -- Compiling module RegisterFile
 # 
 # Top level modules:
 # 	RegisterFile
-# End time: 21:10:26 on Nov 22,2022, Elapsed time: 0:00:00
+# End time: 21:01:02 on Nov 27,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vlog -vlog01compat -work work +incdir+C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint3 {C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint3/tb_mem_cpu.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 21:10:26 on Nov 22,2022
+# Start time: 21:01:02 on Nov 27,2022
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint3" C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint3/tb_mem_cpu.v 
 # -- Compiling module tb_mem_cpu
 # 
 # Top level modules:
 # 	tb_mem_cpu
-# End time: 21:10:26 on Nov 22,2022, Elapsed time: 0:00:00
+# End time: 21:01:02 on Nov 27,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  tb_mem_cpu
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" tb_mem_cpu 
-# Start time: 21:10:26 on Nov 22,2022
+# Start time: 21:01:02 on Nov 27,2022
 # Loading work.tb_mem_cpu
 # Loading work.mem_cpu
 # Loading work.EXRAM
@@ -179,8 +179,28 @@
 #    Time: 0 ps  Iteration: 0  Instance: /tb_mem_cpu/UUT/cpu/datapath/rDestMux File: C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint1/mux2.v
 # ** Warning: (vsim-3015) C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint2/datapathDraft.v(69): [PCDPC] - Port size (16) does not match connection size (4) for port 'y'. The port definition is at: C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint1/mux2.v(4).
 #    Time: 0 ps  Iteration: 0  Instance: /tb_mem_cpu/UUT/cpu/datapath/rDestMux File: C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint1/mux2.v
+# ** Warning: (vsim-3015) C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint3/mem_cpu.v(46): [PCDPC] - Port size (7) does not match connection size (1) for port 'z'. The port definition is at: C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint3/hexTo7Seg_3710.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_mem_cpu/UUT/segUnit1 File: C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint3/hexTo7Seg_3710.v
+# ** Warning: (vsim-3015) C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint3/mem_cpu.v(50): [PCDPC] - Port size (7) does not match connection size (1) for port 'z'. The port definition is at: C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint3/hexTo7Seg_3710.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_mem_cpu/UUT/segUnit2 File: C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint3/hexTo7Seg_3710.v
+# ** Warning: (vsim-3015) C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint3/mem_cpu.v(54): [PCDPC] - Port size (7) does not match connection size (1) for port 'z'. The port definition is at: C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint3/hexTo7Seg_3710.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_mem_cpu/UUT/segUnit3 File: C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint3/hexTo7Seg_3710.v
+# ** Warning: (vsim-3015) C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint3/mem_cpu.v(58): [PCDPC] - Port size (7) does not match connection size (1) for port 'z'. The port definition is at: C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint3/hexTo7Seg_3710.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_mem_cpu/UUT/segUnit4 File: C:/Users/18019/Documents/UofU/FALL2022/CS3710/16bitCPU/sixteenBitComputer/CheckPoint3/hexTo7Seg_3710.v
+# Trace back: Error QStructure::sort: invalid command name ""
+#   <6:proc:11: ::QStructure::sort .main_pane.structure 0 ascending
+#   <5:eval:1: ::QStructure::structsort .main_pane.structure 0 ascending
+#   <4:eval:1: ::namespace inscope ::QStructure {structsort .main_pane.structure} 0 ascending
+#   >3:proc:26: ::.main_pane.structure.interior.cs.body.struct sort 0 ascending
+#   >2:proc:10: ::.main_pane.structure.interior.cs.body.struct _initializeSortColumn
+#   <1:eval:1: ::namespace inscope ::vsimwidgets::Hierarchy {::.main_pane.structure.interior.cs.body.struct _initializeSortColumn}
 # 
 # add wave *
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: 18019  Hostname: CRISLAPTOP  ProcessID: 26088
+#           Attempting to use alternate WLF file "./wlft155y38".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft155y38
 # view structure
 # .main_pane.structure.interior.cs.body.struct
 # view signals

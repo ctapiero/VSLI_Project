@@ -1,11 +1,11 @@
-Analysis & Synthesis Status : Successful - Tue Nov 22 21:10:11 2022
+Analysis & Synthesis Status : Successful - Sun Nov 27 21:00:40 2022
 Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 Revision Name : CheckPoint3
 Top-level Entity Name : mem_cpu
 Family : Cyclone V
 Logic utilization (in ALMs) : N/A
 Total registers : 1161
-Total pins : 136
+Total pins : 2
 Total virtual pins : 0
 Total block memory bits : 1,053,824
 Total DSP Blocks : 0

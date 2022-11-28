@@ -1,20 +1,15 @@
 module mem_cpu(
-	input clk, reset,
-	input [7:0] switches,
-	input [15:0] data_b, //?
-	output wren_a, wren_b,
-	output [15:0] address_a, address_b, data_a, q_a, q_b,
-	output [6:0] seg0, seg1, seg2, seg3 
+	input clk, reset
 );	
-	wire address_in_IO_A;//, wren_a, wren_b;
+	wire address_in_IO_A, wren_a, wren_b;
 	wire address_in_IO_B; 
-	//wire [15:0] address_a, address_b, data_a, q_a, q_b;
+	wire [15:0] address_a, address_b, data_a, q_a, q_b;
 
 	reg writeEN_A, writeEN_B;
 	wire [15:0] memOut_A, memOut_B;
-	reg [15:0] segValue = 16'h0000;
-	//reg [15:0] data_b = 16'b0;
-
+	// wire [15:0] segValue = 16'h0000;
+	reg [15:0] data_b = 16'b0;
+	
 	wire [3:0] segCode0, segCode1, segCode2, segCode3;
 // instantiate devices to be tested 
 // wire nonclk = ~clk;
@@ -65,19 +60,44 @@ module mem_cpu(
 		seg3
 	);
 
+     reg en;
+	 flopenr #(4)
+	 segf1
+                (clk, ~reset, en,
+                 data_a[3:0], 
+                 segCode0);
+
+	flopenr #(4)
+	 segf2
+                (clk, ~reset, en,
+                 data_a[7:4], 
+                 segCode1);
+
+	flopenr #(4)
+	 segf3
+                (clk, ~reset, en,
+                 data_a[11:8], 
+                 segCode2);
+
+	flopenr #(4)
+	 segf4
+                (clk, ~reset, en,
+                 data_a[15:12], 
+                 segCode3);			 
+
 	always @(*) begin
-		segValue <= {segCode3, segCode2, segCode1, segCode0};
+		en <= 0;
+		// segValue <= {segCode3, segCode2, segCode1, segCode0};
         if(address_in_IO_A) begin
             case(address_a)
                 SWITCHES_LOC:
                     begin
-                        writeEN_A <= 0;
+                        writeEN_A <= 0; // should this be 1 this is saying
                     end
                 LEDS_LOC:
                     begin
                         writeEN_A <= 0;
-						if(wren_a)
-							segValue <= data_a;
+						 en <= 1;
 	                end
                 default:
                     begin
@@ -98,8 +118,8 @@ module mem_cpu(
                 LEDS_LOC:
                     begin
                         writeEN_B <= 0;
-						if(wren_b)
-	                        segValue <= data_b;
+						// if(wren_b)
+	                        // segValue <= data_b;
                     end
                 default:
                     begin
@@ -110,16 +130,15 @@ module mem_cpu(
         else begin
             writeEN_B <= wren_b;
         end
-		if(~reset)
-			segValue <= 16'h0000;
+		// if(~reset)
+			// segValue <= 16'h0000;
+		
+
 	end
 
-	assign memOut_A = (address_in_IO_A) ? {{8{1'b0}},switches}: q_a;
-	assign memOut_B = (address_in_IO_B) ? {{8{1'b0}},switches}: q_b;
+	assign memOut_A = (address_in_IO_A) ? q_a: q_a;
+	assign memOut_B = (address_in_IO_B) ? q_b: q_b;
 	
-	assign segCode3 = (wren_a) ? data_a[15:12]: segCode3;
-	assign segCode2 = (wren_a) ? data_a[11:8]: segCode2;
-	assign segCode1 = (wren_a) ? data_a[7:4]: segCode1;
-	assign segCode0 = (wren_a) ? data_a[3:0]: segCode0;
+	
 
 endmodule

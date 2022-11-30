@@ -33,7 +33,7 @@ module datapathDraft #(parameter WIDTH = 16, REGBITS = 4, INSTRUCTION_MEM = 16'h
 	localparam RA = 4'hf;
 	
    wire [WIDTH-1:0] regData1, regData2;
-	wire [REGBITS -1:0] regAddress1, regAddress2, regDestination;
+	wire [REGBITS-1:0] regAddress1, regAddress2, regDestination;
    wire [WIDTH-1:0] aluResult1,aluResult2,aluResult,shiftOut;
    wire [WIDTH-1:0] src1, src2;
    wire [WIDTH-1:0] opOutput;
@@ -66,7 +66,7 @@ module datapathDraft #(parameter WIDTH = 16, REGBITS = 4, INSTRUCTION_MEM = 16'h
 	mux2 #(WIDTH) extend({{8{instr[7]}},instr[7:0]},{{8{1'b0}},instr[7:0]}, ZeroExtend, immediate);
 	 
 	// set Rdest
-	mux2 #(WIDTH) rDestMux(regAddress1, RA, regDest, regDestination);
+	mux2 #(4) rDestMux(regAddress1, RA, regDest, regDestination);
 	// set src1 and src2
 	mux2 #(WIDTH) src1Mux(regData1, pc, PCinstruction, src1);
 	mux2 #(WIDTH) src2mux(immediateRegVal, regData2, SrcB, src2);

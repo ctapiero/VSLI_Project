@@ -43447,3 +43447,8 @@ write_sdf -version 2.1 SDF/16bitcpu_mapped.sdf
 write_sdc -nosplit SDC/16bitcpu_mapped.sdc
 clean
 clr
+change_selection [get_s ctrlFSM]
+change_selection [get_s datapath/regFile]
+change_selection [get_s datapath/regFile]
+change_selection [get_s datapath/regFile]
+load_upf /tmp/qt_temp.441174

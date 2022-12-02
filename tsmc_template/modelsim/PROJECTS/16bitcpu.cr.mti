@@ -49,6 +49,13 @@ Top level modules:
 	pad_corner
 	pad_ana
 
+} {} {}} /home/u1367608/cs6710/16bitCPU/VSLI_Project/CheckPoint3/tb_arrozYleche.CPU.v {1 {vlog -work 16bitcpu -vopt -stats=none /home/u1367608/cs6710/16bitCPU/VSLI_Project/CheckPoint3/tb_arrozYleche.CPU.v
+QuestaSim-64 vlog 2019.4 Compiler 2019.10 Oct 15 2019
+-- Compiling module tb_arrozYlecheCPU
+
+Top level modules:
+	tb_arrozYlecheCPU
+
 } {} {}} /research/ece/lnis-teaching/Designkits/tsmc180nm/full_custom_lib/verilog/sclib_tsmc180.v {1 {vlog -work 16bitcpu -vopt -stats=none /research/ece/lnis-teaching/Designkits/tsmc180nm/full_custom_lib/verilog/sclib_tsmc180.v
 QuestaSim-64 vlog 2019.4 Compiler 2019.10 Oct 15 2019
 -- Compiling module AND2X1

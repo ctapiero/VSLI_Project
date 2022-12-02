@@ -1,0 +1,197 @@
+#######################################################
+#                                                     
+#  Innovus Command Logging File                     
+#  Created on Fri Dec  2 14:38:51 2022                
+#                                                     
+#######################################################
+
+#@(#)CDS: Innovus v20.15-s105_1 (64bit) 07/27/2021 14:15 (Linux 2.6.32-431.11.2.el6.x86_64)
+#@(#)CDS: NanoRoute 20.15-s105_1 NR210726-1341/20_15-UB (database version 18.20.554) {superthreading v2.14}
+#@(#)CDS: AAE 20.15-s020 (64bit) 07/27/2021 (Linux 2.6.32-431.11.2.el6.x86_64)
+#@(#)CDS: CTE 20.15-s024_1 () Jul 23 2021 04:46:45 ( )
+#@(#)CDS: SYNTECH 20.15-s012_1 () Jul 12 2021 23:29:38 ( )
+#@(#)CDS: CPE v20.15-s071
+#@(#)CDS: IQuantus/TQuantus 20.1.1-s460 (64bit) Fri Mar 5 18:46:16 PST 2021 (Linux 2.6.32-431.11.2.el6.x86_64)
+
+set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+suppressMessage ENCEXT-2799
+win
+set init_lef_file {/research/ece/lnis-teaching/Designkits/tsmc180nm/full_custom_lib/lef/tech.lef /research/ece/lnis-teaching/Designkits/tsmc180nm/full_custom_lib/lef/sclib_tsmc180.lef /research/ece/lnis-teaching/Designkits/tsmc180nm/full_custom_lib/lef/padlib_tsmc180.lef /research/ece/lnis-teaching/Designkits/tsmc180nm/arm_ip/rf2hs8x8/rf2hsm1wm1.vclef /research/ece/lnis-teaching/Designkits/tsmc180nm/arm_ip/rf2hs8x8/rf2hsm1wm1_ant.lef}
+set init_mmmc_file ../CONF/16bitcpu.view
+save_global CONF/16bitcpu_final.globals
+set init_gnd_net VSS
+set init_verilog ../design_compiler/HDL/GATE/16bitcpu_mapped.v
+set init_pwr_net VDD
+init_design
+set init_gnd_net VSS
+set init_verilog ../design_compiler/HDL/GATE/16bitcpu_mapped.v
+set init_pwr_net VDD
+init_design
+zoomBox -0.02150 -0.00800 0.06050 0.05950
+zoomBox -0.03050 -0.01150 0.06600 0.06800
+zoomBox -0.07950 -0.04400 0.13800 0.13500
+zoomBox -0.17300 -0.18100 0.40450 0.29450
+zoomBox -0.54150 -0.61450 1.26150 0.87000
+zoomBox -1.44650 -1.70800 4.18100 2.92550
+zoomBox -4.37100 -5.15800 13.18550 9.29800
+zoomBox -18.06850 -15.84700 28.48250 22.48300
+zoomBox -62.27750 -51.58650 82.93500 67.98150
+gui_select -rect {43.50650 6.43450 4.07800 -13.44000}
+zoomBox -174.37700 -122.32100 152.89600 147.15550
+zoomBox -473.76900 -327.66450 393.98500 386.84400
+fit
+setDrawView fplan
+zoomBox -84.91450 -42.10150 473.19750 417.44750
+zoomBox -169.29450 -103.55900 739.49800 644.74050
+zoomBox -207.88400 -131.88150 861.28400 748.47100
+zoomBox -366.56400 -256.45250 1374.39750 1177.05450
+zoomBox -439.13300 -313.42200 1609.05750 1373.05700
+selectObject Module ctrlFSM
+zoomBox -379.81400 -175.59200 878.03150 860.11750
+zoomBox -349.84450 -78.70350 306.75900 461.94350
+zoomBox -347.88800 -64.35400 210.22500 395.19600
+zoomBox -351.80150 -78.92100 304.80200 461.72600
+zoomBox -356.40600 -96.31450 416.06900 539.74100
+zoomBox -362.12350 -116.77750 546.67050 631.52300
+zoomBox -376.28450 -140.85150 692.88500 739.50200
+getIoFlowFlag
+setIoFlowFlag 0
+floorPlan -site core7T -r 1 0.7 20 20 20 20
+uiSetTool select
+getIoFlowFlag
+fit
+setPreference MinFPModuleSize 1
+zoomBox -77.89500 -33.66850 459.87000 409.12700
+fit
+fit
+zoomBox -105.54800 -53.53900 527.11700 467.39700
+zoomBox -138.08100 -76.70650 606.23100 536.15950
+zoomBox -332.03250 -218.13350 1093.83600 955.92600
+gui_select -rect {-102.25700 121.80850 108.63350 131.25150}
+deselectAll
+panPage -1 0
+panPage 1 0
+panPage 0 1
+panPage -1 0
+panPage 0 -1
+panPage 0 -1
+panPage 1 0
+panPage 0 1
+panPage -1 0
+panPage 0 -1
+zoomBox -646.47900 -501.41900 565.50950 496.53200
+zoomBox -550.96500 -440.41850 479.22550 407.84000
+zoomBox -351.76400 -274.56450 280.90250 246.37300
+zoomBox -183.53650 -143.72050 146.72000 128.21250
+zoomBox -81.33500 -64.23050 65.20200 56.42800
+zoomBox -37.60750 -29.50100 27.41250 24.03650
+zoomBox -95.20900 -75.25000 77.19100 66.70400
+zoomBox -289.63200 -227.08850 248.14900 215.72000
+zoomBox -890.86300 -692.61350 786.67800 688.67300
+zoomBox -2727.39600 -2121.02850 2505.48450 2187.72300
+zoomBox -1688.80350 -1318.68250 1524.83950 1327.42950
+zoomBox -1050.97800 -825.94150 922.60050 799.10200
+zoomBox -898.71200 -708.31150 778.83000 672.97600
+zoomBox -659.27400 -523.33750 552.75050 474.64300
+selectObject Module datapath
+deselectAll
+selectObject Module datapath
+panPage 1 0
+panPage 1 0
+panPage -1 0
+panPage -1 0
+deselectAll
+selectObject Module datapath
+deselectAll
+selectObject Module ctrlFSM
+deselectAll
+selectObject Module datapath
+deselectAll
+selectObject Module ctrlFSM
+deselectAll
+selectObject Module datapath
+setDrawView fplan
+setDrawView ameba
+setDrawView place
+setDrawView fplan
+setDrawView ameba
+setDrawView fplan
+gui_select -rect {-209.78150 84.01250 47.07150 73.31050}
+deselectAll
+selectObject Module datapath
+setDrawView place
+setDrawView fplan
+setDrawView fplan
+setDrawView ameba
+setDrawView place
+setDrawView fplan
+init_design
+deselectAll
+selectObject Module ctrlFSM
+deselectAll
+selectObject Module ctrlFSM
+zoomBox -566.46600 -372.61700 1411.08100 348.42400
+zoomBox -473.22600 -221.19350 741.23700 221.61650
+zoomBox -450.96700 -185.04450 581.32700 191.34400
+zoomBox -423.52550 -123.44000 322.30750 148.50100
+zoomBox -402.28250 -78.52650 136.58200 117.95100
+zoomBox -415.01750 -98.14000 218.94100 133.01000
+zoomBox -447.62600 -148.36200 429.82550 171.56900
+zoomBox -653.40350 -320.36600 1027.52000 292.52200
+zoomBox -1251.73350 -529.03650 1485.37150 468.95000
+zoomBox -1073.54050 -459.60550 1252.99850 388.68300
+gui_select -rect {70.39800 -70.71200 52.20450 -134.39050}
+deselectAll
+gui_select -rect {520.69600 -145.76150 -466.32050 340.92400}
+deselectAll
+zoomBox -861.35500 -394.79000 1116.20400 326.25550
+zoomBox -680.99700 -339.69650 999.92800 273.19200
+zoomBox -861.06500 -394.79000 1116.49400 326.25550
+zoomBox -1063.35850 -457.90000 1263.18200 390.38900
+zoomBox -2262.02950 -837.13250 2194.89200 787.92300
+zoomBox -1903.90750 -718.84750 1884.47600 662.44950
+zoomBox -1640.60950 -580.53250 1579.51650 593.57000
+zoomBox -1419.63950 -461.54850 1317.46850 536.43900
+zoomBox -1210.14250 -359.60950 1116.39950 488.68000
+zoomBox -1032.07000 -272.96100 945.49100 448.08500
+zoomBox -1202.97900 -354.83350 1123.56350 493.45600
+zoomBox -1396.82400 -444.73300 1340.28450 553.25500
+zoomBox -1624.87850 -550.49700 1595.25100 623.60700
+zoomBox -1893.17700 -674.92500 1895.21150 706.37400
+fit
+zoomBox -290.05400 14.82850 587.36650 334.74800
+zoomBox -245.92550 41.97400 499.88200 313.90600
+zoomBox -290.05450 14.82800 587.36700 334.74800
+zoomBox -397.21650 -53.00700 817.20800 389.78900
+zoomBox -638.14450 -205.91800 1339.34350 515.10150
+zoomBox -464.88250 -95.95300 963.85250 424.98350
+fit
+zoomBox -467.15250 -96.55800 961.58100 424.37800
+selectObject Module ctrlFSM
+gui_select -rect {-335.87100 31.93000 -349.83700 103.15750}
+deselectAll
+selectObject Module ctrlFSM
+deselectAll
+selectObject Module datapath
+deselectAll
+selectObject Module datapath
+deselectAll
+selectObject Module datapath
+deselectAll
+selectObject Module ctrlFSM
+set init_lef_file {/research/ece/lnis-teaching/Designkits/tsmc180nm/full_custom_lib/lef/tech.lef /research/ece/lnis-teaching/Designkits/tsmc180nm/full_custom_lib/lef/sclib_tsmc180.lef /research/ece/lnis-teaching/Designkits/tsmc180nm/full_custom_lib/lef/padlib_tsmc180.lef /research/ece/lnis-teaching/Designkits/tsmc180nm/arm_ip/rf2hs8x8/rf2hsm1wm1.vclef /research/ece/lnis-teaching/Designkits/tsmc180nm/arm_ip/rf2hs8x8/rf2hsm1wm1_ant.lef}
+set init_mmmc_file ../CONF/16bitcpu.view
+init_design
+deselectAll
+selectObject Module ctrlFSM
+deselectAll
+selectObject Module ctrlFSM
+deselectAll
+selectObject Module ctrlFSM
+deselectAll
+selectObject Module ctrlFSM
+deselectAll
+selectObject Module ctrlFSM
+deselectAll
+selectObject Module ctrlFSM
+getIoFlowFlag

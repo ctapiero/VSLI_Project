@@ -1,0 +1,356 @@
+#######################################################
+#                                                     
+#  Innovus Command Logging File                     
+#  Created on Sat Dec  3 13:23:34 2022                
+#                                                     
+#######################################################
+
+#@(#)CDS: Innovus v20.15-s105_1 (64bit) 07/27/2021 14:15 (Linux 2.6.32-431.11.2.el6.x86_64)
+#@(#)CDS: NanoRoute 20.15-s105_1 NR210726-1341/20_15-UB (database version 18.20.554) {superthreading v2.14}
+#@(#)CDS: AAE 20.15-s020 (64bit) 07/27/2021 (Linux 2.6.32-431.11.2.el6.x86_64)
+#@(#)CDS: CTE 20.15-s024_1 () Jul 23 2021 04:46:45 ( )
+#@(#)CDS: SYNTECH 20.15-s012_1 () Jul 12 2021 23:29:38 ( )
+#@(#)CDS: CPE v20.15-s071
+#@(#)CDS: IQuantus/TQuantus 20.1.1-s460 (64bit) Fri Mar 5 18:46:16 PST 2021 (Linux 2.6.32-431.11.2.el6.x86_64)
+
+set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+suppressMessage ENCEXT-2799
+win
+set init_lef_file {/research/ece/lnis-teaching/Designkits/tsmc180nm/full_custom_lib/lef/tech.lef /research/ece/lnis-teaching/Designkits/tsmc180nm/full_custom_lib/lef/sclib_tsmc180.lef /research/ece/lnis-teaching/Designkits/tsmc180nm/full_custom_lib/lef/padlib_tsmc180.lef /research/ece/lnis-teaching/Designkits/tsmc180nm/arm_ip/rf2hs8x8/rf2hsm1wm1.vclef /research/ece/lnis-teaching/Designkits/tsmc180nm/arm_ip/rf2hs8x8/rf2hsm1wm1_ant.lef}
+set init_mmmc_file innovus/CONF/16bitcpu.view
+set init_gnd_net VSS
+set init_verilog ../design_compiler/HDL/GATE/sixteenbitcpu_top_pads.v
+set init_pwr_net VDD
+init_design
+fit
+setDrawView fplan
+zoomBox -281.66150 -112.80800 2108.55750 1042.77600
+zoomBox -373.73300 -198.03100 2438.28950 1161.47950
+zoomBox -407.75050 -284.26850 2900.51100 1315.15550
+zoomBox -373.73300 -198.03100 2438.28950 1161.47950
+zoomBox -349.38350 -128.78750 2040.83550 1026.79650
+zoomBox -330.41100 -71.87100 1701.27500 910.37550
+zoomBox -314.28500 -23.49150 1412.64850 811.41800
+zoomBox -300.57750 17.63100 1167.31600 727.30400
+zoomBox -314.28500 -23.49150 1412.64850 811.41800
+zoomBox -330.41150 -71.87100 1701.27500 910.37550
+zoomBox -314.28500 -23.49150 1412.64850 811.41800
+zoomBox -330.41150 -71.87100 1701.27500 910.37550
+zoomBox -314.28500 -23.49150 1412.64850 811.41800
+zoomBox -349.38450 -128.78800 2040.83550 1026.79650
+zoomBox -330.41200 -71.87150 1701.27500 910.37550
+zoomBox -314.28600 -23.49200 1412.64850 811.41800
+zoomBox -300.57850 17.63050 1167.31600 727.30400
+zoomBox -314.28600 -23.49200 1412.64900 811.41800
+zoomBox -330.41250 -71.87200 1701.27600 910.37550
+getIoFlowFlag
+setIoFlowFlag 0
+floorPlan -site core7T -r 1 0.7 20 20 20 20
+uiSetTool select
+getIoFlowFlag
+fit
+zoomBox -762.19400 -99.42350 1402.98650 947.36250
+zoomBox -907.17300 -168.35150 1640.09850 1063.16150
+zoomBox -784.71100 -99.88300 1380.47000 946.90300
+zoomBox -707.76450 -41.68550 1132.63950 848.08300
+zoomBox -784.71100 -99.88350 1380.47000 946.90250
+setPreference MinFPModuleSize 1
+setDrawView ameba
+setDrawView fplan
+setDrawView ameba
+setDrawView place
+setDrawView place
+setDrawView fplan
+setDrawView ameba
+setDrawView ameba
+setDrawView fplan
+clearGlobalNets
+globalNetConnect VSS -type pgpin -pin VSS -instanceBasename * -hierarchicalInstance {}
+globalNetConnect VDD -type pgpin -pin VDD -instanceBasename * -hierarchicalInstance {}
+clearGlobalNets
+globalNetConnect VSS -type pgpin -pin VSS -instanceBasename * -hierarchicalInstance {}
+globalNetConnect VDD -type pgpin -pin VDD -instanceBasename * -hierarchicalInstance {}
+set sprCreateIeRingOffset 1.0
+set sprCreateIeRingThreshold 1.0
+set sprCreateIeRingJogDistance 1.0
+set sprCreateIeRingLayers {}
+set sprCreateIeRingOffset 1.0
+set sprCreateIeRingThreshold 1.0
+set sprCreateIeRingJogDistance 1.0
+set sprCreateIeRingLayers {}
+set sprCreateIeStripeWidth 10.0
+set sprCreateIeStripeThreshold 1.0
+set sprCreateIeStripeWidth 10.0
+set sprCreateIeStripeThreshold 1.0
+set sprCreateIeRingOffset 1.0
+set sprCreateIeRingThreshold 1.0
+set sprCreateIeRingJogDistance 1.0
+set sprCreateIeRingLayers {}
+set sprCreateIeStripeWidth 10.0
+set sprCreateIeStripeThreshold 1.0
+setAddRingMode -ring_target default -extend_over_row 0 -ignore_rows 0 -avoid_short 0 -skip_crossing_trunks none -stacked_via_top_layer METAL6 -stacked_via_bottom_layer METAL1 -via_using_exact_crossover_size 1 -orthogonal_only true -skip_via_on_pin {  standardcell } -skip_via_on_wire_shape {  noshape }
+addRing -nets {VDD VSS} -type core_rings -follow core -layer {top METAL5 bottom METAL5 left METAL4 right METAL4} -width {top 4 bottom 4 left 4 right 4} -spacing {top 4 bottom 4 left 4 right 4} -offset {top 1.8 bottom 1.8 left 1.8 right 1.8} -center 1 -threshold 0 -jog_distance 0 -snap_wire_center_to_grid None
+set sprCreateIeRingOffset 1.0
+set sprCreateIeRingThreshold 1.0
+set sprCreateIeRingJogDistance 1.0
+set sprCreateIeRingLayers {}
+set sprCreateIeRingOffset 1.0
+set sprCreateIeRingThreshold 1.0
+set sprCreateIeRingJogDistance 1.0
+set sprCreateIeRingLayers {}
+set sprCreateIeStripeWidth 10.0
+set sprCreateIeStripeThreshold 1.0
+set sprCreateIeStripeWidth 10.0
+set sprCreateIeStripeThreshold 1.0
+set sprCreateIeRingOffset 1.0
+set sprCreateIeRingThreshold 1.0
+set sprCreateIeRingJogDistance 1.0
+set sprCreateIeRingLayers {}
+set sprCreateIeStripeWidth 10.0
+set sprCreateIeStripeThreshold 1.0
+setAddStripeMode -ignore_block_check false -break_at none -route_over_rows_only false -rows_without_stripes_only false -extend_to_closest_target none -stop_at_last_wire_for_area false -partial_set_thru_domain false -ignore_nondefault_domains false -trim_antenna_back_to_shape none -spacing_type edge_to_edge -spacing_from_block 0 -stripe_min_length stripe_width -stacked_via_top_layer METAL6 -stacked_via_bottom_layer METAL1 -via_using_exact_crossover_size false -split_vias false -orthogonal_only true -allow_jog { padcore_ring  block_ring } -skip_via_on_pin {  standardcell } -skip_via_on_wire_shape {  noshape   }
+addStripe -nets {VDD VSS} -layer METAL4 -direction vertical -width 2 -spacing 2 -number_of_sets 2 -start_from left -switch_layer_over_obs false -max_same_layer_jog_length 2 -padcore_ring_top_layer_limit METAL6 -padcore_ring_bottom_layer_limit METAL1 -block_ring_top_layer_limit METAL6 -block_ring_bottom_layer_limit METAL1 -use_wire_group 0 -snap_wire_center_to_grid None
+setSrouteMode -viaConnectToShape { noshape }
+sroute -connect { blockPin corePin } -layerChangeRange { METAL1(1) METAL6(6) } -blockPinTarget { nearestTarget } -corePinTarget { firstAfterRowEnd } -allowJogging 1 -crossoverViaLayerRange { METAL1(1) METAL6(6) } -nets { VDD VSS } -allowLayerChange 1 -blockPin useLef -targetViaLayerRange { METAL1(1) METAL6(6) }
+gui_select -rect {-110.28900 142.28300 -66.02200 219.09950}
+setRouteMode -earlyGlobalHonorMsvRouteConstraint false -earlyGlobalRoutePartitionPinGuide true
+setEndCapMode -reset
+setEndCapMode -boundary_tap false
+setNanoRouteMode -quiet -droutePostRouteSpreadWire 1
+setNanoRouteMode -quiet -timingEngine {}
+setUsefulSkewMode -maxSkew false -noBoundary false -useCells {} -maxAllowedDelay 1
+setPlaceMode -reset
+setPlaceMode -congEffort auto -timingDriven 1 -clkGateAware 1 -powerDriven 0 -ignoreScan 1 -reorderScan 1 -ignoreSpare 0 -placeIOPins 1 -moduleAwareSpare 0 -preserveRouting 1 -rmAffectedRouting 0 -checkRoute 0 -swapEEQ 0
+setPlaceMode -fp false
+place_design
+zoomBox -410.45700 126.41350 719.78200 672.84300
+zoomBox -349.28950 166.37650 611.41350 630.84150
+zoomBox -215.53900 253.76000 374.45300 538.99950
+zoomBox -183.60900 274.62100 317.88400 517.07450
+zoomBox -113.90750 327.68300 194.07250 476.58000
+zoomBox -43.89100 383.16500 72.26450 439.32200
+zoomBox -18.44900 399.34100 33.09050 424.25850
+zoomBox -52.44150 380.53850 84.21700 446.60800
+zoomBox -142.55400 330.73150 219.79250 505.91300
+zoomBox -281.26850 259.09050 412.87500 594.68350
+zoomBox -928.00000 94.24400 636.42600 850.58700
+zoomBox -68.06350 267.91300 626.08100 603.50650
+zoomBox 309.70250 344.13200 617.69900 493.03700
+zoomBox 469.21950 375.38800 605.87950 441.45800
+zoomBox 511.83750 384.74250 595.76400 425.31800
+zoomBox 530.65850 388.87350 591.29700 418.19000
+zoomBox 556.57500 394.41550 588.23000 409.71950
+zoomBox 552.04700 393.18950 589.28800 411.19400
+zoomBox 502.19200 367.26400 600.93800 415.00400
+zoomBox 397.77750 310.85750 659.59950 437.43900
+zoomBox 160.25000 158.82600 854.46400 494.45300
+zoomBox -371.43450 -239.15950 1469.25250 650.74550
+zoomBox -307.51400 -146.68250 1257.07000 609.73700
+fit
+setDrawView place
+zoomBox -184.48750 175.65950 776.21550 640.12450
+zoomBox 62.91200 252.68600 652.90400 537.92550
+zoomBox 124.05750 270.30000 625.55100 512.75400
+zoomBox 303.47300 313.04200 565.25600 439.60450
+zoomBox 78.63700 256.84750 668.63000 542.08750
+zoomBox -424.22700 128.19650 905.46900 771.05600
+setDrawView fplan
+zoomBox -848.33750 -53.60900 992.07200 836.16200
+setDrawView place
+setDrawView ameba
+setDrawView place
+setDrawView ameba
+setDrawView fplan
+checkPlace ../../CheckPoint3/16bitcpu_checkPlace.rpt
+setDrawView place
+fit
+saveDesign DBS/16bitcpu_Placing_Cells.enc
+setDesignMode -process 180
+redirect -quiet {set honorDomain [getAnalysisMode -honorClockDomains]} > /dev/null
+timeDesign -preCTS -pathReports -drvReports -slackReports -numPaths 1 -prefix sixteenbitcpu_top_pads_preCTS -outDir CheckPoint3
+redirect -quiet {set honorDomain [getAnalysisMode -honorClockDomains]} > /dev/null
+timeDesign -preCTS -pathReports -drvReports -slackReports -numPaths 1 -prefix sixteenbitcpu_top_pads_preCTS -outDir RPT
+getCTSMode -engine -quiet
+setOptMode -fixCap true -fixTran true -fixFanoutLoad false
+optDesign -preCTS
+saveDesign DBS/16bitcpu_place.enc
+selectInst pad_in0
+deselectAll
+selectInst pad_in1
+deselectAll
+selectInst pad_in0
+deselectAll
+selectInst pad_vdd0
+deselectAll
+selectInst pad_in0
+deselectAll
+selectInst pad_in1
+deselectAll
+selectInst pad_vdd0
+deselectAll
+selectInst pad_out0/pad_out0
+deselectAll
+selectMarker 58.3000 58.3000 174.9000 174.9000 -1 12 97
+deselectAll
+selectInst pad_gnd0
+deselectAll
+selectInst corner0
+deselectAll
+selectInst pad_out0/pad_out0
+deselectAll
+selectInst pad_vdd0
+deselectAll
+selectInst pad_in0
+deselectAll
+selectInst pad_in1
+deselectAll
+selectInst pad_in0
+zoomBox -497.03050 59.98650 1067.31250 816.28950
+zoomBox -384.85500 145.35300 944.83650 788.21050
+zoomBox -289.50600 217.91450 840.73200 764.34350
+zoomBox -10.16850 391.24050 579.82300 676.48000
+zoomBox 143.54200 467.93800 451.52250 616.83550
+zoomBox 168.73700 480.43850 430.52100 607.00150
+zoomBox 180.40150 494.29900 402.91800 601.87750
+zoomBox 198.78050 516.05700 359.54950 593.78300
+zoomBox 221.65300 543.08900 305.57650 583.66300
+zoomBox 235.46400 561.34400 272.70250 579.34750
+zoomBox 237.11650 563.52700 268.76950 578.83000
+zoomBox 211.80800 530.99950 327.97300 587.16100
+zoomBox 137.79600 436.39750 500.16200 611.58850
+zoomBox -42.13250 206.45000 918.67250 670.96450
+zoomBox -404.31400 -257.14050 1761.10150 789.75900
+deselectAll
+selectInst pad_in1
+deselectAll
+selectInst pad_vdd0
+deselectAll
+selectInst pad_out0/pad_out0
+deselectAll
+selectInst pad_gnd0
+deselectAll
+selectInst pad_gnd0
+zoomBox 40.44200 3.62750 1001.24950 468.14300
+zoomBox 237.82850 119.05200 664.14350 325.16000
+deselectAll
+selectInst pad_gnd0
+zoomBox 32.61200 23.59500 993.42100 488.11100
+deselectAll
+selectInst corner0
+zoomBox 110.57950 79.70150 700.63750 364.97300
+zoomBox 129.31350 93.32600 630.86300 335.80700
+zoomBox 145.28250 104.99750 571.60000 311.10650
+zoomBox -50.72700 -41.55650 1279.11850 601.37550
+zoomBox -184.33200 -132.77650 1656.28450 757.09450
+deselectAll
+selectInst pad_in0
+deselectAll
+selectInst pad_in1
+deselectAll
+selectInst pad_vdd0
+deselectAll
+selectInst pad_gnd0
+deselectAll
+selectInst corner0
+deselectAll
+selectInst pad_in1
+deselectAll
+selectInst pad_out0/pad_out0
+zoomBox 25.00350 111.11300 985.81750 575.63150
+zoomBox 154.52850 261.94150 580.84800 468.05150
+zoomBox 202.44000 321.76250 424.98150 429.35300
+zoomBox 92.11350 182.50700 786.30600 518.12400
+zoomBox -176.05650 -155.97900 1664.57550 733.89950
+zoomBox -715.85950 -837.32400 3432.46300 1168.23900
+zoomBox -167.38100 -436.69600 1998.07000 610.22100
+zoomBox -58.61800 -293.07700 1505.92100 463.32050
+pan -225.79000 220.88500
+zoomBox -656.80350 -186.32000 1890.78650 1045.34700
+deselectAll
+selectInst pad_in1
+zoomBox -96.60900 197.27750 1233.24900 840.21550
+zoomBox 238.59800 398.74250 828.66400 684.01800
+zoomBox 355.48500 466.44200 663.50500 615.35850
+zoomBox 263.51200 400.85500 765.07200 643.34100
+zoomBox 132.21200 307.77100 948.91900 702.61900
+zoomBox -104.12700 186.07350 1460.42800 942.47900
+zoomBox -17.05600 190.87200 1312.81650 833.81700
+zoomBox 50.51700 185.43400 1180.90900 731.93750
+zoomBox 106.96850 159.70600 1067.80200 624.23400
+zoomBox 294.94400 98.34050 721.27200 304.45450
+zoomBox 336.38600 94.14850 644.40800 243.06600
+pan 471.06900 195.16800
+zoomBox 366.94200 91.04100 589.48850 198.63400
+deselectAll
+selectInst pad_gnd0
+zoomBox 344.89200 76.75250 652.91450 225.67000
+zoomBox 298.45650 45.67950 800.01900 288.16650
+zoomBox 252.23600 14.75000 946.44050 350.37250
+zoomBox 222.99050 -3.59350 1039.70200 391.25700
+zoomBox 188.58350 -24.56650 1149.42150 439.96350
+zoomBox 217.70350 -10.18000 1034.41550 384.67050
+deselectAll
+selectInst pad_gnd0
+zoomBox 153.22400 -45.36650 1114.06150 419.16350
+zoomBox 186.82150 -1.57100 1003.53350 393.27950
+zoomBox 211.72050 43.21800 905.92600 378.84100
+zoomBox 217.14750 106.94050 807.22200 392.22000
+zoomBox 244.58850 163.97950 670.91750 370.09400
+zoomBox 233.09050 190.20500 595.47050 365.40250
+pan 124.76300 37.98650
+zoomBox 337.74500 230.39500 421.67900 270.97400
+zoomBox 317.42000 222.19350 454.09300 288.27000
+zoomBox 277.82100 209.65550 500.37150 317.25050
+zoomBox 259.58900 204.03500 521.41350 330.61750
+zoomBox 212.75250 190.01100 575.13900 365.21150
+zoomBox 182.95000 181.16600 609.28700 387.28450
+zoomBox 57.82400 144.69700 752.04300 480.32650
+zoomBox -147.84600 90.54450 982.57400 637.06150
+zoomBox -373.68050 43.02800 1190.91550 799.45300
+deselectAll
+selectInst pad_gnd0
+zoomBox -79.06950 78.04800 1051.35100 624.56500
+zoomBox 38.18700 96.91100 999.04450 561.45050
+panCenter 702.39600 267.61450
+zoomBox 355.28600 99.79950 1049.50600 435.42950
+zoomBox 268.86500 76.39050 1229.72350 540.93050
+zoomBox 224.81750 60.48450 1355.23900 607.00200
+zoomBox 172.99650 41.77100 1502.90450 684.73300
+gui_select -rect {532.86350 146.53200 580.84550 272.88550}
+deselectAll
+deselectAll
+selectInst pad_gnd0
+zoomBox 127.13100 33.72700 1691.72850 790.15300
+zoomBox 73.17150 24.26350 1913.87450 914.17650
+zoomBox 9.69000 13.13000 2175.22300 1060.08650
+zoomBox 44.39350 18.85950 1885.09650 908.77250
+zoomBox -11.77950 -68.74800 1552.81800 687.67800
+zoomBox 9.53000 -106.76700 1139.95200 439.75100
+zoomBox 71.25300 -78.27900 887.98350 316.58050
+pan 92.94550 -65.77050
+zoomBox 102.63550 -56.08050 796.85650 279.55000
+deselectAll
+selectInst pad_gnd0
+deselectAll
+selectInst pad_gnd0
+zoomBox -95.37250 -134.82500 1234.53750 508.13800
+zoomBox -57.22650 -71.84900 1073.19800 474.67000
+zoomBox -29.69700 -15.42950 931.16450 449.11200
+zoomBox -11.15000 92.15700 683.07300 427.78850
+zoomBox 21.73300 196.76550 384.12200 371.96750
+pan 50.00500 305.62100
+zoomBox -103.45300 175.93300 398.12350 418.42700
+zoomBox -197.88050 124.22900 496.34300 459.86100
+zoomBox -366.16100 54.16200 594.70250 518.70450
+zoomBox -495.04200 9.40050 635.38550 555.92100
+zoomBox -801.93300 -99.61150 762.67300 656.81850
+zoomBox -1357.20400 -291.35600 808.34050 755.60600
+panCenter 650.58000 410.52550
+zoomBox -269.77650 -34.43350 1570.93700 855.48450
+zoomBox 202.16200 129.99350 1532.07800 772.95950
+zoomBox 380.41650 191.41100 1510.84600 737.93250
+zoomBox 531.01600 242.80000 1491.88100 707.34350
+zoomBox 639.98850 322.96800 1334.21450 658.60100
+pan 87.73250 -237.69900
+zoomBox 678.28950 352.85800 1268.38150 638.14600
+fit

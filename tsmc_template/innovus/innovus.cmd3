@@ -1,0 +1,184 @@
+#######################################################
+#                                                     
+#  Innovus Command Logging File                     
+#  Created on Sat Dec  3 13:12:04 2022                
+#                                                     
+#######################################################
+
+#@(#)CDS: Innovus v20.15-s105_1 (64bit) 07/27/2021 14:15 (Linux 2.6.32-431.11.2.el6.x86_64)
+#@(#)CDS: NanoRoute 20.15-s105_1 NR210726-1341/20_15-UB (database version 18.20.554) {superthreading v2.14}
+#@(#)CDS: AAE 20.15-s020 (64bit) 07/27/2021 (Linux 2.6.32-431.11.2.el6.x86_64)
+#@(#)CDS: CTE 20.15-s024_1 () Jul 23 2021 04:46:45 ( )
+#@(#)CDS: SYNTECH 20.15-s012_1 () Jul 12 2021 23:29:38 ( )
+#@(#)CDS: CPE v20.15-s071
+#@(#)CDS: IQuantus/TQuantus 20.1.1-s460 (64bit) Fri Mar 5 18:46:16 PST 2021 (Linux 2.6.32-431.11.2.el6.x86_64)
+
+set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+suppressMessage ENCEXT-2799
+win
+set init_lef_file {/research/ece/lnis-teaching/Designkits/tsmc180nm/full_custom_lib/lef/tech.lef /research/ece/lnis-teaching/Designkits/tsmc180nm/full_custom_lib/lef/sclib_tsmc180.lef /research/ece/lnis-teaching/Designkits/tsmc180nm/full_custom_lib/lef/padlib_tsmc180.lef /research/ece/lnis-teaching/Designkits/tsmc180nm/arm_ip/rf2hs8x8/rf2hsm1wm1.vclef /research/ece/lnis-teaching/Designkits/tsmc180nm/arm_ip/rf2hs8x8/rf2hsm1wm1_ant.lef}
+set init_mmmc_file innovus/CONF/16bitcpu.view
+set init_gnd_net VSS
+set init_verilog ../design_compiler/HDL/GATE/16bitcpu_top_pads.v
+set init_pwr_net VDD
+init_design
+zoomBox -0.07300 -0.04850 0.19900 0.08300
+zoomBox -0.10800 -0.07300 0.26850 0.10900
+zoomBox -0.22400 -0.13900 0.38950 0.15750
+zoomBox -0.22400 -0.22750 0.38950 0.06900
+zoomBox -0.45800 -0.35150 0.54200 0.13200
+zoomBox -0.99950 -0.67200 0.91800 0.25500
+zoomBox -1.71100 -1.09250 1.41150 0.41700
+zoomSelected -margin 50
+setLayerPreference allM1 -isVisible 0
+setLayerPreference allM2Cont -isVisible 0
+setLayerPreference allM3Cont -isVisible 1
+setLayerPreference allM4Cont -isVisible 1
+setLayerPreference allM5Cont -isVisible 1
+setLayerPreference allM6Cont -isVisible 1
+setLayerPreference allM7Cont -isVisible 1
+zoomBox -2.50350 -1.49000 1.81850 0.59950
+zoomBox -3.00750 -1.74250 2.07700 0.71550
+zoomBox -3.60050 -2.04000 2.38150 0.85200
+zoomBox -4.29850 -2.39050 2.73950 1.01200
+zoomBox -11.02300 -5.77500 4.83950 1.89400
+zoomBox -27.43550 -13.76400 8.31700 3.52100
+gui_select -rect {4.03850 0.64000 3.52300 -2.30500}
+zoomBox -12.79450 -8.42850 5.86900 0.59450
+zoomBox -10.79150 -7.80550 5.07250 -0.13600
+zoomBox -9.23600 -7.34400 4.24850 -0.82450
+zoomBox -8.07350 -7.02650 3.38850 -1.48500
+zoomBox -7.16700 -6.78700 2.57600 -2.07650
+zoomBox -6.48750 -6.62700 1.79450 -2.62300
+zoomBox -6.00600 -6.53600 1.03400 -3.13250
+zoomBox -5.59650 -6.45850 0.38750 -3.56550
+zoomBox -5.24850 -6.39250 -0.16200 -3.93350
+zoomBox -4.92850 -6.31950 -0.60450 -4.22900
+zoomBox -4.20450 -6.08200 -1.08000 -4.57150
+zoomBox -3.53250 -5.82950 -1.27500 -4.73800
+zoomBox -3.26350 -5.72750 -1.34450 -4.79950
+zoomBox -3.03550 -5.64050 -1.40350 -4.85150
+setDrawView fplan
+zoomBox -4.37550 -6.60500 -0.04850 -4.51300
+zoomBox -8.92700 -8.78300 2.54750 -3.23550
+zoomBox -23.59050 -14.22800 6.83400 0.48100
+zoomBox -11.07750 -8.64300 -1.32300 -3.92700
+zoomBox -10.22750 -8.31750 -1.93650 -4.30900
+zoomBox -15.46700 -10.65850 3.22100 -1.62350
+zoomBox -23.63800 -14.80600 12.16400 2.50300
+zoomBox -51.86750 -29.06350 43.06000 16.83050
+zoomBox -108.27000 -59.02700 105.67350 44.40700
+zoomBox -321.03200 -181.14600 346.34100 141.50450
+zoomBox -1017.60850 -587.69500 1064.18000 418.77400
+zoomBox -524.75850 -351.97300 979.33450 375.20100
+zoomBox -332.11150 -269.21650 946.36750 348.88150
+zoomBox -171.12950 -211.09700 915.57800 314.28650
+zoomBox -35.66700 -169.43900 888.03450 277.13700
+zoomBox 78.72600 -138.19550 863.87300 241.39450
+zoomBox 258.60950 -93.12650 825.87850 181.12750
+zoomBox 328.86100 -75.32050 811.04000 157.79550
+zoomBox 438.30750 -43.78950 786.68300 124.63750
+zoomBox 481.07400 -27.79550 777.19350 115.36750
+zoomBox 517.71950 -12.94500 769.42100 108.74350
+zoomBox 548.98100 0.20000 762.92800 103.63550
+zoomBox 575.61150 11.72050 757.46700 99.64100
+zoomBox 598.24750 21.52950 752.82500 96.26200
+zoomBox 497.74500 -46.69950 846.12500 121.72950
+zoomBox 378.73250 -261.19800 1302.45200 185.38700
+zoomBox 70.73500 -830.72250 2519.94950 353.38350
+zoomBox -683.25850 -2384.91900 5810.75850 754.70200
+zoomBox -632.88450 -1942.67750 4887.03050 726.00050
+zoomBox -585.08750 -1571.75150 4106.84050 696.62500
+zoomBox -513.14300 -1285.66500 3474.99600 642.45500
+zoomBox -420.33450 -1073.78800 2969.58400 565.11450
+zoomBox -326.15900 -919.37650 2555.27200 473.69050
+zoomBox -230.77550 -829.97100 2218.44100 354.13600
+pan 98.32900 -517.06700
+zoomBox -558.44450 -1746.80450 4133.48750 521.57400
+zoomBox -225.48850 -1350.26150 3164.43250 288.64200
+zoomBox -77.19250 -1210.83250 2804.24050 182.23550
+zoomBox 71.73050 -1114.92950 2520.94850 69.17850
+zoomBox 340.66100 -1005.84200 2110.22200 -150.32350
+zoomBox 438.02350 -944.07250 1942.15100 -216.88150
+zoomBox 566.84800 -801.45000 1653.58150 -276.05400
+zoomBox 608.40850 -732.73700 1532.13250 -286.15000
+zoomBox 640.06950 -669.74850 1425.23500 -290.14950
+zoomBox 581.87400 -780.93500 1668.60800 -255.53850
+zoomBox 390.85400 -1528.82100 3272.29850 -135.74750
+zoomSelected -margin 50
+fit
+selectObject Module cpu
+viewLast
+fit
+zoomBox -686.52200 -89.45750 1370.73200 905.15000
+zoomBox -595.41150 -41.21200 1153.25450 804.20450
+deselectAll
+selectObject Module cpu
+panPage 0 -1
+panPage 1 0
+panPage 0 1
+panPage -1 0
+zoomBox -111.71550 171.19350 -11.82200 321.56000
+fit
+uiSetTool addVia
+getExtractRCMode -relative_c_th -quiet
+getExtractRCMode -coupling_c_th -quiet
+getExtractRCMode -total_c_th -quiet
+getDesignMode -pessimisticMode -quiet
+getExtractRCMode -lefTechFileMap -quiet
+getExtractRCMode -turboReduce -quiet
+getExtractRCMode -coupled -quiet
+uiSetTool moveWire
+uiSetTool moveWire
+deselectAll
+selectObject Module cpu
+deselectAll
+selectInst pad_in0
+deselectAll
+selectInst pad_in0
+deselectAll
+selectInst pad_in0
+setDrawView ameba
+setDrawView ameba
+setDrawView fplan
+setDrawView fplan
+setDrawView ameba
+setDrawView place
+setDrawView place
+setDrawView place
+setDrawView ameba
+setDrawView fplan
+setDrawView ameba
+zoomBox -956.13100 -194.58300 1464.16700 975.54300
+zoomBox -457.43500 40.16400 1028.93050 758.76750
+zoomBox -151.17400 184.32750 761.64150 625.64050
+zoomBox -238.44900 145.38800 835.45200 664.58000
+setDrawView fplan
+zoomBox -272.29450 96.04450 991.11850 706.85850
+zoomBox -370.33800 -32.05400 1378.33100 813.36400
+zoomBox -362.13650 -25.90300 1124.23250 692.70250
+zoomBox -348.99850 -23.22150 914.41550 587.59300
+zoomBox -337.26100 -21.17050 736.64100 498.02200
+zoomBox -327.28400 -19.42700 585.53250 421.88650
+zoomBox -311.52550 -16.83800 347.98550 302.01150
+zoomBox -305.33950 -15.88650 255.24550 255.13600
+zoomBox -297.90650 -12.44800 178.59050 217.92100
+zoomBox -291.50250 -9.48250 113.52000 186.33100
+zoomBox -285.62100 -6.67000 58.64850 159.77200
+zoomBox -279.87700 -4.06150 12.75250 137.41400
+deselectAll
+selectObject Module cpu
+zoomBox -423.72450 -95.37800 352.17450 279.74100
+zoomBox -597.05800 -199.40750 666.36500 411.41150
+zoomBox -801.31650 -328.38250 947.36600 517.04200
+zoomBox -931.21150 -410.40150 1126.06350 584.21600
+zoomBox -745.64900 -311.49650 1003.03500 533.92850
+zoomBox -561.10700 -174.69350 925.27450 543.91800
+zoomBox -396.11250 -37.45150 867.31250 573.36850
+zoomBox -114.80450 126.25800 661.09650 501.37800
+pan 744.09250 903.93600
+zoomBox -1.55650 158.28700 559.03250 429.31150
+zoomBox -123.74400 119.28050 652.15850 494.40100
+zoomBox -403.12650 27.52100 860.30250 638.34300
+zoomBox -858.05400 -121.41650 1199.23100 873.20600
+deselectAll

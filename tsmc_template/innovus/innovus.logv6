@@ -1,0 +1,459 @@
+[12/03 21:19:33      0s] 
+[12/03 21:19:33      0s] Cadence Innovus(TM) Implementation System.
+[12/03 21:19:33      0s] Copyright 2020 Cadence Design Systems, Inc. All rights reserved worldwide.
+[12/03 21:19:33      0s] 
+[12/03 21:19:33      0s] Version:	v20.15-s105_1, built Tue Jul 27 14:15:35 PDT 2021
+[12/03 21:19:33      0s] Options:	
+[12/03 21:19:33      0s] Date:		Sat Dec  3 21:19:33 2022
+[12/03 21:19:33      0s] Host:		lab1-23.eng.utah.edu (x86_64 w/Linux 4.18.0-372.19.1.el8_6.x86_64) (8cores*16cpus*Intel(R) Core(TM) i7-10700 CPU @ 2.90GHz 16384KB)
+[12/03 21:19:33      0s] OS:		Red Hat Enterprise Linux release 8.6 (Ootpa)
+[12/03 21:19:33      0s] 
+[12/03 21:19:33      0s] License:
+[12/03 21:19:33      0s] 		invs	Innovus Implementation System	20.1	checkout succeeded
+[12/03 21:19:33      0s] 		8 CPU jobs allowed with the current license(s). Use setMultiCpuUsage to set your required CPU count.
+[12/03 21:19:44      8s] @(#)CDS: Innovus v20.15-s105_1 (64bit) 07/27/2021 14:15 (Linux 2.6.32-431.11.2.el6.x86_64)
+[12/03 21:19:44      8s] @(#)CDS: NanoRoute 20.15-s105_1 NR210726-1341/20_15-UB (database version 18.20.554) {superthreading v2.14}
+[12/03 21:19:44      8s] @(#)CDS: AAE 20.15-s020 (64bit) 07/27/2021 (Linux 2.6.32-431.11.2.el6.x86_64)
+[12/03 21:19:44      8s] @(#)CDS: CTE 20.15-s024_1 () Jul 23 2021 04:46:45 ( )
+[12/03 21:19:44      8s] @(#)CDS: SYNTECH 20.15-s012_1 () Jul 12 2021 23:29:38 ( )
+[12/03 21:19:44      8s] @(#)CDS: CPE v20.15-s071
+[12/03 21:19:44      8s] @(#)CDS: IQuantus/TQuantus 20.1.1-s460 (64bit) Fri Mar 5 18:46:16 PST 2021 (Linux 2.6.32-431.11.2.el6.x86_64)
+[12/03 21:19:44      8s] @(#)CDS: OA 22.60-p058 Tue Jun 15 18:38:04 2021
+[12/03 21:19:44      8s] @(#)CDS: SGN 20.10-d001 (01-Jun-2020) (64 bit executable, Qt5.9.0)
+[12/03 21:19:44      8s] @(#)CDS: RCDB 11.15.0
+[12/03 21:19:44      8s] @(#)CDS: STYLUS 20.10-p029_1 (06/24/2021 01:33 PDT)
+[12/03 21:19:44      8s] Create and set the environment variable TMPDIR to /tmp/innovus_temp_4150751_lab1-23.eng.utah.edu_u1174481_NpZs3t.
+
+[12/03 21:19:44      8s] Change the soft stacksize limit to 0.2%RAM (128 mbytes). Set global soft_stack_size_limit to change the value.
+[12/03 21:19:45      9s] 
+[12/03 21:19:45      9s] **INFO:  MMMC transition support version v31-84 
+[12/03 21:19:45      9s] 
+[12/03 21:19:45      9s] <CMD> set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+[12/03 21:19:45      9s] <CMD> suppressMessage ENCEXT-2799
+[12/03 21:19:45      9s] <CMD> win
+[12/03 21:19:55     10s] <CMD> set init_lef_file {/research/ece/lnis-teaching/Designkits/tsmc180nm/full_custom_lib/lef/tech.lef /research/ece/lnis-teaching/Designkits/tsmc180nm/full_custom_lib/lef/sclib_tsmc180.lef /research/ece/lnis-teaching/Designkits/tsmc180nm/full_custom_lib/lef/padlib_tsmc180.lef /research/ece/lnis-teaching/Designkits/tsmc180nm/arm_ip/rf2hs8x8/rf2hsm1wm1.vclef /research/ece/lnis-teaching/Designkits/tsmc180nm/arm_ip/rf2hs8x8/rf2hsm1wm1_ant.lef}
+[12/03 21:19:55     10s] <CMD> set init_mmmc_file /home/u1174481/VLSI/VSLI_Project/tsmc_template/innovus/CONF/16bitcpu.view
+[12/03 21:20:23     13s] <CMD> set init_gnd_net VSS
+[12/03 21:20:23     13s] <CMD> set init_verilog ../design_compiler/HDL/GATE/sixteenbitcpu_top_pads.v
+[12/03 21:20:23     13s] <CMD> set init_pwr_net VDD
+[12/03 21:20:23     13s] <CMD> init_design
+[12/03 21:20:23     13s] #% Begin Load MMMC data ... (date=12/03 21:20:23, mem=826.8M)
+[12/03 21:20:23     13s] #% End Load MMMC data ... (date=12/03 21:20:23, total cpu=0:00:00.0, real=0:00:00.0, peak res=827.2M, current mem=827.2M)
+[12/03 21:20:23     13s] 
+[12/03 21:20:23     13s] Loading LEF file /research/ece/lnis-teaching/Designkits/tsmc180nm/full_custom_lib/lef/tech.lef ...
+[12/03 21:20:23     13s] 
+[12/03 21:20:23     13s] Loading LEF file /research/ece/lnis-teaching/Designkits/tsmc180nm/full_custom_lib/lef/sclib_tsmc180.lef ...
+[12/03 21:20:23     13s] Set DBUPerIGU to M2 pitch 1120.
+[12/03 21:20:23     13s] 
+[12/03 21:20:23     13s] Loading LEF file /research/ece/lnis-teaching/Designkits/tsmc180nm/full_custom_lib/lef/padlib_tsmc180.lef ...
+[12/03 21:20:23     13s] 
+[12/03 21:20:23     13s] Loading LEF file /research/ece/lnis-teaching/Designkits/tsmc180nm/arm_ip/rf2hs8x8/rf2hsm1wm1.vclef ...
+[12/03 21:20:23     13s] WARNING (LEFPARS-2007): NAMESCASESENSITIVE statement is obsolete in version 5.6 and later.
+[12/03 21:20:23     13s] The LEF parser will ignore this statement.
+[12/03 21:20:23     13s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file /research/ece/lnis-teaching/Designkits/tsmc180nm/arm_ip/rf2hs8x8/rf2hsm1wm1.vclef at line 12.
+[12/03 21:20:23     13s] WARNING (LEFPARS-2001): No VERSION statement found, using the default value 5.8. See file /research/ece/lnis-teaching/Designkits/tsmc180nm/arm_ip/rf2hs8x8/rf2hsm1wm1.vclef at line 1034.
+[12/03 21:20:23     13s] 
+[12/03 21:20:23     13s] Loading LEF file /research/ece/lnis-teaching/Designkits/tsmc180nm/arm_ip/rf2hs8x8/rf2hsm1wm1_ant.lef ...
+[12/03 21:20:23     13s] **WARN: (IMPLF-58):	MACRO 'rf2hsm1wm1' has been found in the database. Its content except DENSITY and PIN ANTENNA* data, and certain properties, will be ignored.
+[12/03 21:20:23     13s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[12/03 21:20:23     13s] Type 'man IMPLF-58' for more detail.
+[12/03 21:20:23     13s] WARNING (LEFPARS-2001): No VERSION statement found, using the default value 5.8. See file /research/ece/lnis-teaching/Designkits/tsmc180nm/arm_ip/rf2hs8x8/rf2hsm1wm1_ant.lef at line 81.
+[12/03 21:20:23     13s] **WARN: (IMPLF-61):	1 duplicated MACRO definitions have been found in the LEF file(s). Their content except DENSITY and PIN ANTENNA* data, and certain properties, have been ignored.
+[12/03 21:20:23     13s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[12/03 21:20:23     13s] Type 'man IMPLF-61' for more detail.
+[12/03 21:20:23     13s] **WARN: (IMPLF-201):	Pin 'QA[0]' in macro 'rf2hsm1wm1' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/03 21:20:23     13s] Type 'man IMPLF-201' for more detail.
+[12/03 21:20:23     13s] **WARN: (IMPLF-201):	Pin 'QA[1]' in macro 'rf2hsm1wm1' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/03 21:20:23     13s] Type 'man IMPLF-201' for more detail.
+[12/03 21:20:23     13s] **WARN: (IMPLF-201):	Pin 'QA[2]' in macro 'rf2hsm1wm1' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/03 21:20:23     13s] Type 'man IMPLF-201' for more detail.
+[12/03 21:20:23     13s] **WARN: (IMPLF-201):	Pin 'QA[3]' in macro 'rf2hsm1wm1' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/03 21:20:23     13s] Type 'man IMPLF-201' for more detail.
+[12/03 21:20:23     13s] **WARN: (IMPLF-201):	Pin 'QA[4]' in macro 'rf2hsm1wm1' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/03 21:20:23     13s] Type 'man IMPLF-201' for more detail.
+[12/03 21:20:23     13s] **WARN: (IMPLF-201):	Pin 'QA[5]' in macro 'rf2hsm1wm1' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/03 21:20:23     13s] Type 'man IMPLF-201' for more detail.
+[12/03 21:20:23     13s] **WARN: (IMPLF-201):	Pin 'QA[6]' in macro 'rf2hsm1wm1' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/03 21:20:23     13s] Type 'man IMPLF-201' for more detail.
+[12/03 21:20:23     13s] **WARN: (IMPLF-201):	Pin 'QA[7]' in macro 'rf2hsm1wm1' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/03 21:20:23     13s] Type 'man IMPLF-201' for more detail.
+[12/03 21:20:23     13s] **WARN: (IMPLF-200):	Pin 'DataOut' in macro 'pad_out' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/03 21:20:23     13s] Type 'man IMPLF-200' for more detail.
+[12/03 21:20:23     13s] **WARN: (IMPLF-201):	Pin 'pad' in macro 'pad_out' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/03 21:20:23     13s] Type 'man IMPLF-201' for more detail.
+[12/03 21:20:23     13s] **WARN: (IMPLF-200):	Pin 'pad' in macro 'pad_out' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/03 21:20:23     13s] Type 'man IMPLF-200' for more detail.
+[12/03 21:20:23     13s] **WARN: (IMPLF-201):	Pin 'DataIn' in macro 'pad_in' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/03 21:20:23     13s] Type 'man IMPLF-201' for more detail.
+[12/03 21:20:23     13s] **WARN: (IMPLF-201):	Pin 'pad' in macro 'pad_in' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/03 21:20:23     13s] Type 'man IMPLF-201' for more detail.
+[12/03 21:20:23     13s] **WARN: (IMPLF-200):	Pin 'pad' in macro 'pad_in' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/03 21:20:23     13s] Type 'man IMPLF-200' for more detail.
+[12/03 21:20:23     13s] **WARN: (IMPLF-201):	Pin 'DataIn' in macro 'pad_bidirhe' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/03 21:20:23     13s] Type 'man IMPLF-201' for more detail.
+[12/03 21:20:23     13s] **WARN: (IMPLF-200):	Pin 'DataOut' in macro 'pad_bidirhe' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/03 21:20:23     13s] Type 'man IMPLF-200' for more detail.
+[12/03 21:20:23     13s] **WARN: (IMPLF-200):	Pin 'EN' in macro 'pad_bidirhe' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/03 21:20:23     13s] Type 'man IMPLF-200' for more detail.
+[12/03 21:20:23     13s] **WARN: (IMPLF-201):	Pin 'pad' in macro 'pad_bidirhe' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/03 21:20:23     13s] Type 'man IMPLF-201' for more detail.
+[12/03 21:20:23     13s] **WARN: (IMPLF-200):	Pin 'pad' in macro 'pad_bidirhe' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/03 21:20:23     13s] Type 'man IMPLF-200' for more detail.
+[12/03 21:20:23     13s] **WARN: (IMPLF-201):	Pin 'Z' in macro 'XOR2X1' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/03 21:20:23     13s] Type 'man IMPLF-201' for more detail.
+[12/03 21:20:23     13s] **WARN: (IMPLF-200):	Pin 'B' in macro 'XOR2X1' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/03 21:20:23     13s] Type 'man IMPLF-200' for more detail.
+[12/03 21:20:23     13s] **WARN: (IMPLF-200):	Pin 'A' in macro 'XOR2X1' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/03 21:20:23     13s] Type 'man IMPLF-200' for more detail.
+[12/03 21:20:23     13s] **WARN: (IMPLF-201):	Pin 'Z' in macro 'TIE1' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/03 21:20:23     13s] Type 'man IMPLF-201' for more detail.
+[12/03 21:20:23     13s] **WARN: (IMPLF-201):	Pin 'Z' in macro 'TIE0' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/03 21:20:23     13s] Type 'man IMPLF-201' for more detail.
+[12/03 21:20:23     13s] **WARN: (IMPLF-201):	Pin 'Z' in macro 'OR2X1' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/03 21:20:23     13s] Type 'man IMPLF-201' for more detail.
+[12/03 21:20:23     13s] **WARN: (IMPLF-200):	Pin 'B' in macro 'OR2X1' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/03 21:20:23     13s] Type 'man IMPLF-200' for more detail.
+[12/03 21:20:23     13s] **WARN: (IMPLF-200):	Pin 'A' in macro 'OR2X1' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/03 21:20:23     13s] Type 'man IMPLF-200' for more detail.
+[12/03 21:20:23     13s] **WARN: (IMPLF-201):	Pin 'Z' in macro 'NOR2X1' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/03 21:20:23     13s] Type 'man IMPLF-201' for more detail.
+[12/03 21:20:23     13s] **WARN: (IMPLF-200):	Pin 'B' in macro 'NOR2X1' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/03 21:20:23     13s] Type 'man IMPLF-200' for more detail.
+[12/03 21:20:23     13s] **WARN: (IMPLF-200):	Pin 'A' in macro 'NOR2X1' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/03 21:20:23     13s] Type 'man IMPLF-200' for more detail.
+[12/03 21:20:23     13s] **WARN: (IMPLF-200):	Pin 'A' in macro 'NAND3X1' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/03 21:20:23     13s] Type 'man IMPLF-200' for more detail.
+[12/03 21:20:23     13s] **WARN: (IMPLF-201):	Pin 'Z' in macro 'NAND3X1' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/03 21:20:23     13s] Type 'man IMPLF-201' for more detail.
+[12/03 21:20:23     13s] **WARN: (IMPLF-200):	Pin 'C' in macro 'NAND3X1' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/03 21:20:23     13s] Type 'man IMPLF-200' for more detail.
+[12/03 21:20:23     13s] **WARN: (IMPLF-200):	Pin 'B' in macro 'NAND3X1' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/03 21:20:23     13s] Type 'man IMPLF-200' for more detail.
+[12/03 21:20:23     13s] **WARN: (IMPLF-201):	Pin 'Z' in macro 'NAND2X1' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/03 21:20:23     13s] Type 'man IMPLF-201' for more detail.
+[12/03 21:20:23     13s] **WARN: (IMPLF-200):	Pin 'B' in macro 'NAND2X1' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/03 21:20:23     13s] Type 'man IMPLF-200' for more detail.
+[12/03 21:20:23     13s] **WARN: (IMPLF-200):	Pin 'A' in macro 'NAND2X1' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/03 21:20:23     13s] Type 'man IMPLF-200' for more detail.
+[12/03 21:20:23     13s] **WARN: (EMS-27):	Message (IMPLF-201) has exceeded the current message display limit of 20.
+[12/03 21:20:23     13s] To increase the message display limit, refer to the product command reference manual.
+[12/03 21:20:23     13s] **WARN: (IMPLF-200):	Pin 'S' in macro 'MUX2X1' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/03 21:20:23     13s] Type 'man IMPLF-200' for more detail.
+[12/03 21:20:23     13s] **WARN: (IMPLF-200):	Pin 'B' in macro 'MUX2X1' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/03 21:20:23     13s] Type 'man IMPLF-200' for more detail.
+[12/03 21:20:23     13s] **WARN: (IMPLF-200):	Pin 'A' in macro 'MUX2X1' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/03 21:20:23     13s] Type 'man IMPLF-200' for more detail.
+[12/03 21:20:23     13s] **WARN: (EMS-27):	Message (IMPLF-200) has exceeded the current message display limit of 20.
+[12/03 21:20:23     13s] To increase the message display limit, refer to the product command reference manual.
+[12/03 21:20:23     13s] 
+[12/03 21:20:23     13s] viaInitial starts at Sat Dec  3 21:20:23 2022
+viaInitial ends at Sat Dec  3 21:20:23 2022
+
+##  Check design process and node:  
+##  Both design process and tech node are not set.
+
+[12/03 21:20:23     13s] Loading view definition file from /home/u1174481/VLSI/VSLI_Project/tsmc_template/innovus/CONF/16bitcpu.view
+[12/03 21:20:23     13s] Reading wc timing library '/research/ece/lnis-teaching/Designkits/tsmc180nm/full_custom_lib/lib/sclib_tsmc180_ss_nldm.lib' ...
+[12/03 21:20:23     13s] **WARN: (TECHLIB-302):	No function defined for cell 'ANTENNA'. The cell will only be used for analysis. (File /research/ece/lnis-teaching/Designkits/tsmc180nm/full_custom_lib/lib/sclib_tsmc180_ss_nldm.lib)
+[12/03 21:20:23     13s] Read 21 cells in library 'sclib_tsmc180_ss' 
+[12/03 21:20:23     13s] Reading wc timing library '/research/ece/lnis-teaching/Designkits/tsmc180nm/full_custom_lib/lib/padlib_tsmc180_ss_nldm.lib' ...
+[12/03 21:20:23     13s] **WARN: (TECHLIB-302):	No function defined for cell 'pad_vdd'. The cell will only be used for analysis. (File /research/ece/lnis-teaching/Designkits/tsmc180nm/full_custom_lib/lib/padlib_tsmc180_ss_nldm.lib)
+[12/03 21:20:23     13s] **WARN: (TECHLIB-302):	No function defined for cell 'pad_gnd'. The cell will only be used for analysis. (File /research/ece/lnis-teaching/Designkits/tsmc180nm/full_custom_lib/lib/padlib_tsmc180_ss_nldm.lib)
+[12/03 21:20:23     13s] **WARN: (TECHLIB-302):	No function defined for cell 'pad_ana'. The cell will only be used for analysis. (File /research/ece/lnis-teaching/Designkits/tsmc180nm/full_custom_lib/lib/padlib_tsmc180_ss_nldm.lib)
+[12/03 21:20:23     13s] Read 6 cells in library 'padlib_tsmc180_ss' 
+[12/03 21:20:23     13s] Reading wc timing library '/research/ece/lnis-teaching/Designkits/tsmc180nm/arm_ip/rf2hs8x8/rf2hsm1wm1_slow_syn.lib' ...
+[12/03 21:20:23     13s] Read 1 cells in library 'USERLIB' 
+[12/03 21:20:23     13s] Reading bc timing library '/research/ece/lnis-teaching/Designkits/tsmc180nm/full_custom_lib/lib/sclib_tsmc180_ff_nldm.lib' ...
+[12/03 21:20:23     13s] **WARN: (TECHLIB-302):	No function defined for cell 'ANTENNA'. The cell will only be used for analysis. (File /research/ece/lnis-teaching/Designkits/tsmc180nm/full_custom_lib/lib/sclib_tsmc180_ff_nldm.lib)
+[12/03 21:20:23     13s] Read 21 cells in library 'sclib_tsmc180_ff' 
+[12/03 21:20:23     13s] Reading bc timing library '/research/ece/lnis-teaching/Designkits/tsmc180nm/full_custom_lib/lib/padlib_tsmc180_ff_nldm.lib' ...
+[12/03 21:20:23     13s] **WARN: (TECHLIB-302):	No function defined for cell 'pad_vdd'. The cell will only be used for analysis. (File /research/ece/lnis-teaching/Designkits/tsmc180nm/full_custom_lib/lib/padlib_tsmc180_ff_nldm.lib)
+[12/03 21:20:23     13s] **WARN: (TECHLIB-302):	No function defined for cell 'pad_gnd'. The cell will only be used for analysis. (File /research/ece/lnis-teaching/Designkits/tsmc180nm/full_custom_lib/lib/padlib_tsmc180_ff_nldm.lib)
+[12/03 21:20:23     13s] **WARN: (TECHLIB-302):	No function defined for cell 'pad_ana'. The cell will only be used for analysis. (File /research/ece/lnis-teaching/Designkits/tsmc180nm/full_custom_lib/lib/padlib_tsmc180_ff_nldm.lib)
+[12/03 21:20:23     13s] Read 6 cells in library 'padlib_tsmc180_ff' 
+[12/03 21:20:23     13s] Reading bc timing library '/research/ece/lnis-teaching/Designkits/tsmc180nm/arm_ip/rf2hs8x8/rf2hsm1wm1_fast@-40C_syn.lib' ...
+[12/03 21:20:23     13s] Read 1 cells in library 'USERLIB' 
+[12/03 21:20:23     13s] Ending "PreSetAnalysisView" (total cpu=0:00:00.1, real=0:00:00.0, peak res=873.3M, current mem=841.7M)
+[12/03 21:20:23     13s] *** End library_loading (cpu=0.00min, real=0.00min, mem=19.9M, fe_cpu=0.23min, fe_real=0.83min, fe_mem=800.0M) ***
+[12/03 21:20:23     13s] #% Begin Load netlist data ... (date=12/03 21:20:23, mem=841.7M)
+[12/03 21:20:23     13s] *** Begin netlist parsing (mem=800.0M) ***
+[12/03 21:20:23     13s] Pin 'pad' of cell 'pad_ana' is declared as power/ground in LEF but as signal in timing library.  Treat it as power/ground.
+[12/03 21:20:23     13s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'rf2hsm1wm1' is defined in LEF but not in the timing library.
+[12/03 21:20:23     13s] Type 'man IMPVL-159' for more detail.
+[12/03 21:20:23     13s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'rf2hsm1wm1' is defined in LEF but not in the timing library.
+[12/03 21:20:23     13s] Type 'man IMPVL-159' for more detail.
+[12/03 21:20:23     13s] Created 28 new cells from 6 timing libraries.
+[12/03 21:20:23     13s] Reading netlist ...
+[12/03 21:20:23     13s] Backslashed names will retain backslash and a trailing blank character.
+[12/03 21:20:23     13s] Keeping previous port order for module pad_in.
+[12/03 21:20:23     13s] Keeping previous port order for module pad_out.
+[12/03 21:20:23     13s] Keeping previous port order for module pad_bidirhe.
+[12/03 21:20:23     13s] Keeping previous port order for module pad_vdd.
+[12/03 21:20:23     13s] Keeping previous port order for module pad_gnd.
+[12/03 21:20:23     13s] Keeping previous port order for module pad_ana.
+[12/03 21:20:23     13s] Reading verilog netlist '../design_compiler/HDL/GATE/sixteenbitcpu_top_pads.v'
+[12/03 21:20:23     13s] **WARN: (IMPVL-209):	In Verilog file '../design_compiler/HDL/GATE/sixteenbitcpu_top_pads.v', check line 22 near the text ) for the issue: 'width-mismatched port connection'.  Update the text accordingly.
+[12/03 21:20:23     13s] Type 'man IMPVL-209' for more detail.
+[12/03 21:20:23     13s] **WARN: (IMPVL-357):	Signal port (pad) is connected by a bus.  The extra upper bus bits will be ignored.
+[12/03 21:20:23     13s] **WARN: (IMPVL-209):	In Verilog file '../design_compiler/HDL/GATE/sixteenbitcpu_top_pads.v', check line 23 near the text ) for the issue: 'width-mismatched port connection'.  Update the text accordingly.
+[12/03 21:20:23     13s] Type 'man IMPVL-209' for more detail.
+[12/03 21:20:23     13s] **WARN: (IMPVL-357):	Signal port (pad) is connected by a bus.  The extra upper bus bits will be ignored.
+[12/03 21:20:23     13s] **WARN: (IMPVL-209):	In Verilog file '../design_compiler/HDL/GATE/sixteenbitcpu_top_pads.v', check line 24 near the text ) for the issue: 'width-mismatched port connection'.  Update the text accordingly.
+[12/03 21:20:23     13s] Type 'man IMPVL-209' for more detail.
+[12/03 21:20:23     13s] **WARN: (IMPVL-357):	Signal port (pad) is connected by a bus.  The extra upper bus bits will be ignored.
+[12/03 21:20:23     13s] **WARN: (IMPVL-209):	In Verilog file '../design_compiler/HDL/GATE/sixteenbitcpu_top_pads.v', check line 38 near the text ) for the issue: 'width-mismatched port connection'.  Update the text accordingly.
+[12/03 21:20:23     13s] Type 'man IMPVL-209' for more detail.
+[12/03 21:20:23     13s] **WARN: (IMPVL-352):	Bus port (memdata) is connected by a signal (mem_in_pad).  The extra upper bus bits will be floating.
+[12/03 21:20:23     13s] **WARN: (IMPVL-209):	In Verilog file '../design_compiler/HDL/GATE/sixteenbitcpu_top_pads.v', check line 38 near the text ) for the issue: 'width-mismatched port connection'.  Update the text accordingly.
+[12/03 21:20:23     13s] Type 'man IMPVL-209' for more detail.
+[12/03 21:20:23     13s] **WARN: (IMPVL-352):	Bus port (adr) is connected by a signal (addr_pad).  The extra upper bus bits will be floating.
+[12/03 21:20:23     13s] **WARN: (IMPVL-209):	In Verilog file '../design_compiler/HDL/GATE/sixteenbitcpu_top_pads.v', check line 38 near the text ) for the issue: 'width-mismatched port connection'.  Update the text accordingly.
+[12/03 21:20:23     13s] Type 'man IMPVL-209' for more detail.
+[12/03 21:20:23     13s] **WARN: (IMPVL-352):	Bus port (memOut) is connected by a signal (mem_out_pad).  The extra upper bus bits will be floating.
+[12/03 21:20:23     13s] 
+[12/03 21:20:23     13s] *** Memory Usage v#1 (Current mem = 799.977M, initial mem = 290.191M) ***
+[12/03 21:20:23     13s] *** End netlist parsing (cpu=0:00:00.0, real=0:00:00.0, mem=800.0M) ***
+[12/03 21:20:23     13s] #% End Load netlist data ... (date=12/03 21:20:23, total cpu=0:00:00.0, real=0:00:00.0, peak res=848.2M, current mem=848.2M)
+[12/03 21:20:23     13s] Ignoring unreferenced cell pad_bidirhe_buffered.
+[12/03 21:20:23     13s] Warning: The top level cell is ambiguous.
+[12/03 21:20:23     13s] Setting top level cell to be sixteenbitcpu_top_pads.
+[12/03 21:20:23     13s] Hooked 56 DB cells to tlib cells.
+[12/03 21:20:23     13s] Ending "BindLib:" (total cpu=0:00:00.0, real=0:00:00.0, peak res=851.9M, current mem=851.9M)
+[12/03 21:20:23     13s] Starting recursive module instantiation check.
+[12/03 21:20:23     13s] No recursion found.
+[12/03 21:20:23     13s] Building hierarchical netlist for Cell sixteenbitcpu_top_pads ...
+[12/03 21:20:23     13s] **WARN: (IMPECO-560):	The netlist is not unique, because the module 'pad_out_buffered' is instantiated multiple times. Make the netlist unique by running 'set init_design_uniquify 1' before loading the design to avoid the problem.
+[12/03 21:20:23     13s] Type 'man IMPECO-560' for more detail.
+[12/03 21:20:23     13s] *** Netlist is NOT unique.
+[12/03 21:20:23     13s] Setting Std. cell height to 7840 DBU (smallest netlist inst).
+[12/03 21:20:23     13s] ** info: there are 100 modules.
+[12/03 21:20:23     13s] ** info: there are 4346 stdCell insts.
+[12/03 21:20:23     13s] ** info: there are 13 Pad insts.
+[12/03 21:20:23     13s] 
+[12/03 21:20:23     13s] *** Memory Usage v#1 (Current mem = 844.891M, initial mem = 290.191M) ***
+[12/03 21:20:23     13s] Initializing I/O assignment ...
+[12/03 21:20:23     13s] Adjusting Core to Left to: 0.3200. Core to Bottom to: 0.3200.
+[12/03 21:20:23     13s] **WARN: (IMPFP-3961):	The techSite 'corner' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
+[12/03 21:20:23     13s] Type 'man IMPFP-3961' for more detail.
+[12/03 21:20:23     13s] **WARN: (IMPFP-3961):	The techSite 'pad' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
+[12/03 21:20:23     13s] Type 'man IMPFP-3961' for more detail.
+[12/03 21:20:23     13s] Start create_tracks
+[12/03 21:20:23     13s] Generated pitch 1.12 in METAL6 is different from 0.9 defined in technology file in preferred direction.
+[12/03 21:20:23     13s] Set Default Net Delay as 1000 ps.
+[12/03 21:20:23     13s] Set Default Net Load as 0.5 pF. 
+[12/03 21:20:23     13s] Set Default Input Pin Transition as 0.1 ps.
+[12/03 21:20:23     13s] Pre-connect netlist-defined P/G connections...
+[12/03 21:20:23     13s]   Updated 0 instances.
+[12/03 21:20:24     13s] Extraction setup Started 
+[12/03 21:20:24     13s] 
+[12/03 21:20:24     13s] Trim Metal Layers:
+[12/03 21:20:24     13s] Initializing multi-corner RC extraction with 2 active RC Corners ...
+[12/03 21:20:24     13s] Reading Capacitance Table File /research/ece/lnis-teaching/Designkits/tsmc180nm/pdk/captable/t018lo_1p6m_typical.captable ...
+[12/03 21:20:24     13s] Reading Capacitance Table File /research/ece/lnis-teaching/Designkits/tsmc180nm/pdk/captable/t018lo_1p6m_typical.captable ...
+[12/03 21:20:24     13s] Importing multi-corner RC tables ... 
+[12/03 21:20:24     13s] Summary of Active RC-Corners : 
+[12/03 21:20:24     13s]  
+[12/03 21:20:24     13s]  Analysis View: wc
+[12/03 21:20:24     13s]     RC-Corner Name        : wc
+[12/03 21:20:24     13s]     RC-Corner Index       : 0
+[12/03 21:20:24     13s]     RC-Corner Temperature : 25 Celsius
+[12/03 21:20:24     13s]     RC-Corner Cap Table   : '/research/ece/lnis-teaching/Designkits/tsmc180nm/pdk/captable/t018lo_1p6m_typical.captable'
+[12/03 21:20:24     13s]     RC-Corner PreRoute Res Factor         : 1
+[12/03 21:20:24     13s]     RC-Corner PreRoute Cap Factor         : 1
+[12/03 21:20:24     13s]     RC-Corner PostRoute Res Factor        : 1 {1 1 1}
+[12/03 21:20:24     13s]     RC-Corner PostRoute Cap Factor        : 1 {1 1 1}
+[12/03 21:20:24     13s]     RC-Corner PostRoute XCap Factor       : 1 {1 1 1}
+[12/03 21:20:24     13s]     RC-Corner PreRoute Clock Res Factor   : 1	[Derived from postRoute_res (effortLevel low)]
+[12/03 21:20:24     13s]     RC-Corner PreRoute Clock Cap Factor   : 1	[Derived from postRoute_cap (effortLevel low)]
+[12/03 21:20:24     13s]     RC-Corner PostRoute Clock Cap Factor  : 1 {1 1 1} 	[Derived from postRoute_cap (effortLevel low)]
+[12/03 21:20:24     13s]     RC-Corner PostRoute Clock Res Factor  : 1 {1 1 1} 	[Derived from postRoute_res (effortLevel low)]
+[12/03 21:20:24     13s]  
+[12/03 21:20:24     13s]  Analysis View: bc
+[12/03 21:20:24     13s]     RC-Corner Name        : bc
+[12/03 21:20:24     13s]     RC-Corner Index       : 1
+[12/03 21:20:24     13s]     RC-Corner Temperature : 25 Celsius
+[12/03 21:20:24     13s]     RC-Corner Cap Table   : '/research/ece/lnis-teaching/Designkits/tsmc180nm/pdk/captable/t018lo_1p6m_typical.captable'
+[12/03 21:20:24     13s]     RC-Corner PreRoute Res Factor         : 1
+[12/03 21:20:24     13s]     RC-Corner PreRoute Cap Factor         : 1
+[12/03 21:20:24     13s]     RC-Corner PostRoute Res Factor        : 1 {1 1 1}
+[12/03 21:20:24     13s]     RC-Corner PostRoute Cap Factor        : 1 {1 1 1}
+[12/03 21:20:24     13s]     RC-Corner PostRoute XCap Factor       : 1 {1 1 1}
+[12/03 21:20:24     13s]     RC-Corner PreRoute Clock Res Factor   : 1	[Derived from postRoute_res (effortLevel low)]
+[12/03 21:20:24     13s]     RC-Corner PreRoute Clock Cap Factor   : 1	[Derived from postRoute_cap (effortLevel low)]
+[12/03 21:20:24     13s]     RC-Corner PostRoute Clock Cap Factor  : 1 {1 1 1} 	[Derived from postRoute_cap (effortLevel low)]
+[12/03 21:20:24     13s]     RC-Corner PostRoute Clock Res Factor  : 1 {1 1 1} 	[Derived from postRoute_res (effortLevel low)]
+[12/03 21:20:24     13s] 
+[12/03 21:20:24     13s] Trim Metal Layers:
+[12/03 21:20:24     13s] LayerId::1 widthSet size::4
+[12/03 21:20:24     13s] LayerId::2 widthSet size::4
+[12/03 21:20:24     13s] LayerId::3 widthSet size::4
+[12/03 21:20:24     13s] LayerId::4 widthSet size::4
+[12/03 21:20:24     13s] LayerId::5 widthSet size::4
+[12/03 21:20:24     13s] LayerId::6 widthSet size::3
+[12/03 21:20:24     13s] Updating RC grid for preRoute extraction ...
+[12/03 21:20:24     13s] eee: pegSigSF::1.070000
+[12/03 21:20:24     13s] Initializing multi-corner capacitance tables ... 
+[12/03 21:20:24     13s] Initializing multi-corner resistance tables ...
+[12/03 21:20:24     13s] eee: l::1 avDens::0.000000 usedTrk::0.000000 availTrk::0.000000 sigTrk::0.000000
+[12/03 21:20:24     13s] eee: l::2 avDens::0.000000 usedTrk::0.000000 availTrk::0.000000 sigTrk::0.000000
+[12/03 21:20:24     13s] eee: l::3 avDens::0.000000 usedTrk::0.000000 availTrk::0.000000 sigTrk::0.000000
+[12/03 21:20:24     13s] eee: l::4 avDens::0.000000 usedTrk::0.000000 availTrk::0.000000 sigTrk::0.000000
+[12/03 21:20:24     13s] eee: l::5 avDens::0.000000 usedTrk::0.000000 availTrk::0.000000 sigTrk::0.000000
+[12/03 21:20:24     13s] eee: l::6 avDens::0.000000 usedTrk::0.000000 availTrk::0.000000 sigTrk::0.000000
+[12/03 21:20:24     13s] {RT wc 0 6 6 {5 0} 1}
+[12/03 21:20:24     13s] Preroute length aware model : n: 40 ; LLS: 2-3 ; HLS: 3-5 ; rDens: 0.000000 ; uaWl: 0.000000 ; uaWlH: 0.000000 ; aWlH: 0.000000 ; Pmax: 0.850000 ; wcR: 0.000000 ; newSi: 0.000000 ; pMod: 82 ; 
+[12/03 21:20:24     13s] *Info: initialize multi-corner CTS.
+[12/03 21:20:24     13s] Ending "SetAnalysisView" (total cpu=0:00:00.0, real=0:00:00.0, peak res=1087.9M, current mem=884.8M)
+[12/03 21:20:24     14s] Reading timing constraints file '../design_compiler/SDC/16bitcpu_mapped.sdc' ...
+[12/03 21:20:24     14s] Current (total cpu=0:00:14.0, real=0:00:51.0, peak res=1106.8M, current mem=1106.8M)
+[12/03 21:20:24     14s] **WARN: (TCLCMD-1461):	Skipped unsupported command: set_units (File ../design_compiler/SDC/16bitcpu_mapped.sdc, Line 8).
+[12/03 21:20:24     14s] 
+[12/03 21:20:24     14s] INFO (CTE): Reading of timing constraints file ../design_compiler/SDC/16bitcpu_mapped.sdc completed, with 1 WARNING
+[12/03 21:20:24     14s] WARNING (CTE-25): Line: 9 of File ../design_compiler/SDC/16bitcpu_mapped.sdc : Skipped unsupported command: set_max_area
+[12/03 21:20:24     14s] 
+[12/03 21:20:24     14s] 
+[12/03 21:20:24     14s] Ending "Constraint file reading stats" (total cpu=0:00:00.0, real=0:00:00.0, peak res=1113.6M, current mem=1113.6M)
+[12/03 21:20:24     14s] Current (total cpu=0:00:14.1, real=0:00:51.0, peak res=1113.6M, current mem=1113.6M)
+[12/03 21:20:24     14s] Tech dependent Parameter, Build TLibAnalyzer for: cellAreaConsiderPadding
+[12/03 21:20:24     14s] 
+[12/03 21:20:24     14s] TimeStamp Creating Cell Server ...(0, 1, 1, 1) Begin ...
+[12/03 21:20:24     14s] Summary for sequential cells identification: 
+[12/03 21:20:24     14s]   Identified SBFF number: 4
+[12/03 21:20:24     14s]   Identified MBFF number: 0
+[12/03 21:20:24     14s]   Identified SB Latch number: 0
+[12/03 21:20:24     14s]   Identified MB Latch number: 0
+[12/03 21:20:24     14s]   Not identified SBFF number: 0
+[12/03 21:20:24     14s]   Not identified MBFF number: 0
+[12/03 21:20:24     14s]   Not identified SB Latch number: 0
+[12/03 21:20:24     14s]   Not identified MB Latch number: 0
+[12/03 21:20:24     14s]   Number of sequential cells which are not FFs: 0
+[12/03 21:20:24     14s] Total number of combinational cells: 17
+[12/03 21:20:24     14s] Total number of sequential cells: 4
+[12/03 21:20:24     14s] Total number of tristate cells: 0
+[12/03 21:20:24     14s] Total number of level shifter cells: 0
+[12/03 21:20:24     14s] Total number of power gating cells: 0
+[12/03 21:20:24     14s] Total number of isolation cells: 0
+[12/03 21:20:24     14s] Total number of power switch cells: 0
+[12/03 21:20:24     14s] Total number of pulse generator cells: 0
+[12/03 21:20:24     14s] Total number of always on buffers: 0
+[12/03 21:20:24     14s] Total number of retention cells: 0
+[12/03 21:20:24     14s] List of usable buffers: BUFX1
+[12/03 21:20:24     14s] Total number of usable buffers: 1
+[12/03 21:20:24     14s] List of unusable buffers:
+[12/03 21:20:24     14s] Total number of unusable buffers: 0
+[12/03 21:20:24     14s] List of usable inverters: INVX2 INVX1 INVX16 INVX32 INVX4 INVX8
+[12/03 21:20:24     14s] Total number of usable inverters: 6
+[12/03 21:20:24     14s] List of unusable inverters:
+[12/03 21:20:24     14s] Total number of unusable inverters: 0
+[12/03 21:20:24     14s] List of identified usable delay cells:
+[12/03 21:20:24     14s] Total number of identified usable delay cells: 0
+[12/03 21:20:24     14s] List of identified unusable delay cells:
+[12/03 21:20:24     14s] Total number of identified unusable delay cells: 0
+[12/03 21:20:24     14s] 
+[12/03 21:20:24     14s] TimeStamp Creating Cell Server ...(0, 1, 1, 1) End ...
+[12/03 21:20:24     14s] No delay cells were detected in the set of buffers. Buffers will be used to fix hold violations.
+[12/03 21:20:24     14s] 
+[12/03 21:20:24     14s] TimeStamp Deleting Cell Server Begin ...
+[12/03 21:20:24     14s] 
+[12/03 21:20:24     14s] TimeStamp Deleting Cell Server End ...
+[12/03 21:20:24     14s] Ending "Cell type marking" (total cpu=0:00:00.0, real=0:00:00.0, peak res=1143.2M, current mem=1143.2M)
+[12/03 21:20:24     14s] 
+[12/03 21:20:24     14s] TimeStamp Creating Cell Server ...(0, 0, 0, 0) Begin ...
+[12/03 21:20:24     14s] Summary for sequential cells identification: 
+[12/03 21:20:24     14s]   Identified SBFF number: 4
+[12/03 21:20:24     14s]   Identified MBFF number: 0
+[12/03 21:20:24     14s]   Identified SB Latch number: 0
+[12/03 21:20:24     14s]   Identified MB Latch number: 0
+[12/03 21:20:24     14s]   Not identified SBFF number: 0
+[12/03 21:20:24     14s]   Not identified MBFF number: 0
+[12/03 21:20:24     14s]   Not identified SB Latch number: 0
+[12/03 21:20:24     14s]   Not identified MB Latch number: 0
+[12/03 21:20:24     14s]   Number of sequential cells which are not FFs: 0
+[12/03 21:20:24     14s]  Visiting view : wc
+[12/03 21:20:24     14s]    : PowerDomain = none : Weighted F : unweighted  = 40.90 (1.000) with rcCorner = 0
+[12/03 21:20:24     14s]    : PowerDomain = none : Weighted F : unweighted  = 38.70 (1.000) with rcCorner = -1
+[12/03 21:20:24     14s]  Visiting view : bc
+[12/03 21:20:24     14s]    : PowerDomain = none : Weighted F : unweighted  = 22.20 (1.000) with rcCorner = 1
+[12/03 21:20:24     14s]    : PowerDomain = none : Weighted F : unweighted  = 19.20 (1.000) with rcCorner = -1
+[12/03 21:20:24     14s] TLC MultiMap info (StdDelay):
+[12/03 21:20:24     14s]   : bc + bc + 1 + no RcCorner := 19.2ps
+[12/03 21:20:24     14s]   : bc + bc + 1 + bc := 22.2ps
+[12/03 21:20:24     14s]   : wc + wc + 1 + no RcCorner := 38.7ps
+[12/03 21:20:24     14s]   : wc + wc + 1 + wc := 40.9ps
+[12/03 21:20:24     14s]  Setting StdDelay to: 40.9ps
+[12/03 21:20:24     14s] 
+[12/03 21:20:24     14s] TimeStamp Creating Cell Server ...(0, 0, 0, 0) End ...
+[12/03 21:20:24     14s] **WARN: (IMPSYC-2):	Timing information is not defined for cell pad_corner; Check the timing library (.lib) file and make sure the timing information exists for the cell and you can run the checkTimingLibrary command to verify if the timing library has complete information after the design is loaded.
+[12/03 21:20:24     14s] Type 'man IMPSYC-2' for more detail.
+[12/03 21:20:24     14s] 
+[12/03 21:20:24     14s] *** Summary of all messages that are not suppressed in this session:
+[12/03 21:20:24     14s] Severity  ID               Count  Summary                                  
+[12/03 21:20:24     14s] WARNING   IMPLF-58             1  MACRO '%s' has been found in the databas...
+[12/03 21:20:24     14s] WARNING   IMPLF-61             1  %d duplicated MACRO definitions have bee...
+[12/03 21:20:24     14s] WARNING   IMPLF-200           40  Pin '%s' in macro '%s' has no ANTENNAGAT...
+[12/03 21:20:24     14s] WARNING   IMPLF-201           34  Pin '%s' in macro '%s' has no ANTENNADIF...
+[12/03 21:20:24     14s] WARNING   IMPFP-3961           2  The techSite '%s' has no related standar...
+[12/03 21:20:24     14s] WARNING   IMPSYC-2             1  Timing information is not defined for ce...
+[12/03 21:20:24     14s] WARNING   IMPVL-209            6  In Verilog file '%s', check line %d near...
+[12/03 21:20:24     14s] WARNING   IMPVL-159            2  Pin '%s' of cell '%s' is defined in LEF ...
+[12/03 21:20:24     14s] WARNING   IMPVL-352            3  Bus port (%s) is connected by a signal (...
+[12/03 21:20:24     14s] WARNING   IMPVL-357            3  Signal port (%s) is connected by a bus. ...
+[12/03 21:20:24     14s] WARNING   IMPECO-560           1  The netlist is not unique, because the m...
+[12/03 21:20:24     14s] WARNING   TCLCMD-1461          1  Skipped unsupported command: %s          
+[12/03 21:20:24     14s] WARNING   TECHLIB-302          8  No function defined for cell '%s'. The c...
+[12/03 21:20:24     14s] *** Message Summary: 103 warning(s), 0 error(s)
+[12/03 21:20:24     14s] 
+[12/03 21:20:27     14s] <CMD> zoomBox -365.26200 -413.44500 1443.86200 1206.10700
+[12/03 21:20:28     14s] <CMD> setDrawView fplan
+[12/03 21:20:32     15s] <CMD> setDrawView ameba
+[12/03 21:20:34     15s] <CMD> setDrawView place
+[12/03 21:20:35     15s] <CMD> setDrawView fplan
+[12/03 21:20:35     15s] <CMD> setDrawView ameba
+[12/03 21:20:37     15s] <CMD> setDrawView fplan
+[12/03 21:20:41     15s] <CMD> setDrawView ameba
+[12/03 21:20:42     16s] <CMD> setDrawView fplan
+[12/03 21:20:44     16s] <CMD> setDrawView ameba
+[12/03 21:20:45     16s] <CMD> setDrawView fplan
+[12/03 21:20:47     16s] <CMD> zoomBox -365.26200 -225.27750 3526.81200 1656.39850
+[12/03 21:20:47     16s] <CMD> zoomBox -365.26200 -37.11000 3526.81200 1844.56600
+[12/03 21:20:48     16s] <CMD> zoomBox -365.26200 -789.78000 3526.81200 1091.89600
+[12/03 21:20:48     16s] <CMD> zoomBox -523.03200 -919.05250 4055.87850 1294.68400
+[12/03 21:20:49     16s] <CMD> zoomBox -456.55800 -575.98600 2851.70500 1023.43900
+[12/03 21:20:50     16s] <CMD> zoomBox -441.34050 -432.75400 2370.68400 926.75750
+[12/03 21:22:42     27s] <CMD> saveDesign 16bitcpu_importdesign.enc
+[12/03 21:22:42     27s] #% Begin save design ... (date=12/03 21:22:42, mem=1283.6M)
+[12/03 21:22:42     27s] % Begin Save ccopt configuration ... (date=12/03 21:22:42, mem=1286.7M)
+[12/03 21:22:42     27s] % End Save ccopt configuration ... (date=12/03 21:22:42, total cpu=0:00:00.0, real=0:00:00.0, peak res=1287.7M, current mem=1287.7M)
+[12/03 21:22:42     27s] % Begin Save netlist data ... (date=12/03 21:22:42, mem=1287.7M)
+[12/03 21:22:42     27s] Writing Binary DB to 16bitcpu_importdesign.enc.dat/sixteenbitcpu_top_pads.v.bin in single-threaded mode...
+[12/03 21:22:42     27s] % End Save netlist data ... (date=12/03 21:22:42, total cpu=0:00:00.0, real=0:00:00.0, peak res=1288.6M, current mem=1288.6M)
+[12/03 21:22:42     27s] Saving symbol-table file ...
+[12/03 21:22:42     27s] Saving congestion map file 16bitcpu_importdesign.enc.dat/sixteenbitcpu_top_pads.route.congmap.gz ...
+[12/03 21:22:42     27s] % Begin Save AAE data ... (date=12/03 21:22:42, mem=1289.3M)
+[12/03 21:22:42     27s] Saving AAE Data ...
+[12/03 21:22:42     27s] % End Save AAE data ... (date=12/03 21:22:42, total cpu=0:00:00.0, real=0:00:00.0, peak res=1289.3M, current mem=1289.3M)
+[12/03 21:22:42     27s] Saving preference file 16bitcpu_importdesign.enc.dat/gui.pref.tcl ...
+[12/03 21:22:42     27s] Saving mode setting ...
+[12/03 21:22:42     27s] Saving global file ...
+[12/03 21:22:42     27s] % Begin Save floorplan data ... (date=12/03 21:22:42, mem=1292.8M)
+[12/03 21:22:42     27s] Saving floorplan file ...
+[12/03 21:22:42     27s] % End Save floorplan data ... (date=12/03 21:22:42, total cpu=0:00:00.0, real=0:00:00.0, peak res=1294.5M, current mem=1294.5M)
+[12/03 21:22:42     27s] Saving Drc markers ...
+[12/03 21:22:42     27s] ... No Drc file written since there is no markers found.
+[12/03 21:22:42     27s] % Begin Save placement data ... (date=12/03 21:22:42, mem=1294.5M)
+[12/03 21:22:43     27s] ** Saving stdCellPlacement_binary (version# 2) ...
+[12/03 21:22:43     27s] Save Adaptive View Pruning View Names to Binary file
+[12/03 21:22:43     27s] *** Completed savePlace (cpu=0:00:00.0 real=0:00:01.0 mem=1340.1M) ***
+[12/03 21:22:43     27s] % End Save placement data ... (date=12/03 21:22:43, total cpu=0:00:00.0, real=0:00:01.0, peak res=1295.2M, current mem=1295.2M)
+[12/03 21:22:43     27s] % Begin Save routing data ... (date=12/03 21:22:43, mem=1295.2M)
+[12/03 21:22:43     27s] Saving route file ...
+[12/03 21:22:43     27s] *** Completed saveRoute (cpu=0:00:00.0 real=0:00:00.0 mem=1337.1M) ***
+[12/03 21:22:43     27s] % End Save routing data ... (date=12/03 21:22:43, total cpu=0:00:00.0, real=0:00:00.0, peak res=1295.5M, current mem=1295.5M)
+[12/03 21:22:43     27s] Saving property file 16bitcpu_importdesign.enc.dat/sixteenbitcpu_top_pads.prop
+[12/03 21:22:43     27s] *** Completed saveProperty (cpu=0:00:00.0 real=0:00:00.0 mem=1340.1M) ***
+[12/03 21:22:43     27s] % Begin Save power constraints data ... (date=12/03 21:22:43, mem=1297.0M)
+[12/03 21:22:43     27s] % End Save power constraints data ... (date=12/03 21:22:43, total cpu=0:00:00.0, real=0:00:00.0, peak res=1297.0M, current mem=1297.0M)
+[12/03 21:22:43     27s] Generated self-contained design 16bitcpu_importdesign.enc.dat
+[12/03 21:22:43     27s] #% End save design ... (date=12/03 21:22:43, total cpu=0:00:00.3, real=0:00:01.0, peak res=1322.4M, current mem=1299.0M)
+[12/03 21:22:43     27s] *** Message Summary: 0 warning(s), 0 error(s)
+[12/03 21:22:43     27s] 

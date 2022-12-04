@@ -9,13 +9,13 @@
 
 
 //Instantiate the TOP module
-module sixteenbitcpu_top_pads ( c, r, w_a, w_b, mem_in, addr, mem_out);
-  input c, r, w_a, w_b;
+module sixteenbitcpu_top_pads ( clk, r, w_a, w_b, mem_in, addr, mem_out);
+  input clk, r, w_a, w_b;
   input [15:0]mem_in;
   output [15:0]addr, mem_out;
 
 //Instantiate the necessary pads. Here we need 2 inputs pads and 1 output pads.
-pad_in pad_in0 (.pad(c), .DataIn(c_pad));
+pad_in pad_in0 (.pad(clk), .DataIn(clk_pad));
 pad_in pad_in1 (.pad(r), .DataIn(r_pad));
 pad_in pad_in2 (.pad(w_a), .DataIn(w_a_pad));
 pad_in pad_in3 (.pad(w_b), .DataIn(w_b_pad));
@@ -34,5 +34,6 @@ pad_corner corner2 ();
 pad_corner corner3 ();
 
 //Finally, we instantiate the verilog moduke obtained after synthesis.
-arrozYlecheCPU cpu(c_pad, r_pad, w_a_pad, w_b_pad, mem_in_pad, addr_pad, mem_out_pad);
+//arrozYlecheCPU cpu(c_pad, r_pad, w_a_pad, w_b_pad, mem_in_pad, addr_pad, mem_out_pad);
+arrozYlecheCPU cpu(.clk(clk_pad), .reset(r_pad), .memdata(mem_in_pad), .memwrite_a(w_a_pad), .memwrite_b(w_b_pad), .adr(addr_pad), .memOut(mem_out_pad));
 endmodule

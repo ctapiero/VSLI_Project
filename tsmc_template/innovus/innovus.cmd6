@@ -1,0 +1,42 @@
+#######################################################
+#                                                     
+#  Innovus Command Logging File                     
+#  Created on Sat Dec  3 21:19:45 2022                
+#                                                     
+#######################################################
+
+#@(#)CDS: Innovus v20.15-s105_1 (64bit) 07/27/2021 14:15 (Linux 2.6.32-431.11.2.el6.x86_64)
+#@(#)CDS: NanoRoute 20.15-s105_1 NR210726-1341/20_15-UB (database version 18.20.554) {superthreading v2.14}
+#@(#)CDS: AAE 20.15-s020 (64bit) 07/27/2021 (Linux 2.6.32-431.11.2.el6.x86_64)
+#@(#)CDS: CTE 20.15-s024_1 () Jul 23 2021 04:46:45 ( )
+#@(#)CDS: SYNTECH 20.15-s012_1 () Jul 12 2021 23:29:38 ( )
+#@(#)CDS: CPE v20.15-s071
+#@(#)CDS: IQuantus/TQuantus 20.1.1-s460 (64bit) Fri Mar 5 18:46:16 PST 2021 (Linux 2.6.32-431.11.2.el6.x86_64)
+
+set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+suppressMessage ENCEXT-2799
+win
+set init_lef_file {/research/ece/lnis-teaching/Designkits/tsmc180nm/full_custom_lib/lef/tech.lef /research/ece/lnis-teaching/Designkits/tsmc180nm/full_custom_lib/lef/sclib_tsmc180.lef /research/ece/lnis-teaching/Designkits/tsmc180nm/full_custom_lib/lef/padlib_tsmc180.lef /research/ece/lnis-teaching/Designkits/tsmc180nm/arm_ip/rf2hs8x8/rf2hsm1wm1.vclef /research/ece/lnis-teaching/Designkits/tsmc180nm/arm_ip/rf2hs8x8/rf2hsm1wm1_ant.lef}
+set init_mmmc_file /home/u1174481/VLSI/VSLI_Project/tsmc_template/innovus/CONF/16bitcpu.view
+set init_gnd_net VSS
+set init_verilog ../design_compiler/HDL/GATE/sixteenbitcpu_top_pads.v
+set init_pwr_net VDD
+init_design
+zoomBox -365.26200 -413.44500 1443.86200 1206.10700
+setDrawView fplan
+setDrawView ameba
+setDrawView place
+setDrawView fplan
+setDrawView ameba
+setDrawView fplan
+setDrawView ameba
+setDrawView fplan
+setDrawView ameba
+setDrawView fplan
+zoomBox -365.26200 -225.27750 3526.81200 1656.39850
+zoomBox -365.26200 -37.11000 3526.81200 1844.56600
+zoomBox -365.26200 -789.78000 3526.81200 1091.89600
+zoomBox -523.03200 -919.05250 4055.87850 1294.68400
+zoomBox -456.55800 -575.98600 2851.70500 1023.43900
+zoomBox -441.34050 -432.75400 2370.68400 926.75750
+saveDesign 16bitcpu_importdesign.enc

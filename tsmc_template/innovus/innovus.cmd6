@@ -40,3 +40,310 @@ zoomBox -523.03200 -919.05250 4055.87850 1294.68400
 zoomBox -456.55800 -575.98600 2851.70500 1023.43900
 zoomBox -441.34050 -432.75400 2370.68400 926.75750
 saveDesign 16bitcpu_importdesign.enc
+setDrawView ameba
+setDrawView ameba
+setDrawView fplan
+setDrawView ameba
+setDrawView fplan
+getIoFlowFlag
+setIoFlowFlag 0
+floorPlan -site core7T -r 1 0.7 20 20 20 20
+uiSetTool select
+getIoFlowFlag
+fit
+setDrawView ameba
+setDrawView fplan
+setPreference MinFPModuleSize 1
+clearGlobalNets
+globalNetConnect VDD -type pgpin -pin VDD -instanceBasename * -hierarchicalInstance {}
+globalNetConnect VSS -type pgpin -pin VSS -instanceBasename * -hierarchicalInstance {}
+set sprCreateIeRingOffset 1.0
+set sprCreateIeRingThreshold 1.0
+set sprCreateIeRingJogDistance 1.0
+set sprCreateIeRingLayers {}
+set sprCreateIeRingOffset 1.0
+set sprCreateIeRingThreshold 1.0
+set sprCreateIeRingJogDistance 1.0
+set sprCreateIeRingLayers {}
+set sprCreateIeStripeWidth 10.0
+set sprCreateIeStripeThreshold 1.0
+set sprCreateIeStripeWidth 10.0
+set sprCreateIeStripeThreshold 1.0
+set sprCreateIeRingOffset 1.0
+set sprCreateIeRingThreshold 1.0
+set sprCreateIeRingJogDistance 1.0
+set sprCreateIeRingLayers {}
+set sprCreateIeStripeWidth 10.0
+set sprCreateIeStripeThreshold 1.0
+setAddRingMode -ring_target default -extend_over_row 0 -ignore_rows 0 -avoid_short 0 -skip_crossing_trunks none -stacked_via_top_layer METAL6 -stacked_via_bottom_layer METAL1 -via_using_exact_crossover_size 1 -orthogonal_only true -skip_via_on_pin {  standardcell } -skip_via_on_wire_shape {  noshape }
+addRing -nets {VDD VSS} -type core_rings -follow core -layer {top METAL5 bottom METAL5 left METAL4 right METAL4} -width {top 4 bottom 4 left 4 right 4} -spacing {top 4 bottom 4 left 4 right 4} -offset {top 1.8 bottom 1.8 left 1.8 right 1.8} -center 1 -threshold 0 -jog_distance 0 -snap_wire_center_to_grid None
+set sprCreateIeRingOffset 1.0
+set sprCreateIeRingThreshold 1.0
+set sprCreateIeRingJogDistance 1.0
+set sprCreateIeRingLayers {}
+set sprCreateIeRingOffset 1.0
+set sprCreateIeRingThreshold 1.0
+set sprCreateIeRingJogDistance 1.0
+set sprCreateIeRingLayers {}
+set sprCreateIeStripeWidth 10.0
+set sprCreateIeStripeThreshold 1.0
+set sprCreateIeStripeWidth 10.0
+set sprCreateIeStripeThreshold 1.0
+set sprCreateIeRingOffset 1.0
+set sprCreateIeRingThreshold 1.0
+set sprCreateIeRingJogDistance 1.0
+set sprCreateIeRingLayers {}
+set sprCreateIeStripeWidth 10.0
+set sprCreateIeStripeThreshold 1.0
+setAddStripeMode -ignore_block_check false -break_at none -route_over_rows_only false -rows_without_stripes_only false -extend_to_closest_target none -stop_at_last_wire_for_area false -partial_set_thru_domain false -ignore_nondefault_domains false -trim_antenna_back_to_shape none -spacing_type edge_to_edge -spacing_from_block 0 -stripe_min_length stripe_width -stacked_via_top_layer METAL6 -stacked_via_bottom_layer METAL1 -via_using_exact_crossover_size false -split_vias false -orthogonal_only true -allow_jog { padcore_ring  block_ring } -skip_via_on_pin {  standardcell } -skip_via_on_wire_shape {  noshape   }
+addStripe -nets {VDD VSS} -layer METAL4 -direction vertical -width 2 -spacing 2 -number_of_sets 2 -start_from left -start_offset 50 -stop_offset 50 -switch_layer_over_obs false -max_same_layer_jog_length 2 -padcore_ring_top_layer_limit METAL6 -padcore_ring_bottom_layer_limit METAL1 -block_ring_top_layer_limit METAL6 -block_ring_bottom_layer_limit METAL1 -use_wire_group 0 -snap_wire_center_to_grid None
+setSrouteMode -viaConnectToShape { noshape }
+sroute -connect { blockPin corePin } -layerChangeRange { METAL1(1) METAL6(6) } -blockPinTarget { nearestTarget } -corePinTarget { firstAfterRowEnd } -allowJogging 1 -crossoverViaLayerRange { METAL1(1) METAL6(6) } -nets { VDD VSS } -allowLayerChange 1 -blockPin useLef -targetViaLayerRange { METAL1(1) METAL6(6) }
+saveDesign DBS/16bitcpu_fplan_power.en
+setRouteMode -earlyGlobalHonorMsvRouteConstraint false -earlyGlobalRoutePartitionPinGuide true
+setEndCapMode -reset
+setEndCapMode -boundary_tap false
+setNanoRouteMode -quiet -droutePostRouteSpreadWire 1
+setNanoRouteMode -quiet -timingEngine {}
+setUsefulSkewMode -maxSkew false -noBoundary false -useCells {BUFX1 INVX8 INVX4 INVX32 INVX2 INVX16 INVX1} -maxAllowedDelay 1
+setPlaceMode -reset
+setPlaceMode -congEffort auto -timingDriven 1 -clkGateAware 1 -powerDriven 0 -ignoreScan 1 -reorderScan 1 -ignoreSpare 0 -placeIOPins 1 -moduleAwareSpare 0 -preserveRouting 1 -rmAffectedRouting 0 -checkRoute 0 -swapEEQ 0
+setPlaceMode -fp false
+place_design
+setDrawView fplan
+setDrawView ameba
+setDrawView place
+setDrawView ameba
+setDrawView place
+setDrawView place
+setDrawView place
+setDrawView ameba
+setDrawView fplan
+setDrawView ameba
+setDrawView place
+setDrawView ameba
+selectInst pad_in0
+zoomBox -129.55700 340.11000 687.04050 734.90500
+setDrawView place
+deselectAll
+selectInst pad_in1
+deselectAll
+selectInst pad_in0
+deselectAll
+selectInst pad_in1
+zoomBox 93.70850 445.75100 519.97850 651.83700
+zoomBox 172.44400 478.54050 480.42400 627.43750
+zoomBox 203.22350 490.59650 465.00650 617.15900
+zoomBox 251.62400 509.55500 440.76250 600.99650
+zoomBox 123.21400 451.96300 485.54450 627.13650
+zoomBox -47.94650 374.37300 542.04900 659.61450
+zoomBox -356.10750 233.26500 604.60300 697.73350
+deselectAll
+selectInst pad_in2
+zoomBox 62.51350 396.18450 564.01100 638.64050
+zoomBox 225.07450 462.27950 533.05750 611.17800
+deselectAll
+selectInst pad_in1
+zoomBox 293.59100 519.00550 454.36050 596.73150
+zoomBox 314.67650 536.46950 430.83300 592.62700
+zoomBox 347.02700 552.83500 407.66250 582.15000
+zoomBox 366.31550 563.46300 393.22050 576.47050
+zoomBox 367.76200 565.02550 390.63100 576.08200
+zoomBox 368.99100 566.35400 388.43000 575.75200
+zoomBox 371.67900 569.25700 383.61750 575.02900
+zoomBox 369.52750 565.09150 392.40000 576.14950
+zoomBox 366.70950 559.62100 403.95450 577.62750
+zoomBox 363.28650 546.16100 434.63600 580.65600
+zoomBox 362.50400 528.12250 478.68600 584.29250
+zoomBox 362.85900 540.82950 446.80050 581.41200
+zoomBox 349.62650 553.31250 420.97600 587.80750
+zoomBox 343.05650 566.31850 380.30250 584.32550
+pan -34.81050 205.53850
+fit
+zoomBox -628.72150 -40.44400 1211.68150 849.32400
+zoomBox -312.87950 153.95200 1016.81250 796.80950
+deselectAll
+selectInst pad_in2
+deselectAll
+selectInst pad_in2
+zoomBox 143.97850 392.59950 733.97000 677.83900
+zoomBox 347.85000 482.73300 609.63300 609.29550
+zoomBox -63.50050 254.48450 897.20500 718.95050
+zoomBox -403.82250 57.21950 1160.52550 813.52500
+deselectAll
+selectInst pad_out0/pad_out0
+zoomBox -45.83750 334.30150 648.27200 669.87800
+zoomBox 107.34100 448.96550 415.32200 597.86300
+zoomBox -36.61750 324.51100 657.49550 660.08950
+zoomBox -130.34800 250.40350 830.36350 714.87250
+deselectAll
+selectInst pad_in4
+zoomBox -177.75300 224.50900 952.49550 770.94300
+zoomBox -233.52400 194.04450 1096.18050 836.90850
+zoomBox -299.13700 158.06350 1265.22150 914.37400
+zoomBox -229.00900 180.07550 1100.69600 822.93950
+zoomBox -37.63800 234.69750 656.47750 570.27700
+zoomBox -67.69000 213.77900 748.91650 608.57850
+deselectAll
+selectInst pad_in3
+zoomBox 36.75500 222.69150 730.87050 558.27100
+zoomBox 125.53350 230.39250 715.53150 515.63500
+zoomBox 431.34000 324.36850 653.85900 431.94850
+zoomBox 458.54800 336.08950 647.69050 427.53300
+zoomBox 481.13600 347.57100 641.90700 425.29800
+pan 103.27150 -72.59650
+zoomBox 520.56400 351.76500 657.21950 417.83300
+fit
+deselectAll
+selectInst pad_out1/pad_out0
+deselectAll
+selectInst pad_vdd0
+deselectAll
+selectInst pad_gnd0
+zoomBox -196.48450 40.11600 933.75300 586.54450
+zoomBox 7.20300 77.27000 823.79950 472.06450
+deselectAll
+selectInst pad_gnd0
+deselectAll
+selectInst pad_vdd0
+zoomBox -67.40600 56.21300 893.29600 520.67750
+zoomBox -161.29850 38.16850 968.93950 584.59750
+zoomBox -271.76000 17.05950 1057.93250 659.91750
+zoomBox -121.12000 40.08750 1009.11850 586.51650
+zoomBox 6.34600 56.19500 967.04850 520.65950
+zoomBox 106.43150 14.42750 923.02850 409.22250
+pan 674.11850 336.47550
+zoomBox 402.35850 64.71550 828.62750 270.80100
+zoomBox 342.23750 44.50650 932.22950 329.74600
+fit
+deselectAll
+selectInst pad_out0/pad_out0
+deselectAll
+selectInst pad_out1/pad_out0
+deselectAll
+selectInst pad_out1/pad_out0
+zoomBox -490.27600 -5.58350 1074.06650 750.71900
+deselectAll
+selectInst pad_out0/pad_out0
+zoomBox -167.43700 255.65500 649.16000 650.45000
+zoomBox -95.18050 302.35300 598.92700 637.92850
+zoomBox 61.84050 404.37300 488.10950 610.45850
+zoomBox 99.13550 428.67250 461.46450 603.84550
+zoomBox 176.72200 494.41100 365.86050 585.85250
+zoomBox 192.61350 512.49500 329.26700 578.56200
+zoomBox 204.08300 525.55050 302.81550 573.28400
+zoomBox 218.49550 541.82900 270.03450 566.74600
+deselectAll
+zoomBox 196.59650 519.63850 312.75550 575.79700
+selectInst pad_out0/pad_out0
+zoomBox 166.95750 485.17800 389.48300 592.76100
+zoomBox 177.63550 492.14300 366.78200 583.58850
+zoomBox 194.42650 503.09500 331.08500 569.16450
+zoomBox 200.98350 507.37200 317.14450 563.53150
+zoomBox 194.63550 503.02100 331.29550 569.09100
+zoomBox 155.95750 476.45850 417.75600 603.02850
+zoomBox 82.00700 423.69850 583.53100 666.16700
+zoomBox -16.73700 356.00400 799.91400 750.82500
+zoomBox -112.55250 287.62400 1017.76100 834.08950
+zoomBox -245.16850 192.86150 1319.27950 949.21500
+fit
+setDrawView ameba
+setDrawView fplan
+setDrawView ameba
+checkPlace RPT/16bitcpu.checkPlace.rpt
+setDrawView place
+fit
+setDesignMode -process 180
+redirect -quiet {set honorDomain [getAnalysisMode -honorClockDomains]} > /dev/null
+timeDesign -preCTS -pathReports -drvReports -slackReports -numPaths 1 -prefix sixteenbitcpu_top_pads_preCTS -outDir RPT
+setOptMode -fixCap true -fixTran true -fixFanoutLoad false
+optDesign -preCTS
+saveDesign DBS/16bitcpu_place.enc
+setLayerPreference cellBlkgObj -isVisible 1
+setLayerPreference cellBlkgObj -isVisible 0
+setLayerPreference layoutObj -isVisible 1
+setLayerPreference layoutObj -isVisible 0
+setLayerPreference cellBlkgObj -isVisible 1
+setLayerPreference cellBlkgObj -isVisible 0
+setLayerPreference node_cell -isVisible 1
+setLayerPreference node_cell -isVisible 0
+setLayerPreference node_cell -isVisible 1
+setLayerPreference node_cell -isVisible 0
+setLayerPreference node_net -isVisible 0
+setLayerPreference node_floorplan -isVisible 1
+setLayerPreference node_floorplan -isVisible 0
+setLayerPreference node_floorplan -isVisible 1
+setLayerPreference node_cell -isVisible 1
+setLayerPreference node_net -isVisible 1
+ccopt_design -cts
+saveDesign DBS/16bitcpu_cts.enc
+setNanoRouteMode -quiet -routeInsertAntennaDiode 1
+setNanoRouteMode -quiet -routeAntennaCellName ANTENNA
+setNanoRouteMode -quiet -routeWithTimingDriven 1
+setNanoRouteMode -quiet -routeWithSiDriven 1
+setNanoRouteMode -quiet -routeTopRoutingLayer 6
+setNanoRouteMode -quiet -routeBottomRoutingLayer 1
+setNanoRouteMode -quiet -drouteEndIteration 1
+setNanoRouteMode -quiet -routeWithTimingDriven true
+setNanoRouteMode -quiet -routeWithSiDriven true
+routeDesign -globalDetail
+zoomBox -1029.12450 -253.82200 1518.14700 977.69100
+zoomBox -770.87450 -170.41900 1394.30650 876.36700
+zoomBox -555.07250 -98.35500 1285.33150 791.41350
+zoomBox -490.00050 -20.16850 1074.34350 736.13500
+zoomBox -680.57100 -104.33150 1159.83450 785.43750
+setAnalysisMode -analysisType onChipVariation
+timeDesign -postRoute
+timeDesign -postRoute -hold
+optDesign -postRoute -setup -hold
+saveDesign DBS/16bitcpu_route.enc
+getFillerMode -quiet
+addFiller -cell FILL1 FILL16 FILL2 FILL32 FILL4 FILL8 -prefix FILLER
+zoomBox -758.68950 -191.82400 1406.49350 854.96300
+zoomBox -850.36400 -294.75700 1696.91050 936.75750
+zoomBox -659.20350 -170.45700 1505.98000 876.33050
+setDrawView ameba
+setDrawView fplan
+setDrawView ameba
+setDrawView place
+zoomBox -201.57350 245.76800 759.13150 710.23400
+zoomBox -62.73100 353.63900 527.26200 638.87900
+zoomBox 1.45850 391.90650 427.72850 597.99250
+zoomBox -216.75050 293.71550 743.95450 758.18150
+zoomBox -366.74300 219.82850 962.95250 862.68800
+zoomBox -479.90700 172.98250 1084.44150 929.28800
+zoomBox -147.55550 238.54350 982.68600 784.97400
+pan 677.43550 747.76850
+zoomBox 197.52850 267.86150 891.63900 603.43850
+zoomBox 120.66600 204.37850 1081.37250 668.84500
+zoomBox 97.93150 171.85750 1228.17500 718.28900
+saveDesign DBS/16bitcpu_filler.enc
+verifyConnectivity -type all -noAntenna -report RPT/16bitcpu.conn.rpt -error 1000 -warning 50
+fit
+selectMarker 233.2000 679.7800 269.3500 714.5800 2 3 21
+deselectAll
+zoomBox -256.84650 208.60500 703.85650 673.07000
+zoomBox -83.39700 347.06450 418.09600 589.51800
+zoomBox -12.88050 405.47900 295.09900 554.37600
+selectMarker 94.3000 485.6800 129.1000 521.8300 2 3 21
+deselectAll
+selectMarker 94.3000 485.6800 129.1000 521.8300 2 3 21
+deselectAll
+selectMarker 94.3000 485.6800 129.1000 521.8300 2 3 21
+zoomBox -60.60950 367.77950 365.66050 573.86550
+zoomBox -60.60950 326.56250 365.66050 532.64850
+zoomBox -60.60950 305.95400 365.66050 512.04000
+zoomBox -219.90100 184.26850 596.69800 579.06450
+zoomBox -754.39800 -94.54400 1086.01350 795.22800
+zoomBox -1971.35550 -527.57200 1554.29550 1176.95200
+zoomBox -1576.70750 -380.33450 1420.09600 1068.51100
+zoomBox -1241.25700 -255.18250 1306.02650 976.33650
+zoomBox -1019.07850 -137.54500 1146.11350 909.24650
+zoomBox -770.27050 -43.80250 1070.14300 845.97050
+zoomBox -1005.79900 -120.94500 1159.39400 925.84700
+zoomBox -795.66000 -72.90200 1044.75450 816.87150
+deselectAll
+setDrawView ameba
+setDrawView ameba
+setDrawView place
+zoomBox -674.80800 238.58450 285.90050 703.05200

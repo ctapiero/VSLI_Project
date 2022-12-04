@@ -1,31 +1,31 @@
 catch { setDesignMode -process 180 }
 catch { setAnalysisMode -analysisType bcwc }
+catch { setAnalysisMode -checkType setup }
 catch { setAnalysisMode -clkSrcPath true }
-catch { setAnalysisMode -clockPropagation sdcControl }
+catch { setAnalysisMode -clockPropagation forcedIdeal }
+catch { setAnalysisMode -usefulSkew true }
+catch { setAnalysisMode -virtualIPO false }
+catch { setOptMode -activeHoldViews { bc } }
+catch { setOptMode -activeSetupViews { wc } }
+catch { setOptMode -autoSetupViews { wc} }
+catch { setOptMode -autoTDGRSetupViews { wc} }
 catch { setOptMode -drcMargin 0 }
 catch { setOptMode -fixCap true }
+catch { setOptMode -fixDrc true }
 catch { setOptMode -fixFanoutLoad false }
 catch { setOptMode -fixTran true }
+catch { setOptMode -optimizeFF true }
+catch { setOptMode -setupTargetSlack 0 }
+catch { setPathGroupOptions default -effortLevel low }
+catch { setPathGroupOptions reg2reg -effortLevel high -weight 2 }
 catch { setExtractRCMode  -engine preRoute -total_c_th 5 -relative_c_th 0.03 -coupling_c_th 3 }
 catch {setNanoRouteMode -quiet -droutePostRouteSpreadWire "1"}
 catch {setNanoRouteMode -quiet -extractThirdPartyCompatible false}
+catch {setNanoRouteMode -quiet -grouteExpTdStdDelay 40.900000}
 catch {setNanoRouteMode -quiet -timingEngine ""}
 
-catch { setPlaceMode -autoEnableFGCUnder10nm false }
-catch { setPlaceMode -autoEnableFGCUnder16nm false }
-catch { setPlaceMode -exp_gigaplace_padding_adjustments_for_adv_nodes true }
-catch { setPlaceMode -exp_slack_driven true }
-catch { setPlaceMode -expAdvPinAccess false }
-catch { setPlaceMode -expAutoPinAccessLayer false }
-catch { setPlaceMode -expPaddingMinPadRatio 1.1 }
-catch { setPlaceMode -ipReuseSKPTG true }
-catch { setPlaceMode -ipTimingEffortLow false }
-catch { setPlaceMode -NMPenableNoFlopCongRepair true }
-catch { setPlaceMode -NMPenableNoFlopIncrNP true }
 catch { setPlaceMode -place_design_floorplan_mode false }
 catch { setPlaceMode -place_detail_check_route false }
-catch { setPlaceMode -place_detail_color_aware_legal false }
-catch { setPlaceMode -place_detail_drc_check_short_only true }
 catch { setPlaceMode -place_detail_preserve_routing true }
 catch { setPlaceMode -place_detail_remove_affected_routing false }
 catch { setPlaceMode -place_detail_swap_eeq_cells false }
@@ -37,17 +37,12 @@ catch { setPlaceMode -place_global_module_aware_spare false }
 catch { setPlaceMode -place_global_place_io_pins true }
 catch { setPlaceMode -place_global_reorder_scan true }
 catch { setPlaceMode -powerDriven false }
-catch { setPlaceMode -RTCSpread false }
-catch { setPlaceMode -tdgp_all_view_vsm false }
-catch { setPlaceMode -tdgpSlackMarginMode 1 }
-catch { setPlaceMode -tdgpSlackMarginPercentage 1 }
-catch { setPlaceMode -tdgpSlackMarginScaleAdjustPower 0.5 }
 catch { setPlaceMode -timingDriven true }
 catch { setIlmMode -keepHighFanoutPorts true -keepLoopBack false -keepInstInSdc false -keepFlatten true }
 catch { setUsefulSkewMode -maxAllowedDelay 1 }
 catch { setUsefulSkewMode -maxSkew false }
 catch { setUsefulSkewMode -noBoundary false }
-catch { setUsefulSkewMode -useCells {} }
+catch { setUsefulSkewMode -useCells {BUFX1 INVX1 INVX16 INVX2 INVX32 INVX4 INVX8} }
 catch { setSrouteMode -viaConnectToShape noshape }
 catch { setDelayCalMode -enable_high_fanout true }
 catch { setDelayCalMode -eng_copyNetPropToNewNet true }

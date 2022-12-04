@@ -1,0 +1,40 @@
+#######################################################
+#                                                     
+#  Innovus Command Logging File                     
+#  Created on Sat Dec  3 22:24:24 2022                
+#                                                     
+#######################################################
+
+#@(#)CDS: Innovus v20.15-s105_1 (64bit) 07/27/2021 14:15 (Linux 2.6.32-431.11.2.el6.x86_64)
+#@(#)CDS: NanoRoute 20.15-s105_1 NR210726-1341/20_15-UB (database version 18.20.554) {superthreading v2.14}
+#@(#)CDS: AAE 20.15-s020 (64bit) 07/27/2021 (Linux 2.6.32-431.11.2.el6.x86_64)
+#@(#)CDS: CTE 20.15-s024_1 () Jul 23 2021 04:46:45 ( )
+#@(#)CDS: SYNTECH 20.15-s012_1 () Jul 12 2021 23:29:38 ( )
+#@(#)CDS: CPE v20.15-s071
+#@(#)CDS: IQuantus/TQuantus 20.1.1-s460 (64bit) Fri Mar 5 18:46:16 PST 2021 (Linux 2.6.32-431.11.2.el6.x86_64)
+
+set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+suppressMessage ENCEXT-2799
+win
+set init_lef_file {/research/ece/lnis-teaching/Designkits/tsmc180nm/full_custom_lib/lef/tech.lef /research/ece/lnis-teaching/Designkits/tsmc180nm/full_custom_lib/lef/sclib_tsmc180.lef /research/ece/lnis-teaching/Designkits/tsmc180nm/full_custom_lib/lef/padlib_tsmc180.lef /research/ece/lnis-teaching/Designkits/tsmc180nm/arm_ip/rf2hs8x8/rf2hsm1wm1.vclef /research/ece/lnis-teaching/Designkits/tsmc180nm/arm_ip/rf2hs8x8/rf2hsm1wm1_ant.lef}
+set init_mmmc_file /home/u1174481/VLSI/VSLI_Project/tsmc_template/innovus/CONF/16bitcpu.view
+set init_gnd_net VSS
+set init_verilog ../design_compiler/HDL/GATE/sixteenbitcpu_top_pads.v
+set init_pwr_net VDD
+init_design
+setDrawView ameba
+setDrawView fplan
+zoomBox -524.84700 -374.62900 2100.93500 1976.00650
+zoomBox -804.78950 -653.37250 2284.36600 2112.08100
+zoomBox -1353.72700 -1353.94700 3676.44700 3149.13250
+zoomBox -1155.57850 -1067.94950 3120.06950 2759.66800
+zoomBox -1006.23500 -826.51100 2628.06600 2426.96400
+zoomBox -1318.73650 -1723.22950 4599.11550 3574.51100
+zoomBox -1427.53200 -3103.40050 6763.26650 4229.11250
+zoomBox -1285.04100 -1732.92550 4632.81150 3564.81550
+zoomBox -1274.70600 -1198.94150 3755.46900 3304.13900
+zoomBox -1256.79550 -357.44500 2377.50650 2896.03100
+setDrawView ameba
+setDrawView place
+setDrawView ameba
+saveDesign DBS/sixteenbitcpu_top_pads_working.enc

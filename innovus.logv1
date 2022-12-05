@@ -1,0 +1,209 @@
+[12/03 22:48:24      0s] 
+[12/03 22:48:24      0s] Cadence Innovus(TM) Implementation System.
+[12/03 22:48:24      0s] Copyright 2020 Cadence Design Systems, Inc. All rights reserved worldwide.
+[12/03 22:48:24      0s] 
+[12/03 22:48:24      0s] Version:	v20.15-s105_1, built Tue Jul 27 14:15:35 PDT 2021
+[12/03 22:48:24      0s] Options:	
+[12/03 22:48:24      0s] Date:		Sat Dec  3 22:48:24 2022
+[12/03 22:48:24      0s] Host:		lab1-20.eng.utah.edu (x86_64 w/Linux 4.18.0-372.26.1.el8_6.x86_64) (8cores*16cpus*Intel(R) Core(TM) i7-10700 CPU @ 2.90GHz 16384KB)
+[12/03 22:48:24      0s] OS:		Red Hat Enterprise Linux release 8.6 (Ootpa)
+[12/03 22:48:24      0s] 
+[12/03 22:48:24      0s] License:
+[12/03 22:48:25      0s] 		invs	Innovus Implementation System	20.1	checkout succeeded
+[12/03 22:48:25      0s] 		8 CPU jobs allowed with the current license(s). Use setMultiCpuUsage to set your required CPU count.
+[12/03 22:48:36      9s] @(#)CDS: Innovus v20.15-s105_1 (64bit) 07/27/2021 14:15 (Linux 2.6.32-431.11.2.el6.x86_64)
+[12/03 22:48:36      9s] @(#)CDS: NanoRoute 20.15-s105_1 NR210726-1341/20_15-UB (database version 18.20.554) {superthreading v2.14}
+[12/03 22:48:36      9s] @(#)CDS: AAE 20.15-s020 (64bit) 07/27/2021 (Linux 2.6.32-431.11.2.el6.x86_64)
+[12/03 22:48:36      9s] @(#)CDS: CTE 20.15-s024_1 () Jul 23 2021 04:46:45 ( )
+[12/03 22:48:36      9s] @(#)CDS: SYNTECH 20.15-s012_1 () Jul 12 2021 23:29:38 ( )
+[12/03 22:48:36      9s] @(#)CDS: CPE v20.15-s071
+[12/03 22:48:36      9s] @(#)CDS: IQuantus/TQuantus 20.1.1-s460 (64bit) Fri Mar 5 18:46:16 PST 2021 (Linux 2.6.32-431.11.2.el6.x86_64)
+[12/03 22:48:36      9s] @(#)CDS: OA 22.60-p058 Tue Jun 15 18:38:04 2021
+[12/03 22:48:36      9s] @(#)CDS: SGN 20.10-d001 (01-Jun-2020) (64 bit executable, Qt5.9.0)
+[12/03 22:48:36      9s] @(#)CDS: RCDB 11.15.0
+[12/03 22:48:36      9s] @(#)CDS: STYLUS 20.10-p029_1 (06/24/2021 01:33 PDT)
+[12/03 22:48:36      9s] Create and set the environment variable TMPDIR to /tmp/innovus_temp_3785509_lab1-20.eng.utah.edu_u1367608_NOM5Vc.
+
+[12/03 22:48:36      9s] Change the soft stacksize limit to 0.2%RAM (128 mbytes). Set global soft_stack_size_limit to change the value.
+[12/03 22:48:37     10s] 
+[12/03 22:48:37     10s] **INFO:  MMMC transition support version v31-84 
+[12/03 22:48:37     10s] 
+[12/03 22:48:37     10s] <CMD> set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+[12/03 22:48:37     10s] <CMD> suppressMessage ENCEXT-2799
+[12/03 22:48:37     10s] <CMD> win
+[12/03 22:52:47     29s] <CMD> set init_lef_file {/research/ece/lnis-teaching/Designkits/tsmc180nm/full_custom_lib/lef/tech.lef /research/ece/lnis-teaching/Designkits/tsmc180nm/full_custom_lib/lef/sclib_tsmc180.lef /research/ece/lnis-teaching/Designkits/tsmc180nm/full_custom_lib/lef/padlib_tsmc180.lef /research/ece/lnis-teaching/Designkits/tsmc180nm/arm_ip/rf2hs8x8/rf2hsm1wm1.vclef /research/ece/lnis-teaching/Designkits/tsmc180nm/arm_ip/rf2hs8x8/rf2hsm1wm1_ant.lef}
+[12/03 22:52:47     29s] <CMD> set init_mmmc_file /home/u1367608/cs6710/VSLI_Project/tsmc_template/innovus/CONF/16bitcpu.view
+[12/03 22:53:08     32s] <CMD> set init_gnd_net VSS
+[12/03 22:53:08     32s] <CMD> set init_verilog tsmc_template/design_compiler/HDL/GATE/sixteenbitcpu_top_pads.v
+[12/03 22:53:08     32s] <CMD> set init_pwr_net VDD
+[12/03 22:53:08     32s] <CMD> init_design
+[12/03 22:53:08     32s] #% Begin Load MMMC data ... (date=12/03 22:53:08, mem=815.2M)
+[12/03 22:53:08     32s] **ERROR: (TCLCMD-989):	cannot open SDC file '../design_compiler/SDC/16bitcpu_mapped.sdc' for mode 'constraint'
+<CMD> set init_gnd_net VSS
+[12/03 22:54:42     37s] <CMD> set init_verilog tsmc_template/design_compiler/HDL/GATE/sixteenbitcpu_top_pads.v
+[12/03 22:54:42     37s] <CMD> set init_pwr_net VDD
+[12/03 22:54:42     37s] <CMD> init_design
+[12/03 22:54:42     37s] report_message: '-start_cmd/-end_cmd' can not be nested. Interior calls do nothing. Ignore.
+[12/03 22:54:42     37s] % Begin Load MMMC data ... (date=12/03 22:54:42, mem=826.4M)
+[12/03 22:54:42     37s] Extraction setup Started 
+[12/03 22:54:42     37s] 
+[12/03 22:54:42     37s] Trim Metal Layers:
+[12/03 22:54:42     37s] 
+[12/03 22:54:42     37s] Trim Metal Layers:
+[12/03 22:54:42     37s] 
+[12/03 22:54:42     37s] Trim Metal Layers:
+[12/03 22:54:42     37s] Extraction setup Started 
+[12/03 22:54:42     37s] 
+[12/03 22:54:42     37s] Trim Metal Layers:
+[12/03 22:54:42     37s] 
+[12/03 22:54:42     37s] Trim Metal Layers:
+[12/03 22:54:42     37s] 
+[12/03 22:54:42     37s] Trim Metal Layers:
+[12/03 22:54:42     37s] % End Load MMMC data ... (date=12/03 22:54:42, total cpu=0:00:00.0, real=0:00:00.0, peak res=826.8M, current mem=826.8M)
+[12/03 22:54:42     37s] 
+[12/03 22:54:42     37s] Loading LEF file /research/ece/lnis-teaching/Designkits/tsmc180nm/full_custom_lib/lef/tech.lef ...
+[12/03 22:54:42     37s] 
+[12/03 22:54:42     37s] Loading LEF file /research/ece/lnis-teaching/Designkits/tsmc180nm/full_custom_lib/lef/sclib_tsmc180.lef ...
+[12/03 22:54:42     37s] Set DBUPerIGU to M2 pitch 1120.
+[12/03 22:54:42     37s] 
+[12/03 22:54:42     37s] Loading LEF file /research/ece/lnis-teaching/Designkits/tsmc180nm/full_custom_lib/lef/padlib_tsmc180.lef ...
+[12/03 22:54:42     37s] 
+[12/03 22:54:42     37s] Loading LEF file /research/ece/lnis-teaching/Designkits/tsmc180nm/arm_ip/rf2hs8x8/rf2hsm1wm1.vclef ...
+[12/03 22:54:42     37s] WARNING (LEFPARS-2007): NAMESCASESENSITIVE statement is obsolete in version 5.6 and later.
+[12/03 22:54:42     37s] The LEF parser will ignore this statement.
+[12/03 22:54:42     37s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file /research/ece/lnis-teaching/Designkits/tsmc180nm/arm_ip/rf2hs8x8/rf2hsm1wm1.vclef at line 12.
+[12/03 22:54:42     37s] WARNING (LEFPARS-2001): No VERSION statement found, using the default value 5.8. See file /research/ece/lnis-teaching/Designkits/tsmc180nm/arm_ip/rf2hs8x8/rf2hsm1wm1.vclef at line 1034.
+[12/03 22:54:42     37s] 
+[12/03 22:54:42     37s] Loading LEF file /research/ece/lnis-teaching/Designkits/tsmc180nm/arm_ip/rf2hs8x8/rf2hsm1wm1_ant.lef ...
+[12/03 22:54:42     37s] **WARN: (IMPLF-58):	MACRO 'rf2hsm1wm1' has been found in the database. Its content except DENSITY and PIN ANTENNA* data, and certain properties, will be ignored.
+[12/03 22:54:42     37s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[12/03 22:54:42     37s] Type 'man IMPLF-58' for more detail.
+[12/03 22:54:42     37s] WARNING (LEFPARS-2001): No VERSION statement found, using the default value 5.8. See file /research/ece/lnis-teaching/Designkits/tsmc180nm/arm_ip/rf2hs8x8/rf2hsm1wm1_ant.lef at line 81.
+[12/03 22:54:42     37s] **WARN: (IMPLF-61):	1 duplicated MACRO definitions have been found in the LEF file(s). Their content except DENSITY and PIN ANTENNA* data, and certain properties, have been ignored.
+[12/03 22:54:42     37s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[12/03 22:54:42     37s] Type 'man IMPLF-61' for more detail.
+[12/03 22:54:42     37s] **WARN: (IMPLF-201):	Pin 'QA[0]' in macro 'rf2hsm1wm1' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/03 22:54:42     37s] Type 'man IMPLF-201' for more detail.
+[12/03 22:54:42     37s] **WARN: (IMPLF-201):	Pin 'QA[1]' in macro 'rf2hsm1wm1' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/03 22:54:42     37s] Type 'man IMPLF-201' for more detail.
+[12/03 22:54:42     37s] **WARN: (IMPLF-201):	Pin 'QA[2]' in macro 'rf2hsm1wm1' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/03 22:54:42     37s] Type 'man IMPLF-201' for more detail.
+[12/03 22:54:42     37s] **WARN: (IMPLF-201):	Pin 'QA[3]' in macro 'rf2hsm1wm1' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/03 22:54:42     37s] Type 'man IMPLF-201' for more detail.
+[12/03 22:54:42     37s] **WARN: (IMPLF-201):	Pin 'QA[4]' in macro 'rf2hsm1wm1' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/03 22:54:42     37s] Type 'man IMPLF-201' for more detail.
+[12/03 22:54:42     37s] **WARN: (IMPLF-201):	Pin 'QA[5]' in macro 'rf2hsm1wm1' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/03 22:54:42     37s] Type 'man IMPLF-201' for more detail.
+[12/03 22:54:42     37s] **WARN: (IMPLF-201):	Pin 'QA[6]' in macro 'rf2hsm1wm1' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/03 22:54:42     37s] Type 'man IMPLF-201' for more detail.
+[12/03 22:54:42     37s] **WARN: (IMPLF-201):	Pin 'QA[7]' in macro 'rf2hsm1wm1' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/03 22:54:42     37s] Type 'man IMPLF-201' for more detail.
+[12/03 22:54:42     37s] **WARN: (IMPLF-200):	Pin 'DataOut' in macro 'pad_out' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/03 22:54:42     37s] Type 'man IMPLF-200' for more detail.
+[12/03 22:54:42     37s] **WARN: (IMPLF-201):	Pin 'pad' in macro 'pad_out' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/03 22:54:42     37s] Type 'man IMPLF-201' for more detail.
+[12/03 22:54:42     37s] **WARN: (IMPLF-200):	Pin 'pad' in macro 'pad_out' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/03 22:54:42     37s] Type 'man IMPLF-200' for more detail.
+[12/03 22:54:42     37s] **WARN: (IMPLF-201):	Pin 'DataIn' in macro 'pad_in' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/03 22:54:42     37s] Type 'man IMPLF-201' for more detail.
+[12/03 22:54:42     37s] **WARN: (IMPLF-201):	Pin 'pad' in macro 'pad_in' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/03 22:54:42     37s] Type 'man IMPLF-201' for more detail.
+[12/03 22:54:42     37s] **WARN: (IMPLF-200):	Pin 'pad' in macro 'pad_in' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/03 22:54:42     37s] Type 'man IMPLF-200' for more detail.
+[12/03 22:54:42     37s] **WARN: (IMPLF-201):	Pin 'DataIn' in macro 'pad_bidirhe' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/03 22:54:42     37s] Type 'man IMPLF-201' for more detail.
+[12/03 22:54:42     37s] **WARN: (IMPLF-200):	Pin 'DataOut' in macro 'pad_bidirhe' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/03 22:54:42     37s] Type 'man IMPLF-200' for more detail.
+[12/03 22:54:42     37s] **WARN: (IMPLF-200):	Pin 'EN' in macro 'pad_bidirhe' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/03 22:54:42     37s] Type 'man IMPLF-200' for more detail.
+[12/03 22:54:42     37s] **WARN: (IMPLF-201):	Pin 'pad' in macro 'pad_bidirhe' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/03 22:54:42     37s] Type 'man IMPLF-201' for more detail.
+[12/03 22:54:42     37s] **WARN: (IMPLF-200):	Pin 'pad' in macro 'pad_bidirhe' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/03 22:54:42     37s] Type 'man IMPLF-200' for more detail.
+[12/03 22:54:42     37s] **WARN: (IMPLF-201):	Pin 'Z' in macro 'XOR2X1' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/03 22:54:42     37s] Type 'man IMPLF-201' for more detail.
+[12/03 22:54:42     37s] **WARN: (IMPLF-200):	Pin 'B' in macro 'XOR2X1' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/03 22:54:42     37s] Type 'man IMPLF-200' for more detail.
+[12/03 22:54:42     37s] **WARN: (IMPLF-200):	Pin 'A' in macro 'XOR2X1' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/03 22:54:42     37s] Type 'man IMPLF-200' for more detail.
+[12/03 22:54:42     37s] **WARN: (IMPLF-201):	Pin 'Z' in macro 'TIE1' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/03 22:54:42     37s] Type 'man IMPLF-201' for more detail.
+[12/03 22:54:42     37s] **WARN: (IMPLF-201):	Pin 'Z' in macro 'TIE0' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/03 22:54:42     37s] Type 'man IMPLF-201' for more detail.
+[12/03 22:54:42     37s] **WARN: (IMPLF-201):	Pin 'Z' in macro 'OR2X1' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/03 22:54:42     37s] Type 'man IMPLF-201' for more detail.
+[12/03 22:54:42     37s] **WARN: (IMPLF-200):	Pin 'B' in macro 'OR2X1' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/03 22:54:42     37s] Type 'man IMPLF-200' for more detail.
+[12/03 22:54:42     37s] **WARN: (IMPLF-200):	Pin 'A' in macro 'OR2X1' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/03 22:54:42     37s] Type 'man IMPLF-200' for more detail.
+[12/03 22:54:42     37s] **WARN: (IMPLF-201):	Pin 'Z' in macro 'NOR2X1' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/03 22:54:42     37s] Type 'man IMPLF-201' for more detail.
+[12/03 22:54:42     37s] **WARN: (IMPLF-200):	Pin 'B' in macro 'NOR2X1' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/03 22:54:42     37s] Type 'man IMPLF-200' for more detail.
+[12/03 22:54:42     37s] **WARN: (IMPLF-200):	Pin 'A' in macro 'NOR2X1' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/03 22:54:42     37s] Type 'man IMPLF-200' for more detail.
+[12/03 22:54:42     37s] **WARN: (IMPLF-200):	Pin 'A' in macro 'NAND3X1' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/03 22:54:42     37s] Type 'man IMPLF-200' for more detail.
+[12/03 22:54:42     37s] **WARN: (IMPLF-201):	Pin 'Z' in macro 'NAND3X1' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/03 22:54:42     37s] Type 'man IMPLF-201' for more detail.
+[12/03 22:54:42     37s] **WARN: (IMPLF-200):	Pin 'C' in macro 'NAND3X1' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/03 22:54:42     37s] Type 'man IMPLF-200' for more detail.
+[12/03 22:54:42     37s] **WARN: (IMPLF-200):	Pin 'B' in macro 'NAND3X1' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/03 22:54:42     37s] Type 'man IMPLF-200' for more detail.
+[12/03 22:54:42     37s] **WARN: (IMPLF-201):	Pin 'Z' in macro 'NAND2X1' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/03 22:54:42     37s] Type 'man IMPLF-201' for more detail.
+[12/03 22:54:42     37s] **WARN: (IMPLF-200):	Pin 'B' in macro 'NAND2X1' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/03 22:54:42     37s] Type 'man IMPLF-200' for more detail.
+[12/03 22:54:42     37s] **WARN: (IMPLF-200):	Pin 'A' in macro 'NAND2X1' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/03 22:54:42     37s] Type 'man IMPLF-200' for more detail.
+[12/03 22:54:42     37s] **WARN: (EMS-27):	Message (IMPLF-201) has exceeded the current message display limit of 20.
+[12/03 22:54:42     37s] To increase the message display limit, refer to the product command reference manual.
+[12/03 22:54:42     37s] **WARN: (IMPLF-200):	Pin 'S' in macro 'MUX2X1' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/03 22:54:42     37s] Type 'man IMPLF-200' for more detail.
+[12/03 22:54:42     37s] **WARN: (IMPLF-200):	Pin 'B' in macro 'MUX2X1' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/03 22:54:42     37s] Type 'man IMPLF-200' for more detail.
+[12/03 22:54:42     37s] **WARN: (IMPLF-200):	Pin 'A' in macro 'MUX2X1' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/03 22:54:42     37s] Type 'man IMPLF-200' for more detail.
+[12/03 22:54:42     37s] **WARN: (EMS-27):	Message (IMPLF-200) has exceeded the current message display limit of 20.
+[12/03 22:54:42     37s] To increase the message display limit, refer to the product command reference manual.
+[12/03 22:54:42     37s] 
+[12/03 22:54:42     37s] viaInitial starts at Sat Dec  3 22:54:42 2022
+viaInitial ends at Sat Dec  3 22:54:42 2022
+
+##  Check design process and node:  
+##  Both design process and tech node are not set.
+
+[12/03 22:54:42     37s] Loading view definition file from /home/u1367608/cs6710/VSLI_Project/tsmc_template/innovus/CONF/16bitcpu.view
+[12/03 22:54:42     37s] Reading wc timing library '/research/ece/lnis-teaching/Designkits/tsmc180nm/full_custom_lib/lib/sclib_tsmc180_ss_nldm.lib' ...
+[12/03 22:54:42     37s] **WARN: (TECHLIB-302):	No function defined for cell 'ANTENNA'. The cell will only be used for analysis. (File /research/ece/lnis-teaching/Designkits/tsmc180nm/full_custom_lib/lib/sclib_tsmc180_ss_nldm.lib)
+[12/03 22:54:42     37s] Read 21 cells in library 'sclib_tsmc180_ss' 
+[12/03 22:54:42     37s] Reading wc timing library '/research/ece/lnis-teaching/Designkits/tsmc180nm/full_custom_lib/lib/padlib_tsmc180_ss_nldm.lib' ...
+[12/03 22:54:42     37s] **WARN: (TECHLIB-302):	No function defined for cell 'pad_vdd'. The cell will only be used for analysis. (File /research/ece/lnis-teaching/Designkits/tsmc180nm/full_custom_lib/lib/padlib_tsmc180_ss_nldm.lib)
+[12/03 22:54:42     37s] **WARN: (TECHLIB-302):	No function defined for cell 'pad_gnd'. The cell will only be used for analysis. (File /research/ece/lnis-teaching/Designkits/tsmc180nm/full_custom_lib/lib/padlib_tsmc180_ss_nldm.lib)
+[12/03 22:54:42     37s] **WARN: (TECHLIB-302):	No function defined for cell 'pad_ana'. The cell will only be used for analysis. (File /research/ece/lnis-teaching/Designkits/tsmc180nm/full_custom_lib/lib/padlib_tsmc180_ss_nldm.lib)
+[12/03 22:54:42     37s] Read 6 cells in library 'padlib_tsmc180_ss' 
+[12/03 22:54:42     37s] Reading wc timing library '/research/ece/lnis-teaching/Designkits/tsmc180nm/arm_ip/rf2hs8x8/rf2hsm1wm1_slow_syn.lib' ...
+[12/03 22:54:42     37s] Read 1 cells in library 'USERLIB' 
+[12/03 22:54:42     37s] Reading bc timing library '/research/ece/lnis-teaching/Designkits/tsmc180nm/full_custom_lib/lib/sclib_tsmc180_ff_nldm.lib' ...
+[12/03 22:54:42     37s] **WARN: (TECHLIB-302):	No function defined for cell 'ANTENNA'. The cell will only be used for analysis. (File /research/ece/lnis-teaching/Designkits/tsmc180nm/full_custom_lib/lib/sclib_tsmc180_ff_nldm.lib)
+[12/03 22:54:42     37s] Read 21 cells in library 'sclib_tsmc180_ff' 
+[12/03 22:54:42     37s] Reading bc timing library '/research/ece/lnis-teaching/Designkits/tsmc180nm/full_custom_lib/lib/padlib_tsmc180_ff_nldm.lib' ...
+[12/03 22:54:42     37s] **WARN: (TECHLIB-302):	No function defined for cell 'pad_vdd'. The cell will only be used for analysis. (File /research/ece/lnis-teaching/Designkits/tsmc180nm/full_custom_lib/lib/padlib_tsmc180_ff_nldm.lib)
+[12/03 22:54:42     37s] **WARN: (TECHLIB-302):	No function defined for cell 'pad_gnd'. The cell will only be used for analysis. (File /research/ece/lnis-teaching/Designkits/tsmc180nm/full_custom_lib/lib/padlib_tsmc180_ff_nldm.lib)
+[12/03 22:54:42     37s] **WARN: (TECHLIB-302):	No function defined for cell 'pad_ana'. The cell will only be used for analysis. (File /research/ece/lnis-teaching/Designkits/tsmc180nm/full_custom_lib/lib/padlib_tsmc180_ff_nldm.lib)
+[12/03 22:54:42     37s] Read 6 cells in library 'padlib_tsmc180_ff' 
+[12/03 22:54:42     37s] Reading bc timing library '/research/ece/lnis-teaching/Designkits/tsmc180nm/arm_ip/rf2hs8x8/rf2hsm1wm1_fast@-40C_syn.lib' ...
+[12/03 22:54:42     37s] Read 1 cells in library 'USERLIB' 
+[12/03 22:54:42     37s] Ending "PreSetAnalysisView" (total cpu=0:00:00.1, real=0:00:00.0, peak res=872.2M, current mem=840.7M)
+[12/03 22:54:42     37s] *** End library_loading (cpu=0.00min, real=0.00min, mem=18.9M, fe_cpu=0.62min, fe_real=6.30min, fe_mem=798.3M) ***
+[12/03 22:54:42     37s] % Begin Load netlist data ... (date=12/03 22:54:42, mem=839.7M)
+[12/03 22:54:42     37s] *** Begin netlist parsing (mem=798.3M) ***
+[12/03 22:54:42     37s] Pin 'pad' of cell 'pad_ana' is declared as power/ground in LEF but as signal in timing library.  Treat it as power/ground.
+[12/03 22:54:42     37s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'rf2hsm1wm1' is defined in LEF but not in the timing library.
+[12/03 22:54:42     37s] Type 'man IMPVL-159' for more detail.
+[12/03 22:54:42     37s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'rf2hsm1wm1' is defined in LEF but not in the timing library.
+[12/03 22:54:42     37s] Type 'man IMPVL-159' for more detail.
+[12/03 22:54:42     37s] Created 28 new cells from 6 timing libraries.
+[12/03 22:54:42     37s] Reading netlist ...
+[12/03 22:54:42     37s] Backslashed names will retain backslash and a trailing blank character.
+[12/03 22:54:42     37s] **FATAL ERROR: [/icd/cm_t1nb_001/INNOVUS201/Rel/20.15/main/lnx86_64_opt/20.15-s105_1/fe/src/vl/vlVerilogMTLex.l:257:vlVerilogMT_yylex]: Include file '/home/u1174481/VLSI/VSLI_Project/tsmc_template/design_compiler/HDL/GATE/padlib_tsmc180_innovus.v' not foundExiting due to previous fatal error.

@@ -2,23 +2,26 @@
 //There is no RTL code as those one will be used for place & route.
 //The RTL definition of the pads is available here: 
 // /research/ece/lnis-teaching/Designkits/tsmc180nm/full_custom_lib/verilog/padlib_tsmc180.v
-`include "/home/u1174481/VLSI/VSLI_Project/tsmc_template/design_compiler/HDL/GATE/padlib_tsmc180_innovus.v" 
+//`include "/home/u1174481/VLSI/VSLI_Project/tsmc_template/design_compiler/HDL/GATE/padlib_tsmc180_innovus.v" 
+`include "/home/u1367608/cs6710/VSLI_Project/tsmc_template/design_compiler/HDL/GATE/padlib_tsmc180_innovus.v" 
 
 //Include the post-synthesis netlist.
-`include "/home/u1174481/VLSI/VSLI_Project/tsmc_template/design_compiler/HDL/GATE/16bitcpu_mapped.v" 
+//`include "/home/u1174481/VLSI/VSLI_Project/tsmc_template/design_compiler/HDL/GATE/16bitcpu_mapped.v" 
+`include "/home/u1367608/cs6710/VSLI_Project/tsmc_template/design_compiler/HDL/GATE/16bitcpu_mapped.v" 
 
 
 //Instantiate the TOP module
-module sixteenbitcpu_top_pads ( c, r, w_a, w_b, mem_in, addr, mem_out);
-  input c, r, w_a, w_b;
+module sixteenbitcpu_top_pads ( clk, r, w_a, w_b, mem_in, addr, mem_out);
+  input clk, r, w_a, w_b;
   input [15:0]mem_in;
   output [15:0]addr, mem_out;
 
 //Instantiate the necessary pads. Here we need 2 inputs pads and 1 output pads.
-pad_in pad_in0 (.pad(c), .DataIn(c_pad));
+pad_in pad_in0 (.pad(clk), .DataIn(clk_pad));
 pad_in pad_in1 (.pad(r), .DataIn(r_pad));
 pad_in pad_in2 (.pad(w_a), .DataIn(w_a_pad));
 pad_in pad_in3 (.pad(w_b), .DataIn(w_b_pad));
+
 pad_in pad_mem0 (.pad(mem_in[0]), .DataIn(mem_in_pad0));
 pad_in pad_mem1 (.pad(mem_in[1]), .DataIn(mem_in_pad1));
 pad_in pad_mem2 (.pad(mem_in[2]), .DataIn(mem_in_pad2));
@@ -84,7 +87,7 @@ pad_corner corner2 ();
 pad_corner corner3 ();
 
 //Finally, we instantiate the verilog moduke obtained after synthesis.
-arrozYlecheCPU cpu(.clk(c_pad), .reset(r_pad), 
+arrozYlecheCPU cpu(.clk(clk_pad), .reset(r_pad), 
                     .memdata({mem_in_pad15,mem_in_pad14,mem_in_pad13,mem_in_pad12,mem_in_pad11,mem_in_pad10,mem_in_pad9,mem_in_pad8,mem_in_pad7,mem_in_pad6,mem_in_pad5,mem_in_pad4,mem_in_pad3,mem_in_pad2,mem_in_pad1,mem_in_pad0}),
                     .memwrite_a(w_a_pad), .memwrite_b(w_b_pad), .adr({addr_pad15,addr_pad14,addr_pad13,addr_pad12,addr_pad11,addr_pad10,addr_pad9,addr_pad8,addr_pad7,addr_pad6,addr_pad5,addr_pad4,addr_pad3,addr_pad2,addr_pad1,addr_pad0}),
                     .memOut({mem_out_pad15,mem_out_pad14,mem_out_pad13,mem_out_pad12,mem_out_pad11,mem_out_pad10,mem_out_pad9,mem_out_pad8,mem_out_pad7,mem_out_pad6,mem_out_pad5,mem_out_pad4,mem_out_pad3,mem_out_pad2,mem_out_pad1,mem_out_pad0}));

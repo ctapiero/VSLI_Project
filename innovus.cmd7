@@ -1,0 +1,382 @@
+#######################################################
+#                                                     
+#  Innovus Command Logging File                     
+#  Created on Sun Dec  4 14:50:28 2022                
+#                                                     
+#######################################################
+
+#@(#)CDS: Innovus v20.15-s105_1 (64bit) 07/27/2021 14:15 (Linux 2.6.32-431.11.2.el6.x86_64)
+#@(#)CDS: NanoRoute 20.15-s105_1 NR210726-1341/20_15-UB (database version 18.20.554) {superthreading v2.14}
+#@(#)CDS: AAE 20.15-s020 (64bit) 07/27/2021 (Linux 2.6.32-431.11.2.el6.x86_64)
+#@(#)CDS: CTE 20.15-s024_1 () Jul 23 2021 04:46:45 ( )
+#@(#)CDS: SYNTECH 20.15-s012_1 () Jul 12 2021 23:29:38 ( )
+#@(#)CDS: CPE v20.15-s071
+#@(#)CDS: IQuantus/TQuantus 20.1.1-s460 (64bit) Fri Mar 5 18:46:16 PST 2021 (Linux 2.6.32-431.11.2.el6.x86_64)
+
+set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+suppressMessage ENCEXT-2799
+win
+set init_lef_file {/research/ece/lnis-teaching/Designkits/tsmc180nm/full_custom_lib/lef/tech.lef /research/ece/lnis-teaching/Designkits/tsmc180nm/full_custom_lib/lef/sclib_tsmc180.lef /research/ece/lnis-teaching/Designkits/tsmc180nm/full_custom_lib/lef/padlib_tsmc180.lef /research/ece/lnis-teaching/Designkits/tsmc180nm/arm_ip/rf2hs8x8/rf2hsm1wm1.vclef /research/ece/lnis-teaching/Designkits/tsmc180nm/arm_ip/rf2hs8x8/rf2hsm1wm1_ant.lef}
+set init_mmmc_file /home/u1367608/cs6710/VSLI_Project/tsmc_template/innovus/CONF/16bitcpu.view
+set init_lef_file {/research/ece/lnis-teaching/Designkits/tsmc180nm/full_custom_lib/lef/tech.lef /research/ece/lnis-teaching/Designkits/tsmc180nm/full_custom_lib/lef/sclib_tsmc180.lef /research/ece/lnis-teaching/Designkits/tsmc180nm/full_custom_lib/lef/padlib_tsmc180.lef /research/ece/lnis-teaching/Designkits/tsmc180nm/arm_ip/rf2hs8x8/rf2hsm1wm1.vclef /research/ece/lnis-teaching/Designkits/tsmc180nm/arm_ip/rf2hs8x8/rf2hsm1wm1_ant.lef}
+set init_mmmc_file /home/u1367608/cs6710/VSLI_Project/tsmc_template/innovus/CONF/16bitcpu.view
+init_design
+selectInst pad_memout13/pad_out0
+deselectAll
+selectInst pad_memout5/pad_out0
+deselectAll
+selectInst pad_memout9/pad_out0
+deselectAll
+selectInst pad_gnd0
+deselectAll
+selectInst pad_memout13/pad_out0
+deselectAll
+selectInst pad_memout5/pad_out0
+deselectAll
+selectInst pad_memout9/pad_out0
+deselectAll
+selectInst pad_addr_out13/pad_out0
+deselectAll
+selectInst pad_memout1/pad_out0
+deselectAll
+selectInst pad_addr_out5/pad_out0
+deselectAll
+selectInst pad_addr_out9/pad_out0
+deselectAll
+selectInst pad_addr_out1/pad_out0
+deselectAll
+selectInst pad_addr_out2/pad_out0
+deselectAll
+selectInst pad_addr_out10/pad_out0
+deselectAll
+selectInst pad_addr_out6/pad_out0
+deselectAll
+selectInst pad_memout2/pad_out0
+deselectAll
+selectInst pad_addr_out14/pad_out0
+deselectAll
+selectInst pad_memout10/pad_out0
+deselectAll
+selectInst pad_memout6/pad_out0
+deselectAll
+selectInst pad_memout14/pad_out0
+deselectAll
+selectInst pad_addr_out11/pad_out0
+deselectAll
+selectInst pad_addr_out7/pad_out0
+deselectAll
+selectInst pad_memout3/pad_out0
+deselectAll
+selectInst pad_addr_out15/pad_out0
+deselectAll
+selectInst pad_memout11/pad_out0
+deselectAll
+selectInst pad_memout7/pad_out0
+deselectAll
+selectInst pad_memout15/pad_out0
+deselectAll
+selectInst pad_memout12/pad_out0
+deselectAll
+selectInst pad_memout4/pad_out0
+deselectAll
+selectInst pad_memout8/pad_out0
+deselectAll
+selectInst pad_addr_out12/pad_out0
+deselectAll
+selectInst pad_memout0/pad_out0
+deselectAll
+selectInst pad_addr_out4/pad_out0
+deselectAll
+selectInst pad_addr_out8/pad_out0
+deselectAll
+selectInst pad_mem12
+deselectAll
+selectInst pad_mem4
+deselectAll
+selectInst pad_mem8
+deselectAll
+selectInst pad_in0
+deselectAll
+selectInst pad_mem0
+deselectAll
+selectInst pad_mem13
+deselectAll
+selectInst pad_mem5
+deselectAll
+selectInst pad_mem9
+deselectAll
+selectInst pad_in1
+deselectAll
+selectInst pad_mem1
+deselectAll
+selectInst pad_mem2
+deselectAll
+selectInst pad_in2
+deselectAll
+selectInst pad_mem10
+deselectAll
+selectInst pad_mem6
+deselectAll
+selectInst pad_mem14
+deselectAll
+selectInst pad_mem3
+deselectAll
+selectInst pad_in3
+deselectAll
+selectInst pad_mem11
+deselectAll
+selectInst pad_mem7
+deselectAll
+selectInst pad_mem15
+deselectAll
+selectInst pad_mem12
+deselectAll
+selectInst pad_mem4
+deselectAll
+selectInst pad_mem8
+deselectAll
+selectInst pad_in0
+deselectAll
+selectInst pad_mem0
+deselectAll
+selectInst pad_mem13
+deselectAll
+selectInst pad_in1
+deselectAll
+selectInst pad_mem1
+deselectAll
+selectInst pad_mem2
+deselectAll
+selectInst pad_in2
+deselectAll
+selectInst pad_mem10
+deselectAll
+selectInst pad_mem14
+deselectAll
+selectInst pad_mem3
+deselectAll
+selectInst pad_in3
+deselectAll
+selectInst pad_mem11
+deselectAll
+selectInst pad_mem7
+deselectAll
+selectInst pad_mem15
+deselectAll
+selectInst pad_mem12
+deselectAll
+selectInst pad_mem4
+deselectAll
+selectInst pad_mem8
+deselectAll
+selectInst pad_in0
+deselectAll
+selectInst pad_mem0
+deselectAll
+selectInst pad_mem13
+deselectAll
+selectInst pad_mem5
+deselectAll
+selectInst pad_mem9
+deselectAll
+selectInst pad_in1
+deselectAll
+selectInst pad_mem1
+deselectAll
+selectInst pad_mem2
+deselectAll
+selectInst pad_in2
+deselectAll
+selectInst pad_mem10
+deselectAll
+selectInst pad_mem6
+deselectAll
+selectInst pad_mem14
+deselectAll
+selectInst pad_mem3
+deselectAll
+selectInst pad_in3
+deselectAll
+selectInst pad_mem11
+deselectAll
+selectInst pad_mem7
+deselectAll
+selectInst pad_mem15
+setLayerPreference node_cell -isVisible 1
+setLayerPreference node_cell -isVisible 0
+setLayerPreference node_cell -isVisible 1
+setLayerPreference cellBlkgObj -isVisible 0
+setLayerPreference cellBlkgObj -isVisible 1
+setLayerPreference layoutObj -isVisible 0
+setLayerPreference layoutObj -isVisible 1
+setLayerPreference layoutObj -isVisible 0
+setLayerPreference cellBlkgObj -isVisible 0
+setLayerPreference cellBlkgObj -isVisible 1
+setLayerPreference node_cell -isVisible 1
+setLayerPreference node_cell -isVisible 0
+setLayerPreference node_cell -isVisible 1
+setLayerPreference node_cell -isSelectable 1
+setLayerPreference node_cell -isSelectable 0
+setLayerPreference node_cell -isSelectable 1
+setLayerPreference node_cell -isSelectable 0
+setLayerPreference node_cell -isSelectable 1
+setLayerPreference node_cell -isSelectable 0
+setLayerPreference cellBlkgObj -isSelectable 1
+setLayerPreference node_cell -isVisible 0
+setLayerPreference node_cell -isVisible 1
+setLayerPreference node_cell -isVisible 0
+setLayerPreference node_cell -isVisible 1
+uiSetTool ruler
+uiSetTool ruler
+zoomBox -594.54750 -180.65800 5532.93350 2053.50650
+zoomBox -917.99250 -281.07400 6290.80900 2347.35500
+uiSetTool ruler
+uiSetTool ruler
+uiSetTool ruler
+undo
+undo
+undo
+undo
+getIoFlowFlag
+setIoFlowFlag 0
+floorPlan -site core7T -r 0.1 0.7 20 0.0 20 20
+uiSetTool select
+getIoFlowFlag
+fit
+setDrawView fplan
+setDrawView fplan
+setLayerPreference node_cell -isVisible 0
+setLayerPreference node_cell -isVisible 1
+setLayerPreference node_cell -isVisible 0
+setLayerPreference node_cell -isVisible 1
+setLayerPreference node_cell -isVisible 0
+getIoFlowFlag
+setIoFlowFlag 0
+floorPlan -site core7T -r 1 0.7 20 20 20 20
+uiSetTool select
+getIoFlowFlag
+fit
+setPreference MinFPModuleSize 1
+deselectAll
+selectObject Module pad_addr_out1
+deselectAll
+selectObject Module pad_addr_out6
+deselectAll
+selectObject Module pad_addr_out3
+deselectAll
+selectObject Module pad_addr_out1
+deselectAll
+selectObject Module pad_addr_out0
+deselectAll
+selectObject Module pad_addr_out1
+deselectAll
+selectObject Module pad_addr_out3
+deselectAll
+selectObject Module pad_addr_out4
+deselectAll
+selectObject Module pad_memout2
+deselectAll
+selectObject Module cpu
+deselectAll
+selectObject Module cpu
+deselectAll
+clearGlobalNets
+globalNetConnect VDD -type pgpin -pin VDD -instanceBasename * -hierarchicalInstance {}
+globalNetConnect VSS -type pgpin -pin VSS -instanceBasename * -hierarchicalInstance {}
+set sprCreateIeRingOffset 1.0
+set sprCreateIeRingThreshold 1.0
+set sprCreateIeRingJogDistance 1.0
+set sprCreateIeRingLayers {}
+set sprCreateIeRingOffset 1.0
+set sprCreateIeRingThreshold 1.0
+set sprCreateIeRingJogDistance 1.0
+set sprCreateIeRingLayers {}
+set sprCreateIeStripeWidth 10.0
+set sprCreateIeStripeThreshold 1.0
+set sprCreateIeStripeWidth 10.0
+set sprCreateIeStripeThreshold 1.0
+set sprCreateIeRingOffset 1.0
+set sprCreateIeRingThreshold 1.0
+set sprCreateIeRingJogDistance 1.0
+set sprCreateIeRingLayers {}
+set sprCreateIeStripeWidth 10.0
+set sprCreateIeStripeThreshold 1.0
+setAddRingMode -ring_target default -extend_over_row 0 -ignore_rows 0 -avoid_short 0 -skip_crossing_trunks none -stacked_via_top_layer METAL6 -stacked_via_bottom_layer METAL1 -via_using_exact_crossover_size 1 -orthogonal_only true -skip_via_on_pin {  standardcell } -skip_via_on_wire_shape {  noshape }
+addRing -nets {VDD VSS} -type core_rings -follow core -layer {top METAL5 bottom METAL5 left METAL4 right METAL4} -width {top 4 bottom 4 left 4 right 4} -spacing {top 4 bottom 4 left 4 right 4} -offset {top 1.8 bottom 1.8 left 1.8 right 1.8} -center 1 -threshold 0 -jog_distance 0 -snap_wire_center_to_grid None
+set sprCreateIeRingOffset 1.0
+set sprCreateIeRingThreshold 1.0
+set sprCreateIeRingJogDistance 1.0
+set sprCreateIeRingLayers {}
+set sprCreateIeRingOffset 1.0
+set sprCreateIeRingThreshold 1.0
+set sprCreateIeRingJogDistance 1.0
+set sprCreateIeRingLayers {}
+set sprCreateIeStripeWidth 10.0
+set sprCreateIeStripeThreshold 1.0
+set sprCreateIeStripeWidth 10.0
+set sprCreateIeStripeThreshold 1.0
+set sprCreateIeRingOffset 1.0
+set sprCreateIeRingThreshold 1.0
+set sprCreateIeRingJogDistance 1.0
+set sprCreateIeRingLayers {}
+set sprCreateIeStripeWidth 10.0
+set sprCreateIeStripeThreshold 1.0
+setAddStripeMode -ignore_block_check false -break_at none -route_over_rows_only false -rows_without_stripes_only false -extend_to_closest_target none -stop_at_last_wire_for_area false -partial_set_thru_domain false -ignore_nondefault_domains false -trim_antenna_back_to_shape none -spacing_type edge_to_edge -spacing_from_block 0 -stripe_min_length stripe_width -stacked_via_top_layer METAL6 -stacked_via_bottom_layer METAL1 -via_using_exact_crossover_size false -split_vias false -orthogonal_only true -allow_jog { padcore_ring  block_ring } -skip_via_on_pin {  standardcell } -skip_via_on_wire_shape {  noshape   }
+addStripe -nets {VDD VSS} -layer METAL4 -direction vertical -width 2 -spacing 2 -number_of_sets 2 -start_from left -start_offset 50 -stop_offset 50 -switch_layer_over_obs false -max_same_layer_jog_length 2 -padcore_ring_top_layer_limit METAL6 -padcore_ring_bottom_layer_limit METAL1 -block_ring_top_layer_limit METAL6 -block_ring_bottom_layer_limit METAL1 -use_wire_group 0 -snap_wire_center_to_grid None
+setSrouteMode -viaConnectToShape { noshape }
+sroute -connect { blockPin corePin } -layerChangeRange { METAL1(1) METAL6(6) } -blockPinTarget { nearestTarget } -corePinTarget { firstAfterRowEnd } -allowJogging 1 -crossoverViaLayerRange { METAL1(1) METAL6(6) } -nets { VDD VSS } -allowLayerChange 1 -blockPin useLef -targetViaLayerRange { METAL1(1) METAL6(6) }
+setRouteMode -earlyGlobalHonorMsvRouteConstraint false -earlyGlobalRoutePartitionPinGuide true
+setEndCapMode -reset
+setEndCapMode -boundary_tap false
+setNanoRouteMode -quiet -droutePostRouteSpreadWire 1
+setNanoRouteMode -quiet -timingEngine {}
+setUsefulSkewMode -maxSkew false -noBoundary false -useCells {BUFX1 INVX8 INVX4 INVX32 INVX2 INVX16 INVX1} -maxAllowedDelay 1
+setPlaceMode -reset
+setPlaceMode -congEffort auto -timingDriven 1 -clkGateAware 1 -powerDriven 0 -ignoreScan 1 -reorderScan 1 -ignoreSpare 0 -placeIOPins 1 -moduleAwareSpare 0 -preserveRouting 1 -rmAffectedRouting 0 -checkRoute 0 -swapEEQ 0
+setPlaceMode -fp false
+place_design
+setDrawView place
+zoomBox -1365.24450 40.45250 3061.86050 1654.63650
+zoomBox -1045.87000 148.20900 2717.16950 1520.26550
+zoomBox -774.40150 239.80200 2424.18200 1406.05000
+zoomBox -34.61150 487.89350 1635.07100 1096.68300
+zoomBox 89.75700 531.47150 1508.98850 1048.94300
+zoomBox 195.47050 568.51300 1401.81800 1008.36400
+zoomBox 361.70550 626.76050 1233.29200 944.55300
+zoomBox 426.62650 649.50850 1167.47600 919.63250
+zoomBox -34.61600 487.89200 1635.07350 1096.68400
+zoomBox -793.84050 221.86400 2404.75950 1388.11800
+zoomBox -1074.13900 123.64950 2688.92000 1495.71300
+zoomBox -1450.63950 22.38350 2976.48850 1636.57600
+zoomBox -1892.81850 -93.69800 3315.56800 1805.35200
+checkPlace tsmc_template/innovus/RPT/16bitcpu.checkPlace.rpt
+setDrawView place
+fit
+setDesignMode -process 180
+redirect -quiet {set honorDomain [getAnalysisMode -honorClockDomains]} > /dev/null
+timeDesign -preCTS -pathReports -drvReports -slackReports -numPaths 1 -prefix sixteenbitcpu_top_pads_preCTS -outDir RPT
+setOptMode -fixCap true -fixTran true -fixFanoutLoad false
+optDesign -preCTS
+saveDesign tsmc_template/innovus/DBS/sixteenbitcpu_place.enc
+ccopt_design -cts
+selectInst pad_addr_out11/pad_out0
+deselectAll
+selectInst pad_addr_out11/pad_out0
+deselectAll
+selectInst pad_mem0
+deselectAll
+selectInst pad_mem0
+deselectAll
+selectInst pad_mem0
+deselectAll
+selectInst pad_mem0
+deselectAll
+selectInst pad_mem8
+deselectAll
+selectInst pad_mem8
+deselectAll
+selectInst pad_mem4
+deselectAll
+selectInst pad_addr_out0/pad_out0
+deselectAll
+selectInst pad_mem12

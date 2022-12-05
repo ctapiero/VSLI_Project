@@ -1,0 +1,249 @@
+#######################################################
+#                                                     
+#  Innovus Command Logging File                     
+#  Created on Sun Dec  4 16:49:16 2022                
+#                                                     
+#######################################################
+
+#@(#)CDS: Innovus v20.15-s105_1 (64bit) 07/27/2021 14:15 (Linux 2.6.32-431.11.2.el6.x86_64)
+#@(#)CDS: NanoRoute 20.15-s105_1 NR210726-1341/20_15-UB (database version 18.20.554) {superthreading v2.14}
+#@(#)CDS: AAE 20.15-s020 (64bit) 07/27/2021 (Linux 2.6.32-431.11.2.el6.x86_64)
+#@(#)CDS: CTE 20.15-s024_1 () Jul 23 2021 04:46:45 ( )
+#@(#)CDS: SYNTECH 20.15-s012_1 () Jul 12 2021 23:29:38 ( )
+#@(#)CDS: CPE v20.15-s071
+#@(#)CDS: IQuantus/TQuantus 20.1.1-s460 (64bit) Fri Mar 5 18:46:16 PST 2021 (Linux 2.6.32-431.11.2.el6.x86_64)
+
+set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+suppressMessage ENCEXT-2799
+win
+set init_lef_file {/research/ece/lnis-teaching/Designkits/tsmc180nm/full_custom_lib/lef/tech.lef /research/ece/lnis-teaching/Designkits/tsmc180nm/full_custom_lib/lef/sclib_tsmc180.lef /research/ece/lnis-teaching/Designkits/tsmc180nm/full_custom_lib/lef/padlib_tsmc180.lef /research/ece/lnis-teaching/Designkits/tsmc180nm/arm_ip/rf2hs8x8/rf2hsm1wm1.vclef /research/ece/lnis-teaching/Designkits/tsmc180nm/arm_ip/rf2hs8x8/rf2hsm1wm1_ant.lef}
+set init_mmmc_file /home/u1367608/cs6710/VSLI_Project/tsmc_template/innovus/CONF/16bitcpu.view
+set init_gnd_net VSS
+set init_verilog tsmc_template/design_compiler/HDL/GATE/sixteenbitcpu_top_pads.v
+set init_io_file tsmc_template/innovus/SCRIPTS/place_io.io
+set init_pwr_net VDD
+init_design
+getIoFlowFlag
+setIoFlowFlag 0
+floorPlan -site core7T -r 1 0.7 20 20 20 20
+uiSetTool select
+getIoFlowFlag
+fit
+setDrawView fplan
+fit
+setPreference MinFPModuleSize 1
+clearGlobalNets
+globalNetConnect VDD -type pgpin -pin VDD -instanceBasename * -hierarchicalInstance {}
+globalNetConnect VSS -type pgpin -pin VSS -instanceBasename * -hierarchicalInstance {}
+set sprCreateIeRingOffset 1.0
+set sprCreateIeRingThreshold 1.0
+set sprCreateIeRingJogDistance 1.0
+set sprCreateIeRingLayers {}
+set sprCreateIeRingOffset 1.0
+set sprCreateIeRingThreshold 1.0
+set sprCreateIeRingJogDistance 1.0
+set sprCreateIeRingLayers {}
+set sprCreateIeStripeWidth 10.0
+set sprCreateIeStripeThreshold 1.0
+set sprCreateIeStripeWidth 10.0
+set sprCreateIeStripeThreshold 1.0
+set sprCreateIeRingOffset 1.0
+set sprCreateIeRingThreshold 1.0
+set sprCreateIeRingJogDistance 1.0
+set sprCreateIeRingLayers {}
+set sprCreateIeStripeWidth 10.0
+set sprCreateIeStripeThreshold 1.0
+setAddRingMode -ring_target default -extend_over_row 0 -ignore_rows 0 -avoid_short 0 -skip_crossing_trunks none -stacked_via_top_layer METAL6 -stacked_via_bottom_layer METAL1 -via_using_exact_crossover_size 1 -orthogonal_only true -skip_via_on_pin {  standardcell } -skip_via_on_wire_shape {  noshape }
+addRing -nets {VDD VSS} -type core_rings -follow core -layer {top METAL5 bottom METAL5 left METAL4 right METAL4} -width {top 4 bottom 4 left 4 right 4} -spacing {top 4 bottom 4 left 4 right 4} -offset {top 1.8 bottom 1.8 left 1.8 right 1.8} -center 1 -threshold 0 -jog_distance 0 -snap_wire_center_to_grid None
+set sprCreateIeRingOffset 1.0
+set sprCreateIeRingThreshold 1.0
+set sprCreateIeRingJogDistance 1.0
+set sprCreateIeRingLayers {}
+set sprCreateIeRingOffset 1.0
+set sprCreateIeRingThreshold 1.0
+set sprCreateIeRingJogDistance 1.0
+set sprCreateIeRingLayers {}
+set sprCreateIeStripeWidth 10.0
+set sprCreateIeStripeThreshold 1.0
+set sprCreateIeStripeWidth 10.0
+set sprCreateIeStripeThreshold 1.0
+set sprCreateIeRingOffset 1.0
+set sprCreateIeRingThreshold 1.0
+set sprCreateIeRingJogDistance 1.0
+set sprCreateIeRingLayers {}
+set sprCreateIeStripeWidth 10.0
+set sprCreateIeStripeThreshold 1.0
+setAddStripeMode -ignore_block_check false -break_at none -route_over_rows_only false -rows_without_stripes_only false -extend_to_closest_target none -stop_at_last_wire_for_area false -partial_set_thru_domain false -ignore_nondefault_domains false -trim_antenna_back_to_shape none -spacing_type edge_to_edge -spacing_from_block 0 -stripe_min_length stripe_width -stacked_via_top_layer METAL6 -stacked_via_bottom_layer METAL1 -via_using_exact_crossover_size false -split_vias false -orthogonal_only true -allow_jog { padcore_ring  block_ring } -skip_via_on_pin {  standardcell } -skip_via_on_wire_shape {  noshape   }
+addStripe -nets {VDD VSS} -layer METAL4 -direction vertical -width 2 -spacing 2 -number_of_sets 2 -start_from left -start_offset 50 -stop_offset 50 -switch_layer_over_obs false -max_same_layer_jog_length 2 -padcore_ring_top_layer_limit METAL6 -padcore_ring_bottom_layer_limit METAL1 -block_ring_top_layer_limit METAL6 -block_ring_bottom_layer_limit METAL1 -use_wire_group 0 -snap_wire_center_to_grid None
+setLayerPreference node_cell -isVisible 1
+setLayerPreference node_cell -isVisible 0
+setSrouteMode -viaConnectToShape { noshape }
+sroute -connect { blockPin corePin } -layerChangeRange { METAL1(1) METAL6(6) } -blockPinTarget { nearestTarget } -corePinTarget { firstAfterRowEnd } -allowJogging 1 -crossoverViaLayerRange { METAL1(1) METAL6(6) } -nets { VDD VSS } -allowLayerChange 1 -blockPin useLef -targetViaLayerRange { METAL1(1) METAL6(6) }
+zoomBox -3789.13950 -1541.06950 7949.19000 2738.88850
+zoomBox -2843.44700 -821.45150 5637.49650 2270.81800
+fit
+setRouteMode -earlyGlobalHonorMsvRouteConstraint false -earlyGlobalRoutePartitionPinGuide true
+setEndCapMode -reset
+setEndCapMode -boundary_tap false
+setNanoRouteMode -quiet -droutePostRouteSpreadWire 1
+setNanoRouteMode -quiet -timingEngine {}
+setUsefulSkewMode -maxSkew false -noBoundary false -useCells {BUFX1 INVX8 INVX4 INVX32 INVX2 INVX16 INVX1} -maxAllowedDelay 1
+setPlaceMode -reset
+setPlaceMode -congEffort auto -timingDriven 1 -clkGateAware 1 -powerDriven 0 -ignoreScan 1 -reorderScan 1 -ignoreSpare 0 -placeIOPins 1 -moduleAwareSpare 0 -preserveRouting 1 -rmAffectedRouting 0 -checkRoute 0 -swapEEQ 0
+setPlaceMode -fp false
+place_design
+setDrawView place
+checkPlace tsmc_template/innovus/RPT/16bitcpu.checkPlace.rpt
+setDrawView place
+fit
+setDesignMode -process 180
+redirect -quiet {set honorDomain [getAnalysisMode -honorClockDomains]} > /dev/null
+timeDesign -preCTS -pathReports -drvReports -slackReports -numPaths 1 -prefix sixteenbitcpu_top_pads_preCTS -outDir RPT
+setOptMode -fixCap true -fixTran true -fixFanoutLoad false
+optDesign -preCTS
+ccopt_design -cts
+setLayerPreference node_cell -isVisible 1
+setLayerPreference node_cell -isVisible 0
+setNanoRouteMode -quiet -routeInsertAntennaDiode 1
+setNanoRouteMode -quiet -routeAntennaCellName ANTENNA
+setNanoRouteMode -quiet -routeWithTimingDriven 1
+setNanoRouteMode -quiet -routeWithSiDriven 1
+setNanoRouteMode -quiet -routeTopRoutingLayer 6
+setNanoRouteMode -quiet -routeBottomRoutingLayer 1
+setNanoRouteMode -quiet -drouteEndIteration 1
+setNanoRouteMode -quiet -routeWithTimingDriven true
+setNanoRouteMode -quiet -routeWithSiDriven true
+routeDesign -globalDetail
+getFillerMode -quiet
+addFiller -cell FILL8 FILL4 FILL32 FILL2 FILL16 FILL1 -prefix FILLER
+setLayerPreference node_cell -isVisible 1
+setLayerPreference node_cell -isVisible 0
+setDrawView ameba
+setDrawView place
+setDrawView ameba
+setDrawView ameba
+setDrawView ameba
+setDrawView place
+verifyConnectivity -type all -noAntenna -report RPT/16bitcpu.conn.rpt -error 1000 -warning 50
+zoomBox 114.13750 395.16050 2425.11500 1237.77500
+zoomBox 521.37050 508.81150 2191.05300 1117.60100
+zoomBox 680.01400 553.85850 2099.24550 1071.33000
+zoomBox 680.01350 553.85800 2099.24600 1071.33000
+zoomBox 1176.25500 684.28500 1805.97750 913.89050
+zoomBox 1235.62550 699.88950 1770.89050 895.05450
+zoomBox 1190.65850 684.74650 1820.38200 914.35250
+zoomBox 1075.51800 645.97250 1947.10750 963.76600
+selectInst pad_mem15
+zoomBox 530.74200 455.83500 2495.08700 1172.06250
+zoomBox 357.92550 395.51900 2668.92000 1238.13950
+zoomBox 154.61200 324.55850 2873.42950 1315.87700
+zoomBox -84.58050 241.07550 3114.02900 1407.33300
+zoomBox -697.04500 27.31350 3730.09650 1641.51050
+zoomBox -371.82550 130.52700 3391.24500 1502.59450
+zoomBox 509.07400 410.09400 2473.42100 1126.32200
+zoomBox 885.55600 533.09150 2091.91150 972.94550
+zoomBox 1175.84350 628.35100 1805.56900 857.95750
+zoomBox 1262.27850 663.36900 1717.25500 829.25950
+zoomBox 1296.03500 677.04500 1682.76500 818.05200
+panPage 0 -1
+panPage 0 -1
+panPage -1 0
+panPage -1 0
+panPage -1 0
+panPage -1 0
+panPage 0 -1
+panPage 0 -1
+panPage 0 -1
+panPage 0 -1
+zoomBox 744.30950 386.41500 1374.03450 616.02150
+fit
+deselectAll
+selectInst pad_gnd0
+zoomBox -1195.62950 309.27100 2567.41000 1681.32750
+zoomBox -982.64800 463.76550 2215.93550 1630.01350
+zoomBox -516.93850 801.58650 1447.39200 1517.80850
+zoomBox -405.18500 881.94500 1264.49600 1490.73400
+zoomBox -308.72600 950.00500 1110.50350 1467.47600
+zoomBox -226.73600 1007.85600 979.61000 1447.70650
+zoomBox -157.04450 1057.02950 868.35000 1430.90250
+zoomBox -48.01000 1136.58000 692.83750 1406.70350
+zoomBox -5.42800 1167.64800 624.29300 1397.25300
+zoomBox 30.95150 1194.05550 566.21500 1389.22000
+panPage 0 1
+panPage 0 1
+panPage 0 -1
+panPage 0 -1
+fit
+zoomBox -1328.58750 -42.02600 3098.51750 1572.15800
+zoomBox -978.05450 -4.37600 2784.98500 1367.68050
+zoomBox -211.57000 77.95000 2099.40750 920.56450
+zoomBox 126.94350 114.30900 1796.62550 723.09800
+zoomBox 467.03650 150.83700 1492.43100 524.71000
+zoomBox 677.83000 177.91100 1307.55100 407.51600
+zoomBox 728.15250 184.37450 1263.41500 379.53850
+zoomBox 806.84850 197.15150 1193.57550 338.15750
+zoomBox 860.97850 206.27800 1140.38900 308.15500
+zoomBox 925.21050 218.41900 1071.06550 271.60000
+zoomBox 863.43850 197.59200 1142.85300 299.47050
+zoomBox 814.44700 181.54100 1201.18050 322.54950
+zoomBox 688.76500 141.13000 1318.49850 370.73950
+zoomBox 396.21800 42.48650 1602.59050 482.34650
+zoomBox 11.65900 -87.18150 1976.03550 629.05750
+zoomBox -164.21000 -146.48200 2146.82150 696.15200
+zoomBox -371.11450 -216.24800 2347.74600 775.08650
+panPage 0 1
+fit
+zoomBox -1355.31650 59.54450 3071.78850 1673.72850
+zoomBox -1027.50300 183.52950 2735.53650 1555.58600
+zoomBox -748.86150 288.91650 2449.72200 1455.16450
+zoomBox 138.20650 619.39300 1557.43550 1136.86350
+zoomBox 413.90250 720.57100 1285.48650 1038.36250
+zoomBox 481.63550 750.73100 1222.48200 1020.85400
+zoomBox 628.62400 813.04750 1083.59700 978.93700
+zoomBox 693.53950 840.56900 1022.26000 960.42500
+zoomBox 740.62050 859.56200 978.12100 946.15800
+zoomBox 719.27550 850.95850 998.68750 952.83600
+zoomBox 694.16300 840.83650 1022.88350 960.69250
+zoomBox 664.56250 828.58800 1051.29350 969.59550
+zoomBox 588.76850 797.22500 1124.03750 992.39150
+zoomBox 342.02100 710.32550 1367.43000 1084.20400
+zoomBox 251.45450 678.84000 1457.81900 1118.69700
+zoomBox 144.90650 641.79800 1564.15900 1159.27700
+zoomBox 19.55550 598.21900 1689.26450 1207.01800
+zoomBox -127.91650 546.94950 1836.44800 1263.18400
+zoomBox -505.52500 415.67100 2213.31900 1406.99950
+zoomBox -1028.16750 233.97150 2734.94000 1606.05250
+zoomBox -1360.53100 118.42300 3066.65450 1732.63650
+zoomBox -1751.54750 -17.51600 3456.90650 1881.55850
+zoomBox -1280.34300 88.63850 3146.84300 1702.85200
+zoomBox -879.81900 178.87000 2883.28900 1550.95150
+zoomBox -254.93400 320.75900 2463.91200 1312.08800
+zoomBox 639.54300 526.26700 1845.91000 966.12500
+zoomBox 836.21450 571.75300 1707.81500 889.55050
+zoomBox 916.47350 589.13400 1657.33400 859.26200
+zoomBox 984.69300 603.90750 1614.42500 833.51650
+zoomBox 1042.49550 616.37300 1577.76750 811.54050
+zoomBox 1135.13200 635.82950 1521.86600 776.83800
+zoomBox 1200.06850 649.57150 1479.48450 751.45050
+zoomBox 1260.77500 663.16750 1432.37300 725.73450
+zoomBox 1275.62000 666.33750 1421.47850 719.51950
+zoomBox 1298.64650 671.30400 1404.03000 709.72850
+zoomBox 1307.63850 673.23550 1397.21550 705.89650
+zoomBox 1315.28250 674.87700 1391.42300 702.63900
+zoomBox 1327.30250 677.45850 1382.31450 697.51650
+zoomBox 1331.99700 678.46650 1378.75750 695.51600
+zoomBox 1335.98750 679.32350 1375.73400 693.81550
+zoomBox 1307.63650 673.23450 1397.21600 705.89650
+zoomBox 1298.64250 671.30300 1404.03050 709.72900
+zoomBox 1223.46950 655.15700 1460.99100 741.76050
+zoomBox 937.85000 593.64650 1678.76950 863.79600
+zoomBox 553.85900 510.74650 1973.22900 1028.26850
+zoomBox 49.09450 401.77300 2360.30250 1244.47150
+zoomBox -453.32600 293.30550 2745.57850 1459.67050
+zoomBox -1148.71750 143.17800 3278.83200 1757.52400
+zoomBox -1590.93800 47.70750 3617.94400 1946.93800
+zoomBox -2117.48700 -53.82850 4010.60950 2180.56050
+fit
+deselectAll
+selectInst pad_mem7
+saveDesign sixteenbitcpu_top_pads_checkstep

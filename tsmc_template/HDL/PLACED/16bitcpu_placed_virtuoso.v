@@ -32671,18 +32671,20 @@ module sixteenbitcpu_top_pads (
    pad_gnd pad_gnd0 (
 	.VSS(VSS), 
 	.VDD(VDD));
-   pad_corner corner0 (
-	.VSS(VSS), 
-	.VDD(VDD));
-   pad_corner corner1 (
-	.VSS(VSS), 
-	.VDD(VDD));
-   pad_corner corner2 (
-	.VSS(VSS), 
-	.VDD(VDD));
-   pad_corner corner3 (
-	.VSS(VSS), 
-	.VDD(VDD));
+/*
+	pad_corner corner0 (
+		.VSS(VSS), 
+		.VDD(VDD));
+	pad_corner corner1 (
+		.VSS(VSS), 
+		.VDD(VDD));
+	pad_corner corner2 (
+		.VSS(VSS), 
+		.VDD(VDD));
+	pad_corner corner3 (
+		.VSS(VSS), 
+		.VDD(VDD));
+*/
    arrozYlecheCPU cpu (
 	.clk(clk_pad),
 	.reset(r_pad),

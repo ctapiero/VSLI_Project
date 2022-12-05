@@ -1,0 +1,135 @@
+xmvlog: *W,DLNOHV: Unable to find an 'hdl.var' file to load in.
+TOOL:	xmvlog(64)	20.09-s022: Started on Dec 04, 2022 at 21:28:05 MST
+xmvlog
+    -work __nclib
+    -view module
+    -logfile xmvlog.log
+    -cdslib /tmp/ihdl_cdslibb6861_4006861
+    -messages
+    -nostdout
+    -nocopyright
+    -ESCAPEDNAME
+    /home/u1367608/cs6710/VSLI_Project/tsmc_template/HDL/PLACED/16bitcpu_placed_virtuoso.v
+
+file: /home/u1367608/cs6710/VSLI_Project/tsmc_template/HDL/PLACED/16bitcpu_placed_virtuoso.v
+	module __nclib.pad_out_buffered:module
+		errors: 0, warnings: 0
+	module __nclib.pad_out_buffered_SPC_1:module
+		errors: 0, warnings: 0
+	module __nclib.pad_out_buffered_SPC_2:module
+		errors: 0, warnings: 0
+	module __nclib.pad_out_buffered_SPC_3:module
+		errors: 0, warnings: 0
+	module __nclib.pad_out_buffered_SPC_4:module
+		errors: 0, warnings: 0
+	module __nclib.pad_out_buffered_SPC_5:module
+		errors: 0, warnings: 0
+	module __nclib.pad_out_buffered_SPC_6:module
+		errors: 0, warnings: 0
+	module __nclib.pad_out_buffered_SPC_7:module
+		errors: 0, warnings: 0
+	module __nclib.pad_out_buffered_SPC_8:module
+		errors: 0, warnings: 0
+	module __nclib.pad_out_buffered_SPC_9:module
+		errors: 0, warnings: 0
+	module __nclib.pad_out_buffered_SPC_10:module
+		errors: 0, warnings: 0
+	module __nclib.pad_out_buffered_SPC_11:module
+		errors: 0, warnings: 0
+	module __nclib.pad_out_buffered_SPC_12:module
+		errors: 0, warnings: 0
+	module __nclib.pad_out_buffered_SPC_13:module
+		errors: 0, warnings: 0
+	module __nclib.pad_out_buffered_SPC_14:module
+		errors: 0, warnings: 0
+	module __nclib.pad_out_buffered_SPC_15:module
+		errors: 0, warnings: 0
+	module __nclib.pad_out_buffered_SPC_16:module
+		errors: 0, warnings: 0
+	module __nclib.pad_out_buffered_SPC_17:module
+		errors: 0, warnings: 0
+	module __nclib.pad_out_buffered_SPC_18:module
+		errors: 0, warnings: 0
+	module __nclib.pad_out_buffered_SPC_19:module
+		errors: 0, warnings: 0
+	module __nclib.pad_out_buffered_SPC_20:module
+		errors: 0, warnings: 0
+	module __nclib.pad_out_buffered_SPC_21:module
+		errors: 0, warnings: 0
+	module __nclib.pad_out_buffered_SPC_22:module
+		errors: 0, warnings: 0
+	module __nclib.pad_out_buffered_SPC_23:module
+		errors: 0, warnings: 0
+	module __nclib.pad_out_buffered_SPC_24:module
+		errors: 0, warnings: 0
+	module __nclib.pad_out_buffered_SPC_25:module
+		errors: 0, warnings: 0
+	module __nclib.pad_out_buffered_SPC_26:module
+		errors: 0, warnings: 0
+	module __nclib.pad_out_buffered_SPC_27:module
+		errors: 0, warnings: 0
+	module __nclib.pad_out_buffered_SPC_28:module
+		errors: 0, warnings: 0
+	module __nclib.pad_out_buffered_SPC_29:module
+		errors: 0, warnings: 0
+	module __nclib.pad_out_buffered_SPC_30:module
+		errors: 0, warnings: 0
+	module __nclib.pad_out_buffered_SPC_31:module
+		errors: 0, warnings: 0
+	module __nclib.controlFSM:module
+		errors: 0, warnings: 0
+	module __nclib.flopenr_16_0000_0:module
+		errors: 0, warnings: 0
+	module __nclib.flopenr_8_00:module
+		errors: 0, warnings: 0
+	module __nclib.flopenr_16_0000_3:module
+		errors: 0, warnings: 0
+	module __nclib.flopenr_16_0000_2:module
+		errors: 0, warnings: 0
+	module __nclib.flopenr_16_0000_1:module
+		errors: 0, warnings: 0
+	module __nclib.mux2_WIDTH16_0:module
+		errors: 0, warnings: 0
+	module __nclib.mux2_WIDTH16_5:module
+		errors: 0, warnings: 0
+	module __nclib.mux2_WIDTH4:module
+		errors: 0, warnings: 0
+	module __nclib.mux2_WIDTH16_4:module
+		errors: 0, warnings: 0
+	module __nclib.mux2_WIDTH16_3:module
+		errors: 0, warnings: 0
+	module __nclib.mux4_WIDTH16:module
+		errors: 0, warnings: 0
+	module __nclib.mux2_WIDTH16_2:module
+		errors: 0, warnings: 0
+	module __nclib.mux2_WIDTH16_1:module
+		errors: 0, warnings: 0
+	module __nclib.pcALU_16_5fff_DW01_inc_0:module
+		errors: 0, warnings: 0
+	module __nclib.pcALU_16_5fff_DW01_sub_0:module
+		errors: 0, warnings: 0
+	module __nclib.pcALU_16_5fff_DW01_add_0_DW01_add_1:module
+		errors: 0, warnings: 0
+	module __nclib.pcALU_16_5fff:module
+		errors: 0, warnings: 0
+	module __nclib.shifter_WIDTH16:module
+		errors: 0, warnings: 0
+	module __nclib.RegisterFile_16_4_0000_5fff_6ffe_cffd:module
+		errors: 0, warnings: 0
+	module __nclib.ALU_WIDTH16_DW_cmp_0:module
+		errors: 0, warnings: 0
+	module __nclib.ALU_WIDTH16_DW_cmp_1:module
+		errors: 0, warnings: 0
+	module __nclib.ALU_WIDTH16_DW01_add_0:module
+		errors: 0, warnings: 0
+	module __nclib.ALU_WIDTH16:module
+		errors: 0, warnings: 0
+	module __nclib.datapathDraft_16_4_0000_5fff_6ffe_cffd:module
+		errors: 0, warnings: 0
+	module __nclib.arrozYlecheCPU:module
+		errors: 0, warnings: 0
+	module __nclib.sixteenbitcpu_top_pads:module
+		errors: 0, warnings: 0
+	Total errors/warnings found outside modules and primitives:
+		errors: 0, warnings: 1
+TOOL:	xmvlog(64)	20.09-s022: Exiting on Dec 04, 2022 at 21:28:05 MST  (total: 00:00:00)

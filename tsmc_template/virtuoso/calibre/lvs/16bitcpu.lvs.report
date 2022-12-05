@@ -1,0 +1,2758 @@
+
+
+
+                  ##################################################
+                  ##                                              ##
+                  ##         C A L I B R E    S Y S T E M         ##
+                  ##                                              ##
+                  ##             L V S   R E P O R T              ##
+                  ##                                              ##
+                  ##################################################
+
+
+
+REPORT FILE NAME:         16bitcpu.lvs.report
+LAYOUT NAME:              /home/u1367608/cs6710/VSLI_Project/tsmc_template/virtuoso/calibre/lvs/16bitcpu.sp ('16bitcpu')
+SOURCE NAME:              /home/u1367608/cs6710/VSLI_Project/tsmc_template/virtuoso/calibre/lvs/16bitcpu.src.net ('sixteenbitcpu_top_pads')
+RULE FILE:                /home/u1367608/cs6710/VSLI_Project/tsmc_template/virtuoso/calibre/lvs/_calibre.lvs_
+CREATION TIME:            Sun Dec  4 21:32:32 2022
+CURRENT DIRECTORY:        /home/u1367608/cs6710/VSLI_Project/tsmc_template/virtuoso/calibre/lvs
+USER NAME:                u1367608
+CALIBRE VERSION:          v2021.2_37.20    Tue Jun 1 14:42:29 PDT 2021
+
+
+
+                               OVERALL COMPARISON RESULTS
+
+
+
+                  #   #         #####################  
+                   # #          #                   #  
+                    #           #     INCORRECT     #  
+                   # #          #                   #  
+                  #   #         #####################  
+
+
+  Error:    Different numbers of ports.
+  Error:    Different numbers of nets.
+  Error:    Different numbers of instances.
+  Error:    Connectivity errors.
+  Warning:  Ambiguity points were found and resolved arbitrarily.
+
+
+**************************************************************************************************************
+                                      CELL  SUMMARY
+**************************************************************************************************************
+
+  Result         Layout                        Source
+  -----------    -----------                   --------------
+  INCORRECT      16bitcpu                      sixteenbitcpu_top_pads
+
+
+
+**************************************************************************************************************
+                                      LVS PARAMETERS
+**************************************************************************************************************
+
+
+o LVS Setup:
+
+   // LVS COMPONENT TYPE PROPERTY
+   // LVS COMPONENT SUBTYPE PROPERTY
+   // LVS PIN NAME PROPERTY
+   LVS POWER NAME                         "vdd" "vdd!" "vcc" "vcc!" "VCC" "VCC!" "VDD" "VDD!"
+   LVS GROUND NAME                        "gnd" "gnd!" "vss" "vss!" "GND" "GND!" "VSS" "VSS!"
+   LVS CELL SUPPLY                        NO
+   LVS RECOGNIZE GATES                    ALL
+   // LVS HCELL REPORT
+   LVS IGNORE PORTS                       NO
+   LVS CHECK PORT NAMES                   YES
+   LVS IGNORE TRIVIAL NAMED PORTS         NO
+   LVS BUILTIN DEVICE PIN SWAP            YES
+   LVS ALL CAPACITOR PINS SWAPPABLE       YES
+   LVS DISCARD PINS BY DEVICE             NO
+   LVS SOFT SUBSTRATE PINS                NO
+   LVS INJECT LOGIC                       YES
+   LVS EXPAND UNBALANCED CELLS            YES
+   LVS FLATTEN INSIDE CELL                NO
+   LVS EXPAND SEED PROMOTIONS             NO
+   LVS PRESERVE PARAMETERIZED CELLS       NO
+   LVS GLOBALS ARE PORTS                  YES
+   LVS REVERSE WL                         NO
+   LVS SPICE PREFER PINS                  YES
+   LVS SPICE SLASH IS SPACE               YES
+   LVS SPICE ALLOW FLOATING PINS          YES
+   // LVS SPICE ALLOW INLINE PARAMETERS     
+   LVS SPICE ALLOW UNQUOTED STRINGS       NO
+   LVS SPICE CONDITIONAL LDD              NO
+   LVS SPICE CULL PRIMITIVE SUBCIRCUITS   NO
+   // LVS SPICE EXCLUDE CELL SOURCE
+   // LVS SPICE EXCLUDE CELL LAYOUT
+   LVS SPICE IMPLIED MOS AREA             NO
+   // LVS SPICE MULTIPLIER NAME
+   LVS SPICE OVERRIDE GLOBALS             NO
+   LVS SPICE REDEFINE PARAM               NO
+   LVS SPICE REPLICATE DEVICES            NO
+   LVS SPICE SCALE X PARAMETERS           NO
+   LVS SPICE STRICT WL                    NO
+   // LVS SPICE OPTION
+   LVS STRICT SUBTYPES                    NO
+   LVS EXACT SUBTYPES                     NO
+   LAYOUT CASE                            YES
+   SOURCE CASE                            YES
+   LVS COMPARE CASE                       NO
+   LVS COMPARE CASE STRICT                NO
+   LVS DOWNCASE DEVICE                    NO
+   LVS REPORT MAXIMUM                     50
+   LVS PROPERTY RESOLUTION MAXIMUM        32
+   // LVS SIGNATURE MAXIMUM
+   // LVS FILTER UNUSED OPTION
+   // LVS REPORT OPTION
+   LVS REPORT UNITS                       YES
+   // LVS NON USER NAME PORT
+   // LVS NON USER NAME NET
+   // LVS NON USER NAME INSTANCE
+   // LVS IGNORE DEVICE PIN
+   // LVS PREFER NETS FILTER SOURCE
+   // LVS PREFER NETS FILTER LAYOUT
+   LVS PREFER PORT NETS                   NO
+   LVS EXPAND ON ERROR                    NO
+
+   // Device Type Map
+
+   LVS DEVICE TYPE                        RESISTOR "rnod_m" "rnodrpo_m" "rnodw_m" "rnpo1_dis" "rnpo1rpo_dis" "rnpo1w_dis" "rnwod_m"
+                                                   "rnwsti_m" "rpod_m" "rpodrpo_m" "rpodw_m" "rppo1_dis" "rppo1rpo_dis"
+                                                   "rppo1w_dis" "rppolyhri_dis" "rppolyhri_rf" "rppolyl_rf" "rppolys_rf"
+                                                   "rppolywo_rf" [ POS=PLUS NEG=MINUS ]  SOURCE LAYOUT
+
+   // Reduction
+
+   LVS REDUCE SERIES MOS                  NO
+   LVS REDUCE PARALLEL MOS                YES
+   LVS REDUCE SEMI SERIES MOS             NO
+   LVS REDUCE SPLIT GATES                 NO
+   LVS REDUCE PARALLEL BIPOLAR            YES
+   LVS REDUCE SERIES CAPACITORS           YES
+   LVS REDUCE PARALLEL CAPACITORS         YES
+   LVS REDUCE SERIES RESISTORS            YES
+   LVS REDUCE PARALLEL RESISTORS          YES
+   LVS REDUCE PARALLEL DIODES             YES
+
+   LVS REDUCE  rnod_m  PARALLEL [ TOLERANCE lr 0 ]
+   LVS REDUCE  rnod_m  SERIES PLUS MINUS [ TOLERANCE wr 0 ]
+   LVS REDUCE  rnodrpo_m  PARALLEL [ TOLERANCE lr 0 ]
+   LVS REDUCE  rnodrpo_m  SERIES PLUS MINUS [ TOLERANCE wr 0 ]
+   LVS REDUCE  rnodw_m  PARALLEL [ TOLERANCE lr 0 ]
+   LVS REDUCE  rnodw_m  SERIES PLUS MINUS [ TOLERANCE wr 0 ]
+   LVS REDUCE  rnpo1_dis  PARALLEL [ TOLERANCE lr 0 ]
+   LVS REDUCE  rnpo1_dis  SERIES PLUS MINUS [ TOLERANCE wr 0 ]
+   LVS REDUCE  rnpo1rpo_dis  PARALLEL [ TOLERANCE lr 0 ]
+   LVS REDUCE  rnpo1rpo_dis  SERIES PLUS MINUS [ TOLERANCE wr 0 ]
+   LVS REDUCE  rnpo1w_dis  PARALLEL [ TOLERANCE lr 0 ]
+   LVS REDUCE  rnpo1w_dis  SERIES PLUS MINUS [ TOLERANCE wr 0 ]
+   LVS REDUCE  rnwod_m  PARALLEL [ TOLERANCE lr 0 ]
+   LVS REDUCE  rnwod_m  SERIES PLUS MINUS [ TOLERANCE wr 0 ]
+   LVS REDUCE  rnwsti_m  PARALLEL [ TOLERANCE lr 0 ]
+   LVS REDUCE  rnwsti_m  SERIES PLUS MINUS [ TOLERANCE wr 0 ]
+   LVS REDUCE  rpod_m  PARALLEL [ TOLERANCE lr 0 ]
+   LVS REDUCE  rpod_m  SERIES PLUS MINUS [ TOLERANCE wr 0 ]
+   LVS REDUCE  rpodrpo_m  PARALLEL [ TOLERANCE lr 0 ]
+   LVS REDUCE  rpodrpo_m  SERIES PLUS MINUS [ TOLERANCE wr 0 ]
+   LVS REDUCE  rpodw_m  PARALLEL [ TOLERANCE lr 0 ]
+   LVS REDUCE  rpodw_m  SERIES PLUS MINUS [ TOLERANCE wr 0 ]
+   LVS REDUCE  rppo1_dis  PARALLEL [ TOLERANCE lr 0 ]
+   LVS REDUCE  rppo1_dis  SERIES PLUS MINUS [ TOLERANCE wr 0 ]
+   LVS REDUCE  rppo1rpo_dis  PARALLEL [ TOLERANCE lr 0 ]
+   LVS REDUCE  rppo1rpo_dis  SERIES PLUS MINUS [ TOLERANCE wr 0 ]
+   LVS REDUCE  rppo1w_dis  PARALLEL [ TOLERANCE lr 0 ]
+   LVS REDUCE  rppo1w_dis  SERIES PLUS MINUS [ TOLERANCE wr 0 ]
+   LVS REDUCE  rppolyhri_dis  PARALLEL [ TOLERANCE lr 0 ]
+   LVS REDUCE  rppolyhri_dis  SERIES PLUS MINUS [ TOLERANCE wr 0 ]
+   LVS REDUCE  rppolyhri_rf  PARALLEL NO
+   LVS REDUCE  rppolyhri_rf  SERIES PLUS MINUS NO
+   LVS REDUCE  rppolyl_rf  PARALLEL NO
+   LVS REDUCE  rppolyl_rf  SERIES PLUS MINUS NO
+   LVS REDUCE  rppolys_rf  PARALLEL NO
+   LVS REDUCE  rppolys_rf  SERIES PLUS MINUS NO
+   LVS REDUCE  rppolywo_rf  PARALLEL NO
+   LVS REDUCE  rppolywo_rf  SERIES PLUS MINUS NO
+   LVS REDUCTION PRIORITY                 PARALLEL
+   
+   LVS SHORT EQUIVALENT NODES             NO
+
+   // Trace Property
+
+   TRACE PROPERTY  mn(n)  l l 0
+   TRACE PROPERTY  mn(n)  w w 0
+   TRACE PROPERTY  mn(n1)  l l 0
+   TRACE PROPERTY  mn(n1)  w w 0
+   TRACE PROPERTY  mn(n2)  l l 0
+   TRACE PROPERTY  mn(n2)  w w 0
+   TRACE PROPERTY  mn(na)  l l 0
+   TRACE PROPERTY  mn(na)  w w 0
+   TRACE PROPERTY  mn(nb)  l l 0
+   TRACE PROPERTY  mn(nb)  w w 0
+   TRACE PROPERTY  mn(nd)  l l 0
+   TRACE PROPERTY  mn(nd)  w w 0
+   TRACE PROPERTY  mn(nl)  l l 0
+   TRACE PROPERTY  mn(nl)  w w 0
+   TRACE PROPERTY  mn(nn)  l l 0
+   TRACE PROPERTY  mn(nn)  w w 0
+   TRACE PROPERTY  mp(p)  l l 0
+   TRACE PROPERTY  mp(p)  w w 0
+   TRACE PROPERTY  mp(pa)  l l 0
+   TRACE PROPERTY  mp(pa)  w w 0
+   TRACE PROPERTY  mp(pd)  l l 0
+   TRACE PROPERTY  mp(pd)  w w 0
+   TRACE PROPERTY  d(d1)  a a 0
+   TRACE PROPERTY  d(d2)  a a 0
+   TRACE PROPERTY  d(d3)  a a 0
+   TRACE PROPERTY  d(db)  a a 0
+   TRACE PROPERTY  d(dn)  a a 0
+   TRACE PROPERTY  d(dp)  a a 0
+   TRACE PROPERTY  d(dw)  a a 0
+   TRACE PROPERTY  d(ndio_3m)  a a 0
+   TRACE PROPERTY  d(ndio_m)  a a 0
+   TRACE PROPERTY  d(pdio_m)  a a 0
+   TRACE PROPERTY  r(lr)  r r 0
+   TRACE PROPERTY  r(m1)  r r 0
+   TRACE PROPERTY  r(m2)  r r 0
+   TRACE PROPERTY  r(m3)  r r 0
+   TRACE PROPERTY  r(m4)  r r 0
+   TRACE PROPERTY  r(m5)  r r 0
+   TRACE PROPERTY  r(nd)  r r 0
+   TRACE PROPERTY  r(ni)  r r 0
+   TRACE PROPERTY  r(nr)  r r 0
+   TRACE PROPERTY  r(ns)  r r 0
+   TRACE PROPERTY  r(pd)  r r 0
+   TRACE PROPERTY  r(pi)  r r 0
+   TRACE PROPERTY  r(pr)  r r 0
+   TRACE PROPERTY  r(ps)  r r 0
+   TRACE PROPERTY  r(mt)  r r 0
+   TRACE PROPERTY  q(nv)  a a 0
+   TRACE PROPERTY  q(nv_mis)  a a 0
+   TRACE PROPERTY  q(p1)  a a 0
+   TRACE PROPERTY  q(pv)  a a 0
+   TRACE PROPERTY  q(pv_mis)  a a 0
+   TRACE PROPERTY  r(wo)  r r 0
+   TRACE PROPERTY  r(wr)  r r 0
+   TRACE PROPERTY  crtmom  nv nv 0
+   TRACE PROPERTY  crtmom  nh nh 0
+   TRACE PROPERTY  crtmom  s s 0
+   TRACE PROPERTY  crtmom  w w 0
+   TRACE PROPERTY  crtmom  stm stm 0
+   TRACE PROPERTY  crtmom  spm spm 0
+   TRACE PROPERTY  cfmom  nr nr 0
+   TRACE PROPERTY  cfmom  s s 0
+   TRACE PROPERTY  cfmom  w w 0
+   TRACE PROPERTY  cfmom  lr lr 0
+   TRACE PROPERTY  cfmom  stm stm 0
+   TRACE PROPERTY  cfmom  spm spm 0
+   TRACE PROPERTY  cfmom_rf  nr nr 0
+   TRACE PROPERTY  cfmom_rf  s s 0
+   TRACE PROPERTY  cfmom_rf  w w 0
+   TRACE PROPERTY  cfmom_rf  lr lr 0
+   TRACE PROPERTY  cfmom_rf  stm stm 0
+   TRACE PROPERTY  cfmom_rf  spm spm 0
+   TRACE PROPERTY  cfmom_mx  nr nr 0
+   TRACE PROPERTY  cfmom_mx  s s 0
+   TRACE PROPERTY  cfmom_mx  w w 0
+   TRACE PROPERTY  cfmom_mx  lr lr 0
+   TRACE PROPERTY  cfmom_mx  stm stm 0
+   TRACE PROPERTY  cfmom_mx  spm spm 0
+   TRACE PROPERTY  mimcap_2p0_shield  lt lt 0
+   TRACE PROPERTY  mimcap_2p0_shield  wt wt 0
+   TRACE PROPERTY  mimcap_2p0_shield  lay lay 0
+   TRACE PROPERTY  mimcap_2p0_sin  lt lt 0
+   TRACE PROPERTY  mimcap_2p0_sin  wt wt 0
+   TRACE PROPERTY  mimcap_2p0_sin_3t  lt lt 0
+   TRACE PROPERTY  mimcap_2p0_sin_3t  wt wt 0
+   TRACE PROPERTY  mimcap_2p0_sin_3t  lay lay 0
+   TRACE PROPERTY  mimcap_2p0_wos  lt lt 0
+   TRACE PROPERTY  mimcap_2p0_wos  wt wt 0
+   TRACE PROPERTY  mimcap_2p0_wos  lay lay 0
+   TRACE PROPERTY  moscap_rf  lr lr 0
+   TRACE PROPERTY  moscap_rf  wr wr 0
+   TRACE PROPERTY  moscap_rf  br br 0
+   TRACE PROPERTY  moscap_rf  gr gr 0
+   TRACE PROPERTY  moscap_rf33  lr lr 0
+   TRACE PROPERTY  moscap_rf33  wr wr 0
+   TRACE PROPERTY  moscap_rf33  br br 0
+   TRACE PROPERTY  moscap_rf33  gr gr 0
+   TRACE PROPERTY  moscap_rf33_nw  lr lr 0
+   TRACE PROPERTY  moscap_rf33_nw  wr wr 0
+   TRACE PROPERTY  moscap_rf33_nw  br br 0
+   TRACE PROPERTY  moscap_rf33_nw  gr gr 0
+   TRACE PROPERTY  moscap_rf_nw  lr lr 0
+   TRACE PROPERTY  moscap_rf_nw  wr wr 0
+   TRACE PROPERTY  moscap_rf_nw  br br 0
+   TRACE PROPERTY  moscap_rf_nw  gr gr 0
+   TRACE PROPERTY  nmos_rf  lr lr 0
+   TRACE PROPERTY  nmos_rf  wr wr 0
+   TRACE PROPERTY  nmos_rf  nr nr 0
+   TRACE PROPERTY  nmos_rf33  lr lr 0
+   TRACE PROPERTY  nmos_rf33  wr wr 0
+   TRACE PROPERTY  nmos_rf33  nr nr 0
+   TRACE PROPERTY  nmos_rf33_6t  wr wr 0
+   TRACE PROPERTY  nmos_rf33_6t  lr lr 0
+   TRACE PROPERTY  nmos_rf33_6t  nr nr 0
+   TRACE PROPERTY  nmos_rf_6t  wr wr 0
+   TRACE PROPERTY  nmos_rf_6t  lr lr 0
+   TRACE PROPERTY  nmos_rf_6t  nr nr 0
+   TRACE PROPERTY  nmoscap  lr lr 0
+   TRACE PROPERTY  nmoscap  wr wr 0
+   TRACE PROPERTY  nmoscap  mr mr 0
+   TRACE PROPERTY  nmoscap_33  lr lr 0
+   TRACE PROPERTY  nmoscap_33  wr wr 0
+   TRACE PROPERTY  nmoscap_33  mr mr 0
+   TRACE PROPERTY  pmos_rf  lr lr 0
+   TRACE PROPERTY  pmos_rf  wr wr 0
+   TRACE PROPERTY  pmos_rf  nr nr 0
+   TRACE PROPERTY  pmos_rf33  lr lr 0
+   TRACE PROPERTY  pmos_rf33  wr wr 0
+   TRACE PROPERTY  pmos_rf33  nr nr 0
+   TRACE PROPERTY  pmos_rf33_5t  wr wr 0
+   TRACE PROPERTY  pmos_rf33_5t  lr lr 0
+   TRACE PROPERTY  pmos_rf33_5t  nr nr 0
+   TRACE PROPERTY  pmos_rf33_nw  lr lr 0
+   TRACE PROPERTY  pmos_rf33_nw  wr wr 0
+   TRACE PROPERTY  pmos_rf33_nw  nr nr 0
+   TRACE PROPERTY  pmos_rf33_nw_5t  wr wr 0
+   TRACE PROPERTY  pmos_rf33_nw_5t  lr lr 0
+   TRACE PROPERTY  pmos_rf33_nw_5t  nr nr 0
+   TRACE PROPERTY  pmos_rf_5t  wr wr 0
+   TRACE PROPERTY  pmos_rf_5t  lr lr 0
+   TRACE PROPERTY  pmos_rf_5t  nr nr 0
+   TRACE PROPERTY  pmos_rf_nw  lr lr 0
+   TRACE PROPERTY  pmos_rf_nw  wr wr 0
+   TRACE PROPERTY  pmos_rf_nw  nr nr 0
+   TRACE PROPERTY  pmos_rf_nw_5t  wr wr 0
+   TRACE PROPERTY  pmos_rf_nw_5t  lr lr 0
+   TRACE PROPERTY  pmos_rf_nw_5t  nr nr 0
+   TRACE PROPERTY  rnod_m  wr wr 0
+   TRACE PROPERTY  rnod_m  lr lr 0
+   TRACE PROPERTY  rnodrpo_m  wr wr 0
+   TRACE PROPERTY  rnodrpo_m  lr lr 0
+   TRACE PROPERTY  rnodw_m  wr wr 0
+   TRACE PROPERTY  rnodw_m  lr lr 0
+   TRACE PROPERTY  rnpo1_dis  wr wr 0
+   TRACE PROPERTY  rnpo1_dis  lr lr 0
+   TRACE PROPERTY  rnpo1rpo_dis  wr wr 0
+   TRACE PROPERTY  rnpo1rpo_dis  lr lr 0
+   TRACE PROPERTY  rnpo1w_dis  wr wr 0
+   TRACE PROPERTY  rnpo1w_dis  lr lr 0
+   TRACE PROPERTY  rnwod_m  wr wr 0
+   TRACE PROPERTY  rnwod_m  lr lr 0
+   TRACE PROPERTY  rnwsti_m  wr wr 0
+   TRACE PROPERTY  rnwsti_m  lr lr 0
+   TRACE PROPERTY  rpod_m  wr wr 0
+   TRACE PROPERTY  rpod_m  lr lr 0
+   TRACE PROPERTY  rpodrpo_m  wr wr 0
+   TRACE PROPERTY  rpodrpo_m  lr lr 0
+   TRACE PROPERTY  rpodw_m  wr wr 0
+   TRACE PROPERTY  rpodw_m  lr lr 0
+   TRACE PROPERTY  rppo1_dis  wr wr 0
+   TRACE PROPERTY  rppo1_dis  lr lr 0
+   TRACE PROPERTY  rppo1rpo_dis  wr wr 0
+   TRACE PROPERTY  rppo1rpo_dis  lr lr 0
+   TRACE PROPERTY  rppo1w_dis  wr wr 0
+   TRACE PROPERTY  rppo1w_dis  lr lr 0
+   TRACE PROPERTY  rppolyhri_dis  wr wr 0
+   TRACE PROPERTY  rppolyhri_dis  lr lr 0
+   TRACE PROPERTY  rppolyhri_rf  w w 0
+   TRACE PROPERTY  rppolyhri_rf  l l 0
+   TRACE PROPERTY  rppolyl_rf  w w 0
+   TRACE PROPERTY  rppolyl_rf  l l 0
+   TRACE PROPERTY  rppolys_rf  w w 0
+   TRACE PROPERTY  rppolys_rf  l l 0
+   TRACE PROPERTY  rppolywo_rf  w w 0
+   TRACE PROPERTY  rppolywo_rf  l l 0
+   TRACE PROPERTY  sbd_rf  nf nf 0
+   TRACE PROPERTY  sbd_rf  w w 0
+   TRACE PROPERTY  sbd_rf  l l 0
+   TRACE PROPERTY  sbd_rf_nw  nf nf 0
+   TRACE PROPERTY  sbd_rf_nw  w w 0
+   TRACE PROPERTY  sbd_rf_nw  l l 0
+   TRACE PROPERTY  spiral_std_mu_x_40k  lay lay 0
+   TRACE PROPERTY  spiral_std_mu_x_40k  w w 0
+   TRACE PROPERTY  spiral_std_mu_x_40k  spacing spacing 0
+   TRACE PROPERTY  spiral_std_mu_x_40k  nr nr 0
+   TRACE PROPERTY  spiral_std_mu_x_40k  rad rad 0
+   TRACE PROPERTY  spiral_std_mu_x_40k  gdis gdis 0
+   TRACE PROPERTY  spiral_sym_ct_mu_x_40k  lay lay 0
+   TRACE PROPERTY  spiral_sym_ct_mu_x_40k  w w 0
+   TRACE PROPERTY  spiral_sym_ct_mu_x_40k  spacing spacing 0
+   TRACE PROPERTY  spiral_sym_ct_mu_x_40k  nr nr 0
+   TRACE PROPERTY  spiral_sym_ct_mu_x_40k  rad rad 0
+   TRACE PROPERTY  spiral_sym_ct_mu_x_40k  gdis gdis 0
+   TRACE PROPERTY  spiral_sym_mu_x_40k  lay lay 0
+   TRACE PROPERTY  spiral_sym_mu_x_40k  w w 0
+   TRACE PROPERTY  spiral_sym_mu_x_40k  spacing spacing 0
+   TRACE PROPERTY  spiral_sym_mu_x_40k  nr nr 0
+   TRACE PROPERTY  spiral_sym_mu_x_40k  rad rad 0
+   TRACE PROPERTY  spiral_sym_mu_x_40k  gdis gdis 0
+   TRACE PROPERTY  xjvar_nr36  nr nr 0
+   TRACE PROPERTY  xjvar_nr36  w w 0
+   TRACE PROPERTY  xjvar_w40  nr nr 0
+   TRACE PROPERTY  xjvar_w40  w w 0
+
+
+
+                   CELL COMPARISON RESULTS ( TOP LEVEL )
+
+
+
+                  #   #         #####################  
+                   # #          #                   #  
+                    #           #     INCORRECT     #  
+                   # #          #                   #  
+                  #   #         #####################  
+
+
+  Error:    Different numbers of ports (see below).
+  Error:    Different numbers of nets (see below).
+  Error:    Different numbers of instances (see below).
+  Error:    Connectivity errors.
+  Warning:  Ambiguity points were found and resolved arbitrarily.
+
+LAYOUT CELL NAME:         16bitcpu
+SOURCE CELL NAME:         sixteenbitcpu_top_pads
+
+--------------------------------------------------------------------------------------------------------------
+
+INITIAL NUMBERS OF OBJECTS
+--------------------------
+
+                Layout    Source         Component Type
+                ------    ------         --------------
+ Ports:             54        52    *
+
+ Nets:           12682     12664    *
+
+ Instances:      15291     13208    *    MN (4 pins)
+                 15291     13208    *    MP (4 pins)
+                     2         2         D (2 pins)
+                ------    ------
+ Total Inst:     30584     26418
+
+
+NUMBERS OF OBJECTS AFTER TRANSFORMATION
+---------------------------------------
+
+                Layout    Source         Component Type
+                ------    ------         --------------
+ Ports:             54        52    *
+
+ Nets:            7729      7677    *
+
+ Instances:        772       772         MN (4 pins)
+                   772       772         MP (4 pins)
+                     2         2         D (2 pins)
+                   796       776    *    _invb (6 pins)
+                  2969      2989    *    _invv (4 pins)
+                    16         0    *    _invx2b (6 pins)
+                   105       121    *    _invx2v (4 pins)
+                  2672      2672         _nand2v (5 pins)
+                   311       311         _nand3v (6 pins)
+                   416       416         _nor2v (5 pins)
+                   462       462         _smn2v (4 pins)
+                   462       462         _smp2v (4 pins)
+                    99        99         _xra2v (5 pins)
+                ------    ------
+ Total Inst:      9854      9854
+
+
+       * = Number of objects in layout different from number in source.
+
+
+
+**************************************************************************************************************
+                                 INCORRECT OBJECTS
+**************************************************************************************************************
+
+
+LEGEND:
+-------
+
+  ne  = Naming Error (same layout name found in source
+        circuit, but object was matched otherwise).
+
+
+**************************************************************************************************************
+                                   INCORRECT NETS
+
+DISC#  LAYOUT NAME                                               SOURCE NAME
+**************************************************************************************************************
+
+  1    Net VDD                                                   VDD
+       --- 7817 Connections On This Net ---                      --- 8040 Connections On This Net ---
+       --------------------------                                --------------------------
+       
+       ** missing connection **                                  (_invx2v):sup1
+                                                                   Xpad_mem15/MM39:b
+                                                                   Xpad_mem15/MM39:s
+                                                                   Xpad_mem15/MM38:b
+                                                                   Xpad_mem15/MM38:s
+       
+       
+       ** missing connection **                                  (_invx2v):sup1
+                                                                   Xpad_mem14/MM39:b
+                                                                   Xpad_mem14/MM39:s
+                                                                   Xpad_mem14/MM38:b
+                                                                   Xpad_mem14/MM38:s
+       
+       
+       ** missing connection **                                  (_invx2v):sup1
+                                                                   Xpad_mem11/MM39:b
+                                                                   Xpad_mem11/MM39:s
+                                                                   Xpad_mem11/MM38:b
+                                                                   Xpad_mem11/MM38:s
+       
+       
+       ** missing connection **                                  (_invx2v):sup1
+                                                                   Xpad_mem10/MM39:b
+                                                                   Xpad_mem10/MM39:s
+                                                                   Xpad_mem10/MM38:b
+                                                                   Xpad_mem10/MM38:s
+       
+       
+       ** missing connection **                                  (_invx2v):sup1
+                                                                   Xpad_mem7/MM39:b
+                                                                   Xpad_mem7/MM39:s
+                                                                   Xpad_mem7/MM38:b
+                                                                   Xpad_mem7/MM38:s
+       
+       
+       ** missing connection **                                  (_invx2v):sup1
+                                                                   Xpad_mem6/MM39:b
+                                                                   Xpad_mem6/MM39:s
+                                                                   Xpad_mem6/MM38:b
+                                                                   Xpad_mem6/MM38:s
+       
+       
+       ** missing connection **                                  (_invx2v):sup1
+                                                                   Xpad_mem3/MM39:b
+                                                                   Xpad_mem3/MM39:s
+                                                                   Xpad_mem3/MM38:b
+                                                                   Xpad_mem3/MM38:s
+       
+       
+       ** missing connection **                                  (_invx2v):sup1
+                                                                   Xpad_mem2/MM39:b
+                                                                   Xpad_mem2/MM39:s
+                                                                   Xpad_mem2/MM38:b
+                                                                   Xpad_mem2/MM38:s
+       
+       
+       ** missing connection **                                  (_invx2v):sup1
+                                                                   Xpad_in3/MM39:b
+                                                                   Xpad_in3/MM39:s
+                                                                   Xpad_in3/MM38:b
+                                                                   Xpad_in3/MM38:s
+       
+       
+       ** missing connection **                                  (_invx2v):sup1
+                                                                   Xpad_in2/MM39:b
+                                                                   Xpad_in2/MM39:s
+                                                                   Xpad_in2/MM38:b
+                                                                   Xpad_in2/MM38:s
+       
+       
+       ** missing connection **                                  (_invx2v):sup1
+                                                                   Xpad_addr_out2/Xpad_out0/MM22:b
+                                                                   Xpad_addr_out2/Xpad_out0/MM22:s
+                                                                   Xpad_addr_out2/Xpad_out0/MM23:b
+                                                                   Xpad_addr_out2/Xpad_out0/MM23:s
+       
+       
+       ** missing connection **                                  (_invx2v):sup1
+                                                                   Xpad_addr_out3/Xpad_out0/MM22:b
+                                                                   Xpad_addr_out3/Xpad_out0/MM22:s
+                                                                   Xpad_addr_out3/Xpad_out0/MM23:b
+                                                                   Xpad_addr_out3/Xpad_out0/MM23:s
+       
+       
+       ** missing connection **                                  (_invx2v):sup1
+                                                                   Xpad_addr_out6/Xpad_out0/MM22:b
+                                                                   Xpad_addr_out6/Xpad_out0/MM22:s
+                                                                   Xpad_addr_out6/Xpad_out0/MM23:b
+                                                                   Xpad_addr_out6/Xpad_out0/MM23:s
+       
+       
+       ** missing connection **                                  (_invx2v):sup1
+                                                                   Xpad_addr_out7/Xpad_out0/MM22:b
+                                                                   Xpad_addr_out7/Xpad_out0/MM22:s
+                                                                   Xpad_addr_out7/Xpad_out0/MM23:b
+                                                                   Xpad_addr_out7/Xpad_out0/MM23:s
+       
+       
+       ** missing connection **                                  (_invx2v):sup1
+                                                                   Xpad_addr_out10/Xpad_out0/MM22:b
+                                                                   Xpad_addr_out10/Xpad_out0/MM22:s
+                                                                   Xpad_addr_out10/Xpad_out0/MM23:b
+                                                                   Xpad_addr_out10/Xpad_out0/MM23:s
+       
+       
+       ** missing connection **                                  (_invx2v):sup1
+                                                                   Xpad_addr_out11/Xpad_out0/MM22:b
+                                                                   Xpad_addr_out11/Xpad_out0/MM22:s
+                                                                   Xpad_addr_out11/Xpad_out0/MM23:b
+                                                                   Xpad_addr_out11/Xpad_out0/MM23:s
+       
+       
+       ** missing connection **                                  (_invx2v):sup1
+                                                                   Xpad_addr_out14/Xpad_out0/MM22:b
+                                                                   Xpad_addr_out14/Xpad_out0/MM22:s
+                                                                   Xpad_addr_out14/Xpad_out0/MM23:b
+                                                                   Xpad_addr_out14/Xpad_out0/MM23:s
+       
+       
+       ** missing connection **                                  (_invx2v):sup1
+                                                                   Xpad_addr_out15/Xpad_out0/MM22:b
+                                                                   Xpad_addr_out15/Xpad_out0/MM22:s
+                                                                   Xpad_addr_out15/Xpad_out0/MM23:b
+                                                                   Xpad_addr_out15/Xpad_out0/MM23:s
+       
+       
+       ** missing connection **                                  (_invx2v):sup1
+                                                                   Xpad_memout2/Xpad_out0/MM22:b
+                                                                   Xpad_memout2/Xpad_out0/MM22:s
+                                                                   Xpad_memout2/Xpad_out0/MM23:b
+                                                                   Xpad_memout2/Xpad_out0/MM23:s
+       
+       
+       ** missing connection **                                  (_invx2v):sup1
+                                                                   Xpad_memout3/Xpad_out0/MM22:b
+                                                                   Xpad_memout3/Xpad_out0/MM22:s
+                                                                   Xpad_memout3/Xpad_out0/MM23:b
+                                                                   Xpad_memout3/Xpad_out0/MM23:s
+       
+       
+       ** missing connection **                                  (_invx2v):sup1
+                                                                   Xpad_memout6/Xpad_out0/MM22:b
+                                                                   Xpad_memout6/Xpad_out0/MM22:s
+                                                                   Xpad_memout6/Xpad_out0/MM23:b
+                                                                   Xpad_memout6/Xpad_out0/MM23:s
+       
+       
+       ** missing connection **                                  (_invx2v):sup1
+                                                                   Xpad_memout7/Xpad_out0/MM22:b
+                                                                   Xpad_memout7/Xpad_out0/MM22:s
+                                                                   Xpad_memout7/Xpad_out0/MM23:b
+                                                                   Xpad_memout7/Xpad_out0/MM23:s
+       
+       
+       ** missing connection **                                  (_invx2v):sup1
+                                                                   Xpad_memout10/Xpad_out0/MM22:b
+                                                                   Xpad_memout10/Xpad_out0/MM22:s
+                                                                   Xpad_memout10/Xpad_out0/MM23:b
+                                                                   Xpad_memout10/Xpad_out0/MM23:s
+       
+       
+       ** missing connection **                                  (_invx2v):sup1
+                                                                   Xpad_memout11/Xpad_out0/MM22:b
+                                                                   Xpad_memout11/Xpad_out0/MM22:s
+                                                                   Xpad_memout11/Xpad_out0/MM23:b
+                                                                   Xpad_memout11/Xpad_out0/MM23:s
+       
+       
+       ** missing connection **                                  (_invx2v):sup1
+                                                                   Xpad_memout14/Xpad_out0/MM22:b
+                                                                   Xpad_memout14/Xpad_out0/MM22:s
+                                                                   Xpad_memout14/Xpad_out0/MM23:b
+                                                                   Xpad_memout14/Xpad_out0/MM23:s
+       
+       
+       ** missing connection **                                  (_invx2v):sup1
+                                                                   Xpad_memout15/Xpad_out0/MM22:b
+                                                                   Xpad_memout15/Xpad_out0/MM22:s
+                                                                   Xpad_memout15/Xpad_out0/MM23:b
+                                                                   Xpad_memout15/Xpad_out0/MM23:s
+       
+       
+       ** missing connection **                                  (_invb):sup1
+                                                                   Xpad_addr_out7/Xpad_out0/MM26:s
+       
+       
+       ** missing connection **                                  (_invb):sup1
+                                                                   Xpad_memout10/Xpad_out0/MM26:s
+       
+       
+       ** missing connection **                                  (_invb):sup1
+                                                                   Xpad_in2/MM18:s
+       
+       
+       ** missing connection **                                  (_invb):sup1
+                                                                   Xpad_mem10/MM18:s
+       
+       
+       ** missing connection **                                  (_invb):sup1
+                                                                   Xpad_addr_out14/Xpad_out0/MM26:s
+       
+       
+       ** missing connection **                                  (_invb):sup1
+                                                                   Xpad_mem11/MM18:s
+       
+       
+       ** missing connection **                                  (_invb):sup1
+                                                                   Xpad_addr_out15/Xpad_out0/MM26:s
+       
+       
+       ** missing connection **                                  (_invb):sup1
+                                                                   Xpad_addr_out10/Xpad_out0/MM26:s
+       
+       
+       ** missing connection **                                  (_invb):sup1
+                                                                   Xpad_memout7/Xpad_out0/MM26:s
+       
+       
+       ** missing connection **                                  (_invb):sup1
+                                                                   Xpad_in3/MM18:s
+       
+       
+       ** missing connection **                                  (_invb):sup1
+                                                                   Xpad_memout11/Xpad_out0/MM26:s
+       
+       
+       ** missing connection **                                  (_invb):sup1
+                                                                   Xpad_memout14/Xpad_out0/MM26:s
+       
+       
+       ** missing connection **                                  (_invb):sup1
+                                                                   Xpad_memout15/Xpad_out0/MM26:s
+       
+       
+       ** missing connection **                                  (_invb):sup1
+                                                                   Xpad_mem3/MM18:s
+       
+       
+       ** missing connection **                                  (_invb):sup1
+                                                                   Xpad_mem6/MM18:s
+       
+       
+       ** missing connection **                                  (_invb):sup1
+                                                                   Xpad_addr_out11/Xpad_out0/MM26:s
+       
+       
+       ** missing connection **                                  (_invb):sup1
+                                                                   Xpad_mem2/MM18:s
+       
+       
+       ** missing connection **                                  (_invb):sup1
+                                                                   Xpad_mem7/MM18:s
+       
+       
+       ** missing connection **                                  (_invb):sup1
+                                                                   Xpad_mem15/MM18:s
+       
+       
+       ** missing connection **                                  (_invb):sup1
+                                                                   Xpad_addr_out2/Xpad_out0/MM26:s
+       
+       
+       ** missing connection **                                  (_invb):sup1
+                                                                   Xpad_addr_out6/Xpad_out0/MM26:s
+       
+       
+       ** missing connection **                                  (_invb):sup1
+                                                                   Xpad_memout2/Xpad_out0/MM26:s
+       
+       
+       ** missing connection **                                  (_invb):sup1
+                                                                   Xpad_addr_out3/Xpad_out0/MM26:s
+       
+       
+       ** missing connection **                                  (_invb):sup1
+                                                                   Xpad_mem14/MM18:s
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+  2    Net VSS                                                   VSS
+       --- 7857 Connections On This Net ---                      --- 8068 Connections On This Net ---
+       --------------------------                                --------------------------
+       
+       ** missing connection **                                  (_invx2v):sup2
+                                                                   Xpad_mem15/MM40:b
+                                                                   Xpad_mem15/MM40:s
+                                                                   Xpad_mem15/MM41:b
+                                                                   Xpad_mem15/MM41:s
+       
+       
+       ** missing connection **                                  (_invx2v):sup2
+                                                                   Xpad_mem14/MM40:b
+                                                                   Xpad_mem14/MM40:s
+                                                                   Xpad_mem14/MM41:b
+                                                                   Xpad_mem14/MM41:s
+       
+       
+       ** missing connection **                                  (_invx2v):sup2
+                                                                   Xpad_mem11/MM40:b
+                                                                   Xpad_mem11/MM40:s
+                                                                   Xpad_mem11/MM41:b
+                                                                   Xpad_mem11/MM41:s
+       
+       
+       ** missing connection **                                  (_invx2v):sup2
+                                                                   Xpad_mem10/MM40:b
+                                                                   Xpad_mem10/MM40:s
+                                                                   Xpad_mem10/MM41:b
+                                                                   Xpad_mem10/MM41:s
+       
+       
+       ** missing connection **                                  (_invx2v):sup2
+                                                                   Xpad_mem7/MM40:b
+                                                                   Xpad_mem7/MM40:s
+                                                                   Xpad_mem7/MM41:b
+                                                                   Xpad_mem7/MM41:s
+       
+       
+       ** missing connection **                                  (_invx2v):sup2
+                                                                   Xpad_mem6/MM40:b
+                                                                   Xpad_mem6/MM40:s
+                                                                   Xpad_mem6/MM41:b
+                                                                   Xpad_mem6/MM41:s
+       
+       
+       ** missing connection **                                  (_invx2v):sup2
+                                                                   Xpad_mem3/MM40:b
+                                                                   Xpad_mem3/MM40:s
+                                                                   Xpad_mem3/MM41:b
+                                                                   Xpad_mem3/MM41:s
+       
+       
+       ** missing connection **                                  (_invx2v):sup2
+                                                                   Xpad_mem2/MM40:b
+                                                                   Xpad_mem2/MM40:s
+                                                                   Xpad_mem2/MM41:b
+                                                                   Xpad_mem2/MM41:s
+       
+       
+       ** missing connection **                                  (_invx2v):sup2
+                                                                   Xpad_in3/MM40:b
+                                                                   Xpad_in3/MM40:s
+                                                                   Xpad_in3/MM41:b
+                                                                   Xpad_in3/MM41:s
+       
+       
+       ** missing connection **                                  (_invx2v):sup2
+                                                                   Xpad_in2/MM40:b
+                                                                   Xpad_in2/MM40:s
+                                                                   Xpad_in2/MM41:b
+                                                                   Xpad_in2/MM41:s
+       
+       
+       ** missing connection **                                  (_invx2v):sup2
+                                                                   Xpad_addr_out2/Xpad_out0/MM1:b
+                                                                   Xpad_addr_out2/Xpad_out0/MM1:s
+                                                                   Xpad_addr_out2/Xpad_out0/MM2:b
+                                                                   Xpad_addr_out2/Xpad_out0/MM2:s
+       
+       
+       ** missing connection **                                  (_invx2v):sup2
+                                                                   Xpad_addr_out3/Xpad_out0/MM1:b
+                                                                   Xpad_addr_out3/Xpad_out0/MM1:s
+                                                                   Xpad_addr_out3/Xpad_out0/MM2:b
+                                                                   Xpad_addr_out3/Xpad_out0/MM2:s
+       
+       
+       ** missing connection **                                  (_invx2v):sup2
+                                                                   Xpad_addr_out6/Xpad_out0/MM1:b
+                                                                   Xpad_addr_out6/Xpad_out0/MM1:s
+                                                                   Xpad_addr_out6/Xpad_out0/MM2:b
+                                                                   Xpad_addr_out6/Xpad_out0/MM2:s
+       
+       
+       ** missing connection **                                  (_invx2v):sup2
+                                                                   Xpad_addr_out7/Xpad_out0/MM1:b
+                                                                   Xpad_addr_out7/Xpad_out0/MM1:s
+                                                                   Xpad_addr_out7/Xpad_out0/MM2:b
+                                                                   Xpad_addr_out7/Xpad_out0/MM2:s
+       
+       
+       ** missing connection **                                  (_invx2v):sup2
+                                                                   Xpad_addr_out10/Xpad_out0/MM1:b
+                                                                   Xpad_addr_out10/Xpad_out0/MM1:s
+                                                                   Xpad_addr_out10/Xpad_out0/MM2:b
+                                                                   Xpad_addr_out10/Xpad_out0/MM2:s
+       
+       
+       ** missing connection **                                  (_invx2v):sup2
+                                                                   Xpad_addr_out11/Xpad_out0/MM1:b
+                                                                   Xpad_addr_out11/Xpad_out0/MM1:s
+                                                                   Xpad_addr_out11/Xpad_out0/MM2:b
+                                                                   Xpad_addr_out11/Xpad_out0/MM2:s
+       
+       
+       ** missing connection **                                  (_invx2v):sup2
+                                                                   Xpad_addr_out14/Xpad_out0/MM1:b
+                                                                   Xpad_addr_out14/Xpad_out0/MM1:s
+                                                                   Xpad_addr_out14/Xpad_out0/MM2:b
+                                                                   Xpad_addr_out14/Xpad_out0/MM2:s
+       
+       
+       ** missing connection **                                  (_invx2v):sup2
+                                                                   Xpad_addr_out15/Xpad_out0/MM1:b
+                                                                   Xpad_addr_out15/Xpad_out0/MM1:s
+                                                                   Xpad_addr_out15/Xpad_out0/MM2:b
+                                                                   Xpad_addr_out15/Xpad_out0/MM2:s
+       
+       
+       ** missing connection **                                  (_invx2v):sup2
+                                                                   Xpad_memout2/Xpad_out0/MM1:b
+                                                                   Xpad_memout2/Xpad_out0/MM1:s
+                                                                   Xpad_memout2/Xpad_out0/MM2:b
+                                                                   Xpad_memout2/Xpad_out0/MM2:s
+       
+       
+       ** missing connection **                                  (_invx2v):sup2
+                                                                   Xpad_memout3/Xpad_out0/MM1:b
+                                                                   Xpad_memout3/Xpad_out0/MM1:s
+                                                                   Xpad_memout3/Xpad_out0/MM2:b
+                                                                   Xpad_memout3/Xpad_out0/MM2:s
+       
+       
+       ** missing connection **                                  (_invx2v):sup2
+                                                                   Xpad_memout6/Xpad_out0/MM1:b
+                                                                   Xpad_memout6/Xpad_out0/MM1:s
+                                                                   Xpad_memout6/Xpad_out0/MM2:b
+                                                                   Xpad_memout6/Xpad_out0/MM2:s
+       
+       
+       ** missing connection **                                  (_invx2v):sup2
+                                                                   Xpad_memout7/Xpad_out0/MM1:b
+                                                                   Xpad_memout7/Xpad_out0/MM1:s
+                                                                   Xpad_memout7/Xpad_out0/MM2:b
+                                                                   Xpad_memout7/Xpad_out0/MM2:s
+       
+       
+       ** missing connection **                                  (_invx2v):sup2
+                                                                   Xpad_memout10/Xpad_out0/MM1:b
+                                                                   Xpad_memout10/Xpad_out0/MM1:s
+                                                                   Xpad_memout10/Xpad_out0/MM2:b
+                                                                   Xpad_memout10/Xpad_out0/MM2:s
+       
+       
+       ** missing connection **                                  (_invx2v):sup2
+                                                                   Xpad_memout11/Xpad_out0/MM1:b
+                                                                   Xpad_memout11/Xpad_out0/MM1:s
+                                                                   Xpad_memout11/Xpad_out0/MM2:b
+                                                                   Xpad_memout11/Xpad_out0/MM2:s
+       
+       
+       ** missing connection **                                  (_invx2v):sup2
+                                                                   Xpad_memout14/Xpad_out0/MM1:b
+                                                                   Xpad_memout14/Xpad_out0/MM1:s
+                                                                   Xpad_memout14/Xpad_out0/MM2:b
+                                                                   Xpad_memout14/Xpad_out0/MM2:s
+       
+       
+       ** missing connection **                                  (_invx2v):sup2
+                                                                   Xpad_memout15/Xpad_out0/MM1:b
+                                                                   Xpad_memout15/Xpad_out0/MM1:s
+                                                                   Xpad_memout15/Xpad_out0/MM2:b
+                                                                   Xpad_memout15/Xpad_out0/MM2:s
+       
+       
+       ** missing connection **                                  (_invb):sup2
+                                                                   Xpad_mem7/MM6:s
+       
+       
+       ** missing connection **                                  (_invb):sup2
+                                                                   Xpad_memout3/Xpad_out0/MM9:s
+       
+       
+       ** missing connection **                                  (_invb):sup2
+                                                                   Xpad_memout2/Xpad_out0/MM9:s
+       
+       
+       ** missing connection **                                  (_invb):sup2
+                                                                   Xpad_in2/MM6:s
+       
+       
+       ** missing connection **                                  (_invb):sup2
+                                                                   Xpad_memout11/Xpad_out0/MM9:s
+       
+       
+       ** missing connection **                                  (_invb):sup2
+                                                                   Xpad_addr_out15/Xpad_out0/MM9:s
+       
+       
+       ** missing connection **                                  (_invb):sup2
+                                                                   Xpad_mem3/MM6:s
+       
+       
+       ** missing connection **                                  (_invb):sup2
+                                                                   Xpad_addr_out14/Xpad_out0/MM9:s
+       
+       
+       ** missing connection **                                  (_invb):sup2
+                                                                   Xpad_memout15/Xpad_out0/MM9:s
+       
+       
+       ** missing connection **                                  (_invb):sup2
+                                                                   Xpad_mem10/MM6:s
+       
+       
+       ** missing connection **                                  (_invb):sup2
+                                                                   Xpad_addr_out2/Xpad_out0/MM9:s
+       
+       
+       ** missing connection **                                  (_invb):sup2
+                                                                   Xpad_mem6/MM6:s
+       
+       
+       ** missing connection **                                  (_invb):sup2
+                                                                   Xpad_in3/MM6:s
+       
+       
+       ** missing connection **                                  (_invb):sup2
+                                                                   Xpad_addr_out7/Xpad_out0/MM9:s
+       
+       
+       ** missing connection **                                  (_invb):sup2
+                                                                   Xpad_addr_out6/Xpad_out0/MM9:s
+       
+       
+       ** missing connection **                                  (_invb):sup2
+                                                                   Xpad_addr_out3/Xpad_out0/MM9:s
+       
+       
+       ** missing connection **                                  (_invb):sup2
+                                                                   Xpad_memout7/Xpad_out0/MM9:s
+       
+       
+       ** missing connection **                                  (_invb):sup2
+                                                                   Xpad_addr_out10/Xpad_out0/MM9:s
+       
+       
+       ** missing connection **                                  (_invb):sup2
+                                                                   Xpad_memout6/Xpad_out0/MM9:s
+       
+       
+       ** missing connection **                                  (_invb):sup2
+                                                                   Xpad_memout10/Xpad_out0/MM9:s
+       
+       
+       ** missing connection **                                  (_invb):sup2
+                                                                   Xpad_addr_out11/Xpad_out0/MM9:s
+       
+       
+       ** missing connection **                                  (_invb):sup2
+                                                                   Xpad_mem2/MM6:s
+       
+       
+       ** missing connection **                                  (_invb):sup2
+                                                                   Xpad_memout14/Xpad_out0/MM9:s
+       
+       
+       ** missing connection **                                  (_invb):sup2
+                                                                   Xpad_mem15/MM6:s
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+  3    Net 390                                                   ** no similar net **
+
+--------------------------------------------------------------------------------------------------------------
+
+  4    Net 392                                                   ** no similar net **
+
+--------------------------------------------------------------------------------------------------------------
+
+  5    Net 393                                                   ** no similar net **
+
+--------------------------------------------------------------------------------------------------------------
+
+  6    Net 394                                                   ** no similar net **
+
+--------------------------------------------------------------------------------------------------------------
+
+  7    Net 395                                                   ** no similar net **
+
+--------------------------------------------------------------------------------------------------------------
+
+  8    Net 396                                                   ** no similar net **
+
+--------------------------------------------------------------------------------------------------------------
+
+  9    Net 397                                                   ** no similar net **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 10    Net X17/5                                                 ** no similar net **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 11    Net X18/30                                                ** no similar net **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 12    Net X18/43                                                ** no similar net **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 13    Net X18/31                                                ** no similar net **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 14    Net X18/44                                                ** no similar net **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 15    Net X18/32                                                ** no similar net **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 16    Net X18/45                                                ** no similar net **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 17    Net X18/33                                                ** no similar net **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 18    Net X18/46                                                ** no similar net **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 19    Net X18/47                                                ** no similar net **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 20    Net X18/34                                                ** no similar net **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 21    Net X18/48                                                ** no similar net **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 22    Net X18/35                                                ** no similar net **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 23    Net X18/49                                                ** no similar net **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 24    Net X18/36                                                ** no similar net **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 25    Net X18/50                                                ** no similar net **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 26    Net X18/37                                                ** no similar net **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 27    Net X18/51                                                ** no similar net **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 28    Net X18/38                                                ** no similar net **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 29    Net X18/52                                                ** no similar net **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 30    Net X18/39                                                ** no similar net **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 31    Net X18/53                                                ** no similar net **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 32    Net X18/40                                                ** no similar net **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 33    Net X18/54                                                ** no similar net **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 34    Net X18/41                                                ** no similar net **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 35    Net X19/21                                                ** no similar net **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 36    Net X19/23                                                ** no similar net **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 37    Net X20/28                                                ** no similar net **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 38    Net X20/29                                                ** no similar net **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 39    Net X21/63                                                ** no similar net **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 40    Net X21/103                                               ** no similar net **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 41    Net X22/1549                                              ** no similar net **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 42    Net X22/314                                               ** no similar net **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 43    Net X23/3058                                              ** no similar net **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 44    Net X23/279                                               ** no similar net **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 45    Net X23/3059                                              ** no similar net **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 46    Net X23/280                                               ** no similar net **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 47    Net X24/26                                                ** no similar net **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 48    Net X24/25                                                ** no similar net **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 49    Net X28/5                                                 ** no similar net **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 50    Net X29/5                                                 ** no similar net **
+
+
+**************************************************************************************************************
+                                   INCORRECT PORTS
+
+DISC#  LAYOUT NAME                                               SOURCE NAME
+**************************************************************************************************************
+
+ 51    vdd on net: VDD                                           ** missing port **
+ 52    vss on net: VSS                                           ** missing port **
+
+
+**************************************************************************************************************
+                                 INCORRECT INSTANCES
+
+DISC#  LAYOUT NAME                                               SOURCE NAME
+**************************************************************************************************************
+
+ 53    X33/X0/M48(1560.850,1402.470)  MP(P)                      Xpad_memout15/Xpad_out0/MM14  MP(P)
+         s: X33/X0/8                                               s: Xpad_memout15/Xpad_out0/OEB
+         g: X33/5                                                  ** no similar net **
+         d: X33/5                                                  ** no similar net **
+         b: X33/5                                                  ** no similar net **
+         ** VDD **                                                 g: VDD
+         ** VDD **                                                 d: VDD
+         ** VDD **                                                 b: VDD
+
+--------------------------------------------------------------------------------------------------------------
+
+ 54    X33/X0/M49(1560.850,1404.870)  MP(P)                      Xpad_memout15/Xpad_out0/MM17  MP(P)
+         g: X33/X0/8                                               g: Xpad_memout15/Xpad_out0/OEB
+         s: X33/X0/9                                               s: Xpad_memout15/Xpad_out0/OE
+         d: X33/5                                                  ** no similar net **
+         b: X33/5                                                  ** no similar net **
+         ** VDD **                                                 d: VDD
+         ** VDD **                                                 b: VDD
+
+--------------------------------------------------------------------------------------------------------------
+
+ 55    X24/X0/M49(1560.850,1212.010)  MP(P)                      Xpad_memout11/Xpad_out0/MM17  MP(P)
+         g: X24/X0/8                                               g: Xpad_memout11/Xpad_out0/OEB
+         s: X24/X0/9                                               s: Xpad_memout11/Xpad_out0/OE
+         d: X24/26                                                 ** no similar net **
+         b: X24/26                                                 ** no similar net **
+         ** VDD **                                                 d: VDD
+         ** VDD **                                                 b: VDD
+
+--------------------------------------------------------------------------------------------------------------
+
+ 56    X23/X1/M49(1560.850,1019.150)  MP(P)                      Xpad_memout3/Xpad_out0/MM17  MP(P)
+         g: X23/X1/8                                               g: Xpad_memout3/Xpad_out0/OEB
+         s: X23/X1/9                                               s: Xpad_memout3/Xpad_out0/OE
+         d: X23/3059                                               ** no similar net **
+         b: X23/3059                                               ** no similar net **
+         ** VDD **                                                 d: VDD
+         ** VDD **                                                 b: VDD
+
+--------------------------------------------------------------------------------------------------------------
+
+ 57    X23/X1/M48(1560.850,1016.750)  MP(P)                      Xpad_memout3/Xpad_out0/MM14  MP(P)
+         s: X23/X1/8                                               s: Xpad_memout3/Xpad_out0/OEB
+         g: X23/3059                                               ** no similar net **
+         d: X23/3059                                               ** no similar net **
+         b: X23/3059                                               ** no similar net **
+         ** VDD **                                                 g: VDD
+         ** VDD **                                                 d: VDD
+         ** VDD **                                                 b: VDD
+
+--------------------------------------------------------------------------------------------------------------
+
+ 58    X23/X0/M49(1560.850,922.725)  MP(P)                       Xpad_addr_out7/Xpad_out0/MM17  MP(P)
+         g: X23/X0/8                                               g: Xpad_addr_out7/Xpad_out0/OEB
+         s: X23/X0/9                                               s: Xpad_addr_out7/Xpad_out0/OE
+         d: X23/3058                                               ** no similar net **
+         b: X23/3058                                               ** no similar net **
+         ** VDD **                                                 d: VDD
+         ** VDD **                                                 b: VDD
+
+--------------------------------------------------------------------------------------------------------------
+
+ 59    X23/X0/M48(1560.850,920.325)  MP(P)                       Xpad_addr_out7/Xpad_out0/MM14  MP(P)
+         s: X23/X0/8                                               s: Xpad_addr_out7/Xpad_out0/OEB
+         g: X23/3058                                               ** no similar net **
+         d: X23/3058                                               ** no similar net **
+         b: X23/3058                                               ** no similar net **
+         ** VDD **                                                 g: VDD
+         ** VDD **                                                 d: VDD
+         ** VDD **                                                 b: VDD
+
+--------------------------------------------------------------------------------------------------------------
+
+ 60    X24/X0/M48(1560.850,1209.610)  MP(P)                      Xpad_memout11/Xpad_out0/MM14  MP(P)
+         s: X24/X0/8                                               s: Xpad_memout11/Xpad_out0/OEB
+         g: X24/26                                                 ** no similar net **
+         d: X24/26                                                 ** no similar net **
+         b: X24/26                                                 ** no similar net **
+         ** VDD **                                                 g: VDD
+         ** VDD **                                                 d: VDD
+         ** VDD **                                                 b: VDD
+
+--------------------------------------------------------------------------------------------------------------
+
+ 61    X30/X0/M48(1560.850,631.050)  MP(P)                       Xpad_addr_out3/Xpad_out0/MM14  MP(P)
+         s: X30/X0/8                                               s: Xpad_addr_out3/Xpad_out0/OEB
+         g: X30/5                                                  ** no similar net **
+         d: X30/5                                                  ** no similar net **
+         b: X30/5                                                  ** no similar net **
+         ** VDD **                                                 g: VDD
+         ** VDD **                                                 d: VDD
+         ** VDD **                                                 b: VDD
+
+--------------------------------------------------------------------------------------------------------------
+
+ 62    X30/X0/M49(1560.850,633.450)  MP(P)                       Xpad_addr_out3/Xpad_out0/MM17  MP(P)
+         g: X30/X0/8                                               g: Xpad_addr_out3/Xpad_out0/OEB
+         s: X30/X0/9                                               s: Xpad_addr_out3/Xpad_out0/OE
+         d: X30/5                                                  ** no similar net **
+         b: X30/5                                                  ** no similar net **
+         ** VDD **                                                 d: VDD
+         ** VDD **                                                 b: VDD
+
+--------------------------------------------------------------------------------------------------------------
+
+ 63    X31/X0/M48(1560.850,1113.180)  MP(P)                      Xpad_addr_out15/Xpad_out0/MM14  MP(P)
+         s: X31/X0/8                                               s: Xpad_addr_out15/Xpad_out0/OEB
+         g: X31/6                                                  ** no similar net **
+         d: X31/6                                                  ** no similar net **
+         b: X31/6                                                  ** no similar net **
+         ** VDD **                                                 g: VDD
+         ** VDD **                                                 d: VDD
+         ** VDD **                                                 b: VDD
+
+--------------------------------------------------------------------------------------------------------------
+
+ 64    X31/X0/M49(1560.850,1115.580)  MP(P)                      Xpad_addr_out15/Xpad_out0/MM17  MP(P)
+         g: X31/X0/8                                               g: Xpad_addr_out15/Xpad_out0/OEB
+         s: X31/X0/9                                               s: Xpad_addr_out15/Xpad_out0/OE
+         d: X31/6                                                  ** no similar net **
+         b: X31/6                                                  ** no similar net **
+         ** VDD **                                                 d: VDD
+         ** VDD **                                                 b: VDD
+
+--------------------------------------------------------------------------------------------------------------
+
+ 65    X32/X0/M48(1560.850,1306.040)  MP(P)                      Xpad_memout7/Xpad_out0/MM14  MP(P)
+         s: X32/X0/8                                               s: Xpad_memout7/Xpad_out0/OEB
+         g: X32/5                                                  ** no similar net **
+         d: X32/5                                                  ** no similar net **
+         b: X32/5                                                  ** no similar net **
+         ** VDD **                                                 g: VDD
+         ** VDD **                                                 d: VDD
+         ** VDD **                                                 b: VDD
+
+--------------------------------------------------------------------------------------------------------------
+
+ 66    X32/X0/M49(1560.850,1308.440)  MP(P)                      Xpad_memout7/Xpad_out0/MM17  MP(P)
+         g: X32/X0/8                                               g: Xpad_memout7/Xpad_out0/OEB
+         s: X32/X0/9                                               s: Xpad_memout7/Xpad_out0/OE
+         d: X32/5                                                  ** no similar net **
+         b: X32/5                                                  ** no similar net **
+         ** VDD **                                                 d: VDD
+         ** VDD **                                                 b: VDD
+
+--------------------------------------------------------------------------------------------------------------
+
+ 67    X18/X11/M48(1306.040,165.550)  MP(P)                      Xpad_memout6/Xpad_out0/MM14  MP(P)
+         s: X18/X11/8                                              s: Xpad_memout6/Xpad_out0/OEB
+         g: X18/53                                                 ** no similar net **
+         d: X18/53                                                 ** no similar net **
+         b: X18/53                                                 ** no similar net **
+         ** VDD **                                                 g: VDD
+         ** VDD **                                                 d: VDD
+         ** VDD **                                                 b: VDD
+
+--------------------------------------------------------------------------------------------------------------
+
+ 68    X18/X11/M49(1308.440,165.550)  MP(P)                      Xpad_memout6/Xpad_out0/MM17  MP(P)
+         g: X18/X11/8                                              g: Xpad_memout6/Xpad_out0/OEB
+         s: X18/X11/9                                              s: Xpad_memout6/Xpad_out0/OE
+         d: X18/53                                                 ** no similar net **
+         b: X18/53                                                 ** no similar net **
+         ** VDD **                                                 d: VDD
+         ** VDD **                                                 b: VDD
+
+--------------------------------------------------------------------------------------------------------------
+
+ 69    X18/X12/M48(1402.470,165.550)  MP(P)                      Xpad_memout14/Xpad_out0/MM14  MP(P)
+         s: X18/X12/8                                              s: Xpad_memout14/Xpad_out0/OEB
+         g: X18/54                                                 ** no similar net **
+         d: X18/54                                                 ** no similar net **
+         b: X18/54                                                 ** no similar net **
+         ** VDD **                                                 g: VDD
+         ** VDD **                                                 d: VDD
+         ** VDD **                                                 b: VDD
+
+--------------------------------------------------------------------------------------------------------------
+
+ 70    X18/X12/M49(1404.870,165.550)  MP(P)                      Xpad_memout14/Xpad_out0/MM17  MP(P)
+         g: X18/X12/8                                              g: Xpad_memout14/Xpad_out0/OEB
+         s: X18/X12/9                                              s: Xpad_memout14/Xpad_out0/OE
+         d: X18/54                                                 ** no similar net **
+         b: X18/54                                                 ** no similar net **
+         ** VDD **                                                 d: VDD
+         ** VDD **                                                 b: VDD
+
+--------------------------------------------------------------------------------------------------------------
+
+ 71    X18/X6/M48(823.900,165.550)  MP(P)                        Xpad_addr_out10/Xpad_out0/MM14  MP(P)
+         s: X18/X6/8                                               s: Xpad_addr_out10/Xpad_out0/OEB
+         g: X18/48                                                 ** no similar net **
+         d: X18/48                                                 ** no similar net **
+         b: X18/48                                                 ** no similar net **
+         ** VDD **                                                 g: VDD
+         ** VDD **                                                 d: VDD
+         ** VDD **                                                 b: VDD
+
+--------------------------------------------------------------------------------------------------------------
+
+ 72    X22/X0/M48(1560.850,823.900)  MP(P)                       Xpad_addr_out11/Xpad_out0/MM14  MP(P)
+         s: X22/X0/8                                               s: Xpad_addr_out11/Xpad_out0/OEB
+         g: X22/1549                                               ** no similar net **
+         d: X22/1549                                               ** no similar net **
+         b: X22/1549                                               ** no similar net **
+         ** VDD **                                                 g: VDD
+         ** VDD **                                                 d: VDD
+         ** VDD **                                                 b: VDD
+
+--------------------------------------------------------------------------------------------------------------
+
+ 73    X18/X6/M49(826.300,165.550)  MP(P)                        Xpad_addr_out10/Xpad_out0/MM17  MP(P)
+         g: X18/X6/8                                               g: Xpad_addr_out10/Xpad_out0/OEB
+         s: X18/X6/9                                               s: Xpad_addr_out10/Xpad_out0/OE
+         d: X18/48                                                 ** no similar net **
+         b: X18/48                                                 ** no similar net **
+         ** VDD **                                                 d: VDD
+         ** VDD **                                                 b: VDD
+
+--------------------------------------------------------------------------------------------------------------
+
+ 74    X18/X7/M48(920.325,165.550)  MP(P)                        Xpad_addr_out6/Xpad_out0/MM14  MP(P)
+         s: X18/X7/8                                               s: Xpad_addr_out6/Xpad_out0/OEB
+         g: X18/49                                                 ** no similar net **
+         d: X18/49                                                 ** no similar net **
+         b: X18/49                                                 ** no similar net **
+         ** VDD **                                                 g: VDD
+         ** VDD **                                                 d: VDD
+         ** VDD **                                                 b: VDD
+
+--------------------------------------------------------------------------------------------------------------
+
+ 75    X18/X7/M49(922.725,165.550)  MP(P)                        Xpad_addr_out6/Xpad_out0/MM17  MP(P)
+         g: X18/X7/8                                               g: Xpad_addr_out6/Xpad_out0/OEB
+         s: X18/X7/9                                               s: Xpad_addr_out6/Xpad_out0/OE
+         d: X18/49                                                 ** no similar net **
+         b: X18/49                                                 ** no similar net **
+         ** VDD **                                                 d: VDD
+         ** VDD **                                                 b: VDD
+
+--------------------------------------------------------------------------------------------------------------
+
+ 76    X18/X8/M48(1016.750,165.550)  MP(P)                       Xpad_memout2/Xpad_out0/MM14  MP(P)
+         s: X18/X8/8                                               s: Xpad_memout2/Xpad_out0/OEB
+         g: X18/50                                                 ** no similar net **
+         d: X18/50                                                 ** no similar net **
+         b: X18/50                                                 ** no similar net **
+         ** VDD **                                                 g: VDD
+         ** VDD **                                                 d: VDD
+         ** VDD **                                                 b: VDD
+
+--------------------------------------------------------------------------------------------------------------
+
+ 77    X18/X8/M49(1019.150,165.550)  MP(P)                       Xpad_memout2/Xpad_out0/MM17  MP(P)
+         g: X18/X8/8                                               g: Xpad_memout2/Xpad_out0/OEB
+         s: X18/X8/9                                               s: Xpad_memout2/Xpad_out0/OE
+         d: X18/50                                                 ** no similar net **
+         b: X18/50                                                 ** no similar net **
+         ** VDD **                                                 d: VDD
+         ** VDD **                                                 b: VDD
+
+--------------------------------------------------------------------------------------------------------------
+
+ 78    X18/X9/M48(1113.180,165.550)  MP(P)                       Xpad_addr_out14/Xpad_out0/MM14  MP(P)
+         s: X18/X9/8                                               s: Xpad_addr_out14/Xpad_out0/OEB
+         g: X18/51                                                 ** no similar net **
+         d: X18/51                                                 ** no similar net **
+         b: X18/51                                                 ** no similar net **
+         ** VDD **                                                 g: VDD
+         ** VDD **                                                 d: VDD
+         ** VDD **                                                 b: VDD
+
+--------------------------------------------------------------------------------------------------------------
+
+ 79    X18/X9/M49(1115.580,165.550)  MP(P)                       Xpad_addr_out14/Xpad_out0/MM17  MP(P)
+         g: X18/X9/8                                               g: Xpad_addr_out14/Xpad_out0/OEB
+         s: X18/X9/9                                               s: Xpad_addr_out14/Xpad_out0/OE
+         d: X18/51                                                 ** no similar net **
+         b: X18/51                                                 ** no similar net **
+         ** VDD **                                                 d: VDD
+         ** VDD **                                                 b: VDD
+
+--------------------------------------------------------------------------------------------------------------
+
+ 80    X18/X10/M48(1209.610,165.550)  MP(P)                      Xpad_memout10/Xpad_out0/MM14  MP(P)
+         s: X18/X10/8                                              s: Xpad_memout10/Xpad_out0/OEB
+         g: X18/52                                                 ** no similar net **
+         d: X18/52                                                 ** no similar net **
+         b: X18/52                                                 ** no similar net **
+         ** VDD **                                                 g: VDD
+         ** VDD **                                                 d: VDD
+         ** VDD **                                                 b: VDD
+
+--------------------------------------------------------------------------------------------------------------
+
+ 81    X18/X10/M49(1212.010,165.550)  MP(P)                      Xpad_memout10/Xpad_out0/MM17  MP(P)
+         g: X18/X10/8                                              g: Xpad_memout10/Xpad_out0/OEB
+         s: X18/X10/9                                              s: Xpad_memout10/Xpad_out0/OE
+         d: X18/52                                                 ** no similar net **
+         b: X18/52                                                 ** no similar net **
+         ** VDD **                                                 d: VDD
+         ** VDD **                                                 b: VDD
+
+--------------------------------------------------------------------------------------------------------------
+
+ 82    X18/X5/M49(633.450,165.550)  MP(P)                        Xpad_addr_out2/Xpad_out0/MM17  MP(P)
+         g: X18/X5/8                                               g: Xpad_addr_out2/Xpad_out0/OEB
+         s: X18/X5/9                                               s: Xpad_addr_out2/Xpad_out0/OE
+         d: X18/47                                                 ** no similar net **
+         b: X18/47                                                 ** no similar net **
+         ** VDD **                                                 d: VDD
+         ** VDD **                                                 b: VDD
+
+--------------------------------------------------------------------------------------------------------------
+
+ 83    X18/X5/M48(631.050,165.550)  MP(P)                        Xpad_addr_out2/Xpad_out0/MM14  MP(P)
+         s: X18/X5/8                                               s: Xpad_addr_out2/Xpad_out0/OEB
+         g: X18/47                                                 ** no similar net **
+         d: X18/47                                                 ** no similar net **
+         b: X18/47                                                 ** no similar net **
+         ** VDD **                                                 g: VDD
+         ** VDD **                                                 d: VDD
+         ** VDD **                                                 b: VDD
+
+--------------------------------------------------------------------------------------------------------------
+
+ 84    X22/X0/M49(1560.850,826.300)  MP(P)                       Xpad_addr_out11/Xpad_out0/MM17  MP(P)
+         g: X22/X0/8                                               g: Xpad_addr_out11/Xpad_out0/OEB
+         s: X22/X0/9                                               s: Xpad_addr_out11/Xpad_out0/OE
+         d: X22/1549                                               ** no similar net **
+         b: X22/1549                                               ** no similar net **
+         ** VDD **                                                 d: VDD
+         ** VDD **                                                 b: VDD
+
+--------------------------------------------------------------------------------------------------------------
+
+ 85    X18/X8/M70(1048.250,165.550)  MP(P)                       Xpad_memout2/Xpad_out0/MM20  MP(P)
+         g: X18/X8/8                                               g: Xpad_memout2/Xpad_out0/OEB
+         s: X18/X8/11                                              s: Xpad_memout2/Xpad_out0/net089
+         d: X18/X8/10                                              d: Xpad_memout2/Xpad_out0/net090
+         b: X18/50                                                 ** no similar net **
+         ** VDD **                                                 b: VDD
+
+--------------------------------------------------------------------------------------------------------------
+
+ 86    X30/X0/M70(1560.850,662.550)  MP(P)                       Xpad_addr_out3/Xpad_out0/MM20  MP(P)
+         g: X30/X0/8                                               g: Xpad_addr_out3/Xpad_out0/OEB
+         s: X30/X0/11                                              s: Xpad_addr_out3/Xpad_out0/net089
+         d: X30/X0/10                                              d: Xpad_addr_out3/Xpad_out0/net090
+         b: X30/5                                                  ** no similar net **
+         ** VDD **                                                 b: VDD
+
+--------------------------------------------------------------------------------------------------------------
+
+ 87    X18/X7/M70(951.825,165.550)  MP(P)                        Xpad_addr_out6/Xpad_out0/MM20  MP(P)
+         g: X18/X7/8                                               g: Xpad_addr_out6/Xpad_out0/OEB
+         s: X18/X7/11                                              s: Xpad_addr_out6/Xpad_out0/net089
+         d: X18/X7/10                                              d: Xpad_addr_out6/Xpad_out0/net090
+         b: X18/49                                                 ** no similar net **
+         ** VDD **                                                 b: VDD
+
+--------------------------------------------------------------------------------------------------------------
+
+ 88    X18/X6/M70(855.400,165.550)  MP(P)                        Xpad_addr_out10/Xpad_out0/MM20  MP(P)
+         g: X18/X6/8                                               g: Xpad_addr_out10/Xpad_out0/OEB
+         s: X18/X6/11                                              s: Xpad_addr_out10/Xpad_out0/net089
+         d: X18/X6/10                                              d: Xpad_addr_out10/Xpad_out0/net090
+         b: X18/48                                                 ** no similar net **
+         ** VDD **                                                 b: VDD
+
+--------------------------------------------------------------------------------------------------------------
+
+ 89    X22/X0/M70(1560.850,855.400)  MP(P)                       Xpad_addr_out11/Xpad_out0/MM20  MP(P)
+         g: X22/X0/8                                               g: Xpad_addr_out11/Xpad_out0/OEB
+         s: X22/X0/11                                              s: Xpad_addr_out11/Xpad_out0/net089
+         d: X22/X0/10                                              d: Xpad_addr_out11/Xpad_out0/net090
+         b: X22/1549                                               ** no similar net **
+         ** VDD **                                                 b: VDD
+
+--------------------------------------------------------------------------------------------------------------
+
+ 90    X32/X0/M70(1560.850,1337.540)  MP(P)                      Xpad_memout7/Xpad_out0/MM20  MP(P)
+         g: X32/X0/8                                               g: Xpad_memout7/Xpad_out0/OEB
+         s: X32/X0/11                                              s: Xpad_memout7/Xpad_out0/net089
+         d: X32/X0/10                                              d: Xpad_memout7/Xpad_out0/net090
+         b: X32/5                                                  ** no similar net **
+         ** VDD **                                                 b: VDD
+
+--------------------------------------------------------------------------------------------------------------
+
+ 91    X18/X5/M70(662.550,165.550)  MP(P)                        Xpad_addr_out2/Xpad_out0/MM20  MP(P)
+         g: X18/X5/8                                               g: Xpad_addr_out2/Xpad_out0/OEB
+         s: X18/X5/11                                              s: Xpad_addr_out2/Xpad_out0/net089
+         d: X18/X5/10                                              d: Xpad_addr_out2/Xpad_out0/net090
+         b: X18/47                                                 ** no similar net **
+         ** VDD **                                                 b: VDD
+
+--------------------------------------------------------------------------------------------------------------
+
+ 92    X23/X1/M70(1560.850,1048.250)  MP(P)                      Xpad_memout3/Xpad_out0/MM20  MP(P)
+         g: X23/X1/8                                               g: Xpad_memout3/Xpad_out0/OEB
+         s: X23/X1/11                                              s: Xpad_memout3/Xpad_out0/net089
+         d: X23/X1/10                                              d: Xpad_memout3/Xpad_out0/net090
+         b: X23/3059                                               ** no similar net **
+         ** VDD **                                                 b: VDD
+
+--------------------------------------------------------------------------------------------------------------
+
+ 93    X31/X0/M70(1560.850,1144.680)  MP(P)                      Xpad_addr_out15/Xpad_out0/MM20  MP(P)
+         g: X31/X0/8                                               g: Xpad_addr_out15/Xpad_out0/OEB
+         s: X31/X0/11                                              s: Xpad_addr_out15/Xpad_out0/net089
+         d: X31/X0/10                                              d: Xpad_addr_out15/Xpad_out0/net090
+         b: X31/6                                                  ** no similar net **
+         ** VDD **                                                 b: VDD
+
+--------------------------------------------------------------------------------------------------------------
+
+ 94    X23/X0/M70(1560.850,951.825)  MP(P)                       Xpad_addr_out7/Xpad_out0/MM20  MP(P)
+         g: X23/X0/8                                               g: Xpad_addr_out7/Xpad_out0/OEB
+         s: X23/X0/11                                              s: Xpad_addr_out7/Xpad_out0/net089
+         d: X23/X0/10                                              d: Xpad_addr_out7/Xpad_out0/net090
+         b: X23/3058                                               ** no similar net **
+         ** VDD **                                                 b: VDD
+
+--------------------------------------------------------------------------------------------------------------
+
+ 95    X18/X9/M70(1144.680,165.550)  MP(P)                       Xpad_addr_out14/Xpad_out0/MM20  MP(P)
+         g: X18/X9/8                                               g: Xpad_addr_out14/Xpad_out0/OEB
+         s: X18/X9/11                                              s: Xpad_addr_out14/Xpad_out0/net089
+         d: X18/X9/10                                              d: Xpad_addr_out14/Xpad_out0/net090
+         b: X18/51                                                 ** no similar net **
+         ** VDD **                                                 b: VDD
+
+--------------------------------------------------------------------------------------------------------------
+
+ 96    X18/X10/M70(1241.110,165.550)  MP(P)                      Xpad_memout10/Xpad_out0/MM20  MP(P)
+         g: X18/X10/8                                              g: Xpad_memout10/Xpad_out0/OEB
+         s: X18/X10/11                                             s: Xpad_memout10/Xpad_out0/net089
+         d: X18/X10/10                                             d: Xpad_memout10/Xpad_out0/net090
+         b: X18/52                                                 ** no similar net **
+         ** VDD **                                                 b: VDD
+
+--------------------------------------------------------------------------------------------------------------
+
+ 97    X18/X11/M70(1337.540,165.550)  MP(P)                      Xpad_memout6/Xpad_out0/MM20  MP(P)
+         g: X18/X11/8                                              g: Xpad_memout6/Xpad_out0/OEB
+         s: X18/X11/11                                             s: Xpad_memout6/Xpad_out0/net089
+         d: X18/X11/10                                             d: Xpad_memout6/Xpad_out0/net090
+         b: X18/53                                                 ** no similar net **
+         ** VDD **                                                 b: VDD
+
+--------------------------------------------------------------------------------------------------------------
+
+ 98    X24/X0/M70(1560.850,1241.110)  MP(P)                      Xpad_memout11/Xpad_out0/MM20  MP(P)
+         g: X24/X0/8                                               g: Xpad_memout11/Xpad_out0/OEB
+         s: X24/X0/11                                              s: Xpad_memout11/Xpad_out0/net089
+         d: X24/X0/10                                              d: Xpad_memout11/Xpad_out0/net090
+         b: X24/26                                                 ** no similar net **
+         ** VDD **                                                 b: VDD
+
+--------------------------------------------------------------------------------------------------------------
+
+ 99    X18/X12/M70(1433.970,165.550)  MP(P)                      Xpad_memout14/Xpad_out0/MM20  MP(P)
+         g: X18/X12/8                                              g: Xpad_memout14/Xpad_out0/OEB
+         s: X18/X12/11                                             s: Xpad_memout14/Xpad_out0/net089
+         d: X18/X12/10                                             d: Xpad_memout14/Xpad_out0/net090
+         b: X18/54                                                 ** no similar net **
+         ** VDD **                                                 b: VDD
+
+--------------------------------------------------------------------------------------------------------------
+
+100    X33/X0/M70(1560.850,1433.970)  MP(P)                      Xpad_memout15/Xpad_out0/MM20  MP(P)
+         g: X33/X0/8                                               g: Xpad_memout15/Xpad_out0/OEB
+         s: X33/X0/11                                              s: Xpad_memout15/Xpad_out0/net089
+         d: X33/X0/10                                              d: Xpad_memout15/Xpad_out0/net090
+         b: X33/5                                                  ** no similar net **
+         ** VDD **                                                 b: VDD
+
+--------------------------------------------------------------------------------------------------------------
+
+101    X32/X0/M65(1560.850,1325.540)  MP(P)                      Xpad_memout7/Xpad_out0/MM26  MP(P)
+         g: X32/X0/9                                               g: Xpad_memout7/Xpad_out0/OE
+         s: X32/X0/10                                              s: Xpad_memout7/Xpad_out0/net090
+         d: X32/5                                                  ** no similar net **
+         b: X32/5                                                  ** no similar net **
+         ** VDD **                                                 d: VDD
+         ** VDD **                                                 b: VDD
+
+--------------------------------------------------------------------------------------------------------------
+
+102    X30/X0/M65(1560.850,650.550)  MP(P)                       Xpad_addr_out3/Xpad_out0/MM26  MP(P)
+         g: X30/X0/9                                               g: Xpad_addr_out3/Xpad_out0/OE
+         s: X30/X0/10                                              s: Xpad_addr_out3/Xpad_out0/net090
+         d: X30/5                                                  ** no similar net **
+         b: X30/5                                                  ** no similar net **
+         ** VDD **                                                 d: VDD
+         ** VDD **                                                 b: VDD
+
+
+
+**************************************************************************************************************
+                               INFORMATION AND WARNINGS
+**************************************************************************************************************
+
+
+                  Matched    Matched    Unmatched    Unmatched    Component
+                   Layout     Source       Layout       Source    Type
+                  -------    -------    ---------    ---------    ---------
+   Ports:              52         52            2            0
+
+   Nets:             7621       7621          108           56
+
+   Instances:         752        752           20           20    MN(N)
+                      752        752           20           20    MP(P)
+                        1          1            0            0    D(ndio_m)
+                        1          1            0            0    D(pdio_m)
+                      756        756           40           20    _invb
+                     2969       2969            0           20    _invv
+                        0          0           16            0    _invx2b
+                      105        105            0           16    _invx2v
+                     2672       2672            0            0    _nand2v
+                      311        311            0            0    _nand3v
+                      416        416            0            0    _nor2v
+                      462        462            0            0    _smn2v
+                      462        462            0            0    _smp2v
+                       99         99            0            0    _xra2v
+                  -------    -------    ---------    ---------
+   Total Inst:       9758       9758           96           96
+
+
+o Statistics:
+
+   43 source nets were deep shorted to 14.
+
+   4796 layout mos transistors were reduced to 630.
+     4166 mos transistors were deleted by parallel reduction.
+
+   5 source nets had all their pins removed and were deleted.
+
+   4 nets were matched arbitrarily.
+
+
+o Layout Names That Are Missing In The Source:
+
+   Ports:        vdd vss
+
+
+o Initial Correspondence Points:
+
+   Ports:        mem_in<1> r mem_in<9> mem_in<5> addr<1> mem_in<13> addr<9> addr<5> mem_out<1>
+                 addr<13> mem_out<9> mem_out<5> mem_out<13> mem_in<0> mem_in<2> w_a mem_in<10>
+                 mem_in<6> addr<2> mem_in<14> addr<10> addr<6> mem_out<2> addr<14> mem_out<10>
+                 mem_out<6> mem_out<14> w_b mem_in<7> mem_in<15> addr<11> addr<7> mem_out<3>
+                 mem_out<11> clk mem_in<8> mem_in<4> addr<0> mem_in<12> addr<8> addr<4>
+                 mem_out<0> addr<12> mem_out<8> mem_out<4> mem_out<12> mem_in<3> mem_in<11>
+                 addr<3> addr<15>
+   Nets:         vdd vss
+
+
+o Ambiguity Resolution Points:
+
+      (Each one of the following objects belongs to a group of indistinguishable objects.
+       The listed objects were matched arbitrarily by the Ambiguity Resolution feature of LVS.
+       Arbitrary matching may be prevented by assigning names to these objects or to adjacent nets).
+
+       Layout                                                    Source
+       ------                                                    ------
+
+                                     Nets
+                                     ----
+
+       X21/86                                                    Xcpu/Xdatapath/XPSRreg/n19
+       X24/X70/6                                                 Xcpu/Xdatapath/Xalu_unit/XU17/net3
+       X20/30                                                    Xcpu/NeTt_1
+       X19/24                                                    Xcpu/Xdatapath/SYNOPSYS_UNCONNECTED__0
+
+
+
+**************************************************************************************************************
+                             DETAILED INSTANCE CONNECTIONS
+
+       LAYOUT NAME                                               SOURCE NAME
+**************************************************************************************************************
+
+          (This section contains detailed information about connections of
+           matched instances that are involved in net discrepancies).
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_invb)                                                   (_invb)
+         in: X18/X8/8                                              in: Xpad_memout2/Xpad_out0/OEB
+         out: X18/X8/11                                            out: Xpad_memout2/Xpad_out0/net089
+         sup1: X18/X8/10                                           sup1: Xpad_memout2/Xpad_out0/net090
+         sup2: X18/37                                              ** no similar net **
+         ** VSS **                                                 sup2: VSS
+
+       Devices: 
+         X18/X8/M70(1048.250,165.550)  MP(P)                       Xpad_memout2/Xpad_out0/MM20  MP(P) 
+         X18/X8/M17(1036.250,147.100)  MN(N)                       Xpad_memout2/Xpad_out0/MM9  MN(N) 
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_invb)                                                   (_invb)
+         in: X30/X0/8                                              in: Xpad_addr_out3/Xpad_out0/OEB
+         out: X30/X0/11                                            out: Xpad_addr_out3/Xpad_out0/net089
+         sup1: X30/X0/10                                           sup1: Xpad_addr_out3/Xpad_out0/net090
+         sup2: 394                                                 ** no similar net **
+         ** VSS **                                                 sup2: VSS
+
+       Devices: 
+         X30/X0/M70(1560.850,662.550)  MP(P)                       Xpad_addr_out3/Xpad_out0/MM20  MP(P) 
+         X30/X0/M17(1579.300,650.550)  MN(N)                       Xpad_addr_out3/Xpad_out0/MM9  MN(N) 
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_invb)                                                   (_invb)
+         in: X18/X7/8                                              in: Xpad_addr_out6/Xpad_out0/OEB
+         out: X18/X7/11                                            out: Xpad_addr_out6/Xpad_out0/net089
+         sup1: X18/X7/10                                           sup1: Xpad_addr_out6/Xpad_out0/net090
+         sup2: X18/36                                              ** no similar net **
+         ** VSS **                                                 sup2: VSS
+
+       Devices: 
+         X18/X7/M70(951.825,165.550)  MP(P)                        Xpad_addr_out6/Xpad_out0/MM20  MP(P) 
+         X18/X7/M17(939.825,147.100)  MN(N)                        Xpad_addr_out6/Xpad_out0/MM9  MN(N) 
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_invb)                                                   (_invb)
+         in: X18/X6/8                                              in: Xpad_addr_out10/Xpad_out0/OEB
+         out: X18/X6/11                                            out: Xpad_addr_out10/Xpad_out0/net089
+         sup1: X18/X6/10                                           sup1: Xpad_addr_out10/Xpad_out0/net090
+         sup2: X18/35                                              ** no similar net **
+         ** VSS **                                                 sup2: VSS
+
+       Devices: 
+         X18/X6/M70(855.400,165.550)  MP(P)                        Xpad_addr_out10/Xpad_out0/MM20  MP(P) 
+         X18/X6/M17(843.400,147.100)  MN(N)                        Xpad_addr_out10/Xpad_out0/MM9  MN(N) 
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_invb)                                                   (_invb)
+         in: X22/X0/8                                              in: Xpad_addr_out11/Xpad_out0/OEB
+         out: X22/X0/11                                            out: Xpad_addr_out11/Xpad_out0/net089
+         sup1: X22/X0/10                                           sup1: Xpad_addr_out11/Xpad_out0/net090
+         sup2: X22/314                                             ** no similar net **
+         ** VSS **                                                 sup2: VSS
+
+       Devices: 
+         X22/X0/M70(1560.850,855.400)  MP(P)                       Xpad_addr_out11/Xpad_out0/MM20  MP(P) 
+         X22/X0/M17(1579.300,843.400)  MN(N)                       Xpad_addr_out11/Xpad_out0/MM9  MN(N) 
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_invb)                                                   (_invb)
+         in: X32/X0/8                                              in: Xpad_memout7/Xpad_out0/OEB
+         out: X32/X0/11                                            out: Xpad_memout7/Xpad_out0/net089
+         sup1: X32/X0/10                                           sup1: Xpad_memout7/Xpad_out0/net090
+         sup2: 396                                                 ** no similar net **
+         ** VSS **                                                 sup2: VSS
+
+       Devices: 
+         X32/X0/M70(1560.850,1337.540)  MP(P)                      Xpad_memout7/Xpad_out0/MM20  MP(P) 
+         X32/X0/M17(1579.300,1325.540)  MN(N)                      Xpad_memout7/Xpad_out0/MM9  MN(N) 
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_invb)                                                   (_invb)
+         in: X18/X5/8                                              in: Xpad_addr_out2/Xpad_out0/OEB
+         out: X18/X5/11                                            out: Xpad_addr_out2/Xpad_out0/net089
+         sup1: X18/X5/10                                           sup1: Xpad_addr_out2/Xpad_out0/net090
+         sup2: X18/34                                              ** no similar net **
+         ** VSS **                                                 sup2: VSS
+
+       Devices: 
+         X18/X5/M70(662.550,165.550)  MP(P)                        Xpad_addr_out2/Xpad_out0/MM20  MP(P) 
+         X18/X5/M17(650.550,147.100)  MN(N)                        Xpad_addr_out2/Xpad_out0/MM9  MN(N) 
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_invb)                                                   (_invb)
+         in: X23/X1/8                                              in: Xpad_memout3/Xpad_out0/OEB
+         out: X23/X1/11                                            out: Xpad_memout3/Xpad_out0/net089
+         sup1: X23/X1/10                                           sup1: Xpad_memout3/Xpad_out0/net090
+         sup2: X23/280                                             ** no similar net **
+         ** VSS **                                                 sup2: VSS
+
+       Devices: 
+         X23/X1/M70(1560.850,1048.250)  MP(P)                      Xpad_memout3/Xpad_out0/MM20  MP(P) 
+         X23/X1/M17(1579.300,1036.250)  MN(N)                      Xpad_memout3/Xpad_out0/MM9  MN(N) 
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_invb)                                                   (_invb)
+         in: X31/X0/8                                              in: Xpad_addr_out15/Xpad_out0/OEB
+         out: X31/X0/11                                            out: Xpad_addr_out15/Xpad_out0/net089
+         sup1: X31/X0/10                                           sup1: Xpad_addr_out15/Xpad_out0/net090
+         sup2: 395                                                 ** no similar net **
+         ** VSS **                                                 sup2: VSS
+
+       Devices: 
+         X31/X0/M70(1560.850,1144.680)  MP(P)                      Xpad_addr_out15/Xpad_out0/MM20  MP(P) 
+         X31/X0/M17(1579.300,1132.680)  MN(N)                      Xpad_addr_out15/Xpad_out0/MM9  MN(N) 
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_invb)                                                   (_invb)
+         in: X23/X0/8                                              in: Xpad_addr_out7/Xpad_out0/OEB
+         out: X23/X0/11                                            out: Xpad_addr_out7/Xpad_out0/net089
+         sup1: X23/X0/10                                           sup1: Xpad_addr_out7/Xpad_out0/net090
+         sup2: X23/279                                             ** no similar net **
+         ** VSS **                                                 sup2: VSS
+
+       Devices: 
+         X23/X0/M70(1560.850,951.825)  MP(P)                       Xpad_addr_out7/Xpad_out0/MM20  MP(P) 
+         X23/X0/M17(1579.300,939.825)  MN(N)                       Xpad_addr_out7/Xpad_out0/MM9  MN(N) 
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_invb)                                                   (_invb)
+         in: X18/X9/8                                              in: Xpad_addr_out14/Xpad_out0/OEB
+         out: X18/X9/11                                            out: Xpad_addr_out14/Xpad_out0/net089
+         sup1: X18/X9/10                                           sup1: Xpad_addr_out14/Xpad_out0/net090
+         sup2: X18/38                                              ** no similar net **
+         ** VSS **                                                 sup2: VSS
+
+       Devices: 
+         X18/X9/M70(1144.680,165.550)  MP(P)                       Xpad_addr_out14/Xpad_out0/MM20  MP(P) 
+         X18/X9/M17(1132.680,147.100)  MN(N)                       Xpad_addr_out14/Xpad_out0/MM9  MN(N) 
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_invb)                                                   (_invb)
+         in: X18/X10/8                                             in: Xpad_memout10/Xpad_out0/OEB
+         out: X18/X10/11                                           out: Xpad_memout10/Xpad_out0/net089
+         sup1: X18/X10/10                                          sup1: Xpad_memout10/Xpad_out0/net090
+         sup2: X18/39                                              ** no similar net **
+         ** VSS **                                                 sup2: VSS
+
+       Devices: 
+         X18/X10/M70(1241.110,165.550)  MP(P)                      Xpad_memout10/Xpad_out0/MM20  MP(P) 
+         X18/X10/M17(1229.110,147.100)  MN(N)                      Xpad_memout10/Xpad_out0/MM9  MN(N) 
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_invb)                                                   (_invb)
+         in: X18/X11/8                                             in: Xpad_memout6/Xpad_out0/OEB
+         out: X18/X11/11                                           out: Xpad_memout6/Xpad_out0/net089
+         sup1: X18/X11/10                                          sup1: Xpad_memout6/Xpad_out0/net090
+         sup2: X18/40                                              ** no similar net **
+         ** VSS **                                                 sup2: VSS
+
+       Devices: 
+         X18/X11/M70(1337.540,165.550)  MP(P)                      Xpad_memout6/Xpad_out0/MM20  MP(P) 
+         X18/X11/M17(1325.540,147.100)  MN(N)                      Xpad_memout6/Xpad_out0/MM9  MN(N) 
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_invb)                                                   (_invb)
+         in: X24/X0/8                                              in: Xpad_memout11/Xpad_out0/OEB
+         out: X24/X0/11                                            out: Xpad_memout11/Xpad_out0/net089
+         sup1: X24/X0/10                                           sup1: Xpad_memout11/Xpad_out0/net090
+         sup2: X24/25                                              ** no similar net **
+         ** VSS **                                                 sup2: VSS
+
+       Devices: 
+         X24/X0/M70(1560.850,1241.110)  MP(P)                      Xpad_memout11/Xpad_out0/MM20  MP(P) 
+         X24/X0/M17(1579.300,1229.110)  MN(N)                      Xpad_memout11/Xpad_out0/MM9  MN(N) 
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_invb)                                                   (_invb)
+         in: X18/X12/8                                             in: Xpad_memout14/Xpad_out0/OEB
+         out: X18/X12/11                                           out: Xpad_memout14/Xpad_out0/net089
+         sup1: X18/X12/10                                          sup1: Xpad_memout14/Xpad_out0/net090
+         sup2: X18/41                                              ** no similar net **
+         ** VSS **                                                 sup2: VSS
+
+       Devices: 
+         X18/X12/M70(1433.970,165.550)  MP(P)                      Xpad_memout14/Xpad_out0/MM20  MP(P) 
+         X18/X12/M17(1421.970,147.100)  MN(N)                      Xpad_memout14/Xpad_out0/MM9  MN(N) 
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_invb)                                                   (_invb)
+         in: X33/X0/8                                              in: Xpad_memout15/Xpad_out0/OEB
+         out: X33/X0/11                                            out: Xpad_memout15/Xpad_out0/net089
+         sup1: X33/X0/10                                           sup1: Xpad_memout15/Xpad_out0/net090
+         sup2: 397                                                 ** no similar net **
+         ** VSS **                                                 sup2: VSS
+
+       Devices: 
+         X33/X0/M70(1560.850,1433.970)  MP(P)                      Xpad_memout15/Xpad_out0/MM20  MP(P) 
+         X33/X0/M17(1579.300,1421.970)  MN(N)                      Xpad_memout15/Xpad_out0/MM9  MN(N) 
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_invb)                                                   (_invb)
+         in: X32/X0/9                                              in: Xpad_memout7/Xpad_out0/OE
+         out: X32/X0/10                                            out: Xpad_memout7/Xpad_out0/net090
+         sup2: X32/X0/11                                           sup2: Xpad_memout7/Xpad_out0/net089
+         sup1: X32/5                                               ** no similar net **
+         ** VDD **                                                 sup1: VDD
+
+       Devices: 
+         X32/X0/M65(1560.850,1325.540)  MP(P)                      Xpad_memout7/Xpad_out0/MM26  MP(P) 
+         X32/X0/M22(1579.300,1337.540)  MN(N)                      Xpad_memout7/Xpad_out0/MM21  MN(N) 
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_invb)                                                   (_invb)
+         in: X30/X0/9                                              in: Xpad_addr_out3/Xpad_out0/OE
+         out: X30/X0/10                                            out: Xpad_addr_out3/Xpad_out0/net090
+         sup2: X30/X0/11                                           sup2: Xpad_addr_out3/Xpad_out0/net089
+         sup1: X30/5                                               ** no similar net **
+         ** VDD **                                                 sup1: VDD
+
+       Devices: 
+         X30/X0/M65(1560.850,650.550)  MP(P)                       Xpad_addr_out3/Xpad_out0/MM26  MP(P) 
+         X30/X0/M22(1579.300,662.550)  MN(N)                       Xpad_addr_out3/Xpad_out0/MM21  MN(N) 
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_invb)                                                   (_invb)
+         in: X18/X5/9                                              in: Xpad_addr_out2/Xpad_out0/OE
+         out: X18/X5/10                                            out: Xpad_addr_out2/Xpad_out0/net090
+         sup2: X18/X5/11                                           sup2: Xpad_addr_out2/Xpad_out0/net089
+         sup1: X18/47                                              ** no similar net **
+         ** VDD **                                                 sup1: VDD
+
+       Devices: 
+         X18/X5/M65(650.550,165.550)  MP(P)                        Xpad_addr_out2/Xpad_out0/MM26  MP(P) 
+         X18/X5/M22(662.550,147.100)  MN(N)                        Xpad_addr_out2/Xpad_out0/MM21  MN(N) 
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_invb)                                                   (_invb)
+         in: X33/X0/9                                              in: Xpad_memout15/Xpad_out0/OE
+         out: X33/X0/10                                            out: Xpad_memout15/Xpad_out0/net090
+         sup2: X33/X0/11                                           sup2: Xpad_memout15/Xpad_out0/net089
+         sup1: X33/5                                               ** no similar net **
+         ** VDD **                                                 sup1: VDD
+
+       Devices: 
+         X33/X0/M65(1560.850,1421.970)  MP(P)                      Xpad_memout15/Xpad_out0/MM26  MP(P) 
+         X33/X0/M22(1579.300,1433.970)  MN(N)                      Xpad_memout15/Xpad_out0/MM21  MN(N) 
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_invb)                                                   (_invb)
+         in: X18/X9/9                                              in: Xpad_addr_out14/Xpad_out0/OE
+         out: X18/X9/10                                            out: Xpad_addr_out14/Xpad_out0/net090
+         sup2: X18/X9/11                                           sup2: Xpad_addr_out14/Xpad_out0/net089
+         sup1: X18/51                                              ** no similar net **
+         ** VDD **                                                 sup1: VDD
+
+       Devices: 
+         X18/X9/M65(1132.680,165.550)  MP(P)                       Xpad_addr_out14/Xpad_out0/MM26  MP(P) 
+         X18/X9/M22(1144.680,147.100)  MN(N)                       Xpad_addr_out14/Xpad_out0/MM21  MN(N) 
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_invb)                                                   (_invb)
+         in: X23/X0/9                                              in: Xpad_addr_out7/Xpad_out0/OE
+         out: X23/X0/10                                            out: Xpad_addr_out7/Xpad_out0/net090
+         sup2: X23/X0/11                                           sup2: Xpad_addr_out7/Xpad_out0/net089
+         sup1: X23/3058                                            ** no similar net **
+         ** VDD **                                                 sup1: VDD
+
+       Devices: 
+         X23/X0/M65(1560.850,939.825)  MP(P)                       Xpad_addr_out7/Xpad_out0/MM26  MP(P) 
+         X23/X0/M22(1579.300,951.825)  MN(N)                       Xpad_addr_out7/Xpad_out0/MM21  MN(N) 
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_invb)                                                   (_invb)
+         in: X18/X12/9                                             in: Xpad_memout14/Xpad_out0/OE
+         out: X18/X12/10                                           out: Xpad_memout14/Xpad_out0/net090
+         sup2: X18/X12/11                                          sup2: Xpad_memout14/Xpad_out0/net089
+         sup1: X18/54                                              ** no similar net **
+         ** VDD **                                                 sup1: VDD
+
+       Devices: 
+         X18/X12/M65(1421.970,165.550)  MP(P)                      Xpad_memout14/Xpad_out0/MM26  MP(P) 
+         X18/X12/M22(1433.970,147.100)  MN(N)                      Xpad_memout14/Xpad_out0/MM21  MN(N) 
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_invb)                                                   (_invb)
+         in: X18/X8/9                                              in: Xpad_memout2/Xpad_out0/OE
+         out: X18/X8/10                                            out: Xpad_memout2/Xpad_out0/net090
+         sup2: X18/X8/11                                           sup2: Xpad_memout2/Xpad_out0/net089
+         sup1: X18/50                                              ** no similar net **
+         ** VDD **                                                 sup1: VDD
+
+       Devices: 
+         X18/X8/M65(1036.250,165.550)  MP(P)                       Xpad_memout2/Xpad_out0/MM26  MP(P) 
+         X18/X8/M22(1048.250,147.100)  MN(N)                       Xpad_memout2/Xpad_out0/MM21  MN(N) 
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_invb)                                                   (_invb)
+         in: X18/X10/9                                             in: Xpad_memout10/Xpad_out0/OE
+         out: X18/X10/10                                           out: Xpad_memout10/Xpad_out0/net090
+         sup2: X18/X10/11                                          sup2: Xpad_memout10/Xpad_out0/net089
+         sup1: X18/52                                              ** no similar net **
+         ** VDD **                                                 sup1: VDD
+
+       Devices: 
+         X18/X10/M65(1229.110,165.550)  MP(P)                      Xpad_memout10/Xpad_out0/MM26  MP(P) 
+         X18/X10/M22(1241.110,147.100)  MN(N)                      Xpad_memout10/Xpad_out0/MM21  MN(N) 
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_invb)                                                   (_invb)
+         in: X24/X0/9                                              in: Xpad_memout11/Xpad_out0/OE
+         out: X24/X0/10                                            out: Xpad_memout11/Xpad_out0/net090
+         sup2: X24/X0/11                                           sup2: Xpad_memout11/Xpad_out0/net089
+         sup1: X24/26                                              ** no similar net **
+         ** VDD **                                                 sup1: VDD
+
+       Devices: 
+         X24/X0/M65(1560.850,1229.110)  MP(P)                      Xpad_memout11/Xpad_out0/MM26  MP(P) 
+         X24/X0/M22(1579.300,1241.110)  MN(N)                      Xpad_memout11/Xpad_out0/MM21  MN(N) 
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_invb)                                                   (_invb)
+         in: X31/X0/9                                              in: Xpad_addr_out15/Xpad_out0/OE
+         out: X31/X0/10                                            out: Xpad_addr_out15/Xpad_out0/net090
+         sup2: X31/X0/11                                           sup2: Xpad_addr_out15/Xpad_out0/net089
+         sup1: X31/6                                               ** no similar net **
+         ** VDD **                                                 sup1: VDD
+
+       Devices: 
+         X31/X0/M65(1560.850,1132.680)  MP(P)                      Xpad_addr_out15/Xpad_out0/MM26  MP(P) 
+         X31/X0/M22(1579.300,1144.680)  MN(N)                      Xpad_addr_out15/Xpad_out0/MM21  MN(N) 
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_invb)                                                   (_invb)
+         in: X18/X7/9                                              in: Xpad_addr_out6/Xpad_out0/OE
+         out: X18/X7/10                                            out: Xpad_addr_out6/Xpad_out0/net090
+         sup2: X18/X7/11                                           sup2: Xpad_addr_out6/Xpad_out0/net089
+         sup1: X18/49                                              ** no similar net **
+         ** VDD **                                                 sup1: VDD
+
+       Devices: 
+         X18/X7/M65(939.825,165.550)  MP(P)                        Xpad_addr_out6/Xpad_out0/MM26  MP(P) 
+         X18/X7/M22(951.825,147.100)  MN(N)                        Xpad_addr_out6/Xpad_out0/MM21  MN(N) 
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_invb)                                                   (_invb)
+         in: X18/X6/9                                              in: Xpad_addr_out10/Xpad_out0/OE
+         out: X18/X6/10                                            out: Xpad_addr_out10/Xpad_out0/net090
+         sup2: X18/X6/11                                           sup2: Xpad_addr_out10/Xpad_out0/net089
+         sup1: X18/48                                              ** no similar net **
+         ** VDD **                                                 sup1: VDD
+
+       Devices: 
+         X18/X6/M65(843.400,165.550)  MP(P)                        Xpad_addr_out10/Xpad_out0/MM26  MP(P) 
+         X18/X6/M22(855.400,147.100)  MN(N)                        Xpad_addr_out10/Xpad_out0/MM21  MN(N) 
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_invb)                                                   (_invb)
+         in: X22/X0/9                                              in: Xpad_addr_out11/Xpad_out0/OE
+         out: X22/X0/10                                            out: Xpad_addr_out11/Xpad_out0/net090
+         sup2: X22/X0/11                                           sup2: Xpad_addr_out11/Xpad_out0/net089
+         sup1: X22/1549                                            ** no similar net **
+         ** VDD **                                                 sup1: VDD
+
+       Devices: 
+         X22/X0/M65(1560.850,843.400)  MP(P)                       Xpad_addr_out11/Xpad_out0/MM26  MP(P) 
+         X22/X0/M22(1579.300,855.400)  MN(N)                       Xpad_addr_out11/Xpad_out0/MM21  MN(N) 
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_invx2b)                                                 (_invx2v)
+         in: mem_in<2>                                             in: mem_in<2>
+         out: 9                                                    out: mem_in_pad2
+         sup1: X17/5                                               ** no similar net **
+         sup2: 390                                                 ** no similar net **
+         ** VDD **                                                 sup1: VDD
+         ** VSS **                                                 sup2: VSS
+
+       Devices: 
+         X17/X0/M84(299.030,165.550)  MP(P)                        Xpad_mem2/MM38  MP(P) 
+         X17/X0/M36(299.030,146.950)  MN(N)                        Xpad_mem2/MM41  MN(N) 
+         X17/X0/M90(313.430,165.550)  MP(P)                        Xpad_mem2/MM39  MP(P) 
+         X17/X0/M42(313.430,146.950)  MN(N)                        Xpad_mem2/MM40  MN(N) 
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_invx2b)                                                 (_invx2v)
+         in: w_a                                                   in: w_a
+         out: 12                                                   out: w_a_pad
+         sup1: X18/43                                              ** no similar net **
+         sup2: X18/30                                              ** no similar net **
+         ** VDD **                                                 sup1: VDD
+         ** VSS **                                                 sup2: VSS
+
+       Devices: 
+         X18/X1/M84(395.460,165.550)  MP(P)                        Xpad_in2/MM38  MP(P) 
+         X18/X1/M36(395.460,146.950)  MN(N)                        Xpad_in2/MM41  MN(N) 
+         X18/X1/M90(409.860,165.550)  MP(P)                        Xpad_in2/MM39  MP(P) 
+         X18/X1/M42(409.860,146.950)  MN(N)                        Xpad_in2/MM40  MN(N) 
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_invx2b)                                                 (_invx2v)
+         in: mem_in<10>                                            in: mem_in<10>
+         out: 10                                                   out: mem_in_pad10
+         sup1: X18/44                                              ** no similar net **
+         sup2: X18/31                                              ** no similar net **
+         ** VDD **                                                 sup1: VDD
+         ** VSS **                                                 sup2: VSS
+
+       Devices: 
+         X18/X2/M84(491.890,165.550)  MP(P)                        Xpad_mem10/MM38  MP(P) 
+         X18/X2/M36(491.890,146.950)  MN(N)                        Xpad_mem10/MM41  MN(N) 
+         X18/X2/M90(506.290,165.550)  MP(P)                        Xpad_mem10/MM39  MP(P) 
+         X18/X2/M42(506.290,146.950)  MN(N)                        Xpad_mem10/MM40  MN(N) 
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_invx2b)                                                 (_invx2v)
+         in: mem_in<6>                                             in: mem_in<6>
+         out: 11                                                   out: mem_in_pad6
+         sup1: X18/45                                              ** no similar net **
+         sup2: X18/32                                              ** no similar net **
+         ** VDD **                                                 sup1: VDD
+         ** VSS **                                                 sup2: VSS
+
+       Devices: 
+         X18/X3/M84(588.320,165.550)  MP(P)                        Xpad_mem6/MM38  MP(P) 
+         X18/X3/M36(588.320,146.950)  MN(N)                        Xpad_mem6/MM41  MN(N) 
+         X18/X3/M90(602.720,165.550)  MP(P)                        Xpad_mem6/MM39  MP(P) 
+         X18/X3/M42(602.720,146.950)  MN(N)                        Xpad_mem6/MM40  MN(N) 
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_invx2b)                                                 (_invx2v)
+         in: mem_in<14>                                            in: mem_in<14>
+         out: 13                                                   out: mem_in_pad14
+         sup1: X18/46                                              ** no similar net **
+         sup2: X18/33                                              ** no similar net **
+         ** VDD **                                                 sup1: VDD
+         ** VSS **                                                 sup2: VSS
+
+       Devices: 
+         X18/X4/M84(781.175,165.550)  MP(P)                        Xpad_mem14/MM38  MP(P) 
+         X18/X4/M36(781.175,146.950)  MN(N)                        Xpad_mem14/MM41  MN(N) 
+         X18/X4/M90(795.575,165.550)  MP(P)                        Xpad_mem14/MM39  MP(P) 
+         X18/X4/M42(795.575,146.950)  MN(N)                        Xpad_mem14/MM40  MN(N) 
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_invx2b)                                                 (_invx2v)
+         in: w_b                                                   in: w_b
+         out: X19/22                                               out: w_b_pad
+         sup1: X19/23                                              ** no similar net **
+         sup2: X19/21                                              ** no similar net **
+         ** VDD **                                                 sup1: VDD
+         ** VSS **                                                 sup2: VSS
+
+       Devices: 
+         X19/X0/M84(1560.850,395.460)  MP(P)                       Xpad_in3/MM38  MP(P) 
+         X19/X0/M36(1579.450,395.460)  MN(N)                       Xpad_in3/MM41  MN(N) 
+         X19/X0/M90(1560.850,409.860)  MP(P)                       Xpad_in3/MM39  MP(P) 
+         X19/X0/M42(1579.450,409.860)  MN(N)                       Xpad_in3/MM40  MN(N) 
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_invx2b)                                                 (_invx2v)
+         in: mem_in<7>                                             in: mem_in<7>
+         out: 21                                                   out: mem_in_pad7
+         sup1: X20/29                                              ** no similar net **
+         sup2: X20/28                                              ** no similar net **
+         ** VDD **                                                 sup1: VDD
+         ** VSS **                                                 sup2: VSS
+
+       Devices: 
+         X20/X0/M84(1560.850,588.320)  MP(P)                       Xpad_mem7/MM38  MP(P) 
+         X20/X0/M36(1579.450,588.320)  MN(N)                       Xpad_mem7/MM41  MN(N) 
+         X20/X0/M90(1560.850,602.720)  MP(P)                       Xpad_mem7/MM39  MP(P) 
+         X20/X0/M42(1579.450,602.720)  MN(N)                       Xpad_mem7/MM40  MN(N) 
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_invx2b)                                                 (_invx2v)
+         in: mem_in<15>                                            in: mem_in<15>
+         out: 209                                                  out: mem_in_pad15
+         sup1: X21/103                                             ** no similar net **
+         sup2: X21/63                                              ** no similar net **
+         ** VDD **                                                 sup1: VDD
+         ** VSS **                                                 sup2: VSS
+
+       Devices: 
+         X21/X0/M84(1560.850,781.175)  MP(P)                       Xpad_mem15/MM38  MP(P) 
+         X21/X0/M36(1579.450,781.175)  MN(N)                       Xpad_mem15/MM41  MN(N) 
+         X21/X0/M90(1560.850,795.575)  MP(P)                       Xpad_mem15/MM39  MP(P) 
+         X21/X0/M42(1579.450,795.575)  MN(N)                       Xpad_mem15/MM40  MN(N) 
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_invx2b)                                                 (_invx2v)
+         in: mem_in<3>                                             in: mem_in<3>
+         out: 201                                                  out: mem_in_pad3
+         sup1: X28/5                                               ** no similar net **
+         sup2: 392                                                 ** no similar net **
+         ** VDD **                                                 sup1: VDD
+         ** VSS **                                                 sup2: VSS
+
+       Devices: 
+         X28/X0/M84(1560.850,299.030)  MP(P)                       Xpad_mem3/MM38  MP(P) 
+         X28/X0/M36(1579.450,299.030)  MN(N)                       Xpad_mem3/MM41  MN(N) 
+         X28/X0/M90(1560.850,313.430)  MP(P)                       Xpad_mem3/MM39  MP(P) 
+         X28/X0/M42(1579.450,313.430)  MN(N)                       Xpad_mem3/MM40  MN(N) 
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_invx2b)                                                 (_invx2v)
+         in: mem_in<11>                                            in: mem_in<11>
+         out: 23                                                   out: mem_in_pad11
+         sup1: X29/5                                               ** no similar net **
+         sup2: 393                                                 ** no similar net **
+         ** VDD **                                                 sup1: VDD
+         ** VSS **                                                 sup2: VSS
+
+       Devices: 
+         X29/X0/M84(1560.850,491.890)  MP(P)                       Xpad_mem11/MM38  MP(P) 
+         X29/X0/M36(1579.450,491.890)  MN(N)                       Xpad_mem11/MM41  MN(N) 
+         X29/X0/M90(1560.850,506.290)  MP(P)                       Xpad_mem11/MM39  MP(P) 
+         X29/X0/M42(1579.450,506.290)  MN(N)                       Xpad_mem11/MM40  MN(N) 
+
+
+
+**************************************************************************************************************
+                                  UNMATCHED OBJECTS
+       LAYOUT                                                    SOURCE
+**************************************************************************************************************
+
+       X17/X0/8                                                  ** unmatched net **
+       X17/X0/9                                                  ** unmatched net **
+       X17/X0/11                                                 ** unmatched net **
+       X17/X0/10                                                 ** unmatched net **
+       X18/X1/8                                                  ** unmatched net **
+       X18/X1/9                                                  ** unmatched net **
+       X18/X1/11                                                 ** unmatched net **
+       X18/X1/10                                                 ** unmatched net **
+       X18/X2/8                                                  ** unmatched net **
+       X18/X2/9                                                  ** unmatched net **
+       X18/X2/11                                                 ** unmatched net **
+       X18/X2/10                                                 ** unmatched net **
+       X18/X3/8                                                  ** unmatched net **
+       X18/X3/9                                                  ** unmatched net **
+       X18/X3/11                                                 ** unmatched net **
+       X18/X3/10                                                 ** unmatched net **
+       X18/X4/8                                                  ** unmatched net **
+       X18/X4/9                                                  ** unmatched net **
+       X18/X4/11                                                 ** unmatched net **
+       X18/X4/10                                                 ** unmatched net **
+       X18/X5/13                                                 ** unmatched net **
+       X18/X6/13                                                 ** unmatched net **
+       X18/X7/13                                                 ** unmatched net **
+       X18/X8/13                                                 ** unmatched net **
+       X18/X9/13                                                 ** unmatched net **
+       X18/X10/13                                                ** unmatched net **
+       X18/X11/13                                                ** unmatched net **
+       X18/X12/13                                                ** unmatched net **
+       X19/X0/8                                                  ** unmatched net **
+       X19/X0/9                                                  ** unmatched net **
+       X19/X0/11                                                 ** unmatched net **
+       X19/X0/10                                                 ** unmatched net **
+       X20/X0/8                                                  ** unmatched net **
+       X20/X0/9                                                  ** unmatched net **
+       X20/X0/11                                                 ** unmatched net **
+       X20/X0/10                                                 ** unmatched net **
+       X21/X0/8                                                  ** unmatched net **
+       X21/X0/9                                                  ** unmatched net **
+       X21/X0/11                                                 ** unmatched net **
+       X21/X0/10                                                 ** unmatched net **
+       X22/X0/13                                                 ** unmatched net **
+       X23/X0/13                                                 ** unmatched net **
+       X23/X1/13                                                 ** unmatched net **
+       X24/X0/13                                                 ** unmatched net **
+       X28/X0/8                                                  ** unmatched net **
+       X28/X0/9                                                  ** unmatched net **
+       X28/X0/11                                                 ** unmatched net **
+       X28/X0/10                                                 ** unmatched net **
+       X29/X0/8                                                  ** unmatched net **
+       X29/X0/9                                                  ** unmatched net **
+
+       X17/X0/M2(252.830,147.100)  MN(N)                         ** unmatched instance **
+       X17/X0/M4(255.400,191.300)  MN(N)                         ** unmatched instance **
+       X17/X0/M50(252.830,165.550)  MP(P)                        ** unmatched instance **
+       X17/X0/M52(255.425,97.085)  MP(P)                         ** unmatched instance **
+       X18/X1/M2(349.260,147.100)  MN(N)                         ** unmatched instance **
+       X18/X1/M4(351.830,191.300)  MN(N)                         ** unmatched instance **
+       X18/X1/M50(349.260,165.550)  MP(P)                        ** unmatched instance **
+       X18/X1/M52(351.855,97.085)  MP(P)                         ** unmatched instance **
+       X18/X2/M2(445.690,147.100)  MN(N)                         ** unmatched instance **
+       X18/X2/M4(448.260,191.300)  MN(N)                         ** unmatched instance **
+       X18/X2/M50(445.690,165.550)  MP(P)                        ** unmatched instance **
+       X18/X2/M52(448.285,97.085)  MP(P)                         ** unmatched instance **
+       X18/X3/M2(542.120,147.100)  MN(N)                         ** unmatched instance **
+       X18/X3/M4(544.690,191.300)  MN(N)                         ** unmatched instance **
+       X18/X3/M50(542.120,165.550)  MP(P)                        ** unmatched instance **
+       X18/X3/M52(544.715,97.085)  MP(P)                         ** unmatched instance **
+       X18/X4/M2(734.975,147.100)  MN(N)                         ** unmatched instance **
+       X18/X4/M4(737.545,191.300)  MN(N)                         ** unmatched instance **
+       X18/X4/M50(734.975,165.550)  MP(P)                        ** unmatched instance **
+       X18/X4/M52(737.570,97.085)  MP(P)                         ** unmatched instance **
+       X19/X0/M2(1579.300,349.260)  MN(N)                        ** unmatched instance **
+       X19/X0/M4(1535.100,351.830)  MN(N)                        ** unmatched instance **
+       X19/X0/M50(1560.850,349.260)  MP(P)                       ** unmatched instance **
+       X19/X0/M52(1629.315,351.855)  MP(P)                       ** unmatched instance **
+       X20/X0/M2(1579.300,542.120)  MN(N)                        ** unmatched instance **
+       X20/X0/M4(1535.100,544.690)  MN(N)                        ** unmatched instance **
+       X20/X0/M50(1560.850,542.120)  MP(P)                       ** unmatched instance **
+       X20/X0/M52(1629.315,544.715)  MP(P)                       ** unmatched instance **
+       X21/X0/M2(1579.300,734.975)  MN(N)                        ** unmatched instance **
+       X21/X0/M4(1535.100,737.545)  MN(N)                        ** unmatched instance **
+       X21/X0/M50(1560.850,734.975)  MP(P)                       ** unmatched instance **
+       X21/X0/M52(1629.315,737.570)  MP(P)                       ** unmatched instance **
+       X28/X0/M2(1579.300,252.830)  MN(N)                        ** unmatched instance **
+       X28/X0/M4(1535.100,255.400)  MN(N)                        ** unmatched instance **
+       X28/X0/M50(1560.850,252.830)  MP(P)                       ** unmatched instance **
+       X28/X0/M52(1629.315,255.425)  MP(P)                       ** unmatched instance **
+       X29/X0/M2(1579.300,445.690)  MN(N)                        ** unmatched instance **
+       X29/X0/M4(1535.100,448.260)  MN(N)                        ** unmatched instance **
+       X29/X0/M50(1560.850,445.690)  MP(P)                       ** unmatched instance **
+       X29/X0/M52(1629.315,448.285)  MP(P)                       ** unmatched instance **
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_invb)                                                   ** unmatched injected instance **
+
+       Devices: 
+         X28/X0/M48(1560.850,245.330)  MP(P)
+         X28/X0/M0(1579.300,245.330)  MN(N)
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_invb)                                                   ** unmatched injected instance **
+
+       Devices: 
+         X28/X0/M49(1560.850,247.730)  MP(P)
+         X28/X0/M1(1579.300,247.730)  MN(N)
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_invb)                                                   ** unmatched injected instance **
+
+       Devices: 
+         X29/X0/M48(1560.850,438.190)  MP(P)
+         X29/X0/M0(1579.300,438.190)  MN(N)
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_invb)                                                   ** unmatched injected instance **
+
+       Devices: 
+         X29/X0/M49(1560.850,440.590)  MP(P)
+         X29/X0/M1(1579.300,440.590)  MN(N)
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_invb)                                                   ** unmatched injected instance **
+
+       Devices: 
+         X18/X4/M49(729.875,165.550)  MP(P)
+         X18/X4/M1(729.875,147.100)  MN(N)
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_invb)                                                   ** unmatched injected instance **
+
+       Devices: 
+         X19/X0/M48(1560.850,341.760)  MP(P)
+         X19/X0/M0(1579.300,341.760)  MN(N)
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_invb)                                                   ** unmatched injected instance **
+
+       Devices: 
+         X19/X0/M49(1560.850,344.160)  MP(P)
+         X19/X0/M1(1579.300,344.160)  MN(N)
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_invb)                                                   ** unmatched injected instance **
+
+       Devices: 
+         X20/X0/M48(1560.850,534.620)  MP(P)
+         X20/X0/M0(1579.300,534.620)  MN(N)
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_invb)                                                   ** unmatched injected instance **
+
+       Devices: 
+         X20/X0/M49(1560.850,537.020)  MP(P)
+         X20/X0/M1(1579.300,537.020)  MN(N)
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_invb)                                                   ** unmatched injected instance **
+
+       Devices: 
+         X18/X4/M48(727.475,165.550)  MP(P)
+         X18/X4/M0(727.475,147.100)  MN(N)
+
+--------------------------------------------------------------------------------------------------------------
+
+       ** unmatched net **                                       Xpad_memout15/Xpad_out0/net099
+       ** unmatched net **                                       Xpad_memout14/Xpad_out0/net099
+       ** unmatched net **                                       Xpad_memout11/Xpad_out0/net099
+       ** unmatched net **                                       Xpad_memout10/Xpad_out0/net099
+       ** unmatched net **                                       Xpad_memout7/Xpad_out0/net099
+       ** unmatched net **                                       Xpad_memout6/Xpad_out0/net099
+       ** unmatched net **                                       Xpad_memout3/Xpad_out0/net099
+       ** unmatched net **                                       Xpad_memout2/Xpad_out0/net099
+       ** unmatched net **                                       Xpad_addr_out15/Xpad_out0/net099
+       ** unmatched net **                                       Xpad_addr_out14/Xpad_out0/net099
+       ** unmatched net **                                       Xpad_addr_out11/Xpad_out0/net099
+       ** unmatched net **                                       Xpad_addr_out10/Xpad_out0/net099
+       ** unmatched net **                                       Xpad_addr_out7/Xpad_out0/net099
+       ** unmatched net **                                       Xpad_addr_out6/Xpad_out0/net099
+       ** unmatched net **                                       Xpad_addr_out3/Xpad_out0/net099
+       ** unmatched net **                                       Xpad_addr_out2/Xpad_out0/net099
+       ** unmatched net **                                       Xpad_in2/net173
+       ** unmatched net **                                       Xpad_in2/OE
+       ** unmatched net **                                       Xpad_in2/net172
+       ** unmatched net **                                       Xpad_in2/OEB
+       ** unmatched net **                                       Xpad_in3/net173
+       ** unmatched net **                                       Xpad_in3/OE
+       ** unmatched net **                                       Xpad_in3/net172
+       ** unmatched net **                                       Xpad_in3/OEB
+       ** unmatched net **                                       Xpad_mem2/net173
+       ** unmatched net **                                       Xpad_mem2/OE
+       ** unmatched net **                                       Xpad_mem2/net172
+       ** unmatched net **                                       Xpad_mem2/OEB
+       ** unmatched net **                                       Xpad_mem3/net173
+       ** unmatched net **                                       Xpad_mem3/OE
+       ** unmatched net **                                       Xpad_mem3/net172
+       ** unmatched net **                                       Xpad_mem3/OEB
+       ** unmatched net **                                       Xpad_mem6/net173
+       ** unmatched net **                                       Xpad_mem6/OE
+       ** unmatched net **                                       Xpad_mem6/net172
+       ** unmatched net **                                       Xpad_mem6/OEB
+       ** unmatched net **                                       Xpad_mem7/net173
+       ** unmatched net **                                       Xpad_mem7/OE
+       ** unmatched net **                                       Xpad_mem7/net172
+       ** unmatched net **                                       Xpad_mem7/OEB
+       ** unmatched net **                                       Xpad_mem10/net173
+       ** unmatched net **                                       Xpad_mem10/OE
+       ** unmatched net **                                       Xpad_mem10/net172
+       ** unmatched net **                                       Xpad_mem10/OEB
+       ** unmatched net **                                       Xpad_mem11/net173
+       ** unmatched net **                                       Xpad_mem11/OE
+       ** unmatched net **                                       Xpad_mem11/net172
+       ** unmatched net **                                       Xpad_mem11/OEB
+       ** unmatched net **                                       Xpad_mem14/net173
+       ** unmatched net **                                       Xpad_mem14/OE
+
+       ** unmatched instance **                                  Xpad_in2/MM7  MN(N)
+       ** unmatched instance **                                  Xpad_in2/MM5  MN(N)
+       ** unmatched instance **                                  Xpad_in2/MM19  MP(P)
+       ** unmatched instance **                                  Xpad_in2/MM15  MP(P)
+       ** unmatched instance **                                  Xpad_in3/MM7  MN(N)
+       ** unmatched instance **                                  Xpad_in3/MM5  MN(N)
+       ** unmatched instance **                                  Xpad_in3/MM19  MP(P)
+       ** unmatched instance **                                  Xpad_in3/MM15  MP(P)
+       ** unmatched instance **                                  Xpad_mem2/MM7  MN(N)
+       ** unmatched instance **                                  Xpad_mem2/MM5  MN(N)
+       ** unmatched instance **                                  Xpad_mem2/MM19  MP(P)
+       ** unmatched instance **                                  Xpad_mem2/MM15  MP(P)
+       ** unmatched instance **                                  Xpad_mem3/MM7  MN(N)
+       ** unmatched instance **                                  Xpad_mem3/MM5  MN(N)
+       ** unmatched instance **                                  Xpad_mem3/MM19  MP(P)
+       ** unmatched instance **                                  Xpad_mem3/MM15  MP(P)
+       ** unmatched instance **                                  Xpad_mem6/MM7  MN(N)
+       ** unmatched instance **                                  Xpad_mem6/MM5  MN(N)
+       ** unmatched instance **                                  Xpad_mem6/MM19  MP(P)
+       ** unmatched instance **                                  Xpad_mem6/MM15  MP(P)
+       ** unmatched instance **                                  Xpad_mem7/MM7  MN(N)
+       ** unmatched instance **                                  Xpad_mem7/MM5  MN(N)
+       ** unmatched instance **                                  Xpad_mem7/MM19  MP(P)
+       ** unmatched instance **                                  Xpad_mem7/MM15  MP(P)
+       ** unmatched instance **                                  Xpad_mem10/MM7  MN(N)
+       ** unmatched instance **                                  Xpad_mem10/MM5  MN(N)
+       ** unmatched instance **                                  Xpad_mem10/MM19  MP(P)
+       ** unmatched instance **                                  Xpad_mem10/MM15  MP(P)
+       ** unmatched instance **                                  Xpad_mem11/MM7  MN(N)
+       ** unmatched instance **                                  Xpad_mem11/MM5  MN(N)
+       ** unmatched instance **                                  Xpad_mem11/MM19  MP(P)
+       ** unmatched instance **                                  Xpad_mem11/MM15  MP(P)
+       ** unmatched instance **                                  Xpad_mem14/MM7  MN(N)
+       ** unmatched instance **                                  Xpad_mem14/MM5  MN(N)
+       ** unmatched instance **                                  Xpad_mem14/MM19  MP(P)
+       ** unmatched instance **                                  Xpad_mem14/MM15  MP(P)
+       ** unmatched instance **                                  Xpad_mem15/MM7  MN(N)
+       ** unmatched instance **                                  Xpad_mem15/MM5  MN(N)
+       ** unmatched instance **                                  Xpad_mem15/MM19  MP(P)
+       ** unmatched instance **                                  Xpad_mem15/MM15  MP(P)
+
+--------------------------------------------------------------------------------------------------------------
+
+       ** unmatched injected instance **                         (_invv)
+
+                                                                 Devices: 
+                                                                   Xpad_mem6/MM12  MP(P)
+                                                                   Xpad_mem6/MM4  MN(N)
+
+--------------------------------------------------------------------------------------------------------------
+
+       ** unmatched injected instance **                         (_invv)
+
+                                                                 Devices: 
+                                                                   Xpad_mem6/MM0  MP(P)
+                                                                   Xpad_mem6/MM11  MN(N)
+
+--------------------------------------------------------------------------------------------------------------
+
+       ** unmatched injected instance **                         (_invv)
+
+                                                                 Devices: 
+                                                                   Xpad_mem7/MM12  MP(P)
+                                                                   Xpad_mem7/MM4  MN(N)
+
+--------------------------------------------------------------------------------------------------------------
+
+       ** unmatched injected instance **                         (_invv)
+
+                                                                 Devices: 
+                                                                   Xpad_mem7/MM0  MP(P)
+                                                                   Xpad_mem7/MM11  MN(N)
+
+--------------------------------------------------------------------------------------------------------------
+
+       ** unmatched injected instance **                         (_invv)
+
+                                                                 Devices: 
+                                                                   Xpad_mem10/MM12  MP(P)
+                                                                   Xpad_mem10/MM4  MN(N)
+
+--------------------------------------------------------------------------------------------------------------
+
+       ** unmatched injected instance **                         (_invv)
+
+                                                                 Devices: 
+                                                                   Xpad_mem10/MM0  MP(P)
+                                                                   Xpad_mem10/MM11  MN(N)
+
+--------------------------------------------------------------------------------------------------------------
+
+       ** unmatched injected instance **                         (_invv)
+
+                                                                 Devices: 
+                                                                   Xpad_mem11/MM12  MP(P)
+                                                                   Xpad_mem11/MM4  MN(N)
+
+--------------------------------------------------------------------------------------------------------------
+
+       ** unmatched injected instance **                         (_invv)
+
+                                                                 Devices: 
+                                                                   Xpad_mem11/MM0  MP(P)
+                                                                   Xpad_mem11/MM11  MN(N)
+
+--------------------------------------------------------------------------------------------------------------
+
+       ** unmatched injected instance **                         (_invv)
+
+                                                                 Devices: 
+                                                                   Xpad_mem14/MM12  MP(P)
+                                                                   Xpad_mem14/MM4  MN(N)
+
+--------------------------------------------------------------------------------------------------------------
+
+       ** unmatched injected instance **                         (_invv)
+
+                                                                 Devices: 
+                                                                   Xpad_mem14/MM0  MP(P)
+                                                                   Xpad_mem14/MM11  MN(N)
+
+
+**************************************************************************************************************
+                                         SUMMARY
+**************************************************************************************************************
+
+Total CPU Time:      0 sec
+Total Elapsed Time:  1 sec

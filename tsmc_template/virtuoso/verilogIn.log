@@ -1,0 +1,160 @@
+@(#)$CDS: ihdl version 6.1.8-64b 06/22/2022 16:16 (sjfhw316) $  Sun Dec  4 21:28:04 2022
+
+INFO (VERILOGIN-589): Using xmvlog binary for compilation.
+INFO (VERILOGIN-126): Unable to find the Verilog definition for module pad_out. Therefore using library
+PADS_LIB, cell pad_out, and view symbol as the symbol.
+INFO (VERILOGIN-357): Checked in symbol pad_out_buffered.
+INFO (VERILOGIN-412): Checked-in connect by name schematic pad_out_buffered.
+INFO (VERILOGIN-357): Checked in symbol pad_out_buffered_SPC_1.
+INFO (VERILOGIN-412): Checked-in connect by name schematic pad_out_buffered_SPC_1.
+INFO (VERILOGIN-357): Checked in symbol pad_out_buffered_SPC_2.
+INFO (VERILOGIN-412): Checked-in connect by name schematic pad_out_buffered_SPC_2.
+INFO (VERILOGIN-357): Checked in symbol pad_out_buffered_SPC_3.
+INFO (VERILOGIN-412): Checked-in connect by name schematic pad_out_buffered_SPC_3.
+INFO (VERILOGIN-357): Checked in symbol pad_out_buffered_SPC_4.
+INFO (VERILOGIN-412): Checked-in connect by name schematic pad_out_buffered_SPC_4.
+INFO (VERILOGIN-357): Checked in symbol pad_out_buffered_SPC_5.
+INFO (VERILOGIN-412): Checked-in connect by name schematic pad_out_buffered_SPC_5.
+INFO (VERILOGIN-357): Checked in symbol pad_out_buffered_SPC_6.
+INFO (VERILOGIN-412): Checked-in connect by name schematic pad_out_buffered_SPC_6.
+INFO (VERILOGIN-357): Checked in symbol pad_out_buffered_SPC_7.
+INFO (VERILOGIN-412): Checked-in connect by name schematic pad_out_buffered_SPC_7.
+INFO (VERILOGIN-357): Checked in symbol pad_out_buffered_SPC_8.
+INFO (VERILOGIN-412): Checked-in connect by name schematic pad_out_buffered_SPC_8.
+INFO (VERILOGIN-357): Checked in symbol pad_out_buffered_SPC_9.
+INFO (VERILOGIN-412): Checked-in connect by name schematic pad_out_buffered_SPC_9.
+INFO (VERILOGIN-357): Checked in symbol pad_out_buffered_SPC_10.
+INFO (VERILOGIN-412): Checked-in connect by name schematic pad_out_buffered_SPC_10.
+INFO (VERILOGIN-357): Checked in symbol pad_out_buffered_SPC_11.
+INFO (VERILOGIN-412): Checked-in connect by name schematic pad_out_buffered_SPC_11.
+INFO (VERILOGIN-357): Checked in symbol pad_out_buffered_SPC_12.
+INFO (VERILOGIN-412): Checked-in connect by name schematic pad_out_buffered_SPC_12.
+INFO (VERILOGIN-357): Checked in symbol pad_out_buffered_SPC_13.
+INFO (VERILOGIN-412): Checked-in connect by name schematic pad_out_buffered_SPC_13.
+INFO (VERILOGIN-357): Checked in symbol pad_out_buffered_SPC_14.
+INFO (VERILOGIN-412): Checked-in connect by name schematic pad_out_buffered_SPC_14.
+INFO (VERILOGIN-357): Checked in symbol pad_out_buffered_SPC_15.
+INFO (VERILOGIN-412): Checked-in connect by name schematic pad_out_buffered_SPC_15.
+INFO (VERILOGIN-357): Checked in symbol pad_out_buffered_SPC_16.
+INFO (VERILOGIN-412): Checked-in connect by name schematic pad_out_buffered_SPC_16.
+INFO (VERILOGIN-357): Checked in symbol pad_out_buffered_SPC_17.
+INFO (VERILOGIN-412): Checked-in connect by name schematic pad_out_buffered_SPC_17.
+INFO (VERILOGIN-357): Checked in symbol pad_out_buffered_SPC_18.
+INFO (VERILOGIN-412): Checked-in connect by name schematic pad_out_buffered_SPC_18.
+INFO (VERILOGIN-357): Checked in symbol pad_out_buffered_SPC_19.
+INFO (VERILOGIN-412): Checked-in connect by name schematic pad_out_buffered_SPC_19.
+INFO (VERILOGIN-357): Checked in symbol pad_out_buffered_SPC_20.
+INFO (VERILOGIN-412): Checked-in connect by name schematic pad_out_buffered_SPC_20.
+INFO (VERILOGIN-357): Checked in symbol pad_out_buffered_SPC_21.
+INFO (VERILOGIN-412): Checked-in connect by name schematic pad_out_buffered_SPC_21.
+INFO (VERILOGIN-357): Checked in symbol pad_out_buffered_SPC_22.
+INFO (VERILOGIN-412): Checked-in connect by name schematic pad_out_buffered_SPC_22.
+INFO (VERILOGIN-357): Checked in symbol pad_out_buffered_SPC_23.
+INFO (VERILOGIN-412): Checked-in connect by name schematic pad_out_buffered_SPC_23.
+INFO (VERILOGIN-357): Checked in symbol pad_out_buffered_SPC_24.
+INFO (VERILOGIN-412): Checked-in connect by name schematic pad_out_buffered_SPC_24.
+INFO (VERILOGIN-357): Checked in symbol pad_out_buffered_SPC_25.
+INFO (VERILOGIN-412): Checked-in connect by name schematic pad_out_buffered_SPC_25.
+INFO (VERILOGIN-357): Checked in symbol pad_out_buffered_SPC_26.
+INFO (VERILOGIN-412): Checked-in connect by name schematic pad_out_buffered_SPC_26.
+INFO (VERILOGIN-357): Checked in symbol pad_out_buffered_SPC_27.
+INFO (VERILOGIN-412): Checked-in connect by name schematic pad_out_buffered_SPC_27.
+INFO (VERILOGIN-357): Checked in symbol pad_out_buffered_SPC_28.
+INFO (VERILOGIN-412): Checked-in connect by name schematic pad_out_buffered_SPC_28.
+INFO (VERILOGIN-357): Checked in symbol pad_out_buffered_SPC_29.
+INFO (VERILOGIN-412): Checked-in connect by name schematic pad_out_buffered_SPC_29.
+INFO (VERILOGIN-357): Checked in symbol pad_out_buffered_SPC_30.
+INFO (VERILOGIN-412): Checked-in connect by name schematic pad_out_buffered_SPC_30.
+INFO (VERILOGIN-357): Checked in symbol pad_out_buffered_SPC_31.
+INFO (VERILOGIN-412): Checked-in connect by name schematic pad_out_buffered_SPC_31.
+INFO (VERILOGIN-126): Unable to find the Verilog definition for module DFFQBX1. Therefore using library
+SC_LIB, cell DFFQBX1, and view symbol as the symbol.
+INFO (VERILOGIN-126): Unable to find the Verilog definition for module DFFQX1. Therefore using library
+SC_LIB, cell DFFQX1, and view symbol as the symbol.
+INFO (VERILOGIN-126): Unable to find the Verilog definition for module NAND3X1. Therefore using library
+SC_LIB, cell NAND3X1, and view symbol as the symbol.
+INFO (VERILOGIN-126): Unable to find the Verilog definition for module NOR2X1. Therefore using library
+SC_LIB, cell NOR2X1, and view symbol as the symbol.
+INFO (VERILOGIN-126): Unable to find the Verilog definition for module NAND2X1. Therefore using library
+SC_LIB, cell NAND2X1, and view symbol as the symbol.
+INFO (VERILOGIN-126): Unable to find the Verilog definition for module OR2X1. Therefore using library
+SC_LIB, cell OR2X1, and view symbol as the symbol.
+INFO (VERILOGIN-126): Unable to find the Verilog definition for module AND2X1. Therefore using library
+SC_LIB, cell AND2X1, and view symbol as the symbol.
+INFO (VERILOGIN-126): Unable to find the Verilog definition for module XOR2X1. Therefore using library
+SC_LIB, cell XOR2X1, and view symbol as the symbol.
+INFO (VERILOGIN-126): Unable to find the Verilog definition for module TIE0. Therefore using library
+SC_LIB, cell TIE0, and view symbol as the symbol.
+INFO (VERILOGIN-126): Unable to find the Verilog definition for module INVX2. Therefore using library
+SC_LIB, cell INVX2, and view symbol as the symbol.
+INFO (VERILOGIN-357): Checked in symbol controlFSM.
+INFO (VERILOGIN-412): Checked-in connect by name schematic controlFSM.
+INFO (VERILOGIN-126): Unable to find the Verilog definition for module BUFX1. Therefore using library
+SC_LIB, cell BUFX1, and view symbol as the symbol.
+INFO (VERILOGIN-357): Checked in symbol flopenr_16_0000_0.
+INFO (VERILOGIN-412): Checked-in connect by name schematic flopenr_16_0000_0.
+INFO (VERILOGIN-357): Checked in symbol flopenr_8_00.
+INFO (VERILOGIN-412): Checked-in connect by name schematic flopenr_8_00.
+INFO (VERILOGIN-357): Checked in symbol flopenr_16_0000_3.
+INFO (VERILOGIN-412): Checked-in connect by name schematic flopenr_16_0000_3.
+INFO (VERILOGIN-357): Checked in symbol flopenr_16_0000_2.
+INFO (VERILOGIN-412): Checked-in connect by name schematic flopenr_16_0000_2.
+INFO (VERILOGIN-357): Checked in symbol flopenr_16_0000_1.
+INFO (VERILOGIN-412): Checked-in connect by name schematic flopenr_16_0000_1.
+INFO (VERILOGIN-357): Checked in symbol mux2_WIDTH16_0.
+INFO (VERILOGIN-412): Checked-in connect by name schematic mux2_WIDTH16_0.
+INFO (VERILOGIN-357): Checked in symbol mux2_WIDTH16_5.
+INFO (VERILOGIN-412): Checked-in connect by name schematic mux2_WIDTH16_5.
+INFO (VERILOGIN-357): Checked in symbol mux2_WIDTH4.
+INFO (VERILOGIN-412): Checked-in connect by name schematic mux2_WIDTH4.
+INFO (VERILOGIN-357): Checked in symbol mux2_WIDTH16_4.
+INFO (VERILOGIN-412): Checked-in connect by name schematic mux2_WIDTH16_4.
+INFO (VERILOGIN-357): Checked in symbol mux2_WIDTH16_3.
+INFO (VERILOGIN-412): Checked-in connect by name schematic mux2_WIDTH16_3.
+INFO (VERILOGIN-357): Checked in symbol mux4_WIDTH16.
+INFO (VERILOGIN-412): Checked-in connect by name schematic mux4_WIDTH16.
+INFO (VERILOGIN-357): Checked in symbol mux2_WIDTH16_2.
+INFO (VERILOGIN-412): Checked-in connect by name schematic mux2_WIDTH16_2.
+INFO (VERILOGIN-357): Checked in symbol mux2_WIDTH16_1.
+INFO (VERILOGIN-412): Checked-in connect by name schematic mux2_WIDTH16_1.
+INFO (VERILOGIN-357): Checked in symbol pcALU_16_5fff_DW01_inc_0.
+INFO (VERILOGIN-412): Checked-in connect by name schematic pcALU_16_5fff_DW01_inc_0.
+INFO (VERILOGIN-357): Checked in symbol pcALU_16_5fff_DW01_sub_0.
+INFO (VERILOGIN-412): Checked-in connect by name schematic pcALU_16_5fff_DW01_sub_0.
+INFO (VERILOGIN-357): Checked in symbol pcALU_16_5fff_DW01_add_0_DW01_add_1.
+INFO (VERILOGIN-412): Checked-in connect by name schematic pcALU_16_5fff_DW01_add_0_DW01_add_1.
+INFO (VERILOGIN-126): Unable to find the Verilog definition for module TIE1. Therefore using library
+SC_LIB, cell TIE1, and view symbol as the symbol.
+INFO (VERILOGIN-126): Unable to find the Verilog definition for module INVX4. Therefore using library
+SC_LIB, cell INVX4, and view symbol as the symbol.
+INFO (VERILOGIN-357): Checked in symbol pcALU_16_5fff.
+INFO (VERILOGIN-412): Checked-in connect by name schematic pcALU_16_5fff.
+INFO (VERILOGIN-126): Unable to find the Verilog definition for module MUX2X1. Therefore using library
+SC_LIB, cell MUX2X1, and view symbol as the symbol.
+INFO (VERILOGIN-357): Checked in symbol shifter_WIDTH16.
+INFO (VERILOGIN-412): Checked-in connect by name schematic shifter_WIDTH16.
+INFO (VERILOGIN-357): Checked in symbol RegisterFile_16_4_0000_5fff_6ffe_cffd.
+INFO (VERILOGIN-412): Checked-in connect by name schematic RegisterFile_16_4_0000_5fff_6ffe_cffd.
+INFO (VERILOGIN-357): Checked in symbol ALU_WIDTH16_DW_cmp_0.
+INFO (VERILOGIN-412): Checked-in connect by name schematic ALU_WIDTH16_DW_cmp_0.
+INFO (VERILOGIN-357): Checked in symbol ALU_WIDTH16_DW_cmp_1.
+INFO (VERILOGIN-412): Checked-in connect by name schematic ALU_WIDTH16_DW_cmp_1.
+INFO (VERILOGIN-357): Checked in symbol ALU_WIDTH16_DW01_add_0.
+INFO (VERILOGIN-412): Checked-in connect by name schematic ALU_WIDTH16_DW01_add_0.
+INFO (VERILOGIN-126): Unable to find the Verilog definition for module INVX1. Therefore using library
+SC_LIB, cell INVX1, and view symbol as the symbol.
+INFO (VERILOGIN-357): Checked in symbol ALU_WIDTH16.
+INFO (VERILOGIN-412): Checked-in connect by name schematic ALU_WIDTH16.
+INFO (VERILOGIN-357): Checked in symbol datapathDraft_16_4_0000_5fff_6ffe_cffd.
+INFO (VERILOGIN-412): Checked-in connect by name schematic datapathDraft_16_4_0000_5fff_6ffe_cffd.
+INFO (VERILOGIN-357): Checked in symbol arrozYlecheCPU.
+INFO (VERILOGIN-412): Checked-in connect by name schematic arrozYlecheCPU.
+INFO (VERILOGIN-126): Unable to find the Verilog definition for module pad_in. Therefore using library
+PADS_LIB, cell pad_in, and view symbol as the symbol.
+INFO (VERILOGIN-126): Unable to find the Verilog definition for module pad_vdd. Therefore using library
+PADS_LIB, cell pad_vdd, and view symbol as the symbol.
+INFO (VERILOGIN-126): Unable to find the Verilog definition for module pad_gnd. Therefore using library
+PADS_LIB, cell pad_gnd, and view symbol as the symbol.
+INFO (VERILOGIN-357): Checked in symbol sixteenbitcpu_top_pads.
+INFO (VERILOGIN-412): Checked-in connect by name schematic sixteenbitcpu_top_pads.
+INFO (VERILOGIN-206): End of Logfile.

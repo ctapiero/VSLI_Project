@@ -7,8 +7,12 @@ DEFINE SC_LIB /research/ece/lnis-teaching/Designkits/tsmc180nm/full_custom_lib/o
 DEFINE PADS_LIB /research/ece/lnis-teaching/Designkits/tsmc180nm/full_custom_lib/oa/PADS_LIB
 DEFINE rf2hsm1wm1 /research/ece/lnis-teaching/Designkits/tsmc180nm/full_custom_lib/oa/rf2hsm1wm1
 
-DEFINE 16bitcpu /home/u1367608/cs6710/VSLI_Project/tsmc_template/virtuoso/16bitcpu
+#Removed by ddDeleteObj: DEFINE 16bitcpu /home/u1367608/cs6710/VSLI_Project/tsmc_template/virtuoso/16bitcpu
 DEFINE cpusixteen /home/u1367608/cs6710/VSLI_Project/tsmc_template/virtuoso/cpusixteen
 DEFINE sixteencpu /home/u1367608/cs6710/VSLI_Project/tsmc_template/virtuoso/sixteencpu
 DEFINE 16bitcpu /home/u1367608/cs6710/VSLI_Project/tsmc_template/virtuoso/16bitcpu
 DEFINE sixteencpu /home/u1367608/cs6710/VSLI_Project/tsmc_template/virtuoso/sixteencpu
+DEFINE sixteenbit /home/u1367608/cs6710/VSLI_Project/tsmc_template/virtuoso/sixteenbit
+#Removed by ddDeleteObj: DEFINE sixteenbitcpu /home/u1367608/cs6710/VSLI_Project/tsmc_template/virtuoso/sixteenbitcpu
+DEFINE 16bitcpu /home/u1367608/cs6710/VSLI_Project/tsmc_template/virtuoso/16bitcpu
+DEFINE 16bitcpu /home/u1367608/cs6710/VSLI_Project/tsmc_template/virtuoso/16bitcpu

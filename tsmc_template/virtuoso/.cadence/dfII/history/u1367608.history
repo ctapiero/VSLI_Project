@@ -1,0 +1,1 @@
+("sixteenbitcpu_top_pads:/\tsixteenbitcpu_top_pads 16bitcpu schematic" (("open" (nil hierarchy "/{16bitcpu sixteenbitcpu_top_pads schematic }:a"))) nil)("16bitcpu:/\t16bitcpu 16bitcpu layout" (("open" (nil hierarchy "/{16bitcpu 16bitcpu layout }:a"))) (((-189.505 741.328) (2572.245 1701.281)) "a" "Layout" 4))

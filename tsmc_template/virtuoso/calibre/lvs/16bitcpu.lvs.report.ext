@@ -1,0 +1,76 @@
+
+
+       #############################################################
+       ##                                                         ##
+       ##               C A L I B R E    S Y S T E M              ##
+       ##                                                         ##
+       ##    C I R C U I T   E X T R A C T I O N   R E P O R T    ##
+       ##                                                         ##
+       #############################################################
+
+
+REPORT FILE NAME:         16bitcpu.lvs.report.ext
+LAYOUT NAME:              16bitcpu.calibre.db ('16bitcpu')
+CREATION TIME:            Sun Dec  4 21:32:28 2022
+CURRENT DIRECTORY:        /home/u1367608/cs6710/VSLI_Project/tsmc_template/virtuoso/calibre/lvs
+USER NAME:                u1367608
+CALIBRE VERSION:          v2021.2_37.20    Tue Jun 1 14:42:29 PDT 2021
+
+
+
+Extraction Errors and Warnings for cell "ICV_144"
+-------------------------------------------------
+
+WARNING:  Stamping conflict in SCONNECT - Multiple source nets stamp one target net.
+          Use LVS REPORT OPTION S or LVS SOFTCHK statement to obtain detailed information.
+
+
+Extraction Errors and Warnings for cell "ICV_143"
+-------------------------------------------------
+
+WARNING:  Stamping conflict in SCONNECT - Multiple source nets stamp one target net.
+          Use LVS REPORT OPTION S or LVS SOFTCHK statement to obtain detailed information.
+
+
+Extraction Errors and Warnings for cell "ICV_141"
+-------------------------------------------------
+
+WARNING:  Stamping conflict in SCONNECT - Multiple source nets stamp one target net.
+          Use LVS REPORT OPTION S or LVS SOFTCHK statement to obtain detailed information.
+
+
+Extraction Errors and Warnings for cell "ICV_138"
+-------------------------------------------------
+
+WARNING:  Stamping conflict in SCONNECT - Multiple source nets stamp one target net.
+          Use LVS REPORT OPTION S or LVS SOFTCHK statement to obtain detailed information.
+
+
+Extraction Errors and Warnings for cell "ICV_135"
+-------------------------------------------------
+
+WARNING:  Stamping conflict in SCONNECT - Multiple source nets stamp one target net.
+          Use LVS REPORT OPTION S or LVS SOFTCHK statement to obtain detailed information.
+
+
+Extraction Errors and Warnings for cell "ICV_122"
+-------------------------------------------------
+
+WARNING:  Stamping conflict in SCONNECT - Multiple source nets stamp one target net.
+          Use LVS REPORT OPTION S or LVS SOFTCHK statement to obtain detailed information.
+
+
+Extraction Errors and Warnings for cell "ICV_42"
+------------------------------------------------
+
+WARNING:  Stamping conflict in SCONNECT - Multiple source nets stamp one target net.
+          Use LVS REPORT OPTION S or LVS SOFTCHK statement to obtain detailed information.
+
+
+Extraction Errors and Warnings for cell "16bitcpu"
+--------------------------------------------------
+
+WARNING:  Stamping conflict in SCONNECT - Multiple source nets stamp one target net.
+          Use LVS REPORT OPTION S or LVS SOFTCHK statement to obtain detailed information.
+
+
